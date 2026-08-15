@@ -55,10 +55,27 @@ jobs:
         shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
-        run: >-
-          gh release create "$env:GITHUB_REF_NAME"
-          .\dist\EscapeAcademyRussianInstaller.exe
-          .\dist\SHA256SUMS.txt
-          --verify-tag
-          --generate-notes
-          --title "Русификатор Escape Academy $env:GITHUB_REF_NAME"
+        run: |
+          $assets = @(
+            ".\dist\EscapeAcademyRussianInstaller.exe",
+            ".\dist\SHA256SUMS.txt"
+          )
+          $releases = gh api `
+            "repos/$env:GITHUB_REPOSITORY/releases?per_page=100" | ConvertFrom-Json
+          $existing = $releases | Where-Object {
+            $_.tag_name -eq $env:GITHUB_REF_NAME
+          }
+          if ($null -ne $existing) {
+            gh release upload "$env:GITHUB_REF_NAME" @assets --clobber
+          } else {
+            $notes = ".\.github\release-notes\$env:GITHUB_REF_NAME.md"
+            if (Test-Path -LiteralPath $notes) {
+              gh release create "$env:GITHUB_REF_NAME" @assets --verify-tag `
+                --notes-file $notes `
+                --title "Русификатор Escape Academy $env:GITHUB_REF_NAME"
+            } else {
+              gh release create "$env:GITHUB_REF_NAME" @assets --verify-tag `
+                --generate-notes `
+                --title "Русификатор Escape Academy $env:GITHUB_REF_NAME"
+            }
+          }
