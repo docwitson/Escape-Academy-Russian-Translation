@@ -13,7 +13,7 @@ Attribution may be given as:
 > Escape Academy Russian Translation — docwitson and contributors
 
 The translation was produced primarily with the local language model
-Qwen3.8-57K and subsequently checked with automated tools and in the game.
+Qwen3.8 27B and subsequently checked with automated tools and in the game.
 
 This license does not cover Escape Academy, its original text, trademarks,
 assets or any other material owned by the game's developers, publishers or
