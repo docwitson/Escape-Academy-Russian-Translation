@@ -89,3 +89,17 @@ Escape Academy и связанные с ней названия и игровы�
 соответствующим правообладателям. Проект не связан с Coin Crew Games, iam8bit или
 издателями Escape Academy и не получил от них официального одобрения. Подробнее —
 в [NOTICE.md](NOTICE.md).
+
+---
+
+<p align="center">
+  <a href="https://github.com/docwitson">GitHub</a> ·
+  <a href="https://boosty.to/docwitson">Boosty</a> ·
+  <a href="https://t.me/docwitsonTG">Telegram</a> ·
+  <a href="https://www.youtube.com/@docwitson879">YouTube</a> ·
+  <a href="https://www.twitch.tv/witskho">Twitch</a>
+</p>
+
+<p align="center">
+  Если вам нравятся мои проекты и эксперименты, поддержать их развитие можно на <a href="https://boosty.to/docwitson">Boosty</a>.
+</p>
