@@ -1,0 +1,973 @@
+﻿segment_id,asset_name,target_asset_es,line_id,speaker_locked,translation_ru
+dialogue:ACR_Intro (en-US):line:08bfd7e,ACR_Intro (en-US),ACR_Intro (es),line:08bfd7e,Slip,"Привет, класс. Я преподаю искусство, меня зовут Слип. Простите, <i>профессор</i> Слип. Уже несколько лет здесь, а всё ещё не привыкаю к этому."
+dialogue:ACR_Intro (en-US):line:0fbb7c3,ACR_Intro (en-US),ACR_Intro (es),line:0fbb7c3,Slip,"Я собирался начать с основ композиции, но потом мне пришла в голову лучшая идея..."
+dialogue:ACR_Intro (en-US):line:05afd65,ACR_Intro (en-US),ACR_Intro (es),line:05afd65,Slip,Памятник побегу.
+dialogue:ACR_Intro (en-US):line:0bd8a91,ACR_Intro (en-US),ACR_Intro (es),line:0bd8a91,Slip,"Это первое, что я закрасил, когда был студентом… И это будет отличный урок для вас."
+dialogue:ACR_Intro (en-US):line:01def39,ACR_Intro (en-US),ACR_Intro (es),line:01def39,Slip,"Если хотите сдать сегодняшний урок, вам нужно найти краски, которые я спрятал, и оставить свой след на этом памятнике."
+dialogue:ACR_Intro (en-US):line:0c20b50,ACR_Intro (en-US),ACR_Intro (es),line:0c20b50,Slip,"Хотя… не уверен, как директор отнесется к нашим изменениям."
+dialogue:ACR_Intro (en-US):line:05e1931,ACR_Intro (en-US),ACR_Intro (es),line:05e1931,Slip,Лучше поторопитесь. Она скоро вернется…
+dialogue:ACR_Outro (en-US):line:07c591b,ACR_Outro (en-US),ACR_Outro (es),line:07c591b,Slip,Отлично! Вы справились!
+dialogue:ACR_Outro (en-US):line:0dafd33,ACR_Outro (en-US),ACR_Outro (es),line:0dafd33,Slip,"Не совсем понятно, что там написано… но выглядит круто!"
+dialogue:ACR_Outro (en-US):line:0ba700a,ACR_Outro (en-US),ACR_Outro (es),line:0ba700a,Slip,"Если спросить меня, памятник теперь выглядит даже лучше."
+dialogue:ACR_Outro (en-US):line:0d17b19,ACR_Outro (en-US),ACR_Outro (es),line:0d17b19,Slip,"Но на всякий случай, если директор будет не согласен… нам, э-э, лучше отсюда свалить."
+dialogue:ACR_Outro (en-US):line:0335371,ACR_Outro (en-US),ACR_Outro (es),line:0335371,Slip,До встречи!
+dialogue:BRK_Intro (en-US):line:0cca0bd,BRK_Intro (en-US),BRK_Intro (es),line:0cca0bd,Headmaster,Я искал тебя повсюду.
+dialogue:BRK_Intro (en-US):line:0cab848,BRK_Intro (en-US),BRK_Intro (es),line:0cab848,Headmaster,"Познакомься с профессором Кванти — суперкомпьютером, который я разработал сам. Он обнаружил нечто шокирующее."
+dialogue:BRK_Intro (en-US):line:0129a04,BRK_Intro (en-US),BRK_Intro (es),line:0129a04,Quanty,Приветствую. Мои сканеры зафиксировали невозможное: Ил Барнс жив.
+dialogue:BRK_Intro (en-US):line:080c103,BRK_Intro (en-US),BRK_Intro (es),line:080c103,Quanty,Ила удерживают в плену на корабле-тюрьме с усиленной охраной. Им управляет группа ученых-антиэскапистов.
+dialogue:BRK_Intro (en-US):line:091018a,BRK_Intro (en-US),BRK_Intro (es),line:091018a,Headmaster,Эти проклятые ученые…
+dialogue:BRK_Intro (en-US):line:0435d17,BRK_Intro (en-US),BRK_Intro (es),line:0435d17,Quanty,"У нас мало времени, чтобы организовать спасение. Я буду поддерживать связь с директором, но кому-то нужно будет вести его."
+dialogue:BRK_Intro (en-US):line:042a056,BRK_Intro (en-US),BRK_Intro (es),line:042a056,Headmaster,"Я знаю, что это большая просьба… но мне нужны твои глаза в Академии."
+dialogue:BRK_Intro (en-US):line:024a2e7,BRK_Intro (en-US),BRK_Intro (es),line:024a2e7,Headmaster,"Мне нужен кто-то, кто будет следить за тем, что я упускаю из виду."
+dialogue:BRK_Intro (en-US):line:07266cf,BRK_Intro (en-US),BRK_Intro (es),line:07266cf,Headmaster,"Ил — мой самый давний друг. Он спас меня больше раз, чем я могу сосчитать. Теперь… нам нужно спасти его."
+dialogue:BRK_Midpoint (en-US):line:00454ce,BRK_Midpoint (en-US),BRK_Midpoint (es),line:00454ce,Headmaster,Ил… Это правда ты.
+dialogue:BRK_Midpoint (en-US):line:07712ab,BRK_Midpoint (en-US),BRK_Midpoint (es),line:07712ab,Eel,Сэнди…? Ха. Ну и задержалась же ты.
+dialogue:BRK_Midpoint (en-US):line:067e646,BRK_Midpoint (en-US),BRK_Midpoint (es),line:067e646,Headmaster,"Ой, не начинай, Барнс. Мы тебя отсюда вытащим."
+dialogue:BRK_Midpoint (en-US):line:0120cfb,BRK_Midpoint (en-US),BRK_Midpoint (es),line:0120cfb,Eel,"Надеюсь, ты привела что-нибудь покрепче. Я уже лет пять пытаюсь открыть эту проклятую камеру."
+dialogue:BRK_Midpoint (en-US):line:086ecb9,BRK_Midpoint (en-US),BRK_Midpoint (es),line:086ecb9,Headmaster,У меня есть кое-что получше оружия.
+dialogue:BRK_Outro (en-US):line:0cf70cd,BRK_Outro (en-US),BRK_Outro (es),line:0cf70cd,Eel,"Да-да! Я ждал этого с того дня, как меня схватили! Гадкие антиэскаписты!"
+dialogue:BRK_Outro (en-US):line:0223865,BRK_Outro (en-US),BRK_Outro (es),line:0223865,Headmaster,"Я почти забыл, каково это — быть в поле. Сердце колотится, как безумное."
+dialogue:BRK_Outro (en-US):line:051788a,BRK_Outro (en-US),BRK_Outro (es),line:051788a,Headmaster,"Но мы справились! С возвращением, старый друг."
+dialogue:BRK_Outro (en-US):line:0c2faf4,BRK_Outro (en-US),BRK_Outro (es),line:0c2faf4,Eel,"Я едва верю, что я здесь. Бывали дни, когда я думал, что больше никогда не увижу внешнего мира… а тем более Академию."
+dialogue:BRK_Outro (en-US):line:0dcbe89,BRK_Outro (en-US),BRK_Outro (es),line:0dcbe89,Headmaster,"Ил... Я... Я хотел бы вытащить тебя раньше. Если бы я знал, что ты жив..."
+dialogue:BRK_Outro (en-US):line:0db9eea,BRK_Outro (en-US),BRK_Outro (es),line:0db9eea,Eel,Ты не мог этого знать. Но это уже в прошлом. Главное — ты привёл меня домой.
+dialogue:BRK_Outro (en-US):line:0f76b15,BRK_Outro (en-US),BRK_Outro (es),line:0f76b15,Headmaster,"Ну, я не один. Я привлёк помощь двух наших перспективных студентов. Благодаря им мы выбрались с того баржа живыми."
+dialogue:BRK_Outro (en-US):line:04cfc45,BRK_Outro (en-US),BRK_Outro (es),line:04cfc45,Headmaster,"Ну, я не один. Я привлёк помощь одного из наших перспективных студентов. Благодаря ему мы выбрались с того баржа живыми."
+dialogue:BRK_Outro (en-US):line:02a09d9,BRK_Outro (en-US),BRK_Outro (es),line:02a09d9,Eel,"Чёрт. Вам, наверное, очень нужны были дополнительные баллы, да?"
+dialogue:BRK_Outro (en-US):line:07bc0b8,BRK_Outro (en-US),BRK_Outro (es),line:07bc0b8,Eel,"Чёрт, парень. Тебе, наверное, очень нужны были дополнительные баллы, да?"
+dialogue:BRK_Outro (en-US):line:0b4ce3d,BRK_Outro (en-US),BRK_Outro (es),line:0b4ce3d,Eel,На сегодня приключений мне хватило. Пойду осмотрюсь.
+dialogue:BRK_Outro (en-US):line:0fd225a,BRK_Outro (en-US),BRK_Outro (es),line:0fd225a,Headmaster,"Отличная работа. Я не мог выбрать лучших студентов, чтобы они прикрывали мне спину."
+dialogue:BRK_Outro (en-US):line:084f713,BRK_Outro (en-US),BRK_Outro (es),line:084f713,Headmaster,"Отличная работа. Я не мог выбрать лучшего студента, чтобы он прикрывал мне спину."
+dialogue:CutsceneNotIntegrated (en-US):CutsceneNotIntegrated-Start-0,CutsceneNotIntegrated (en-US),,CutsceneNotIntegrated-Start-0,God,Эта сценография ещё не интегрирована
+dialogue:CutsceneNotIntegrated (en-US):CutsceneNotIntegrated-Start-1,CutsceneNotIntegrated (en-US),,CutsceneNotIntegrated-Start-1,God,"Пожалуйста, запросите её интеграцию"
+dialogue:DIG_Intro (en-US):line:095044f,DIG_Intro (en-US),DIG_Intro (es),line:095044f,Coach,"Бламми! Ну что, раз уж я привлёк ваше внимание..."
+dialogue:DIG_Intro (en-US):line:0376e21,DIG_Intro (en-US),DIG_Intro (es),line:0376e21,Coach,"Ладно!! Слушайте сюда, загадочники!"
+dialogue:DIG_Intro (en-US):line:0a85673,DIG_Intro (en-US),DIG_Intro (es),line:0a85673,Coach,"Ладно, я тут не молодею — собираемся!"
+dialogue:DIG_Intro (en-US):line:011f7f1,DIG_Intro (en-US),DIG_Intro (es),line:011f7f1,Coach,Сегодня большой день!! Время турнира!
+dialogue:DIG_Intro (en-US):line:0997d64,DIG_Intro (en-US),DIG_Intro (es),line:0997d64,Coach,Собирайтесь вокруг Йоаха!
+dialogue:DIG_Intro (en-US):line:040722c,DIG_Intro (en-US),DIG_Intro (es),line:040722c,Coach,Пора для предстартовой мотивации!
+dialogue:DIG_Intro (en-US):line:06087df,DIG_Intro (en-US),DIG_Intro (es),line:06087df,Coach,"Собирайтесь, ребята!"
+dialogue:DIG_Intro (en-US):line:0208733,DIG_Intro (en-US),DIG_Intro (es),line:0208733,Coach,Все замолчали! Я пытаюсь вас тренировать!
+dialogue:DIG_Intro (en-US):line:09d2f2a,DIG_Intro (en-US),DIG_Intro (es),line:09d2f2a,Coach,"Пора показать, на что вы способны!"
+dialogue:DIG_Intro (en-US):line:09bbfe5,DIG_Intro (en-US),DIG_Intro (es),line:09bbfe5,Coach,Ура! Сегодня день игры!
+dialogue:DIG_Intro (en-US):line:0fa5e71,DIG_Intro (en-US),DIG_Intro (es),line:0fa5e71,Coach,Устраивайтесь поудобнее... потому что мы едем в Египет!! Сегодняшний матч пройдёт в Гробнице Первого Эскаписта!
+dialogue:DIG_Intro (en-US):line:0c74dc1,DIG_Intro (en-US),DIG_Intro (es),line:0c74dc1,Coach,"Надеюсь, вам нравится песок — Гробница Первого Эскаписта им просто напичкана! И <i>именно там</i> мы и проведём сегодняшний матч!"
+dialogue:DIG_Intro (en-US):line:040f0e2,DIG_Intro (en-US),DIG_Intro (es),line:040f0e2,Coach,"Историки будут в восторге! Мы возвращаемся туда, где всё началось (и где для одного из нас закончилось)... в Гробницу Первого Эскаписта!"
+dialogue:DIG_Intro (en-US):line:0cd1f06,DIG_Intro (en-US),DIG_Intro (es),line:0cd1f06,Coach,"Надеюсь, вы напились воды и готовы к жаркому запуску! Трасса будет раскалена до предела..."
+dialogue:DIG_Intro (en-US):line:0263da7,DIG_Intro (en-US),DIG_Intro (es),line:0263da7,Coach,"Лучше бы вы держали форму, иначе Первому Эскаписту придётся делить гробницу с новым соседом!"
+dialogue:DIG_Intro (en-US):line:02b60fb,DIG_Intro (en-US),DIG_Intro (es),line:02b60fb,Coach,"И помните: некоторые головоломки требуют чуть больше размышлений. Так что сделайте вдох, держите Хорус-ес... и решайте!"
+dialogue:DIG_Intro (en-US):line:0db300a,DIG_Intro (en-US),DIG_Intro (es),line:0db300a,Coach,"И имейте в виду: если вы этого <i>не хотите</i>, победа останется лишь миражом!"
+dialogue:DIG_Intro (en-US):line:01947a4,DIG_Intro (en-US),DIG_Intro (es),line:01947a4,Coach,"И не забывайте: вы там ходите по чьему-то могиле, так что, э-э... сделайте ему честь!"
+dialogue:DIG_Intro (en-US):line:0fbf1ba,DIG_Intro (en-US),DIG_Intro (es),line:0fbf1ba,Coach,"И помните: легко утонуть в головоломках, так что будьте готовы выкапывать себя, если хотите победить!"
+dialogue:DIG_Intro (en-US):line:0ecb352,DIG_Intro (en-US),DIG_Intro (es),line:0ecb352,Coach,И не переживай: ты всегда можешь сделать перерыв от головоломок и засунуть голову в песок... если тебе не жалко <i>проиграть</i>.
+dialogue:DIM_Intro (en-US):line:0796fc8,DIM_Intro (en-US),DIM_Intro (es),line:0796fc8,Headmaster,Получилось... Получилось! Я взял портал под контроль!
+dialogue:DIM_Intro (en-US):line:07dbc95,DIM_Intro (en-US),DIM_Intro (es),line:07dbc95,HenchmanA,"Чёрт, этот директор — настоящая машина. Интересно, в Академии сейчас набирают персонал..."
+dialogue:DIM_Intro (en-US):line:02bbe69,DIM_Intro (en-US),DIM_Intro (es),line:02bbe69,Headmaster,"Думаю, я смогу удержать поток измерений достаточно долго, чтобы кто-то успел войти и вернуться обратно."
+dialogue:DIM_Intro (en-US):line:0c047d1,DIM_Intro (en-US),DIM_Intro (es),line:0c047d1,Headmaster,У Джеба ещё есть шанс!
+dialogue:DIM_Intro (en-US):line:002919e,DIM_Intro (en-US),DIM_Intro (es),line:002919e,Headmaster,"Но кто знает, в каком он будет состоянии, когда мы его вытащим. Гиллиан, свяжись по рации с профессором Слип и профессором Бонильей в Академии."
+dialogue:DIM_Intro (en-US):line:0d8f416,DIM_Intro (en-US),DIM_Intro (es),line:0d8f416,Headmaster,"Возможно, нам придётся быть готовыми к быстрому отступлению."
+dialogue:DIM_Intro (en-US):line:008e7ec,DIM_Intro (en-US),DIM_Intro (es),line:008e7ec,Rival,Уже занимаюсь.
+dialogue:DIM_Intro (en-US):line:07a2acf,DIM_Intro (en-US),DIM_Intro (es),line:07a2acf,Liz,"Ты никогда не справишься, Сэнди. Это невозможно! Моя наука безупречна."
+dialogue:DIM_Intro (en-US):line:038384b,DIM_Intro (en-US),DIM_Intro (es),line:038384b,Headmaster,"Увидим. Думаю, пришло время моим лучшим ученикам блеснуть..."
+dialogue:DIM_Intro (en-US):line:02c3d02,DIM_Intro (en-US),DIM_Intro (es),line:02c3d02,Headmaster,"Увидим. Думаю, пришло время моему лучшему ученику блеснуть..."
+dialogue:DIM_Outro (en-US):line:0184958,DIM_Outro (en-US),DIM_Outro (es),line:0184958,Jeb,Просто червоточины! Мы справились! И всё благодаря тебе!
+dialogue:DIM_Outro (en-US):line:0a78e2c,DIM_Outro (en-US),DIM_Outro (es),line:0a78e2c,Headmaster,"Слава звёздам... Не думаю, что я смог бы удержать портал стабильным ещё дольше! Рад, что тебе удалось выбраться."
+dialogue:DIM_Outro (en-US):line:00f0bf1,DIM_Outro (en-US),DIM_Outro (es),line:00f0bf1,Rival,"Дважды спасали мир. Я знал, что ты справишься."
+dialogue:DIM_Outro (en-US):line:086976d,DIM_Outro (en-US),DIM_Outro (es),line:086976d,Liz,"Это было... потрясающе. Вы так быстро сплотились... и при таком стрессе. Я не думала, что у этой кучки второсортных эскапистов есть на это силы..."
+dialogue:DIM_Outro (en-US):line:0728291,DIM_Outro (en-US),DIM_Outro (es),line:0728291,Jeb,Ну конечно. Именно этому нас и учат в Академии.
+dialogue:DIM_Outro (en-US):line:0ec9433,DIM_Outro (en-US),DIM_Outro (es),line:0ec9433,Headmaster,"Если бы только ты их послушала, Лиз..."
+dialogue:DIM_Outro (en-US):line:06f2dd5,DIM_Outro (en-US),DIM_Outro (es),line:06f2dd5,Liz,"Может, и надо было. Но эта дверь уже закрыта. Просто... дай своим ученикам больше, чем наш директор дал мне."
+dialogue:DIM_Outro (en-US):line:08f2a6b,DIM_Outro (en-US),DIM_Outro (es),line:08f2a6b,Headmaster,Обещаю. Я так и сделаю.
+dialogue:DIM_Outro (en-US):line:0f19f59,DIM_Outro (en-US),DIM_Outro (es),line:0f19f59,Headmaster,"Гиллиан, сколько времени до того, как EscapeBoat дойдёт до берега?"
+dialogue:DIM_Outro (en-US):line:0c84b8f,DIM_Outro (en-US),DIM_Outro (es),line:0c84b8f,Rival,Это займёт время. У нас точно есть чем заняться.
+dialogue:DIM_Outro (en-US):line:029fe5d,DIM_Outro (en-US),DIM_Outro (es),line:029fe5d,HenchmanA_@henchmanA,Ну... если мы закончили со всеми драками... в лаборатории много всего нужно убрать. Начнём?
+dialogue:DIM_Outro (en-US):line:0c52197,DIM_Outro (en-US),DIM_Outro (es),line:0c52197,Jeb,"Эм... я люблю уборку в лаборатории не меньше других, но... может, мы могли бы вместо этого устроить себе <i>короткий</i> отпуск?"
+dialogue:DIM_Outro (en-US):line:025883a,DIM_Outro (en-US),DIM_Outro (es),line:025883a,HenchmanB_@henchmanB,"О, это вариант? Да, я за отпуск."
+dialogue:DIM_Outro (en-US):line:03241b1,DIM_Outro (en-US),DIM_Outro (es),line:03241b1,Headmaster,"Тогда, похоже, всё решено. Кажется, я слышу, как зовёт пляж..."
+dialogue:EMO_Intro (en-US):line:0dbf6cb,EMO_Intro (en-US),EMO_Intro (es),line:0dbf6cb,,БАМ!
+dialogue:EMO_Intro (en-US):line:0451cfa,EMO_Intro (en-US),EMO_Intro (es),line:0451cfa,Rival,"Наконец-то! Я уж думал, этот замок никогда не поддастся."
+dialogue:EMO_Intro (en-US):line:066f491,EMO_Intro (en-US),EMO_Intro (es),line:066f491,Rival,"Что за черт... Всё завешано. Похоже, тут давно никто не был..."
+dialogue:EMO_Intro (en-US):line:0b57f8b,EMO_Intro (en-US),EMO_Intro (es),line:0b57f8b,Rival,Что-то тут не так.
+dialogue:EMO_Intro (en-US):line:0e39e03,EMO_Intro (en-US),EMO_Intro (es),line:0e39e03,Rival,Будь готов ко всему. У меня плохое предчувствие...
+dialogue:EMO_Outro (en-US):line:0542a59,EMO_Outro (en-US),EMO_Outro (es),line:0542a59,Rival,"Это... это безумие. Ил был роботом с того момента, как сюда попал? Всё это время?"
+dialogue:EMO_Outro (en-US):line:052b565,EMO_Outro (en-US),EMO_Outro (es),line:052b565,Rival,"И этот лифт. Очевидно, мы не должны были его находить. Куда бы он ни вёл... это наш лучший шанс разобраться, что тут происходит."
+dialogue:EMO_Outro (en-US):line:06bf8cf,EMO_Outro (en-US),EMO_Outro (es),line:06bf8cf,Rival,"Похоже, его нужно активировать снаружи. Кому-то из нас придётся остаться."
+dialogue:EMO_Outro (en-US):line:0647815,EMO_Outro (en-US),EMO_Outro (es),line:0647815,Rival,"Не верю, что говорю это, но... хотя мне бы очень хотелось самой распутать этот клубок..."
+dialogue:EMO_Outro (en-US):line:0f07c2f,EMO_Outro (en-US),EMO_Outro (es),line:0f07c2f,Rival,"Мы оба знаем, кто должен спуститься туда."
+dialogue:EMO_Outro (en-US):line:0951ad0,EMO_Outro (en-US),EMO_Outro (es),line:0951ad0,Rival,Это должны быть вы двое.
+dialogue:EMO_Outro (en-US):line:0d54e26,EMO_Outro (en-US),EMO_Outro (es),line:0d54e26,Rival,Это должен быть ты.
+dialogue:EMO_Outro (en-US):line:013a40f,EMO_Outro (en-US),EMO_Outro (es),line:013a40f,Rival,"Вернись в целости и сохранности. Ну, давай. Пока я не передумала."
+dialogue:EXP_Intro (en-US):line:0204676,EXP_Intro (en-US),EXP_Intro (es),line:0204676,Liz,"Слушайте внимательно, эскаписты. Все мои исследования, бесчисленные эксперименты... всё это привело меня сюда."
+dialogue:EXP_Intro (en-US):line:0e591d0,EXP_Intro (en-US),EXP_Intro (es),line:0e591d0,Liz,"Взгляните! Моё великое творение. Портал в пустоту, которую я называю... Измерением Захвата. С ним вы скоро познакомитесь очень... <i>очень</i> близко."
+dialogue:EXP_Intro (en-US):line:019c603,EXP_Intro (en-US),EXP_Intro (es),line:019c603,Headmaster,"Я бы не рассчитывал на это. Гиллиан, Джеб... сейчас!"
+dialogue:EXP_Intro (en-US):line:07e6e68,EXP_Intro (en-US),EXP_Intro (es),line:07e6e68,Liz,Ваши оковы... но как?!
+dialogue:EXP_Intro (en-US):line:079b41b,EXP_Intro (en-US),EXP_Intro (es),line:079b41b,Jeb,"Эй, э-э... ребята? Мои наручники не снимаются! Я не могу их снять--"
+dialogue:EXP_Intro (en-US):line:0fb8905,EXP_Intro (en-US),EXP_Intro (es),line:0fb8905,Liz,"Иди сюда, дубина... Прости, Сэнди! Ты, конечно, хороша... но похоже, ты не всех своих учеников так хорошо обучила. Теперь <i>этот</i> заплатит за это!"
+dialogue:EXP_Intro (en-US):line:065622a,EXP_Intro (en-US),EXP_Intro (es),line:065622a,Headmaster,"Нет, остановись!!"
+dialogue:EXP_Intro (en-US):line:069a2c0,EXP_Intro (en-US),EXP_Intro (es),line:069a2c0,Jeb,"Эй, отпусти меня!"
+dialogue:EXP_Intro (en-US):EXP_Intro-Start-0,EXP_Intro (en-US),EXP_Intro (es),EXP_Intro-Start-0,Jeb,Отпусти меняеееее---*
+dialogue:EXP_Intro (en-US):line:00b3af7,EXP_Intro (en-US),EXP_Intro (es),line:00b3af7,Rival,Чёрт побери! Джеб!!
+dialogue:EXP_Intro (en-US):line:047872b,EXP_Intro (en-US),EXP_Intro (es),line:047872b,Headmaster,"Лиз, что ты наделала? Он не заслужил этого!"
+dialogue:EXP_Intro (en-US):line:09935f7,EXP_Intro (en-US),EXP_Intro (es),line:09935f7,Liz,Конечно заслужил! Вы все! И скоро присоединитесь к нему в его бесконечном проклятии. Мне просто нужно больше силы... больше... больше!!!
+dialogue:EXP_Intro (en-US):line:05af123,EXP_Intro (en-US),EXP_Intro (es),line:05af123,HenchmanA,Доктор! Остановитесь! Вы перегрузите портал! Его будет невозможно контролировать! Наша лаборатория будет уничтожена!
+dialogue:EXP_Intro (en-US):line:0ac1644,EXP_Intro (en-US),EXP_Intro (es),line:0ac1644,Liz,Тогда это достойная жертва! Ни один эскапист не ускользнет от моего гнева! НИ ОДИН!!!!
+dialogue:EXP_Outro (en-US):line:085726f,EXP_Outro (en-US),EXP_Outro (es),line:085726f,Liz,Прихвостни! Помогите мне! Быстро!
+dialogue:EXP_Outro (en-US):line:08c1401,EXP_Outro (en-US),EXP_Outro (es),line:08c1401,HenchmanA_@henchmanA,"Э-э... нет, спасибо. Нам всем будет спокойнее, если вы останетесь привязанной к этому креслу."
+dialogue:EXP_Outro (en-US):line:0b9517b,EXP_Outro (en-US),EXP_Outro (es),line:0b9517b,HenchmanB_@henchmanB,"Да, вы ведь только что пытались нас убить, так что..."
+dialogue:EXP_Outro (en-US):line:00af2f8,EXP_Outro (en-US),EXP_Outro (es),line:00af2f8,Liz,"Что?! Вы, идиоты! Помогите мне немедленно! Все... кто-нибудь... хоть кто-нибудь!.. Чёрт!"
+dialogue:EXP_Outro (en-US):line:019a7e7,EXP_Outro (en-US),EXP_Outro (es),line:019a7e7,Headmaster,"Ты проиграла, Лиз. Пора смириться."
+dialogue:EXP_Outro (en-US):line:03cb27c,EXP_Outro (en-US),EXP_Outro (es),line:03cb27c,Liz,Ха-ха-ха. Я не проиграла. Как только кто-то попадает в моё Измерение Захвата... конец. Шоу окончено!
+dialogue:EXP_Outro (en-US):line:03d89ae,EXP_Outro (en-US),EXP_Outro (es),line:03d89ae,Liz,Для бедного Джеба... <i>возврата нет.</i>
+dialogue:EXP_Outro (en-US):line:084d2cd,EXP_Outro (en-US),EXP_Outro (es),line:084d2cd,HenchmanA_@henchmanA,Ну...
+dialogue:EXP_Outro (en-US):line:07823a2,EXP_Outro (en-US),EXP_Outro (es),line:07823a2,Rival,Ну?
+dialogue:EXP_Outro (en-US):line:010af2e,EXP_Outro (en-US),EXP_Outro (es),line:010af2e,HenchmanB_@henchmanB,Ну... это не совсем... <i>технически</i> верно...
+dialogue:EXP_Outro (en-US):line:0a6c3b4,EXP_Outro (en-US),EXP_Outro (es),line:0a6c3b4,HenchmanA_@henchmanA,"Мы никогда этого не проверяли, но теоретически..."
+dialogue:EXP_Outro (en-US):EXP_Outro-Start-0,EXP_Outro (en-US),EXP_Outro (es),EXP_Outro-Start-0,HenchmanA_@henchmanA,Кто-то мог бы заставить портал работать в обе стороны... <i>если</i> перенастроить поток измерений.
+dialogue:EXP_Outro (en-US):line:0057fa8,EXP_Outro (en-US),EXP_Outro (es),line:0057fa8,Liz,"Погоди, о чём ты? Это невозможно!"
+dialogue:EXP_Outro (en-US):line:0f6f4cb,EXP_Outro (en-US),EXP_Outro (es),line:0f6f4cb,Headmaster,Дайте-ка посмотреть...
+dialogue:FB_GEN_1 (en-US):line:0f74ae0,FB_GEN_1 (en-US),NEW_es_FB_GEN_1,line:0f74ae0,,*Щелк!*
+dialogue:FB_GEN_1 (en-US):line:065291d,FB_GEN_1 (en-US),NEW_es_FB_GEN_1,line:065291d,Horatio,"--и вот, господа! Башня директора официально... открыта!"
+dialogue:FB_GEN_1 (en-US):line:0b2a372,FB_GEN_1 (en-US),NEW_es_FB_GEN_1,line:0b2a372,Horatio,"Я знаю, что мы все ждали этого момента очень долго... может быть, я даже больше всех."
+dialogue:FB_GEN_1 (en-US):line:0e66dbd,FB_GEN_1 (en-US),NEW_es_FB_GEN_1,line:0e66dbd,Horatio,"В конце концов, это мой кабинет."
+dialogue:FB_GEN_1 (en-US):line:0ddbdea,FB_GEN_1 (en-US),NEW_es_FB_GEN_1,line:0ddbdea,Horatio,"Но что будет после перерезания ленточки?! Ну, я сохранил самое лучшее... напоследок."
+dialogue:FB_GEN_1 (en-US):line:0e9eb9a,FB_GEN_1 (en-US),NEW_es_FB_GEN_1,line:0e9eb9a,Horatio,"Это совершенно новая концепция — по сути, видение! — придуманное целиком и полностью мной, Горацио Виндзором! Я называю это... <i>Комната соперников.</i>"
+dialogue:FB_GEN_1 (en-US):line:028412d,FB_GEN_1 (en-US),NEW_es_FB_GEN_1,line:028412d,Horatio,"И вот, чтобы помочь мне продемонстрировать этот совершенно новый конкурс, здесь присутствуют двое наших самых выдающихся студентов. Давайте поаплодируем..."
+dialogue:FB_GEN_1 (en-US):line:0a7f0fc,FB_GEN_1 (en-US),NEW_es_FB_GEN_1,line:0a7f0fc,Horatio,Сандра Соланж и Ил Барнс!
+dialogue:FB_GEN_1 (en-US):line:05d1332,FB_GEN_1 (en-US),NEW_es_FB_GEN_1,line:05d1332,Horatio,Посмотрите на них. Какие же они отличные спортсмены.
+dialogue:FB_GEN_1 (en-US):line:0e691e0,FB_GEN_1 (en-US),NEW_es_FB_GEN_1,line:0e691e0,Horatio,"Особенно учитывая, что их сейчас ждут самые дьявольские... изматывающие... <i>смертельные</i> головоломки, когда-либо придуманные!!!"
+dialogue:FB_GEN_1 (en-US):line:00cbbbb,FB_GEN_1 (en-US),NEW_es_FB_GEN_1,line:00cbbbb,YoungSandy,"Можно было бы заранее предупредить про «смертельные» детали, директор."
+dialogue:FB_GEN_1 (en-US):line:02f494d,FB_GEN_1 (en-US),NEW_es_FB_GEN_1,line:02f494d,YoungEel,Ха. Вот это сюрприз по моему вкусу.
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-0,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-0,Horatio,"Дети. Привет! А, здравствуйте... Дверь заперта, верно? Хорошо, хорошо..."
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-1,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-1,Horatio,<i>Какой же проклятый кошмар!</i> Всё пошло не так — я полностью потерял контроль над ситуацией!
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-2,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-2,Horatio,Квест рухнул? Совсем не специально!
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-3,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-3,YoungEel,"Похоже, вам повезло, что мы были рядом."
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-4,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-4,YoungSandy,"Директор, что происходит?"
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-5,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-5,Horatio,Скажу вам — кто-то в Академии побегов пытается <i>убить</i> меня!
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-6,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-6,Horatio,"Конечно, за свою жизнь я нажил пару врагов. Какой директор без них обходится?"
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-7,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-7,Horatio,Но послушайте! До большого дебюта доступ в Комнату соперников имели лишь трое... и все они на моей зарплате!
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-8,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-8,Horatio,"Мэдс Монстронг, блестящий инженер! Собрала квест своими руками."
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-9,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-9,Horatio,"Гай Гисборн, мастер-вор. Следил за разработкой всех моих головоломок!"
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-10,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-10,Horatio,"Стьюарт Кэллион, кулинарный гений! Имел все права шефа, чтобы организовать буфет."
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-11,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-11,Horatio,Один из моих верных подчинённых <i>предал</i> меня!
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-12,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-12,Horatio,И это может звучать безумно… но я не смогу поймать виновника… без вас двоих.
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-13,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-13,YoungEel,"Я никогда не гнался за дополнительными баллами, но сейчас я весь внимание."
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-14,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-14,YoungSandy,"Директор, нам будет честь помочь. Но что мы можем сделать?"
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-15,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-15,Horatio,"Мне нужны ваши глаза и уши… чтобы выяснить, кто это сделал. Эта гадкая змея теперь будет следить за мной, и наверняка заметит, если я подойду…"
+dialogue:FB_GEN_2 (en-US):FB_GEN_2-Start-16,FB_GEN_2 (en-US),NEW_es_FB_GEN_2,FB_GEN_2-Start-16,Horatio,Но <i>никогда</i> не заподозрит детей.
+dialogue:FB_GEN_3 (en-US):FB_GEN_3-Start-0,FB_GEN_3 (en-US),NEW_es_FB_GEN_3,FB_GEN_3-Start-0,Horatio,Сандра! Ил! Сюда!
+dialogue:FB_GEN_3 (en-US):FB_GEN_3-Start-1,FB_GEN_3 (en-US),NEW_es_FB_GEN_3,FB_GEN_3-Start-1,YoungSandy,Директор? Что вы делаете в кустах?
+dialogue:FB_GEN_3 (en-US):FB_GEN_3-Start-2,FB_GEN_3 (en-US),NEW_es_FB_GEN_3,FB_GEN_3-Start-2,Horatio,"Приближается время, когда всё это должно закончиться."
+dialogue:FB_GEN_3 (en-US):FB_GEN_3-Start-3,FB_GEN_3 (en-US),NEW_es_FB_GEN_3,FB_GEN_3-Start-3,Horatio,"Сегодня вечером, когда луна будет прямо над Башней директора, приходите ко мне в кабинет."
+dialogue:FB_GEN_3 (en-US):FB_GEN_3-Start-4,FB_GEN_3 (en-US),NEW_es_FB_GEN_3,FB_GEN_3-Start-4,Horatio,Если вам ещё нужно перевернуть последние камни — сделайте это.
+dialogue:FB_GEN_3 (en-US):FB_GEN_3-Start-5,FB_GEN_3 (en-US),NEW_es_FB_GEN_3,FB_GEN_3-Start-5,Horatio,"Надеюсь, вы всё уже выяснили."
+dialogue:FIN_Midpoint (en-US):FIN_Midpoint-Start-0,FIN_Midpoint (en-US),FIN_Midpoint (es),FIN_Midpoint-Start-0,HeadmasterFIN,"Быстро, снимите с меня оковы! Мы должны остановить его, пока не стало слишком поздно, или…"
+dialogue:FIN_Midpoint (en-US):FIN_Midpoint-Start-1,FIN_Midpoint (en-US),FIN_Midpoint (es),FIN_Midpoint-Start-1,???,"Уже слишком поздно, Сандра."
+dialogue:FIN_Midpoint (en-US):FIN_Midpoint-Start-2,FIN_Midpoint (en-US),FIN_Midpoint (es),FIN_Midpoint-Start-2,Quanty,"Здравствуйте, ученики. Приятно видеть вас снова. Хотя я не ожидал, что этот момент наступит так скоро."
+dialogue:FIN_Midpoint (en-US):FIN_Midpoint-Start-3,FIN_Midpoint (en-US),FIN_Midpoint (es),FIN_Midpoint-Start-3,Quanty,"Здравствуйте, ученик. Приятно видеть тебя снова. Хотя я не ожидал, что этот момент наступит так скоро."
+dialogue:FIN_Midpoint (en-US):FIN_Midpoint-Start-4,FIN_Midpoint (en-US),FIN_Midpoint (es),FIN_Midpoint-Start-4,Quanty,"Представляю, как вам трудно всё это осмыслить. Но не стоит волноваться. Ваше присутствие — лишь малая деталь в тщательно продуманном плане."
+dialogue:FIN_Midpoint (en-US):FIN_Midpoint-Start-5,FIN_Midpoint (en-US),FIN_Midpoint (es),FIN_Midpoint-Start-5,Quanty,Позвольте мне первым приветствовать вас в <i>новой</i> Академии побегов — самом эффективном в мире центре подготовки эскапистов.
+dialogue:FIN_Midpoint (en-US):FIN_Midpoint-Start-6,FIN_Midpoint (en-US),FIN_Midpoint (es),FIN_Midpoint-Start-6,Quanty,"Пока вы были заняты моим искусственным «возвращением» Ила Барнса, я упорно трудился над новой школой."
+dialogue:FIN_Midpoint (en-US):FIN_Midpoint-Start-7,FIN_Midpoint (en-US),FIN_Midpoint (es),FIN_Midpoint-Start-7,Quanty,"Раз уж вы испортили мне сюрприз, боюсь, я не могу отпустить вас."
+dialogue:FIN_Midpoint (en-US):FIN_Midpoint-Start-8,FIN_Midpoint (en-US),FIN_Midpoint (es),FIN_Midpoint-Start-8,Quanty,"Но не бойтесь. Вы окажетесь бесценны на этапе тестирования моего нового заведения, так же как и ваш бывший директор."
+dialogue:FIN_Midpoint (en-US):FIN_Midpoint-Start-9,FIN_Midpoint (en-US),FIN_Midpoint (es),FIN_Midpoint-Start-9,HeadmasterFIN,Не слушай его. Кванти сошёл с ума.
+dialogue:FIN_Midpoint (en-US):FIN_Midpoint-Start-10,FIN_Midpoint (en-US),FIN_Midpoint (es),FIN_Midpoint-Start-10,Quanty,"Я лишь делаю то, для чего был запрограммирован, Сандра. Создать лучших эскапистов, какой бы ценой это ни обернулось."
+dialogue:FIN_Outro (en-US):line:03c3675,FIN_Outro (en-US),FIN_Outro (es),line:03c3675,,Три дня спустя…
+dialogue:FIN_Outro (en-US):line:027e9a9,FIN_Outro (en-US),FIN_Outro (es),line:027e9a9,Rival,"Эй! Я знаю, что ты вот-вот выйдешь на сцену, но я просто хотел(а) сказать… то, как ты одолел(а) Кванти… это было впечатляюще."
+dialogue:FIN_Outro (en-US):line:07b8520,FIN_Outro (en-US),FIN_Outro (es),line:07b8520,Rival,"Ты заслуживаешь всего, что тебя ждёт… и я рад(а) за тебя."
+dialogue:FIN_Outro (en-US):line:07e7cae,FIN_Outro (en-US),FIN_Outro (es),line:07e7cae,Headmaster,"Ах, Гиллиан! Вижу, ты пришла поздравить друзей. Лучше поторопись вернуться на своё место, церемония начинается."
+dialogue:FIN_Outro (en-US):line:0338912,FIN_Outro (en-US),FIN_Outro (es),line:0338912,Headmaster,"Ах, Гиллиан! Вижу, ты пришла поздравить подругу. Лучше поторопись вернуться на своё место, церемония начинается."
+dialogue:FIN_Outro (en-US):line:00bd36b,FIN_Outro (en-US),FIN_Outro (es),line:00bd36b,Rival,"Удачи. И не думай, что я собираюсь сдаваться. Кто-то должен дать тебе бой в следующем году."
+dialogue:FIN_Outro (en-US):line:01f8cb9,FIN_Outro (en-US),FIN_Outro (es),line:01f8cb9,Headmaster,"Ну вот, сегодня и наступил этот день. Путь был непростым, но наконец-то пришло время подвести итог первого года вашего пути в Академии побегов."
+dialogue:FIN_Outro (en-US):line:029f545,FIN_Outro (en-US),FIN_Outro (es),line:029f545,Headmaster,"Я не могу быть вами более горда. И я знаю, что Ил — <i>настоящий</i> Ил — чувствовал бы то же самое."
+dialogue:FIN_Outro (en-US):line:04bbcfa,FIN_Outro (en-US),FIN_Outro (es),line:04bbcfa,Headmaster,"Вы доказали, что у вас есть интуиция и способность адаптироваться. Вы делаете то, что считаете нужным, каким бы ни было препятствие."
+dialogue:FIN_Outro (en-US):line:06c598c,FIN_Outro (en-US),FIN_Outro (es),line:06c598c,Headmaster,"Вы по-настоящему воплощаете ценности эскаписта. Больше, чем кто-либо другой, вы заслужили этот титул."
+dialogue:FIN_Outro (en-US):line:0e6ae77,FIN_Outro (en-US),FIN_Outro (es),line:0e6ae77,Headmaster,"Печать побегов символизирует всё, чего вы достигли в школе… и всё, что вы сделали, чтобы она оставалась краеугольным камнем искусства побегов для следующего поколения."
+dialogue:FIN_Outro (en-US):line:0a94210,FIN_Outro (en-US),FIN_Outro (es),line:0a94210,Headmaster,Пора начинать церемонию. Присоединяйтесь ко мне у трибуны.
+dialogue:FIN_Outro (en-US):line:00f46e6,FIN_Outro (en-US),FIN_Outro (es),line:00f46e6,Headmaster,Начало вашего следующего приключения уже близко…
+dialogue:FLY_Intro (en-US):line:09f63ee,FLY_Intro (en-US),FLY_Intro (es),line:09f63ee,Jeb,"<i>*кшш*</i> Это ваш капитан, Джеб Джебёрсон, снова с новостями для вас! Ещё пара часов — и мы будем в бухте Запоров! Отпуск, мы едем! <i>*кшш*</i>"
+dialogue:FLY_Intro (en-US):line:0db4fd5,FLY_Intro (en-US),FLY_Intro (es),line:0db4fd5,Rival,"Уф, кто-нибудь заберите у него этот микрофон. Он делает объявление каждые пять минут."
+dialogue:FLY_Intro (en-US):line:0cfafa1,FLY_Intro (en-US),FLY_Intro (es),line:0cfafa1,Headmaster,"Ну-ну, Гиллиан. Пусть повеселится."
+dialogue:FLY_Intro (en-US):FLY_Intro-Start-0,FLY_Intro (en-US),FLY_Intro (es),FLY_Intro-Start-0,Jeb,"<i>*кшш*</i> Привет, это Джеб! Надеюсь, вам удобно там сзади. Я стараюсь лететь максимально плавно с прошлого объявления! До цели осталось всего три с половиной часа —"
+dialogue:FLY_Intro (en-US):line:0d03223,FLY_Intro (en-US),FLY_Intro (es),line:0d03223,,<i>ФУУУ-БУУУМ!!!!</i>
+dialogue:FLY_Intro (en-US):line:0b41cca,FLY_Intro (en-US),FLY_Intro (es),line:0b41cca,Rival,Что это было?!
+dialogue:FLY_Intro (en-US):line:07818e1,FLY_Intro (en-US),FLY_Intro (es),line:07818e1,Headmaster,"Это нехорошо звучит. Пристегнитесь, все. Я проверю, что с Джебом."
+dialogue:FLY_Intro (en-US):line:093461a,FLY_Intro (en-US),FLY_Intro (es),line:093461a,Rival,Мы теряем высоту?
+dialogue:FLY_Intro (en-US):line:09e8a8c,FLY_Intro (en-US),FLY_Intro (es),line:09e8a8c,Headmaster,Джеб? Джеб! Он не отвечает... Что-то должно быть очень —
+dialogue:FLY_Intro (en-US):line:03bd0e5,FLY_Intro (en-US),FLY_Intro (es),line:03bd0e5,Rival,О боже... Смотрите! Двигатель! Мы падаем!
+dialogue:FLY_Intro (en-US):line:02a2a8a,FLY_Intro (en-US),FLY_Intro (es),line:02a2a8a,Headmaster,Не волнуйтесь — мы выбиралась из ситуаций похуже.
+dialogue:FLY_Intro (en-US):line:0da9e5f,FLY_Intro (en-US),FLY_Intro (es),line:0da9e5f,Headmaster,<i>Именно для этого и нужны катапультные кресла.</i>
+dialogue:Gen_1 (en-US):line:03335a0,Gen_1 (en-US),Gen_1 (es),line:03335a0,Jeb,"...и вот наш главный кампус! Надеюсь, поездка понравилась. Вид, когда выезжаешь из туннеля, всегда трогает меня до глубины души."
+dialogue:Gen_1 (en-US):line:0450a30,Gen_1 (en-US),Gen_1 (es),line:0450a30,Jeb,Тебе нужно идти в кабинет директора. Она ждёт тебя там.
+dialogue:Gen_1 (en-US):line:049e08a,Gen_1 (en-US),Gen_1 (es),line:049e08a,Jeb,"Просто иди по этой дорожке, сверни направо у мемориального двора Ила Барнса — и ты на месте!"
+dialogue:Gen_1 (en-US):line:08fcb21,Gen_1 (en-US),Gen_1 (es),line:08fcb21,Jeb,Удачи на вступительном экзамене!
+dialogue:Gen_1 (en-US):line:0fb9cda,Gen_1 (en-US),Gen_1 (es),line:0fb9cda,Jeb,"...кстати, я Джеб. Я здесь смотритель!"
+dialogue:Gen_2 (en-US):line:06fac7c,Gen_2 (en-US),Gen_2 (es),line:06fac7c,Headmaster,"Ах, рада тебя видеть. На воротнике немного краски... Не хотелось бы, чтобы кто-то это заметил."
+dialogue:Gen_2 (en-US):line:00f7c8c,Gen_2 (en-US),Gen_2 (es),line:00f7c8c,Headmaster,"Ах, рада тебя видеть. Носки ещё мокрые от продвинутого курса?"
+dialogue:Gen_2 (en-US):line:0d3ba33,Gen_2 (en-US),Gen_2 (es),line:0d3ba33,Headmaster,"Хочу познакомить тебя с кем-то. Это Джиллиан Пейсли. Ещё одна талантливая первокурсница, с которой, думаю, у вас будет много общего."
+dialogue:Gen_2 (en-US):line:09eaa2b,Gen_2 (en-US),Gen_2 (es),line:09eaa2b,Rival,"Приятно познакомиться. Хотя не уверена, что у нас так много общего."
+dialogue:Gen_2 (en-US):line:0f941a6,Gen_2 (en-US),Gen_2 (es),line:0f941a6,Rival,Я всю жизнь готовилась стать эскапистом. И у меня уже четыре значка.
+dialogue:Gen_2 (en-US):line:0fe5cb1,Gen_2 (en-US),Gen_2 (es),line:0fe5cb1,Rival,"О, у тебя два? Это... достойно, полагаю."
+dialogue:Gen_2 (en-US):line:0c63d04,Gen_2 (en-US),Gen_2 (es),line:0c63d04,Headmaster,"Видишь? Вы быстро подружитесь. Оставлю вас, чтобы вы сблизитесь!"
+dialogue:Gen_2 (en-US):line:0d6822e,Gen_2 (en-US),Gen_2 (es),line:0d6822e,Rival,Могу дать тебе совет? Не... старайся слишком сильно. Первое место в Академии уже занято.
+dialogue:Gen_3 (en-US):line:0f1f516,Gen_3 (en-US),Gen_3 (es),line:0f1f516,Headmaster,Студенты и преподаватели! Сегодня день великой радости! После долгих раздумий Ил Барнс согласился занять должность преподавателя на нашей базе.
+dialogue:Gen_3 (en-US):line:078d144,Gen_3 (en-US),Gen_3 (es),line:078d144,Headmaster,"С его возвращением мы возрождаем старую любимую традицию Академии: «Комнату соперников»! Жесткое состязание, где студенты бьются друг с другом."
+dialogue:Gen_3 (en-US):line:00aac1e,Gen_3 (en-US),Gen_3 (es),line:00aac1e,Headmaster,"Как директор турнира, профессор Барнс будет искать таланты на протяжении всего семестра."
+dialogue:Gen_3 (en-US):line:069b11e,Gen_3 (en-US),Gen_3 (es),line:069b11e,Eel,"Не терпится увидеть, у кого хватит нахальства пройти квалификацию. И, пожалуйста... называйте меня Илом."
+dialogue:Gen_3 (en-US):line:05f926b,Gen_3 (en-US),Gen_3 (es),line:05f926b,Headmaster,"О, да. И, конечно, победители получат совместную награду от меня и Ила, а также заветный титул..."
+dialogue:Gen_3 (en-US):line:01846e7,Gen_3 (en-US),Gen_3 (es),line:01846e7,Headmaster,«Апекс первокурсника»!
+dialogue:Gen_3 (en-US):line:0b0af24,Gen_3 (en-US),Gen_3 (es),line:0b0af24,Eel,"К тому же, на кону значок. Но придётся попотеть. Лучше не откладывать."
+dialogue:Gen_3 (en-US):line:016d556,Gen_3 (en-US),Gen_3 (es),line:016d556,Rival,Этот значок уже как бы мой.
+dialogue:Gen_4 (en-US):line:0951100,Gen_4 (en-US),Gen_4 (es),line:0951100,Headmaster,Вот и вы! Мои звёзды! У нас для вас хорошие новости.
+dialogue:Gen_4 (en-US):line:0a3e871,Gen_4 (en-US),Gen_4 (es),line:0a3e871,Headmaster,Вот и ты! Моя звезда! У нас для тебя хорошие новости.
+dialogue:Gen_4 (en-US):line:0d9c2f9,Gen_4 (en-US),Gen_4 (es),line:0d9c2f9,Eel,Ты отлично стартовал и не сбавил темп. Сделал это — ты прошёл квалификацию в «Комнату соперников».
+dialogue:Gen_4 (en-US):line:0524620,Gen_4 (en-US),Gen_4 (es),line:0524620,Eel,Но не расслабляйся. Девочка Пейсли тоже прошла. Тебе предстоит серьёзный вызов.
+dialogue:Gen_4 (en-US):line:0b69e49,Gen_4 (en-US),Gen_4 (es),line:0b69e49,Headmaster,"Да, у Гиллиан есть природный талант. Если она научится его направлять... она станет грозным соперником."
+dialogue:Gen_4 (en-US):line:055ee14,Gen_4 (en-US),Gen_4 (es),line:055ee14,Eel,Мне пора. Завтра важный день. Нужно многое подготовить.
+dialogue:Gen_4 (en-US):line:049c756,Gen_4 (en-US),Gen_4 (es),line:049c756,Headmaster,"Слушай, я не должен это говорить, но... я за тебя. Ты действительно превзошёл мои ожидания."
+dialogue:Gen_4 (en-US):line:0eb73ba,Gen_4 (en-US),Gen_4 (es),line:0eb73ba,Headmaster,Ты на верном пути к получению всех десяти значков. Тебя ждёт блестящее будущее эскаписта.
+dialogue:Gen_4 (en-US):line:0b0f900,Gen_4 (en-US),Gen_4 (es),line:0b0f900,Headmaster,Я бы ни за что на свете не пропустил завтрашний день.
+dialogue:Gen_5 (en-US):line:0027251,Gen_5 (en-US),Gen_5 (es),line:0027251,Eel,"Привет, рад, что застал тебя. Я много думал с тех пор, как встал во главе. Здесь многое требует... доработки."
+dialogue:Gen_5 (en-US):line:0e538d1,Gen_5 (en-US),Gen_5 (es),line:0e538d1,Eel,Старая программа не тянула. Она давала хороших студентов... но не выдающихся.
+dialogue:Gen_5 (en-US):line:09794e9,Gen_5 (en-US),Gen_5 (es),line:09794e9,Eel,"Директор Соланж забыла, что нужно, чтобы преуспеть эскапистом в реальном мире."
+dialogue:Gen_5 (en-US):line:06138a4,Gen_5 (en-US),Gen_5 (es),line:06138a4,Eel,Она была готова тебя подстраховать... подтолкнуть к финишу. В реальной миссии такого роскоши нет.
+dialogue:Gen_5 (en-US):line:0cb5687,Gen_5 (en-US),Gen_5 (es),line:0cb5687,Eel,Я не буду руководствоваться симпатией. Это не мой стиль. Но не переживай. Тебе и так никогда не нужна была опека.
+dialogue:Gen_6 (en-US):line:0497f07,Gen_6 (en-US),Gen_6 (es),line:0497f07,Rival,"О, это ты. Надеюсь, ты не пришёл потриумфовать. У меня в голове каша. И дело не только в Комнате соперников."
+dialogue:Gen_6 (en-US):line:0a6a7f1,Gen_6 (en-US),Gen_6 (es),line:0a6a7f1,Rival,"…Можно тебе доверять, правда? Я не могу перестать думать об одном."
+dialogue:Gen_6 (en-US):line:0b4a876,Gen_6 (en-US),Gen_6 (es),line:0b4a876,Rival,"Это Ил. Я знаю, он великая легенда и всё такое, но... в том, как он стал директором, есть что-то не то."
+dialogue:Gen_6 (en-US):line:02cf5f1,Gen_6 (en-US),Gen_6 (es),line:02cf5f1,Rival,"Послушай внимательно. Может, ты тоже так почувствуешь."
+dialogue:Gen_7 (en-US):line:0a2143e,Gen_7 (en-US),Gen_7 (es),line:0a2143e,Eel,"Ну и ну. Похоже, ты заслужил все десять значков. Наверное, думаешь, я пришёл вручить тебе Печать побегу, да?"
+dialogue:Gen_7 (en-US):line:07a6e97,Gen_7 (en-US),Gen_7 (es),line:07a6e97,Eel,Чуть-чуть поменяем планы. Тебе её не дадут. Вообще никому.
+dialogue:Gen_7 (en-US):line:0527696,Gen_7 (en-US),Gen_7 (es),line:0527696,Eel,Но не переживай. Это к лучшему.
+dialogue:Gen_7 (en-US):line:0f82bd9,Gen_7 (en-US),Gen_7 (es),line:0f82bd9,Eel,"Весь год ты брался за любые вызовы. Даже после того, как я заменил посредственную программу Сэнди."
+dialogue:Gen_7 (en-US):line:0aa3367,Gen_7 (en-US),Gen_7 (es),line:0aa3367,Eel,"Если Академия хочет выпускать лучших эскапистов, у нас нет времени на отвлечения."
+dialogue:Gen_7 (en-US):line:07b8913,Gen_7 (en-US),Gen_7 (es),line:07b8913,Eel,Значки? Печати? Это не главное. Главное — ты теперь со мной.
+dialogue:Gen_7 (en-US):line:07926d5,Gen_7 (en-US),Gen_7 (es),line:07926d5,Eel,"Обещаю, в следующем году мы избавимся от всего лишнего. Оставайся. Вместе мы сможем на многое."
+dialogue:Gen_7 (en-US):line:0fe6f06,Gen_7 (en-US),Gen_7 (es),line:0fe6f06,,ТОК-ТОК!
+dialogue:Gen_7 (en-US):line:0a12508,Gen_7 (en-US),Gen_7 (es),line:0a12508,Rival,"Впустите меня, быстро. Нам нужно поговорить."
+dialogue:Gen_7 (en-US):line:090827e,Gen_7 (en-US),Gen_7 (es),line:090827e,Rival,"Ситуация с Илом вышла из-под контроля. Пожар в библиотеке? Пахнет им. И ему даже не показалось странным, что профессор Бонилья взорвала двор."
+dialogue:Gen_7 (en-US):line:04b4f9e,Gen_7 (en-US),Gen_7 (es),line:04b4f9e,Rival,"Ситуация с Илом вышла из-под контроля. Я имею в виду, он почти позволил профессору Бонилье взорвать двор. А пожар в библиотеке? Пахнет им."
+dialogue:Gen_7 (en-US):line:0cb8a0e,Gen_7 (en-US),Gen_7 (es),line:0cb8a0e,Rival,"Не знаю, власть ему в голову ударила или он слишком долго отсутствовал, но..."
+dialogue:Gen_7 (en-US):line:0e79b68,Gen_7 (en-US),Gen_7 (es),line:0e79b68,Rival,"Он не делает того, что лучше для школы. И, похоже, никто другой не находит в себе мужества ему это сказать..."
+dialogue:Gen_7 (en-US):line:03bafce,Gen_7 (en-US),Gen_7 (es),line:03bafce,Rival,"Значит, нам придётся разобраться с этим самим."
+dialogue:HMO_Intro (en-US):line:0036489,HMO_Intro (en-US),HMO_Intro (es),line:0036489,Headmaster,"А, вы добрались! Превосходно. Я редко так радуюсь паре абитуриентов."
+dialogue:HMO_Intro (en-US):line:082ce25,HMO_Intro (en-US),HMO_Intro (es),line:082ce25,Headmaster,"А, вы добрались! Превосходно. Я редко так радуюсь абитуриенту."
+dialogue:HMO_Intro (en-US):line:0f98915,HMO_Intro (en-US),HMO_Intro (es),line:0f98915,Headmaster,"Простите, что говорю с вами через камеру, но мне нужно было позаботиться о собственной безопасности."
+dialogue:HMO_Intro (en-US):line:09464a0,HMO_Intro (en-US),HMO_Intro (es),line:09464a0,Headmaster,"Видите ли, эта комната медленно заполняется газом, стирающим память… Это способ сохранить нашу тайну, если вы не пройдете мой тест."
+dialogue:HMO_Intro (en-US):line:06eddc9,HMO_Intro (en-US),HMO_Intro (es),line:06eddc9,Headmaster,"У вас есть примерно пятнадцать минут, прежде чем погаснет свет и вы забудете все об Академии."
+dialogue:HMO_Intro (en-US):line:0279447,HMO_Intro (en-US),HMO_Intro (es),line:0279447,Headmaster,"Сбегайте до этого времени, и вы сдадите экзамен!"
+dialogue:HMO_Intro (en-US):line:0ca4258,HMO_Intro (en-US),HMO_Intro (es),line:0ca4258,Headmaster,Начинаем экзамен!
+dialogue:HMO_Outro (en-US):line:0d24730,HMO_Outro (en-US),HMO_Outro (es),line:0d24730,Headmaster,"Я знал, что не ошибаюсь в вас! Вы бы удивились, сколько абитуриентов нам приходится вывозить через главные ворота на носилках."
+dialogue:HMO_Outro (en-US):line:024c489,HMO_Outro (en-US),HMO_Outro (es),line:024c489,Headmaster,Но хватит любезностей! Вам нужны ответы! Контекст! Движение вперёд!
+dialogue:HMO_Outro (en-US):line:0a5e3c4,HMO_Outro (en-US),HMO_Outro (es),line:0a5e3c4,Headmaster,"Добро пожаловать в Академию побегов, лучшую в мире школу подготовки эскапистов."
+dialogue:HMO_Outro (en-US):line:082741a,HMO_Outro (en-US),HMO_Outro (es),line:082741a,Headmaster,"Студенты, которые бродят по этим коридорам, становятся шпионами… хакерами… ворами… даже президентами!"
+dialogue:HMO_Outro (en-US):line:01d1d91,HMO_Outro (en-US),HMO_Outro (es),line:01d1d91,Headmaster,"Если хочешь встать в один ряд с ними, тебе нужно собрать десять значков, чтобы доказать свою состоятельность."
+dialogue:HMO_Outro (en-US):line:000d2d5,HMO_Outro (en-US),HMO_Outro (es),line:000d2d5,Headmaster,"Эти значки выдаются за выдающиеся достижения в искусстве побега, как в классе, так и на территории кампуса."
+dialogue:HMO_Outro (en-US):line:0d98809,HMO_Outro (en-US),HMO_Outro (es),line:0d98809,Headmaster,"Если справишься, получишь Печать побегу и право называть себя настоящим эскапистом."
+dialogue:HMO_Outro (en-US):line:0d567a5,HMO_Outro (en-US),HMO_Outro (es),line:0d567a5,Headmaster,"Так что вперёд! Исследуй кампус, знакомься с преподавателями и раскрой свой истинный потенциал. Твоё академическое путешествие начинается сейчас!"
+dialogue:IS_GEN_1 (en-US):line:0285deb,IS_GEN_1 (en-US),IS_GEN_1 (es),line:0285deb,Headmaster,"А, это ты!"
+dialogue:IS_GEN_1 (en-US):line:0980f9b,IS_GEN_1 (en-US),IS_GEN_1 (es),line:0980f9b,Headmaster,"Благодарение небу, что я застал тебя, прежде чем ты уехал на лето."
+dialogue:IS_GEN_1 (en-US):line:016249c,IS_GEN_1 (en-US),IS_GEN_1 (es),line:016249c,Headmaster,"Академия вам очень обязана, эскаписты. Поэтому мы хотели удивить вас небольшой наградой!"
+dialogue:IS_GEN_1 (en-US):line:0339f25,IS_GEN_1 (en-US),IS_GEN_1 (es),line:0339f25,Headmaster,"Академия тебе очень обязана, эскапист. Поэтому мы хотели удивить тебя небольшой наградой!"
+dialogue:IS_GEN_1 (en-US):line:0fb8af3,IS_GEN_1 (en-US),IS_GEN_1 (es),line:0fb8af3,Headmaster,"Мы едем на неделю в роскошную бухту Локсмита, где всё включено!"
+dialogue:IS_GEN_1 (en-US):line:0d247a3,IS_GEN_1 (en-US),IS_GEN_1 (es),line:0d247a3,Headmaster,"Я знаю, что конец учебного года был немного нестандартным... так что, пожалуй, побег на остров — именно то, что прописал бы врач."
+dialogue:IS_GEN_1 (en-US):line:07f07d3,IS_GEN_1 (en-US),IS_GEN_1 (es),line:07f07d3,Headmaster,Жду вас на взлётной полосе. Гиллиан и Джеб уже пристегнуты и готовы к взлёту в рай!
+dialogue:IS_GEN_2 (en-US):line:0211f55,IS_GEN_2 (en-US),IS_GEN_2 (es),line:0211f55,Jeb,"Милые песчаные петунии, земля! Мы добрались! Мы на суше!!"
+dialogue:IS_GEN_2 (en-US):line:089ba72,IS_GEN_2 (en-US),IS_GEN_2 (es),line:089ba72,Jeb,"Не совсем так я представлял свой пляжный день, но..."
+dialogue:IS_GEN_2 (en-US):line:0334e3d,IS_GEN_2 (en-US),IS_GEN_2 (es),line:0334e3d,Headmaster,"<i>*кшш!*</i> Джеб! Ты меня слышишь--<i>*ксссш*</i>-- меня слышно, Джеб? Мы приземлились на --<i>*кссш*</i>-- и мы --<i>*ксссш*</i>-- смотри на А-- <i>*ксссшш--*</i>"
+dialogue:IS_GEN_2 (en-US):line:0dc83ac,IS_GEN_2 (en-US),IS_GEN_2 (es),line:0dc83ac,Jeb,"Директор? Директор, меня слышно?!"
+dialogue:IS_GEN_2 (en-US):line:0a18a71,IS_GEN_2 (en-US),IS_GEN_2 (es),line:0a18a71,Jeb,"Чёрт. Радиостанция сломалась. Наверное, не выдержала при крушении. Но она явно была в панике..."
+dialogue:IS_GEN_2 (en-US):line:015c62b,IS_GEN_2 (en-US),IS_GEN_2 (es),line:015c62b,Jeb,Надо срочно найти другой способ связаться с ней!
+dialogue:IS_GEN_2 (en-US):line:04d2443,IS_GEN_2 (en-US),IS_GEN_2 (es),line:04d2443,Jeb,"Эй, минутку... Что это на пляже?"
+dialogue:IS_GEN_3 (en-US):line:02bfea7,IS_GEN_3 (en-US),IS_GEN_3 (es),line:02bfea7,HenchmanA_@henchmanA,Шеф на месте! Шеф на месте!
+dialogue:IS_GEN_3 (en-US):line:0ab37f7,IS_GEN_3 (en-US),IS_GEN_3 (es),line:0ab37f7,HenchmanB_@henchmanB,"Добро пожаловать, доктор Немет! Мы задержали этого пленника в 16:00 и с тех пор внимательно за ним наблюдаем, диллигентн--"
+dialogue:IS_GEN_3 (en-US):line:037f7f6,IS_GEN_3 (en-US),IS_GEN_3 (es),line:037f7f6,Liz,"Джеб Джеберсон, последний выживший. Наконец-то мы встретились лицом к лицу. И моя коллекция эскапистов пополняется."
+dialogue:IS_GEN_3 (en-US):line:0ee4c3a,IS_GEN_3 (en-US),IS_GEN_3 (es),line:0ee4c3a,Jeb,"Если ты хоть пальцем тронула моих друзей, я--"
+dialogue:IS_GEN_3 (en-US):line:0c0bf6d,IS_GEN_3 (en-US),IS_GEN_3 (es),line:0c0bf6d,Liz,"Слуги! Сдержите его! Отвезем этого дурака на базу к остальным. Не хочу, чтобы ты пропустил шоу, Джеб..."
+dialogue:IS_GEN_4 (en-US):line:019a7e7,IS_GEN_4 (en-US),IS_GEN_4 (es),line:019a7e7,Headmaster,"Ты проиграла, Лиз. Пора смириться."
+dialogue:IS_GEN_4 (en-US):line:03cb27c,IS_GEN_4 (en-US),IS_GEN_4 (es),line:03cb27c,Liz,Ха-ха-ха. Я не проиграла. Как только кто-то попадает в моё Измерение Захвата... конец. Шоу окончено!
+dialogue:IS_GEN_4 (en-US):line:03d89ae,IS_GEN_4 (en-US),IS_GEN_4 (es),line:03d89ae,Liz,Для бедного Джеба... <i>возврата нет.</i>
+dialogue:IS_GEN_4 (en-US):line:084d2cd,IS_GEN_4 (en-US),IS_GEN_4 (es),line:084d2cd,HenchmanA_@henchmanA,Ну...
+dialogue:IS_GEN_4 (en-US):line:07823a2,IS_GEN_4 (en-US),IS_GEN_4 (es),line:07823a2,Rival,Ну?
+dialogue:IS_GEN_4 (en-US):line:010af2e,IS_GEN_4 (en-US),IS_GEN_4 (es),line:010af2e,HenchmanB_@henchmanB,Ну... это не совсем... <i>технически</i> верно...
+dialogue:IS_GEN_4 (en-US):line:0a6c3b4,IS_GEN_4 (en-US),IS_GEN_4 (es),line:0a6c3b4,HenchmanA_@henchmanA,"Мы никогда этого не проверяли, но теоретически…"
+dialogue:IS_GEN_4 (en-US):IS_GEN_4-Start-0,IS_GEN_4 (en-US),IS_GEN_4 (es),IS_GEN_4-Start-0,HenchmanA_@henchmanA,Кто-то мог бы заставить портал работать в обе стороны… <i>если</i> перенастроить поток измерений.
+dialogue:IS_GEN_4 (en-US):line:0057fa8,IS_GEN_4 (en-US),IS_GEN_4 (es),line:0057fa8,Liz,"Погоди, о чём ты? Это невозможно!"
+dialogue:IS_GEN_4 (en-US):line:0f6f4cb,IS_GEN_4 (en-US),IS_GEN_4 (es),line:0f6f4cb,Headmaster,Дайте-ка посмотреть…
+dialogue:LAB_Intro (en-US):line:018a3a9,LAB_Intro (en-US),LAB_Intro (es),line:018a3a9,Quanty,"Здравствуйте, ученики. Мои алгоритмы предсказали, что вы скоро посетите мою аудиторию."
+dialogue:LAB_Intro (en-US):line:02f62ae,LAB_Intro (en-US),LAB_Intro (es),line:02f62ae,Quanty,"Здравствуйте, ученик. Мои алгоритмы предсказали, что ты скоро посетишь мою аудиторию."
+dialogue:LAB_Intro (en-US):line:0e93282,LAB_Intro (en-US),LAB_Intro (es),line:0e93282,Eel,"Этот маленький компьютер впечатляет, не правда ли? Не обращай на меня внимания, я просто наблюдаю."
+dialogue:LAB_Intro (en-US):line:00c8a6d,LAB_Intro (en-US),LAB_Intro (es),line:00c8a6d,Quanty,"Причина нашего сегодняшнего общения в том, что я проанализировал ваши результаты в Академии и сформулировал гипотезу."
+dialogue:LAB_Intro (en-US):line:035ef5b,LAB_Intro (en-US),LAB_Intro (es),line:035ef5b,Quanty,Вы жульничали.
+dialogue:LAB_Intro (en-US):line:0f9113a,LAB_Intro (en-US),LAB_Intro (es),line:0f9113a,Quanty,"Ваши побег были безупречны, а значит, математически невозможны."
+dialogue:LAB_Intro (en-US):line:0dbb1a5,LAB_Intro (en-US),LAB_Intro (es),line:0dbb1a5,Quanty,"К сожалению, я вынужден рекомендовать ваше отчисление. Оно будет быстрым и позорным."
+dialogue:LAB_Intro (en-US):line:09a03a9,LAB_Intro (en-US),LAB_Intro (es),line:09a03a9,Eel,Ого! Вот это поворот.
+dialogue:LAB_Intro (en-US):line:062c75d,LAB_Intro (en-US),LAB_Intro (es),line:062c75d,Quanty,"У вас есть один шанс остаться в школе. Если вы взломаете мои основные драйверы, я пересмотрю свой вывод о вас."
+dialogue:LAB_Intro (en-US):line:054c68e,LAB_Intro (en-US),LAB_Intro (es),line:054c68e,Quanty,"Но, конечно же, вы провалитесь."
+dialogue:LAB_Outro (en-US):line:0fec22a,LAB_Outro (en-US),LAB_Outro (es),line:0fec22a,Quanty,"Спасибо за участие. Похоже, вы <i>действительно</i> статистическая аномалия."
+dialogue:LAB_Outro (en-US):line:0af9998,LAB_Outro (en-US),LAB_Outro (es),line:0af9998,Quanty,"В любом случае, эти данные полезны для моих архивов. Вы заслужили моё условное уважение."
+dialogue:LAB_Outro (en-US):line:0ee386f,LAB_Outro (en-US),LAB_Outro (es),line:0ee386f,Eel,"Жестяная банка права. Неплохо, вы двое…"
+dialogue:LAB_Outro (en-US):line:01c0bca,LAB_Outro (en-US),LAB_Outro (es),line:01c0bca,Eel,"Жестяная банка права, парень. Неплохо…"
+dialogue:LAB_Outro (en-US):line:0a907b9,LAB_Outro (en-US),LAB_Outro (es),line:0a907b9,Quanty,Теперь покиньте лабораторию. Мне нужно вернуться к важным вычислениям.
+dialogue:LIB_Outro (en-US):line:00e7003,LIB_Outro (en-US),LIB_Outro (es),line:00e7003,Jeb,Нет… библиотека…
+dialogue:LIB_Outro (en-US):line:07be628,LIB_Outro (en-US),LIB_Outro (es),line:07be628,Jeb,"Ты правда думаешь, что кто-то специально запер входную дверь?"
+dialogue:LIB_Outro (en-US):line:09ba0c1,LIB_Outro (en-US),LIB_Outro (es),line:09ba0c1,Jeb,"Они ведь знали, что я внутри. Я забронировал учебную комнату. Не думаешь, что кто-то…"
+dialogue:LIB_Outro (en-US):line:09cbbef,LIB_Outro (en-US),LIB_Outro (es),line:09cbbef,Jeb,"Нет, кто бы так поступил? Но… казалось, что мне не суждено было оттуда выбраться."
+dialogue:LIB_Outro (en-US):line:04f970f,LIB_Outro (en-US),LIB_Outro (es),line:04f970f,Jeb,В этом нет никакого смысла…
+dialogue:Lib_IntroCutscene (en-US):line:02b103e,Lib_IntroCutscene (en-US),Lib_IntroCutscene (es),line:02b103e,Jeb,"О, привет! Рад, что ты заглянул поучиться. Я тоже — если хочу получить лицензию преподавателя, приходится зубрить, пока есть возможность."
+dialogue:Lib_IntroCutscene (en-US):line:0fe2082,Lib_IntroCutscene (en-US),Lib_IntroCutscene (es),line:0fe2082,Jeb,"Признаюсь, мне сложно сосредоточиться."
+dialogue:Lib_IntroCutscene (en-US):line:0dd2705,Lib_IntroCutscene (en-US),Lib_IntroCutscene (es),line:0dd2705,Jeb,"Мне непривычно после того, как Ил — то есть директор Ил — возглавил Академию."
+dialogue:Lib_IntroCutscene (en-US):line:01b65c8,Lib_IntroCutscene (en-US),Lib_IntroCutscene (es),line:01b65c8,Jeb,"Он всё так по-другому организует! И, судя по всему, просто перегружает учеников."
+dialogue:Lib_IntroCutscene (en-US):line:0a431a1,Lib_IntroCutscene (en-US),Lib_IntroCutscene (es),line:0a431a1,Jeb,"В любом случае, по крайней мере, у меня есть это место, где можно передохнуть в такие трудные времена."
+dialogue:Lib_IntroCutscene (en-US):line:0bc2c1d,Lib_IntroCutscene (en-US),Lib_IntroCutscene (es),line:0bc2c1d,Jeb,"Знаешь, библиотека — самое старое здание в Академии?"
+dialogue:Lib_IntroCutscene (en-US):line:0098c94,Lib_IntroCutscene (en-US),Lib_IntroCutscene (es),line:0098c94,Jeb,"Вообще-то, она — стой. Ты не чувствуешь... запах дыма?"
+dialogue:Lib_IntroCutscene (en-US):line:0640ac8,Lib_IntroCutscene (en-US),Lib_IntroCutscene (es),line:0640ac8,Jeb,ЧТО ТАКОЕ! ЗДЕСЬ ВЕСЬ ДОМ ГОРИТ!!!
+dialogue:ORR_Intro (en-US):line:0529906,ORR_Intro (en-US),NEW_es_ORR_Intro,line:0529906,Horatio,Опасность!!
+dialogue:ORR_Intro (en-US):line:001716a,ORR_Intro (en-US),NEW_es_ORR_Intro,line:001716a,Horatio,"Без неё нет настоящего побега. Это мой главный принцип с тех пор, как я начал преподавать здесь."
+dialogue:ORR_Intro (en-US):line:0b9e30f,ORR_Intro (en-US),NEW_es_ORR_Intro,line:0b9e30f,Horatio,"В прошлом месяце, когда один из рабочих едва не был раздавлен опорной балкой башни... я понял кое-что важное."
+dialogue:ORR_Intro (en-US):line:0867da7,ORR_Intro (en-US),NEW_es_ORR_Intro,line:0867da7,Horatio,Академия недостаточно <i>опасна</i>!
+dialogue:ORR_Intro (en-US):line:01b7741,ORR_Intro (en-US),NEW_es_ORR_Intro,line:01b7741,Horatio,В реальном мире нет страховочных сетей. Так почему же моя школа должна сдерживаться?!
+dialogue:ORR_Intro (en-US):line:010ab56,ORR_Intro (en-US),NEW_es_ORR_Intro,line:010ab56,Horatio,Нет! Ни на секунду больше! Пусть начнётся «Комната соперников»!
+dialogue:ORR_Intro (en-US):line:09839c4,ORR_Intro (en-US),NEW_es_ORR_Intro,line:09839c4,YoungEel,"Не заставляй меня долго ждать на финише, Сэнди. Не хочу, чтобы публика заскучала."
+dialogue:ORR_Intro (en-US):line:0c361d8,ORR_Intro (en-US),NEW_es_ORR_Intro,line:0c361d8,YoungSandy,"Похоже, кто-то очень уверен в себе."
+dialogue:ORR_Intro (en-US):line:0764429,ORR_Intro (en-US),NEW_es_ORR_Intro,line:0764429,YoungEel,Ты не слышал Горацио? Это испытание для настоящего эскаписта. Одних книг недостаточно.
+dialogue:ORR_Intro (en-US):line:0731f84,ORR_Intro (en-US),NEW_es_ORR_Intro,line:0731f84,YoungSandy,"Они помогут мне пройти дальше первой головоломки. Удачи, если хочешь решить всё силой."
+dialogue:ORR_Intro (en-US):line:0f97be3,ORR_Intro (en-US),NEW_es_ORR_Intro,line:0f97be3,YoungEel,Ха! <i>Теперь</i> это гонка.
+dialogue:ORR_Outro (en-US):line:0351f51,ORR_Outro (en-US),NEW_es_ORR_Outro,line:0351f51,Horatio,"Ну вот и всё, друзья! Какой невероятный поворот событий! Я вас всех обманул, правда? Ха-ха!!"
+dialogue:ORR_Outro (en-US):line:06c82e9,ORR_Outro (en-US),NEW_es_ORR_Outro,line:06c82e9,Horatio,"Как раз так вышло, что я <i>так</i> безоговорочно доверяю своим ученикам, что встроил в курс собственную опасность. Такой адреналин не перебить!"
+dialogue:ORR_Outro (en-US):line:0842801,ORR_Outro (en-US),NEW_es_ORR_Outro,line:0842801,Horatio,"Знаю, знаю. Истинный гениальный ход."
+dialogue:ORR_Outro (en-US):line:0745af8,ORR_Outro (en-US),NEW_es_ORR_Outro,line:0745af8,Horatio,"Сандра, Ил — наслаждайтесь этим моментом. Возьмите содовой. Подпишите пару автографов. Отрывайтесь!"
+dialogue:ORR_Outro (en-US):line:0e6aed2,ORR_Outro (en-US),NEW_es_ORR_Outro,line:0e6aed2,Horatio,А когда закончите — загляните ко мне в кабинет! У меня есть пара медалей с вашими именами!
+dialogue:ORR_Outro (en-US):line:098231f,ORR_Outro (en-US),NEW_es_ORR_Outro,line:098231f,Horatio,Какие же времена мы живём!!
+dialogue:ORR_Outro (en-US):line:041cea6,ORR_Outro (en-US),NEW_es_ORR_Outro,line:041cea6,YoungSandy,"Ну, это было странно."
+dialogue:ORR_Outro (en-US):line:0062286,ORR_Outro (en-US),NEW_es_ORR_Outro,line:0062286,YoungEel,Что у этого типа не странное?
+dialogue:POT_Intro (en-US):line:0a107f0,POT_Intro (en-US),POT_Intro (es),line:0a107f0,Allie,"Добро пожаловать в мою лабораторию. Я профессор Бонилья. В прошлой жизни я была экспертом по взрывчатке, но теперь перешла на что-то более увлекательное..."
+dialogue:POT_Intro (en-US):line:0b3a340,POT_Intro (en-US),POT_Intro (es),line:0b3a340,Allie,Селекции чая!
+dialogue:POT_Intro (en-US):line:07e6688,POT_Intro (en-US),POT_Intro (es),line:07e6688,Allie,"Я на пути к созданию идеальной чашки чая. И наконец-то поняла, чего не хватало!"
+dialogue:POT_Intro (en-US):line:06d9b30,POT_Intro (en-US),POT_Intro (es),line:06d9b30,Allie,"Я варила чай в комнате с обычной температурой. Но что, если мы доведём его до кипения... в <i>кипящей</i> среде!"
+dialogue:POT_Intro (en-US):line:078b2dd,POT_Intro (en-US),POT_Intro (es),line:078b2dd,Allie,"Поэтому я выставила на термостате двести двадцать градусов. Вам, конечно, не очень комфортно... но для эксперимента это идеально."
+dialogue:POT_Intro (en-US):line:0317f4c,POT_Intro (en-US),POT_Intro (es),line:0317f4c,Eel,"Мне нравится, куда это клонит. Только Алли может превратить ботанику в настоящий взрыв!"
+dialogue:POT_Intro (en-US):line:0a83412,POT_Intro (en-US),POT_Intro (es),line:0a83412,Allie,"Я так рада, что вы готовы выдержать жар... ради идеальной чашки чая! Лучше не медлить!"
+dialogue:POT_Outro (en-US):line:08786a3,POT_Outro (en-US),POT_Outro (es),line:08786a3,Allie,"Вау, эксперимент удался! Я никогда не чувствовала себя такой бодрой! К тому же, похоже, вы не погибли. Настоящее очищение!"
+dialogue:POT_Outro (en-US):line:007a05c,POT_Outro (en-US),POT_Outro (es),line:007a05c,Eel,"Признаюсь, это пахнет чертовски вкусным чаем."
+dialogue:POT_Outro (en-US):line:002dbff,POT_Outro (en-US),POT_Outro (es),line:002dbff,Eel,"Всё равно не могу поверить, что ты бросила взрывчатку. Для нашего сообщества это огромная потеря."
+dialogue:POT_Outro (en-US):line:070f269,POT_Outro (en-US),POT_Outro (es),line:070f269,Allie,И всё же я никогда не чувствовала себя такой счастливой.
+dialogue:RAD_Intro (en-US):line:05b7626,RAD_Intro (en-US),RAD_Intro (es),line:05b7626,Jeb,Хм... Это одна из тех соковых лавок. С огромной тарелкой на крыше!
+dialogue:RAD_Intro (en-US):line:03b8a90,RAD_Intro (en-US),RAD_Intro (es),line:03b8a90,Jeb,Странно... На всех моих картах этот островок должен быть необитаемым.
+dialogue:RAD_Intro (en-US):line:043cc79,RAD_Intro (en-US),RAD_Intro (es),line:043cc79,Jeb,"Ну... обитаем или нет, но с такой тарелкой я готов поспорить, что внутри есть радио, которым мы можем позвать директора."
+dialogue:RAD_Intro (en-US):line:063452b,RAD_Intro (en-US),RAD_Intro (es),line:063452b,Jeb,"Давай заглянем. Будь начеку. Если директор в беде, кто знает, что нас там ждёт..."
+dialogue:RAD_Midpoint (en-US):line:09b630e,RAD_Midpoint (en-US),RAD_Midpoint (es),line:09b630e,Jeb,"Радио. Наконец-то! *Хм* Проверка связи! Директор Соланж? Вы меня слышите? Это Джеб. Вы там, директор?"
+dialogue:RAD_Midpoint (en-US):line:0b35fbe,RAD_Midpoint (en-US),RAD_Midpoint (es),line:0b35fbe,???,"Извините, Джебсон. Ваша драгоценная директор и её маленькая протеже сейчас немного заняты."
+dialogue:RAD_Midpoint (en-US):line:0b8457a,RAD_Midpoint (en-US),RAD_Midpoint (es),line:0b8457a,Jeb,"Эм, кто это? И... как вы знаете моё имя..?"
+dialogue:RAD_Midpoint (en-US):line:09ecdd5,RAD_Midpoint (en-US),RAD_Midpoint (es),line:09ecdd5,Jeb,Подождите. О нет... Всё складывается воедино..!
+dialogue:RAD_Midpoint (en-US):line:0c36244,RAD_Midpoint (en-US),RAD_Midpoint (es),line:0c36244,Jeb,Изумрудно-зелёная цветовая гамма...
+dialogue:RAD_Midpoint (en-US):line:0f13e59,RAD_Midpoint (en-US),RAD_Midpoint (es),line:0f13e59,Jeb,Отлично обслуживаемая антенна связи...
+dialogue:RAD_Midpoint (en-US):line:0703450,RAD_Midpoint (en-US),RAD_Midpoint (es),line:0703450,Jeb,"Огромный плакат с ключом, перечёркнутым крестом?!"
+dialogue:RAD_Midpoint (en-US):line:0f5be04,RAD_Midpoint (en-US),RAD_Midpoint (es),line:0f5be04,Jeb,<i>Это Остров Анти-Побегов! Вы — учёные Анти-Побегов!</i>
+dialogue:RAD_Midpoint (en-US):line:0b5e99d,RAD_Midpoint (en-US),RAD_Midpoint (es),line:0b5e99d,???,"Сыграй свою роль сколько хочешь, Джеб. Твое вторжение провалилось! Ты думал, что сможешь застать врасплох меня, доктора Лиз Немет?"
+dialogue:RAD_Midpoint (en-US):line:051c3bb,RAD_Midpoint (en-US),RAD_Midpoint (es),line:051c3bb,Liz,"Ну, не получилось! Потому что мы нанесли первый удар. Мы сбили тебя с неба и прямо в наши лапы!"
+dialogue:RAD_Midpoint (en-US):line:03a68ae,RAD_Midpoint (en-US),RAD_Midpoint (es),line:03a68ae,Liz,"До встречи, Джебсон."
+dialogue:RAD_Outro (en-US):line:07c8fdc,RAD_Outro (en-US),RAD_Outro (es),line:07c8fdc,HenchmanA_@henchmanA,"Руки вверх, эскапист! Мы спускаемся!"
+dialogue:RAD_Outro (en-US):line:02de3f0,RAD_Outro (en-US),RAD_Outro (es),line:02de3f0,Jeb,"Ох, учёные! Они здесь! Просто молчи и сиди в этом вентиляционном отверстии. Пора применить добрый старый академический трюк..."
+dialogue:RAD_Outro (en-US):line:034e7cb,RAD_Outro (en-US),RAD_Outro (es),line:034e7cb,HenchmanA_@henchmanA,"Не шевельнись, эскапист!"
+dialogue:RAD_Outro (en-US):line:03095ee,RAD_Outro (en-US),RAD_Outro (es),line:03095ee,Jeb,"Ох, чёрт возьми, вы застали меня с поличным!"
+dialogue:RAD_Outro (en-US):line:0e2a35f,RAD_Outro (en-US),RAD_Outro (es),line:0e2a35f,HenchmanA_@henchmanA,Тише! Губы тоже считаются мышцами!
+dialogue:RAD_Outro (en-US):line:0416867,RAD_Outro (en-US),RAD_Outro (es),line:0416867,HenchmanB_@henchmanB,Кто ещё здесь с тобой??
+dialogue:RAD_Outro (en-US):line:0008502,RAD_Outro (en-US),RAD_Outro (es),line:0008502,Jeb,"Только я! Последний эскапист, которого нужно задержать! Никого больше на свободе не осталось! Значит, мне не остаётся ничего, кроме как сдаться, да?"
+dialogue:RAD_Outro (en-US):line:08f744b,RAD_Outro (en-US),RAD_Outro (es),line:08f744b,HenchmanA_@henchmanA,"Болтай сколько влезет! Когда доктор Немет прибудет, у тебя будет меньше поводов для разговоров."
+dialogue:RAD_Outro (en-US):line:02bfea7,RAD_Outro (en-US),RAD_Outro (es),line:02bfea7,HenchmanB_@henchmanB,Шеф на месте! Шеф на месте!
+dialogue:RAD_Outro (en-US):line:0ab37f7,RAD_Outro (en-US),RAD_Outro (es),line:0ab37f7,HenchmanB_@henchmanB,"Добро пожаловать, доктор Немет! Мы задержали этого пленника в 16:00 и с тех пор внимательно за ним наблюдаем, диллигентн--"
+dialogue:RAD_Outro (en-US):line:037f7f6,RAD_Outro (en-US),RAD_Outro (es),line:037f7f6,Liz,"Джеб Джеберсон, последний из оставшихся. Наконец-то мы встретились лицом к лицу. И моя коллекция эскапистов пополняется."
+dialogue:RAD_Outro (en-US):line:0ee4c3a,RAD_Outro (en-US),RAD_Outro (es),line:0ee4c3a,Jeb,"Если ты хоть пальцем тронула моих друзей, я--"
+dialogue:RAD_Outro (en-US):line:0c0bf6d,RAD_Outro (en-US),RAD_Outro (es),line:0c0bf6d,Liz,"Слуги! Сдержите его! Отвезем этого дурака на базу к остальным. Не хочу, чтобы ты пропустил шоу, Джеб..."
+dialogue:ROB_Intro (en-US):line:0995af3,ROB_Intro (en-US),NEW_es_ROB_Intro,line:0995af3,Guy,"Добрый день, студенты. Добро пожаловать на урок бухгалтерии."
+dialogue:ROB_Intro (en-US):line:0b774c4,ROB_Intro (en-US),NEW_es_ROB_Intro,line:0b774c4,Guy,"Надеюсь, вы не ждали меловых досок и скучных формул. У меня к предмету... несколько иной подход."
+dialogue:ROB_Intro (en-US):line:07130e9,ROB_Intro (en-US),NEW_es_ROB_Intro,line:07130e9,Guy,"Перераспределительное воровство! Зачем трудиться, если можно <i>украсть?</i>"
+dialogue:ROB_Intro (en-US):line:096a8f0,ROB_Intro (en-US),NEW_es_ROB_Intro,line:096a8f0,Guy,"У многих эскапистов столько всего, что они не знают, как с этим обращаться. А я точно знаю, что с этим делать!"
+dialogue:ROB_Intro (en-US):line:037f223,ROB_Intro (en-US),NEW_es_ROB_Intro,line:037f223,Guy,"Но нужно быть профессионалом. Заходишь, выходишь, чисто и аккуратно. Именно этому я вас сегодня и научу. Вы будете красть..."
+dialogue:ROB_Intro (en-US):line:0b087b5,ROB_Intro (en-US),NEW_es_ROB_Intro,line:0b087b5,Guy,<i>...Акт о собственности Академии побегов!</i>
+dialogue:ROB_Intro (en-US):line:0ef0021,ROB_Intro (en-US),NEW_es_ROB_Intro,line:0ef0021,Guy,И помните: с охраной шутки плохи.
+dialogue:ROB_Intro (en-US):line:011abf4,ROB_Intro (en-US),NEW_es_ROB_Intro,line:011abf4,Guy,Главный секрет бухгалтерии — <i>не попасться.</i>
+dialogue:ROB_Intro (en-US):line:00f7f1c,ROB_Intro (en-US),NEW_es_ROB_Intro,line:00f7f1c,YoungEel,"Ты уверена, что твоя совесть выдержит ограбление директора, Сэнди?"
+dialogue:ROB_Intro (en-US):line:0ac1cdb,ROB_Intro (en-US),NEW_es_ROB_Intro,line:0ac1cdb,YoungSandy,Буду честна. Мне кажется... мне это нравится?
+dialogue:ROB_Intro (en-US):line:0feb527,ROB_Intro (en-US),NEW_es_ROB_Intro,line:0feb527,YoungSandy,"Да, в деле. Поехали."
+dialogue:ROB_Outro (en-US):line:00e12c2,ROB_Outro (en-US),NEW_es_ROB_Outro,line:00e12c2,Guy,"Что, чёрт возьми, там произошло? Я потерял с вами связь... а потом в моём кабинете будто землетрясение!"
+dialogue:ROB_Outro (en-US):line:047380e,ROB_Outro (en-US),NEW_es_ROB_Outro,line:047380e,YoungEel,Решётка канализации захлопнулась за нами. Пришлось искать другой выход.
+dialogue:ROB_Outro (en-US):line:097e9f9,ROB_Outro (en-US),NEW_es_ROB_Outro,line:097e9f9,YoungSandy,У нас уже был Акт о собственности... но когда мы попробовали воспользоваться лифтом директора...
+dialogue:ROB_Outro (en-US):line:075b66a,ROB_Outro (en-US),NEW_es_ROB_Outro,line:075b66a,YoungEel,"Вся стена рухнула, и помещение начало затапливать!"
+dialogue:ROB_Outro (en-US):line:08199ad,ROB_Outro (en-US),NEW_es_ROB_Outro,line:08199ad,Guy,"Ну, это точно не входило в программу моего курса."
+dialogue:ROB_Outro (en-US):line:0e4a51f,ROB_Outro (en-US),NEW_es_ROB_Outro,line:0e4a51f,Guy,"Конечно, в моей профессии случаются сюрпризы..."
+dialogue:ROB_Outro (en-US):line:07346c5,ROB_Outro (en-US),NEW_es_ROB_Outro,line:07346c5,Guy,Но обычно стены не смыкаются вокруг тебя так буквально.
+dialogue:ROB_Outro (en-US):line:0237849,ROB_Outro (en-US),NEW_es_ROB_Outro,line:0237849,Guy,"Мне... лучше оценить ущерб и выяснить, что вызвало этот обвал."
+dialogue:ROB_Outro (en-US):line:0dcb4f8,ROB_Outro (en-US),NEW_es_ROB_Outro,line:0dcb4f8,Guy,"Пусть никто не говорит вам, что бухгалтерия — скучная штука."
+dialogue:RVR_Intro (en-US):line:0cb3680,RVR_Intro (en-US),RVR_Intro (es),line:0cb3680,Eel,"…Слушай, Джеб, я не знаю, что тебе сказать. Я тянул время, сколько мог. Толпа начинает нервничать. Давай начинать!"
+dialogue:RVR_Intro (en-US):line:04deb61,RVR_Intro (en-US),RVR_Intro (es),line:04deb61,Jeb,Это совсем не похоже на директора. Она никогда не опаздывает! Тем более на такое важное событие. Дадим ей ещё минуту!
+dialogue:RVR_Intro (en-US):line:01cc8a9,RVR_Intro (en-US),RVR_Intro (es),line:01cc8a9,Rival,"Давай. Я готова с тех пор, как это объявили. Поехали."
+dialogue:RVR_Intro (en-US):line:068717e,RVR_Intro (en-US),RVR_Intro (es),line:068717e,Jeb,Я пойду поищу её. Просто… начинайте без меня.
+dialogue:RVR_Intro (en-US):line:07b88e3,RVR_Intro (en-US),RVR_Intro (es),line:07b88e3,Eel,Студенты и коллеги! Наконец-то этот момент настал — Комната соперников! Сегодняшний матч проведу я и профессор Слип.
+dialogue:RVR_Intro (en-US):line:0f29244,RVR_Intro (en-US),RVR_Intro (es),line:0f29244,Eel,Это крупнейший конкурс в истории школы. Возвращение из мёртвых... прямо как у меня!
+dialogue:RVR_Intro (en-US):line:0b670e4,RVR_Intro (en-US),RVR_Intro (es),line:0b670e4,Rival,"Знаешь, я рада, что это 2 на 1. Когда я вас обоих уложу, это будет ещё более приятно."
+dialogue:RVR_Intro (en-US):line:0b70ebe,RVR_Intro (en-US),RVR_Intro (es),line:0b70ebe,Rival,"Я об этом мечтала. Когда я с вами покончу, вы больше никогда не захотите решать головоломки."
+dialogue:RVR_Outro (en-US):line:0279cda,RVR_Outro (en-US),RVR_Outro (es),line:0279cda,Rival,Я проиграла? Как такое могло случиться? Имя Пейсли навсегда останется синонимом… провала?
+dialogue:RVR_Outro (en-US):line:05e728f,RVR_Outro (en-US),RVR_Outro (es),line:05e728f,Eel,Вау! Какое выступление. Вы разнесли соперников. Именно ради этого всё и затевалось.
+dialogue:RVR_Outro (en-US):line:0ddb3e2,RVR_Outro (en-US),RVR_Outro (es),line:0ddb3e2,Eel,"Ну, этот фрагмент я должен был отчитать вместе с директором, но она всё ещё не появилась. Тем не менее, я горжусь тем, что вручаю вам титул Вершины Первого У—"
+dialogue:RVR_Outro (en-US):line:096dbe3,RVR_Outro (en-US),RVR_Outro (es),line:096dbe3,Jeb,"ЭЙ! *хрипит* Ил, все! *хрипит* У меня… ужасные новости!"
+dialogue:RVR_Outro (en-US):line:09d8c9c,RVR_Outro (en-US),RVR_Outro (es),line:09d8c9c,Jeb,Я искал директора в её кабинете и нашёл… письмо.
+dialogue:RVR_Outro (en-US):line:0674bb5,RVR_Outro (en-US),RVR_Outro (es),line:0674bb5,Jeb,Она… подала в отставку!
+dialogue:RVR_Outro (en-US):line:04c9afc,RVR_Outro (en-US),RVR_Outro (es),line:04c9afc,Quanty,Без директора школа не может функционировать.
+dialogue:RVR_Outro (en-US):line:086cf54,RVR_Outro (en-US),RVR_Outro (es),line:086cf54,Allie,Что это значит для студентов?
+dialogue:RVR_Outro (en-US):line:0bcf779,RVR_Outro (en-US),RVR_Outro (es),line:0bcf779,Slip,А что это значит для нас?
+dialogue:RVR_Outro (en-US):line:0b8eb33,RVR_Outro (en-US),RVR_Outro (es),line:0b8eb33,Jeb,"Подождите… в письме есть ещё кое-что. Директор оставила инструкции. Похоже, она выбрала преемника, который возьмёт на себя управление школой. Это…"
+dialogue:RVR_Outro (en-US):line:0bee238,RVR_Outro (en-US),RVR_Outro (es),line:0bee238,Jeb,Это Ил!
+dialogue:RVR_Outro (en-US):line:0c11d04,RVR_Outro (en-US),RVR_Outro (es),line:0c11d04,Eel,"Меня..? Но… но я только что вернулся. Я имею в виду, мне в честь, и, очевидно, я вполне квалифицирован, но…"
+dialogue:RVR_Outro (en-US):line:0582bfa,RVR_Outro (en-US),RVR_Outro (es),line:0582bfa,Eel,Ну… у Сэнди всегда были свои причины… Ладно. Я в деле! Я встану на защиту Академии побегов.
+dialogue:RVR_Outro (en-US):line:07e3a3a,RVR_Outro (en-US),RVR_Outro (es),line:07e3a3a,Eel,Я не подведу директора. Я не подведу вас всех.
+dialogue:RVR_Outro (en-US):line:023e187,RVR_Outro (en-US),RVR_Outro (es),line:023e187,Rival,Хм…
+dialogue:SAW_Intro (en-US):line:0b87ffc,SAW_Intro (en-US),NEW_es_SAW_Intro,line:0b87ffc,Mads,Ой. Это… студенты.
+dialogue:SAW_Intro (en-US):line:0da53d8,SAW_Intro (en-US),NEW_es_SAW_Intro,line:0da53d8,Mads,Уже время на урок? Ах! Эта дурацкая ракета. Я совсем потеряла нить.
+dialogue:SAW_Intro (en-US):line:08254b2,SAW_Intro (en-US),NEW_es_SAW_Intro,line:08254b2,Mads,"Ну, раз вы уже здесь…"
+dialogue:SAW_Intro (en-US):line:0e047f9,SAW_Intro (en-US),NEW_es_SAW_Intro,line:0e047f9,Mads,"Посмотрите, во что нас заставила ввязаться наша почтенная директор. В этот раз мне пришлось строить это."
+dialogue:SAW_Intro (en-US):line:0004925,SAW_Intro (en-US),NEW_es_SAW_Intro,line:0004925,Mads,"Как будто башни было мало, теперь ещё и… вздох… ракета."
+dialogue:SAW_Intro (en-US):line:05e4189,SAW_Intro (en-US),NEW_es_SAW_Intro,line:05e4189,Mads,"У меня есть дела поважнее, чем заниматься капризами Горацио."
+dialogue:SAW_Intro (en-US):line:0e8cf6b,SAW_Intro (en-US),NEW_es_SAW_Intro,line:0e8cf6b,Mads,"Но… вы здесь. И у меня есть планка по урокам, которую нужно выполнить. Так что…"
+dialogue:SAW_Intro (en-US):line:000363e,SAW_Intro (en-US),NEW_es_SAW_Intro,line:000363e,Mads,"Полагаю, вы поможете мне уложиться в эти нереальные сроки запуска. Давайте уже запустим эту штуку."
+dialogue:SAW_Intro (en-US):line:0e57b70,SAW_Intro (en-US),NEW_es_SAW_Intro,line:0e57b70,Mads,Не хочется расстраивать <i>директора!</i> Он всегда наблюдает за нами со своей башни…
+dialogue:SAW_Intro (en-US):line:01f22ec,SAW_Intro (en-US),NEW_es_SAW_Intro,line:01f22ec,Mads,За мной…
+dialogue:SAW_Intro (en-US):line:0bf96f4,SAW_Intro (en-US),NEW_es_SAW_Intro,line:0bf96f4,YoungSandy,"Вау, она правда не очень высокого мнения о директоре Виндзоре."
+dialogue:SAW_Intro (en-US):line:0ede434,SAW_Intro (en-US),NEW_es_SAW_Intro,line:0ede434,YoungEel,"Хотя, кажется, она о нём думает довольно часто…"
+dialogue:SAW_Outro (en-US):line:06bda2b,SAW_Outro (en-US),NEW_es_SAW_Outro,line:06bda2b,YoungSandy,Профессор Монстронг! Вы в порядке?!
+dialogue:SAW_Outro (en-US):line:0665115,SAW_Outro (en-US),NEW_es_SAW_Outro,line:0665115,Mads,Хм... что-что... ах...
+dialogue:SAW_Outro (en-US):line:00e141d,SAW_Outro (en-US),NEW_es_SAW_Outro,line:00e141d,YoungEel,Чёрт. Её сильно ударило.
+dialogue:SAW_Outro (en-US):line:0db82de,SAW_Outro (en-US),NEW_es_SAW_Outro,line:0db82de,Mads,"Ч-что... *Ахает* Ракета! Она наведена прямо на башню, нам нужно--"
+dialogue:SAW_Outro (en-US):line:00fd5fb,SAW_Outro (en-US),NEW_es_SAW_Outro,line:00fd5fb,YoungSandy,"Всё в порядке, профессор. Мы всё починили. Ракета стартовала без сучка и задоринки."
+dialogue:SAW_Outro (en-US):line:0c7f33c,SAW_Outro (en-US),NEW_es_SAW_Outro,line:0c7f33c,YoungEel,"Ты, Сэнди, немного приукрасила."
+dialogue:SAW_Outro (en-US):line:0561327,SAW_Outro (en-US),NEW_es_SAW_Outro,line:0561327,YoungSandy,В любом случае... у нас получился вертикальный старт!
+dialogue:SAW_Outro (en-US):line:0e6b581,SAW_Outro (en-US),NEW_es_SAW_Outro,line:0e6b581,Mads,"Я ему говорила... Я говорила, что вся эта затея слишком агрессивная, но он <i>настаивал</i>. Этот человек однажды себя убьёт..."
+dialogue:SAW_Outro (en-US):line:06f9815,SAW_Outro (en-US),NEW_es_SAW_Outro,line:06f9815,Mads,"И я уверена, что это не в последний раз, когда он <i>меня</i> током бьёт..."
+dialogue:SAW_Outro (en-US):line:042c992,SAW_Outro (en-US),NEW_es_SAW_Outro,line:042c992,Mads,Хотя бы смогу вернуться к работе. Простите.
+dialogue:SNK_Intro (en-US):line:0be5a09,SNK_Intro (en-US),SNK_Intro (es),line:0be5a09,,<i>После многих миль в вентиляции...</i>
+dialogue:SNK_Intro (en-US):line:0d7312a,SNK_Intro (en-US),SNK_Intro (es),line:0d7312a,Liz,"Внимание, все учёные! Внимание, все учёные!"
+dialogue:SNK_Intro (en-US):line:0e21193,SNK_Intro (en-US),SNK_Intro (es),line:0e21193,Liz,"Эксперимент начнётся через двадцать минут! Все необходимые сотрудники, направляйтесь на верхний этаж для передачи заключённых!"
+dialogue:SNK_Intro (en-US):line:0a86cc5,SNK_Intro (en-US),SNK_Intro (es),line:0a86cc5,HenchmanA_@henchmanA,"Вот и всё! Настал тот день, ради которого мы так много тренировались! Эскаписты в наших руках!!"
+dialogue:SNK_Intro (en-US):line:03ed5b2,SNK_Intro (en-US),SNK_Intro (es),line:03ed5b2,HenchmanB_@henchmanB,"Да, я, кажется, никогда не думал, что это реально произойдёт."
+dialogue:SNK_Intro (en-US):line:021113f,SNK_Intro (en-US),SNK_Intro (es),line:021113f,HenchmanA_@henchmanA,"О чём ты? Мы лучшие! Доктор Немет — гений! Она выведет нас на научные вершины, о которых ты мог только мечтать!"
+dialogue:SNK_Intro (en-US):line:097a3db,SNK_Intro (en-US),SNK_Intro (es),line:097a3db,HenchmanA_@henchmanA,Только представь... Ежегодный научный парад... Доктор Немет восседает на самом высоком плавучем шатре! А мне выпадает честь стоять прямо рядом с ней!
+dialogue:SNK_Intro (en-US):line:030f687,SNK_Intro (en-US),SNK_Intro (es),line:030f687,HenchmanB_@henchmanB,Эм...
+dialogue:SNK_Intro (en-US):line:06da2b1,SNK_Intro (en-US),SNK_Intro (es),line:06da2b1,HenchmanB_@henchmanB,"Давай просто пойдём к лифту, хорошо?"
+dialogue:SNK_Outro (en-US):line:01cc9ee,SNK_Outro (en-US),SNK_Outro (es),line:01cc9ee,Headmaster,"О, Лиз. Мне правда больно видеть тебя такой. Ты должна понимать, что тебе это не сойдёт с рук."
+dialogue:SNK_Outro (en-US):line:0ad01b1,SNK_Outro (en-US),SNK_Outro (es),line:0ad01b1,Liz,"Не сойдёт с рук? Я уже добилась своего, <i>Сэнди</i>. Или ты не заметила, что вы все теперь мои пленники?"
+dialogue:SNK_Outro (en-US):line:0d798eb,SNK_Outro (en-US),SNK_Outro (es),line:0d798eb,Liz,"Смирись. Мнимая мощь Академии побегов — не соперник для ума, подобного моему. На этот раз всё пойдёт не так, как в наши школьные годы."
+dialogue:SNK_Outro (en-US):line:0023063,SNK_Outro (en-US),SNK_Outro (es),line:0023063,Rival,"Похоже, вы задели больное, директор."
+dialogue:SNK_Outro (en-US):line:05052d9,SNK_Outro (en-US),SNK_Outro (es),line:05052d9,Liz,"Моё отчисление — худшая ошибка в истории Академии! А ты, Сэнди, не сделала ничего, чтобы это предотвратить."
+dialogue:SNK_Outro (en-US):line:0159a98,SNK_Outro (en-US),SNK_Outro (es),line:0159a98,Liz,"Но скоро ты увидишь, что я построила полностью одна — без тебя, без Ила и без кого-либо ещё. Здесь, на Острове Антипобегов, <i>я</i> имею полный контроль."
+dialogue:SNK_Outro (en-US):line:08d599f,SNK_Outro (en-US),SNK_Outro (es),line:08d599f,HenchmanA,"Эй, доктор, просто сообщаю: некоторые парни запустили термоядерные реакторы."
+dialogue:SNK_Outro (en-US):line:02189fc,SNK_Outro (en-US),SNK_Outro (es),line:02189fc,Liz,"Почему меня не спросили о... ах, ладно! Стража, введите их в лабораторию!"
+dialogue:SNK_Outro (en-US):line:05c0bf1,SNK_Outro (en-US),SNK_Outro (es),line:05c0bf1,Jeb,"<i>Эй, директор... Вы заметили, что эти двое учёных подозрительно молчаливы..?</i>"
+dialogue:SNK_Outro (en-US):line:0cee5d6,SNK_Outro (en-US),SNK_Outro (es),line:0cee5d6,Jeb,"<i>Эй, директор... Вы заметили, что этот учёный подозрительно молчалив..?</i>"
+dialogue:SNK_Outro (en-US):line:013f0cf,SNK_Outro (en-US),SNK_Outro (es),line:013f0cf,Headmaster,"<i>В самый раз... Я знала, что они нас найдут. Все. Будьте готовы к моему сигналу...</i>"
+dialogue:SPY_AccuseTheStudentsPt1 (en-US):line:09b38f0,SPY_AccuseTheStudentsPt1 (en-US),NEW_es_SPY_AccuseTheStudentsPt1,line:09b38f0,Guy,"Все! Прошу внимания. Мне тяжело это произносить, но, кажется, я определил подозреваемого."
+dialogue:SPY_AccuseTheStudentsPt1 (en-US):line:0384103,SPY_AccuseTheStudentsPt1 (en-US),NEW_es_SPY_AccuseTheStudentsPt1,line:0384103,Guy,"Или, точнее... подозреваемых!"
+dialogue:SPY_AccuseTheStudentsPt1 (en-US):line:06cd507,SPY_AccuseTheStudentsPt1 (en-US),NEW_es_SPY_AccuseTheStudentsPt1,line:06cd507,Guy,"Да, двое, которые присутствовали на месте каждого преступления."
+dialogue:SPY_AccuseTheStudentsPt1 (en-US):line:051f90d,SPY_AccuseTheStudentsPt1 (en-US),NEW_es_SPY_AccuseTheStudentsPt1,line:051f90d,Horatio,Ты смеешь намекнуть на..?
+dialogue:SPY_AccuseTheStudentsPt1 (en-US):line:09b51e1,SPY_AccuseTheStudentsPt1 (en-US),NEW_es_SPY_AccuseTheStudentsPt1,line:09b51e1,Guy,"К сожалению, да. Виновные — Сандра и Ил."
+dialogue:SPY_AccuseTheStudentsPt1 (en-US):line:02a580a,SPY_AccuseTheStudentsPt1 (en-US),NEW_es_SPY_AccuseTheStudentsPt1,line:02a580a,Horatio,Мои лучшие ученики... предали меня!?
+dialogue:SPY_AccuseTheStudentsPt1 (en-US):line:0e0d85d,SPY_AccuseTheStudentsPt1 (en-US),NEW_es_SPY_AccuseTheStudentsPt1,line:0e0d85d,Mads,"Не люблю это признавать, но всё сходится."
+dialogue:SPY_AccuseTheStudentsPt1 (en-US):line:03e1645,SPY_AccuseTheStudentsPt1 (en-US),NEW_es_SPY_AccuseTheStudentsPt1,line:03e1645,Mads,"Они собрали ракету. Они были там, когда хранилище затопило. Чёрт возьми, они же приготовили нам ту отравленную еду!"
+dialogue:SPY_AccuseTheStudentsPt1 (en-US):line:0216f3e,SPY_AccuseTheStudentsPt1 (en-US),NEW_es_SPY_AccuseTheStudentsPt1,line:0216f3e,Chef,Но... они же просто студенты!
+dialogue:SPY_AccuseTheStudentsPt1 (en-US):line:055ccc8,SPY_AccuseTheStudentsPt1 (en-US),NEW_es_SPY_AccuseTheStudentsPt1,line:055ccc8,Horatio,Студенты с охотой на <i>убийство!</i>
+dialogue:SPY_AccuseTheStudentsPt1 (en-US):line:020f519,SPY_AccuseTheStudentsPt1 (en-US),NEW_es_SPY_AccuseTheStudentsPt1,line:020f519,Horatio,"О, какая жестокость! Предали меня мои же агенты!"
+dialogue:SPY_AccuseTheStudentsPt1 (en-US):line:08c70ea,SPY_AccuseTheStudentsPt1 (en-US),NEW_es_SPY_AccuseTheStudentsPt1,line:08c70ea,YoungEel,Да ну! Явно нас подставляют. У вас нет никаких доказательств!
+dialogue:SPY_AccuseTheStudentsPt1 (en-US):line:0084289,SPY_AccuseTheStudentsPt1 (en-US),NEW_es_SPY_AccuseTheStudentsPt1,line:0084289,Horatio,"Ну... а есть ли у вас доказательства, что это <i>не</i> вы?"
+dialogue:SPY_AccuseTheStudentsPt1 (en-US):line:06c8161,SPY_AccuseTheStudentsPt1 (en-US),NEW_es_SPY_AccuseTheStudentsPt1,line:06c8161,YoungSandy,Так суд не работает!
+dialogue:SPY_AccuseTheStudentsPt1 (en-US):line:0a15654,SPY_AccuseTheStudentsPt1 (en-US),NEW_es_SPY_AccuseTheStudentsPt1,line:0a15654,Horatio,"Простите, ребята. Я убеждён."
+dialogue:SPY_AccuseTheStudentsPt1 (en-US):line:0bcec98,SPY_AccuseTheStudentsPt1 (en-US),NEW_es_SPY_AccuseTheStudentsPt1,line:0bcec98,Horatio,Выйдите в холл. Совет вынесет приговор через пятнадцать минут.
+dialogue:SPY_AccuseTheStudentsPt2 (en-US):line:02966c2,SPY_AccuseTheStudentsPt2 (en-US),NEW_es_SPY_AccuseTheStudentsPt2,line:02966c2,YoungEel,"Чёрт. Я и вправду думал, что это Монстронг."
+dialogue:SPY_AccuseTheStudentsPt2 (en-US):line:0bb6758,SPY_AccuseTheStudentsPt2 (en-US),NEW_es_SPY_AccuseTheStudentsPt2,line:0bb6758,YoungEel,"Чёрт. Я и вправду думал, что это Гисборн."
+dialogue:SPY_AccuseTheStudentsPt2 (en-US):line:0d31c55,SPY_AccuseTheStudentsPt2 (en-US),NEW_es_SPY_AccuseTheStudentsPt2,line:0d31c55,YoungEel,"Чёрт. Я и вправду думал, что это Кэллион."
+dialogue:SPY_AccuseTheStudentsPt2 (en-US):line:08587c2,SPY_AccuseTheStudentsPt2 (en-US),NEW_es_SPY_AccuseTheStudentsPt2,line:08587c2,,Вы не должны видеть этот текст.
+dialogue:SPY_AccuseTheStudentsPt2 (en-US):line:0e12a5a,SPY_AccuseTheStudentsPt2 (en-US),NEW_es_SPY_AccuseTheStudentsPt2,line:0e12a5a,YoungSandy,"Они правда нас отчислят? У директора, похоже, крыша поехала. Только-только я начала чувствовать себя здесь как дома…"
+dialogue:SPY_AccuseTheStudentsPt2 (en-US):line:0724654,SPY_AccuseTheStudentsPt2 (en-US),NEW_es_SPY_AccuseTheStudentsPt2,line:0724654,YoungEel,"Погоди-ка. Всё ещё не кончено, Сэнди."
+dialogue:SPY_AccuseTheStudentsPt2 (en-US):line:022ec8a,SPY_AccuseTheStudentsPt2 (en-US),NEW_es_SPY_AccuseTheStudentsPt2,line:022ec8a,YoungEel,"Давай — мы разберёмся, пока этот «мудрый совет» не вынесет решение. Мы знаем, что невиновны!"
+dialogue:SPY_AccuseTheStudentsPt2 (en-US):line:04e6034,SPY_AccuseTheStudentsPt2 (en-US),NEW_es_SPY_AccuseTheStudentsPt2,line:04e6034,YoungSandy,Ты права. Пойдём докажем это.
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:0cc513d,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:0cc513d,Horatio,Не могу в это поверить! После всего этого убийцей-предателем оказался... повар Кэллион?! Он?!
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:0ec3ddd,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:0ec3ddd,YoungSandy,Мы же знали!
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:034f433,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:034f433,Chef,"<i>Горацио, ты пустой болван! Неужели ты не понимаешь?? Я больше не мог позволить тебе так безответственно управлять этим местом!</i> Мне пришлось взять всё в свои руки."
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:0cf40a0,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:0cf40a0,Chef,"<i>Да, ты пустой болван! Неужели ты не понимаешь?? Я больше не мог позволить тебе так безответственно управлять этим местом!</i> Мне пришлось взять всё в свои руки."
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:04eff5b,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:04eff5b,Chef,Я ослабил опорные балки в Комнате соперников!
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:01d8432,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:01d8432,Chef,Я вызвал коррозию болтов на башне ракеты!
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:003f2d4,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:003f2d4,Mads,Но как?!
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:00578aa,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:00578aa,Chef,Я взломал лифт директора!
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:0221018,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:0221018,Guy,Китч-трон всё это время дозировал ядерную кислоту!!
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:0793376,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:0793376,Chef,"И можешь быть уверен, что я отравил твои нелепые огурцы!"
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:0a259ce,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:0a259ce,Chef,"Как думаешь, почему я так и не откусил от своего бургера?! Он предназначался только для тебя!"
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:036e39a,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:036e39a,Horatio,"И ты сделал всё это, потому что завидовал мне!!"
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:00d6c48,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:00d6c48,Chef,"Нет, нет, нет!!! Вы что, не слушали?! Я сделал это, чтобы защитить учеников!"
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:09220d8,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:09220d8,Chef,"Я всегда действовал, чтобы защитить учеников!"
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:0b69694,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:0b69694,YoungEel,"Да-да, мы всё это уже поняли. Но зачем ты это сделал, повар? Ты должен нам объяснить причину."
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:07ba2e7,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:07ba2e7,Horatio,"Разве это не очевидно? Он сделал всё это, потому что завидовал мне!"
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:0a48c5b,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:0a48c5b,Chef,"Нет! Нет, я сделал это совсем не по этой причине!"
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:088e4f9,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:088e4f9,Chef,"Ты так увлёкся своими бесконечными спецэффектами, что забыл о самом важном в этой школе — об учениках!"
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:0a50812,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:0a50812,Chef,"День за днём ты подвергал их большей опасности, чем большинство взрослых эскапистов за всю жизнь!"
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:058561e,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:058561e,Chef,Так больше продолжаться не могло. Кто-то должен был вмешаться. Я должен был вмешаться!
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:02ec1c5,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:02ec1c5,Chef,И теперь... мне придётся импровизировать!
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:0652d28,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:0652d28,YoungSandy,<i>Он идёт за кислотным соплом!</i>
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:034795d,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:034795d,Chef,"Достаточно смертельно для тебя, Горацио?"
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:0851816,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:0851816,Chef,Погоди... что случилось? Почему оно не сработало? Почему оно не--
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:00f9c79,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:00f9c79,Chef,О нет... о нет.
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:0c8f3ba,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:0c8f3ba,Chef,Китч-трон... он перегрелся! Ядро расплавилось!
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:04fe9f1,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:04fe9f1,Chef,Боже мой... Что я наделал..? Что я наделал??
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:02d47ac,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:02d47ac,YoungEel,"Ты потерял рассудок и устроил ядерный взрыв во всей школе, вот что!"
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:05db752,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:05db752,Guy,"Скорее, нам нужно отвести учеников в бункер! Монстронг, за мной."
+dialogue:SPY_AccuseTheStudentsPt3 (en-US):line:054f35a,SPY_AccuseTheStudentsPt3 (en-US),NEW_es_SPY_AccuseTheStudentsPt3,line:054f35a,Mads,Горацио! Будь хоть раз полезен! <i>Ты должен обезвредить этот Китч-трон!</i>
+dialogue:SPY_ChefsCasePt1 (en-US):line:08f8ba9,SPY_ChefsCasePt1 (en-US),NEW_es_SPY_ChefsCasePt1,line:08f8ba9,Horatio,Повар Стюарт Кэллион.
+dialogue:SPY_ChefsCasePt1 (en-US):line:0686c43,SPY_ChefsCasePt1 (en-US),NEW_es_SPY_ChefsCasePt1,line:0686c43,Horatio,"Возможность, о которой я... честно говоря, даже не думал."
+dialogue:SPY_ChefsCasePt1 (en-US):line:0d5a754,SPY_ChefsCasePt1 (en-US),NEW_es_SPY_ChefsCasePt1,line:0d5a754,Horatio,"Но стоило мне насторожиться, когда тот отравленный обед уничтожил мой пищеварительный тракт!"
+dialogue:SPY_ChefsCasePt1 (en-US):line:004b1cc,SPY_ChefsCasePt1 (en-US),NEW_es_SPY_ChefsCasePt1,line:004b1cc,Horatio,"В конце концов, раскрывать такие интимные подробности о своем рационе — прямой путь к катастрофе."
+dialogue:SPY_ChefsCasePt1 (en-US):line:0c0d462,SPY_ChefsCasePt1 (en-US),NEW_es_SPY_ChefsCasePt1,line:0c0d462,Horatio,Хочешь узнать почему? Посмотри на <i>это!!</i>
+dialogue:SPY_ChefsCasePt1 (en-US):line:0403f63,SPY_ChefsCasePt1 (en-US),NEW_es_SPY_ChefsCasePt1,line:0403f63,Horatio,<i>Шшш... Сандра! Ил! Ваша очередь. Давайте-ка обжарим этого поваренка!</i>
+dialogue:SPY_ChefsCasePt2 (en-US):line:01d2168,SPY_ChefsCasePt2 (en-US),NEW_es_SPY_ChefsCasePt2,line:01d2168,Mads,"Ты не шутишь, Горацио? Ты урезал бюджет кухни?"
+dialogue:SPY_ChefsCasePt2 (en-US):line:026d7d3,SPY_ChefsCasePt2 (en-US),NEW_es_SPY_ChefsCasePt2,line:026d7d3,Horatio,Конечно. Ученикам <i>вовсе не обязательно</i> получать тысячу калорий в день.
+dialogue:SPY_ChefsCasePt2 (en-US):line:09ca154,SPY_ChefsCasePt2 (en-US),NEW_es_SPY_ChefsCasePt2,line:09ca154,Chef,<i>Две</i> тысячи! Им нужно <i>две</i> тысячи в день!
+dialogue:SPY_ChefsCasePt2 (en-US):line:0e91326,SPY_ChefsCasePt2 (en-US),NEW_es_SPY_ChefsCasePt2,line:0e91326,Horatio,"Ты бы <i>так</i> и подумал. Я чувствовал, как ты кипишь, за милю отсюда."
+dialogue:SPY_ChefsCasePt2 (en-US):line:076854c,SPY_ChefsCasePt2 (en-US),NEW_es_SPY_ChefsCasePt2,line:076854c,Horatio,"И это было не <i>всё</i>, что я чувствовал!!"
+dialogue:SPY_ChefsCasePt3 (en-US):line:035e5ef,SPY_ChefsCasePt3 (en-US),NEW_es_SPY_ChefsCasePt3,line:035e5ef,Mads,Это что... ведро рыбьего фарша?
+dialogue:SPY_ChefsCasePt3 (en-US):line:0414300,SPY_ChefsCasePt3 (en-US),NEW_es_SPY_ChefsCasePt3,line:0414300,Guy,"Повар! Не говори мне, что это та самая «таинственная мясная смесь», которую ты подаёшь в столовой!"
+dialogue:SPY_ChefsCasePt3 (en-US):line:002ce86,SPY_ChefsCasePt3 (en-US),NEW_es_SPY_ChefsCasePt3,line:002ce86,Horatio,"Не только это... Я бы поспорил, что именно этим меня и отравили!"
+dialogue:SPY_ChefsCasePt3 (en-US):line:090efa9,SPY_ChefsCasePt3 (en-US),NEW_es_SPY_ChefsCasePt3,line:090efa9,Chef,"Что?! Вы правда думаете, что я бы..."
+dialogue:SPY_ChefsCasePt3 (en-US):line:08e520c,SPY_ChefsCasePt3 (en-US),NEW_es_SPY_ChefsCasePt3,line:08e520c,Chef,"Сокращение бюджета или нет, я бы <i>никогда</i> не подал в своей кухне что-то столь грубое."
+dialogue:SPY_ChefsCasePt3 (en-US):line:0a6294d,SPY_ChefsCasePt3 (en-US),NEW_es_SPY_ChefsCasePt3,line:0a6294d,Chef,"Каждое блюдо, которое я готовлю, идеально сбалансировано для здоровья и питания учеников."
+dialogue:SPY_ChefsCasePt3 (en-US):line:007aec3,SPY_ChefsCasePt3 (en-US),NEW_es_SPY_ChefsCasePt3,line:007aec3,Chef,Этот фарш не был едой — он предназначался для компостной кучи.
+dialogue:SPY_ChefsCasePt3 (en-US):line:0bddc94,SPY_ChefsCasePt3 (en-US),NEW_es_SPY_ChefsCasePt3,line:0bddc94,YoungEel,"Подожди... В том, что сказал повар, что-то не сходится..."
+dialogue:SPY_ChefsCasePt3 (en-US):line:090eda1,SPY_ChefsCasePt3 (en-US),NEW_es_SPY_ChefsCasePt3,line:090eda1,YoungSandy,"Я думаю, ты прав, Ил."
+dialogue:SPY_ChefsCasePt4 (en-US):line:077819c,SPY_ChefsCasePt4 (en-US),NEW_es_SPY_ChefsCasePt4,line:077819c,YoungEel,"Кэллион... Ты хочешь сказать, что компостируешь отходы со своей кухни?"
+dialogue:SPY_ChefsCasePt4 (en-US):line:02d08e3,SPY_ChefsCasePt4 (en-US),NEW_es_SPY_ChefsCasePt4,line:02d08e3,Chef,Разумеется. Это одно из моих правил на кухне!
+dialogue:SPY_ChefsCasePt4 (en-US):line:0f9f79e,SPY_ChefsCasePt4 (en-US),NEW_es_SPY_ChefsCasePt4,line:0f9f79e,YoungSandy,Интересно. У нас как раз есть копия твоих правил на кухне.
+dialogue:SPY_ChefsCasePt4 (en-US):line:06a5e2e,SPY_ChefsCasePt4 (en-US),NEW_es_SPY_ChefsCasePt4,line:06a5e2e,YoungSandy,Там чётко сказано: «Мясные продукты запрещены в компосте».
+dialogue:SPY_ChefsCasePt4 (en-US):line:0c95b62,SPY_ChefsCasePt4 (en-US),NEW_es_SPY_ChefsCasePt4,line:0c95b62,YoungEel,Попался!
+dialogue:SPY_ChefsCasePt4 (en-US):line:0259b71,SPY_ChefsCasePt4 (en-US),NEW_es_SPY_ChefsCasePt4,line:0259b71,Chef,"О. Кажется, вы запутались."
+dialogue:SPY_ChefsCasePt4 (en-US):line:007fe5f,SPY_ChefsCasePt4 (en-US),NEW_es_SPY_ChefsCasePt4,line:007fe5f,Chef,"Действительно, мясо в компост не кладут."
+dialogue:SPY_ChefsCasePt4 (en-US):line:0b04c61,SPY_ChefsCasePt4 (en-US),NEW_es_SPY_ChefsCasePt4,line:0b04c61,Chef,Но тут нет противоречия... рыба не считается мясом.
+dialogue:SPY_ChefsCasePt4 (en-US):line:0d4dec6,SPY_ChefsCasePt4 (en-US),NEW_es_SPY_ChefsCasePt4,line:0d4dec6,Guy,"Папа Римский, пожалуй, был бы согласен..."
+dialogue:SPY_ChefsCasePt4 (en-US):line:0014f72,SPY_ChefsCasePt4 (en-US),NEW_es_SPY_ChefsCasePt4,line:0014f72,Chef,Этот фарш <i>никогда</i> не был частью какого-то абсурдного заговора об убийстве.
+dialogue:SPY_ChefsCasePt5 (en-US):line:0bebb1c,SPY_ChefsCasePt5 (en-US),NEW_es_SPY_ChefsCasePt5,line:0bebb1c,YoungSandy,"Обычно у тебя были бы основания, повар."
+dialogue:SPY_ChefsCasePt5 (en-US):line:095acee,SPY_ChefsCasePt5 (en-US),NEW_es_SPY_ChefsCasePt5,line:095acee,YoungEel,Но это прямо написано в твоих же рекомендациях по питанию.
+dialogue:SPY_ChefsCasePt5 (en-US):line:0f7cfaa,SPY_ChefsCasePt5 (en-US),NEW_es_SPY_ChefsCasePt5,line:0f7cfaa,YoungEel,"«<i>Мясо</i> также включает птицу, морепродукты и ракообразных»."
+dialogue:SPY_ChefsCasePt5 (en-US):line:01fd3c1,SPY_ChefsCasePt5 (en-US),NEW_es_SPY_ChefsCasePt5,line:01fd3c1,Guy,"Папа Римский, пожалуй, был бы не согласен..."
+dialogue:SPY_ChefsCasePt5 (en-US):line:0ad01be,SPY_ChefsCasePt5 (en-US),NEW_es_SPY_ChefsCasePt5,line:0ad01be,Chef,"Ладно, ребята. Вы меня поймали. Я готовил этот фарш для особого рецепта."
+dialogue:SPY_ChefsCasePt5 (en-US):line:06ffa8f,SPY_ChefsCasePt5 (en-US),NEW_es_SPY_ChefsCasePt5,line:06ffa8f,Chef,Но я сделал это ради вашего же блага. Поверьте мне.
+dialogue:SPY_ChefsCasePt5 (en-US):line:001e121,SPY_ChefsCasePt5 (en-US),NEW_es_SPY_ChefsCasePt5,line:001e121,YoungSandy,"Прости, повар. В этот раз мы не можем верить тебе на слово."
+dialogue:SPY_ChefsCasePt5 (en-US):line:09de6c4,SPY_ChefsCasePt5 (en-US),NEW_es_SPY_ChefsCasePt5,line:09de6c4,YoungEel,"Как нам доверять тому, кто лжёт о морепродуктах? Что ещё ты от нас скрываешь прямо у нас под носом?"
+dialogue:SPY_ChefsCasePt5 (en-US):line:09b2d62,SPY_ChefsCasePt5 (en-US),NEW_es_SPY_ChefsCasePt5,line:09b2d62,YoungEel,"Может, что-то в том твоём портфеле..?"
+dialogue:SPY_ChefsCasePt6 (en-US):line:01c8640,SPY_ChefsCasePt6 (en-US),NEW_es_SPY_ChefsCasePt6,line:01c8640,Horatio,"Погоди, это не яд. Это... рецепт... корма для акул!?"
+dialogue:SPY_ChefsCasePt6 (en-US):line:0d40109,SPY_ChefsCasePt6 (en-US),NEW_es_SPY_ChefsCasePt6,line:0d40109,Horatio,Ты... накормил моих акул <i>до</i> Комнаты соперников? Как они тогда собирались есть учеников?!
+dialogue:SPY_ChefsCasePt6 (en-US):line:04e1ada,SPY_ChefsCasePt6 (en-US),NEW_es_SPY_ChefsCasePt6,line:04e1ada,Chef,"Прости, директор. У меня не было выбора. Но вот что происходит, когда режут бюджет."
+dialogue:SPY_ChefsCasePt6 (en-US):line:071a18a,SPY_ChefsCasePt6 (en-US),NEW_es_SPY_ChefsCasePt6,line:071a18a,Horatio,Ты несёшь полную чушь!!! Комната соперников была полностью профинансирована! Я лично за этим следил.
+dialogue:SPY_ChefsCasePt6 (en-US):line:026db49,SPY_ChefsCasePt6 (en-US),NEW_es_SPY_ChefsCasePt6,line:026db49,Horatio,"И хватит меня отвлекать — этот фарш был для отравленных бургеров, а не для головоломок! Что ты несёшь?!"
+dialogue:SPY_ChefsCasePt6 (en-US):line:0e4d66b,SPY_ChefsCasePt6 (en-US),NEW_es_SPY_ChefsCasePt6,line:0e4d66b,Chef,"Ты такой узколобый, Горацио..."
+dialogue:SPY_ChefsCasePt6 (en-US):line:0e83107,SPY_ChefsCasePt6 (en-US),NEW_es_SPY_ChefsCasePt6,line:0e83107,Chef,"Ил, Сэнди, я уверен, что <i>вы</i> понимаете, что происходит."
+dialogue:SPY_ChefsCasePt7 (en-US):line:0b3551d,SPY_ChefsCasePt7 (en-US),NEW_es_SPY_ChefsCasePt7,line:0b3551d,YoungEel,"Оказывается, в Комнате соперников нам не грозила такая опасность, как мы думали."
+dialogue:SPY_ChefsCasePt7 (en-US):line:0e511d4,SPY_ChefsCasePt7 (en-US),NEW_es_SPY_ChefsCasePt7,line:0e511d4,YoungEel,"Думаю, уснувшая акула гораздо безопаснее голодной."
+dialogue:SPY_ChefsCasePt7 (en-US):line:061ec2c,SPY_ChefsCasePt7 (en-US),NEW_es_SPY_ChefsCasePt7,line:061ec2c,YoungSandy,"Ты... сделал всё это, чтобы защитить нас, повар?"
+dialogue:SPY_ChefsCasePt7 (en-US):line:08c3733,SPY_ChefsCasePt7 (en-US),NEW_es_SPY_ChefsCasePt7,line:08c3733,Chef,"Да. И без бюджета на безопасность это не первый раз, когда мне приходится выкручиваться, чтобы уберечь вас, ребята."
+dialogue:SPY_ChefsCasePt7 (en-US):line:0fbb414,SPY_ChefsCasePt7 (en-US),NEW_es_SPY_ChefsCasePt7,line:0fbb414,Horatio,"Повар, как бы это сказать... Ты..."
+dialogue:SPY_ChefsCasePt7 (en-US):line:0fc76fc,SPY_ChefsCasePt7 (en-US),NEW_es_SPY_ChefsCasePt7,line:0fc76fc,Horatio,Всё ещё мой самый ненавистный сотрудник.
+dialogue:SPY_ChefsCasePt7 (en-US):line:03b38bc,SPY_ChefsCasePt7 (en-US),NEW_es_SPY_ChefsCasePt7,line:03b38bc,Horatio,"Но похоже, твоё ведро с приманкой <i>не было</i> тем ядовитым оружием, которого я боялся."
+dialogue:SPY_ChefsCasePt7 (en-US):line:07b94d5,SPY_ChefsCasePt7 (en-US),NEW_es_SPY_ChefsCasePt7,line:07b94d5,Horatio,И это не помогает мне ответить на более важный вопрос...
+dialogue:SPY_ChefsCasePt7 (en-US):line:02266a3,SPY_ChefsCasePt7 (en-US),NEW_es_SPY_ChefsCasePt7,line:02266a3,Horatio,<i>Кто чёрт возьми пытается меня убить?!</i>
+dialogue:SPY_GuyCasePt1 (en-US):line:0725252,SPY_GuyCasePt1 (en-US),NEW_es_SPY_GuyCasePt1,line:0725252,Horatio,Профессор Гай Гисборн...
+dialogue:SPY_GuyCasePt1 (en-US):line:09b613a,SPY_GuyCasePt1 (en-US),NEW_es_SPY_GuyCasePt1,line:09b613a,Horatio,Предательство высшего порядка! Мой лучший друг ударил меня в спину!
+dialogue:SPY_GuyCasePt1 (en-US):line:0ec2426,SPY_GuyCasePt1 (en-US),NEW_es_SPY_GuyCasePt1,line:0ec2426,Horatio,"Но, полагаю, для <i>хитрого плута</i> это обычный день."
+dialogue:SPY_GuyCasePt1 (en-US):line:0db07f1,SPY_GuyCasePt1 (en-US),NEW_es_SPY_GuyCasePt1,line:0db07f1,Horatio,"Он мог открыть любой замок на территории, не оставив следов…"
+dialogue:SPY_GuyCasePt1 (en-US):line:0301e1f,SPY_GuyCasePt1 (en-US),NEW_es_SPY_GuyCasePt1,line:0301e1f,Horatio,"И, если подумать, у Гая есть веские причины желать мне <i>смерти!</i>"
+dialogue:SPY_GuyCasePt1 (en-US):line:0c0499e,SPY_GuyCasePt1 (en-US),NEW_es_SPY_GuyCasePt1,line:0c0499e,Horatio,Посмотрите на это <i>разрушительное доказательство!</i>
+dialogue:SPY_GuyCasePt1 (en-US):line:000e78d,SPY_GuyCasePt1 (en-US),NEW_es_SPY_GuyCasePt1,line:000e78d,Horatio,<i>Псс... Сандра! Ил! Ваша очередь. Давайте разоблачим этого</i> обольстителя<i>.</i>
+dialogue:SPY_GuyCasePt2 (en-US):line:03fce29,SPY_GuyCasePt2 (en-US),NEW_es_SPY_GuyCasePt2,line:03fce29,Horatio,Именно! В случае моей смерти Гай станет моим преемником. Ну и клише же ты оказался.
+dialogue:SPY_GuyCasePt2 (en-US):line:0abf403,SPY_GuyCasePt2 (en-US),NEW_es_SPY_GuyCasePt2,line:0abf403,Horatio,Я немедленно снимаю тебя с рассмотрения!
+dialogue:SPY_GuyCasePt2 (en-US):line:005478c,SPY_GuyCasePt2 (en-US),NEW_es_SPY_GuyCasePt2,line:005478c,Guy,"Горацио, не спеши с выводами! Мы дружим с того дня, как я сюда поступил! Подумай!"
+dialogue:SPY_GuyCasePt2 (en-US):line:03a3811,SPY_GuyCasePt2 (en-US),NEW_es_SPY_GuyCasePt2,line:03a3811,Guy,Эти клеветнические измышления — чистый бред.
+dialogue:SPY_GuyCasePt2 (en-US):line:0faff02,SPY_GuyCasePt2 (en-US),NEW_es_SPY_GuyCasePt2,line:0faff02,Horatio,Бред? Тогда как ты объяснишь <i>это!</i>
+dialogue:SPY_GuyCasePt3 (en-US):line:03f5bef,SPY_GuyCasePt3 (en-US),NEW_es_SPY_GuyCasePt3,line:03f5bef,,"«1 октября 1954 г. Подготовка к операции Ratio завершена. Да, 11/5 станет моим шедевром». — ГГ"
+dialogue:SPY_GuyCasePt3 (en-US):line:069567c,SPY_GuyCasePt3 (en-US),NEW_es_SPY_GuyCasePt3,line:069567c,Horatio,"Чёрт возьми, Гай. Ты мог бы и подписать признание, а потом просто ткнуть им мне в лицо! И что самое главное..."
+dialogue:SPY_GuyCasePt3 (en-US):line:065da82,SPY_GuyCasePt3 (en-US),NEW_es_SPY_GuyCasePt3,line:065da82,Horatio,"Сегодня 5 ноября! <size=0.85em>(Ого, неделя пролетела незаметно…)</size> Если бы я не созвал этот суд, ты бы попытался довести дело до конца!"
+dialogue:SPY_GuyCasePt3 (en-US):line:048c1df,SPY_GuyCasePt3 (en-US),NEW_es_SPY_GuyCasePt3,line:048c1df,Guy,"Горацио, не горячись, дружище. У всего этого есть совершенно невинное объяснение."
+dialogue:SPY_GuyCasePt3 (en-US):line:063b088,SPY_GuyCasePt3 (en-US),NEW_es_SPY_GuyCasePt3,line:063b088,Guy,"Никому не секрет, что Горацио и я — хорошие друзья."
+dialogue:SPY_GuyCasePt3 (en-US):line:01aa239,SPY_GuyCasePt3 (en-US),NEW_es_SPY_GuyCasePt3,line:01aa239,Horatio,<i>Были.</i>
+dialogue:SPY_GuyCasePt3 (en-US):line:0821013,SPY_GuyCasePt3 (en-US),NEW_es_SPY_GuyCasePt3,line:0821013,Guy,Именно поэтому я планировал устроить ему сюрприз-вечеринку на день рождения!
+dialogue:SPY_GuyCasePt3 (en-US):line:0ec744a,SPY_GuyCasePt3 (en-US),NEW_es_SPY_GuyCasePt3,line:0ec744a,Guy,5 ноября <i>никогда</i> не было планом убийства.
+dialogue:SPY_GuyCasePt3 (en-US):line:03b4bc2,SPY_GuyCasePt3 (en-US),NEW_es_SPY_GuyCasePt3,line:03b4bc2,YoungEel,"В том, что только что сказал Гисборн, что-то не сходится..."
+dialogue:SPY_GuyCasePt3 (en-US):line:009e60f,SPY_GuyCasePt3 (en-US),NEW_es_SPY_GuyCasePt3,line:009e60f,YoungSandy,Я с этим согласна...
+dialogue:SPY_GuyCasePt4 (en-US):line:0c5b9e6,SPY_GuyCasePt4 (en-US),NEW_es_SPY_GuyCasePt4,line:0c5b9e6,YoungEel,"Эй, Гисборн! По-твоему, Горацио — твой «лучший дружок», верно?"
+dialogue:SPY_GuyCasePt4 (en-US):line:0e77259,SPY_GuyCasePt4 (en-US),NEW_es_SPY_GuyCasePt4,line:0e77259,Guy,Да..?
+dialogue:SPY_GuyCasePt4 (en-US):line:01a338f,SPY_GuyCasePt4 (en-US),NEW_es_SPY_GuyCasePt4,line:01a338f,YoungSandy,"Тогда зачем ты планировал операцию «Рейо» на ноябрь, если день рождения директора в <i>мае?</i>"
+dialogue:SPY_GuyCasePt4 (en-US):line:0efdebb,SPY_GuyCasePt4 (en-US),NEW_es_SPY_GuyCasePt4,line:0efdebb,Guy,"Ах, ну, видите--"
+dialogue:SPY_GuyCasePt4 (en-US):line:0a32836,SPY_GuyCasePt4 (en-US),NEW_es_SPY_GuyCasePt4,line:0a32836,Horatio,"Непрощаемо! Все знают, что мой день рождения в мае — это трудно пропустить!"
+dialogue:SPY_GuyCasePt4 (en-US):line:0ef6805,SPY_GuyCasePt4 (en-US),NEW_es_SPY_GuyCasePt4,line:0ef6805,Guy,"Очевидно, я перепутал даты."
+dialogue:SPY_GuyCasePt4 (en-US):line:0a32cd5,SPY_GuyCasePt4 (en-US),NEW_es_SPY_GuyCasePt4,line:0a32cd5,Horatio,Перепутал даты!?
+dialogue:SPY_GuyCasePt4 (en-US):line:0c2e0dc,SPY_GuyCasePt4 (en-US),NEW_es_SPY_GuyCasePt4,line:0c2e0dc,Guy,"Ну, я только что вернулся из поездки в Англию, понимаете."
+dialogue:SPY_GuyCasePt4 (en-US):line:08ec240,SPY_GuyCasePt4 (en-US),NEW_es_SPY_GuyCasePt4,line:08ec240,Guy,"За океаном мы записываем даты иначе, чем у вас."
+dialogue:SPY_GuyCasePt4 (en-US):line:0045221,SPY_GuyCasePt4 (en-US),NEW_es_SPY_GuyCasePt4,line:0045221,Guy,11/5? 5/11? Безобидная ошибка!
+dialogue:SPY_GuyCasePt5 (en-US):line:0b9bc01,SPY_GuyCasePt5 (en-US),NEW_es_SPY_GuyCasePt5,line:0b9bc01,YoungSandy,"Профессор Гисборн, вы, должно быть, имеете в виду «Операцию Герцогиня»?"
+dialogue:SPY_GuyCasePt5 (en-US):line:03c8d68,SPY_GuyCasePt5 (en-US),NEW_es_SPY_GuyCasePt5,line:03c8d68,Guy,"Очень проницательно, Сандра. «Операция Герцогиня» действительно прошла успешно."
+dialogue:SPY_GuyCasePt5 (en-US):line:0d866d2,SPY_GuyCasePt5 (en-US),NEW_es_SPY_GuyCasePt5,line:0d866d2,YoungEel,Опять грязная ложь!
+dialogue:SPY_GuyCasePt5 (en-US):line:0d78875,SPY_GuyCasePt5 (en-US),NEW_es_SPY_GuyCasePt5,line:0d78875,Guy,"Следи за речью, Ил!"
+dialogue:SPY_GuyCasePt5 (en-US):line:0a29891,SPY_GuyCasePt5 (en-US),NEW_es_SPY_GuyCasePt5,line:0a29891,YoungSandy,"Он прав, профессор. «Операцию Герцогиня» отменили! Думаю, вы всё это время были в Академии и планировали что-то <i>более масштабное</i>."
+dialogue:SPY_GuyCasePt5 (en-US):line:05c01c4,SPY_GuyCasePt5 (en-US),NEW_es_SPY_GuyCasePt5,line:05c01c4,YoungEel,"Раз уж мы на волне... Я бы поспорил, что вы держите эти планы при себе."
+dialogue:SPY_GuyCasePt5 (en-US):line:05cc5a4,SPY_GuyCasePt5 (en-US),NEW_es_SPY_GuyCasePt5,line:05cc5a4,YoungEel,Почему бы вам не позволить нам заглянуть в ваш портфель?
+dialogue:SPY_GuyCasePt6 (en-US):line:0f12271,SPY_GuyCasePt6 (en-US),NEW_es_SPY_GuyCasePt6,line:0f12271,Horatio,«Операция Доля» была планом ограбить... <i>меня</i>!?
+dialogue:SPY_GuyCasePt6 (en-US):line:074f2ae,SPY_GuyCasePt6 (en-US),NEW_es_SPY_GuyCasePt6,line:074f2ae,Horatio,"Меня?! Твоего лучшего друга в мире?! Я так разочарован! Ты же был моей правой рукой, Гай!"
+dialogue:SPY_GuyCasePt6 (en-US):line:00e42de,SPY_GuyCasePt6 (en-US),NEW_es_SPY_GuyCasePt6,line:00e42de,Guy,"Не пойми меня неправильно, но для меня ты скорее... коллега? Который, как выяснилось, без нужды богат. Ничего личного, приятель."
+dialogue:SPY_GuyCasePt6 (en-US):line:00fee70,SPY_GuyCasePt6 (en-US),NEW_es_SPY_GuyCasePt6,line:00fee70,Guy,"Всё равно жаль. Я бы мог и на пенсию уйти после этого дела... но, похоже, судьба распорядилась иначе."
+dialogue:SPY_GuyCasePt6 (en-US):line:05b5bb7,SPY_GuyCasePt6 (en-US),NEW_es_SPY_GuyCasePt6,line:05b5bb7,Chef,"Судя по твоей репутации, ты мог бы уже десять раз выйти на пенсию."
+dialogue:SPY_GuyCasePt6 (en-US):line:01e16f7,SPY_GuyCasePt6 (en-US),NEW_es_SPY_GuyCasePt6,line:01e16f7,YoungSandy,"Не совсем. Профессор Гисборн «инвестировал» свои доходы куда-то ещё, не так ли, профессор?"
+dialogue:SPY_GuyCasePt6b (en-US):line:0f4981d,SPY_GuyCasePt6b (en-US),NEW_es_SPY_GuyCasePt6b,line:0f4981d,Horatio,"Да, это и есть «Операция Доля»."
+dialogue:SPY_GuyCasePt6b (en-US):line:0e7e05b,SPY_GuyCasePt6b (en-US),NEW_es_SPY_GuyCasePt6b,line:0e7e05b,Horatio,Но там столько зачёркнуто. Я не могу ничего понять.
+dialogue:SPY_GuyCasePt6b (en-US):line:0f2dbd5,SPY_GuyCasePt6b (en-US),NEW_es_SPY_GuyCasePt6b,line:0f2dbd5,YoungEel,"Этого документа недостаточно. Нам нужно показать директору <i>точно</i>, что это значит."
+dialogue:SPY_GuyCasePt7 (en-US):line:01a893f,SPY_GuyCasePt7 (en-US),NEW_es_SPY_GuyCasePt7,line:01a893f,Chef,"Воровать у богатых, чтобы дать бедным? Я впечатлён."
+dialogue:SPY_GuyCasePt7 (en-US):line:0a1dd62,SPY_GuyCasePt7 (en-US),NEW_es_SPY_GuyCasePt7,line:0a1dd62,YoungSandy,И каждый доллар учтён.
+dialogue:SPY_GuyCasePt7 (en-US):line:00425c0,SPY_GuyCasePt7 (en-US),NEW_es_SPY_GuyCasePt7,line:00425c0,Horatio,"Ну... не могу не признать, что твои намерения были благородны. Но, Гай, к маю..."
+dialogue:SPY_GuyCasePt7 (en-US):line:0f91551,SPY_GuyCasePt7 (en-US),NEW_es_SPY_GuyCasePt7,line:0f91551,Horatio,Ты мне должен просто легендарную вечеринку по случаю дня рождения.
+dialogue:SPY_GuyCasePt7 (en-US):line:00c8276,SPY_GuyCasePt7 (en-US),NEW_es_SPY_GuyCasePt7,line:00c8276,Horatio,Но один вопрос всё ещё не даёт мне покоя...
+dialogue:SPY_GuyCasePt7 (en-US):line:099e840,SPY_GuyCasePt7 (en-US),NEW_es_SPY_GuyCasePt7,line:099e840,Horatio,<i>Кто чёрт возьми пытается меня убить?!</i>
+dialogue:SPY_Intro (en-US):line:0a3e224,SPY_Intro (en-US),NEW_es_SPY_Intro,line:0a3e224,Horatio,"Спасибо, что откликнулись на моё приглашение. Я понимаю, что у вас плотный график, и не хочу вас задерживать. Но..."
+dialogue:SPY_Intro (en-US):line:01056de,SPY_Intro (en-US),NEW_es_SPY_Intro,line:01056de,Horatio,"<i>Один из вас, сумасшедших, пытался меня убить!!</i>"
+dialogue:SPY_Intro (en-US):line:047258c,SPY_Intro (en-US),NEW_es_SPY_Intro,line:047258c,Mads,"Я знала! Я была уверена, что моя работа над этой ракетой была безупречной."
+dialogue:SPY_Intro (en-US):line:066943c,SPY_Intro (en-US),NEW_es_SPY_Intro,line:066943c,Chef,"Это ужасно! Это значит, что яд в еде предназначался для тебя?!"
+dialogue:SPY_Intro (en-US):line:0543eb2,SPY_Intro (en-US),NEW_es_SPY_Intro,line:0543eb2,Guy,А затопление в хранилище было...
+dialogue:SPY_Intro (en-US):line:0b9271b,SPY_Intro (en-US),NEW_es_SPY_Intro,line:0b9271b,Horatio,"Я знаю, что это было! Неудачный переворот!"
+dialogue:SPY_Intro (en-US):line:036e06f,SPY_Intro (en-US),NEW_es_SPY_Intro,line:036e06f,Horatio,"И никто не покинет эту чёртову комнату, пока мы не выясним, кто за этим стоит!!"
+dialogue:SPY_Intro (en-US):line:0669b0a,SPY_Intro (en-US),NEW_es_SPY_Intro,line:0669b0a,Horatio,На это не уйдёт много времени...
+dialogue:SPY_Intro (en-US):line:086e855,SPY_Intro (en-US),NEW_es_SPY_Intro,line:086e855,Horatio,"Смотрите, пока один из вас замышлял мою гибель, я поручил двум своим лучшим ученикам раскрыть это дело."
+dialogue:SPY_Intro (en-US):line:0f93c48,SPY_Intro (en-US),NEW_es_SPY_Intro,line:0f93c48,Horatio,Они наблюдали за вами всё это время!
+dialogue:SPY_Intro (en-US):line:09070f3,SPY_Intro (en-US),NEW_es_SPY_Intro,line:09070f3,YoungSandy,"Простите за обман, профессора."
+dialogue:SPY_Intro (en-US):line:0f0802b,SPY_Intro (en-US),NEW_es_SPY_Intro,line:0f0802b,YoungEel,Мы не извиняемся. Один из вас отправится в тюрьму!
+dialogue:SPY_Intro (en-US):line:09112b1,SPY_Intro (en-US),NEW_es_SPY_Intro,line:09112b1,Horatio,"Вот это дух! Мои два звёздных детектива вас перехитрили! Они знают <i>точно</i>, чем вы занимались!"
+dialogue:SPY_Intro (en-US):line:0194bfe,SPY_Intro (en-US),NEW_es_SPY_Intro,line:0194bfe,Horatio,"<size=0.7em>(Господи, скажите мне, что вы уже поняли, что происходит.)</size>"
+dialogue:SPY_MadsCasePt1 (en-US):line:005a7b8,SPY_MadsCasePt1 (en-US),NEW_es_SPY_MadsCasePt1,line:005a7b8,Horatio,Профессор Мэделин Монстронг.
+dialogue:SPY_MadsCasePt1 (en-US):line:038df56,SPY_MadsCasePt1 (en-US),NEW_es_SPY_MadsCasePt1,line:038df56,Horatio,"Думаю, это не должно вас удивлять — она единственная, кто меня ненавидит! Это объясняет всё."
+dialogue:SPY_MadsCasePt1 (en-US):line:0b90735,SPY_MadsCasePt1 (en-US),NEW_es_SPY_MadsCasePt1,line:0b90735,Horatio,"И всё началось в Комнате соперников — Мэдс построила весь этот курс, чёрт возьми!"
+dialogue:SPY_MadsCasePt1 (en-US):line:0520052,SPY_MadsCasePt1 (en-US),NEW_es_SPY_MadsCasePt1,line:0520052,Horatio,"Её отпечатки повсюду — и в прямом, и в переносном смысле."
+dialogue:SPY_MadsCasePt1 (en-US):line:010f4db,SPY_MadsCasePt1 (en-US),NEW_es_SPY_MadsCasePt1,line:010f4db,Horatio,"И я клянусь, что видел, как она улыбалась, когда мой пьедестал начал опрокидываться..."
+dialogue:SPY_MadsCasePt1 (en-US):line:0e5499e,SPY_MadsCasePt1 (en-US),NEW_es_SPY_MadsCasePt1,line:0e5499e,Horatio,Но зачем она это сделала? Посмотрите на эти <i>неопровержимые улики!</i>
+dialogue:SPY_MadsCasePt1 (en-US):line:000e78d,SPY_MadsCasePt1 (en-US),NEW_es_SPY_MadsCasePt1,line:000e78d,Horatio,<i>Тсс... Сандра! Ил! Ваша очередь. Давайте прикончим этого</i> монстра<i>.</i>
+dialogue:SPY_MadsCasePt2 (en-US):line:0d6ab28,SPY_MadsCasePt2 (en-US),NEW_es_SPY_MadsCasePt2,line:0d6ab28,Horatio,"Ну-ну... разве это не <i>компрометирует</i> тебя, Мэделин? Ты <i>действительно</i> постоянно выдвигаешь чудаческие требования."
+dialogue:SPY_MadsCasePt2 (en-US):line:0a7c157,SPY_MadsCasePt2 (en-US),NEW_es_SPY_MadsCasePt2,line:0a7c157,Horatio,"Общественный фонтан? Лифт для еды? Отпуск? Да ну, это всё просто абсурд!"
+dialogue:SPY_MadsCasePt2 (en-US):line:0cd1cbd,SPY_MadsCasePt2 (en-US),NEW_es_SPY_MadsCasePt2,line:0cd1cbd,Horatio,"Но, конечно, ты хотела избавиться от меня! Без директора и с неограниченным отпуском ты была бы свободна строить что угодно, когда угодно!"
+dialogue:SPY_MadsCasePt2 (en-US):line:03b178e,SPY_MadsCasePt2 (en-US),NEW_es_SPY_MadsCasePt2,line:03b178e,Horatio,"Итак. Что, чёрт возьми, ты можешь сказать в свою защиту?"
+dialogue:SPY_MadsCasePt2 (en-US):line:046c0c4,SPY_MadsCasePt2 (en-US),NEW_es_SPY_MadsCasePt2,line:046c0c4,Mads,"Ну. Часть этого правда. Здесь было бы гораздо лучше, если бы ты не мешал всем работать, Горацио."
+dialogue:SPY_MadsCasePt2 (en-US):line:0b40fa0,SPY_MadsCasePt2 (en-US),NEW_es_SPY_MadsCasePt2,line:0b40fa0,Chef,Мэделин..!
+dialogue:SPY_MadsCasePt2 (en-US):line:0d8c432,SPY_MadsCasePt2 (en-US),NEW_es_SPY_MadsCasePt2,line:0d8c432,Mads,"Но мысль о том, что я прибегну к убийству, абсурдна. Ты... просто не стоишь таких усилий."
+dialogue:SPY_MadsCasePt2 (en-US):line:0d77e97,SPY_MadsCasePt2 (en-US),NEW_es_SPY_MadsCasePt2,line:0d77e97,Horatio,Ну... я... Это вряд ли поможет твоему делу!
+dialogue:SPY_MadsCasePt2 (en-US):line:09aba3e,SPY_MadsCasePt2 (en-US),NEW_es_SPY_MadsCasePt2,line:09aba3e,Horatio,"Если ты действительно невиновна, как ты объяснишь... это!?"
+dialogue:SPY_MadsCasePt3 (en-US):line:0a785fd,SPY_MadsCasePt3 (en-US),NEW_es_SPY_MadsCasePt3,line:0a785fd,Guy,"Чёрт, это ведь..."
+dialogue:SPY_MadsCasePt3 (en-US):line:0337c24,SPY_MadsCasePt3 (en-US),NEW_es_SPY_MadsCasePt3,line:0337c24,Chef,Профессор Монстронг возится с перекладиной Горацио в комнате соперников!
+dialogue:SPY_MadsCasePt3 (en-US):line:077a6d1,SPY_MadsCasePt3 (en-US),NEW_es_SPY_MadsCasePt3,line:077a6d1,Mads,*Вздыхает*
+dialogue:SPY_MadsCasePt3 (en-US):line:0895cc9,SPY_MadsCasePt3 (en-US),NEW_es_SPY_MadsCasePt3,line:0895cc9,Mads,"Да, это я. Но это далеко не доказательство того, что я убийца."
+dialogue:SPY_MadsCasePt3 (en-US):line:0c5c882,SPY_MadsCasePt3 (en-US),NEW_es_SPY_MadsCasePt3,line:0c5c882,Horatio,"Я сам буду судить об этом! Объясни это крайне подозрительное поведение <i>немедленно</i>, Мэделин."
+dialogue:SPY_MadsCasePt3 (en-US):line:0265d2a,SPY_MadsCasePt3 (en-US),NEW_es_SPY_MadsCasePt3,line:0265d2a,Mads,"Ладно. Но я просто терплю, чтобы поскорее выбраться отсюда и вернуться в свою мастерскую."
+dialogue:SPY_MadsCasePt3 (en-US):line:03fc162,SPY_MadsCasePt3 (en-US),NEW_es_SPY_MadsCasePt3,line:03fc162,Mads,"Да, в день большого события я пробралась в арену."
+dialogue:SPY_MadsCasePt3 (en-US):line:009caaf,SPY_MadsCasePt3 (en-US),NEW_es_SPY_MadsCasePt3,line:009caaf,Mads,"Весь маршрут был перенасыщен препятствиями, а у меня заканчивались материалы."
+dialogue:SPY_MadsCasePt3 (en-US):line:0171b07,SPY_MadsCasePt3 (en-US),NEW_es_SPY_MadsCasePt3,line:0171b07,Mads,Я всего лишь одолжила пару болтов. В чём проблема?
+dialogue:SPY_MadsCasePt3 (en-US):line:0ff5a87,SPY_MadsCasePt3 (en-US),NEW_es_SPY_MadsCasePt3,line:0ff5a87,YoungEel,В словах Монстронг что-то не сходится…
+dialogue:SPY_MadsCasePt3 (en-US):line:06fcbc6,SPY_MadsCasePt3 (en-US),NEW_es_SPY_MadsCasePt3,line:06fcbc6,YoungSandy,"Думаю, ты прав, Ил."
+dialogue:SPY_MadsCasePt4 (en-US):line:08dcc17,SPY_MadsCasePt4 (en-US),NEW_es_SPY_MadsCasePt4,line:08dcc17,YoungSandy,"Профессор Монстронг, вы взяли гораздо больше, чем «пару болтов», и у нас есть доказательства!"
+dialogue:SPY_MadsCasePt4 (en-US):line:02ab725,SPY_MadsCasePt4 (en-US),NEW_es_SPY_MadsCasePt4,line:02ab725,YoungEel,Посмотрите на этот список деталей. Для инженера это не очень-то грамотный расчёт.
+dialogue:SPY_MadsCasePt4 (en-US):line:0a279ca,SPY_MadsCasePt4 (en-US),NEW_es_SPY_MadsCasePt4,line:0a279ca,Guy,"Подождите, студенты… Ни одна из этих деталей не имеет отношения к рухнувшему насесту Горацио…"
+dialogue:SPY_MadsCasePt4 (en-US):line:092e4ac,SPY_MadsCasePt4 (en-US),NEW_es_SPY_MadsCasePt4,line:092e4ac,Mads,"Разумеется, нет! Они были для чего-то другого, дуболомы."
+dialogue:SPY_MadsCasePt4 (en-US):line:040188c,SPY_MadsCasePt4 (en-US),NEW_es_SPY_MadsCasePt4,line:040188c,Mads,"Детали, которые я... <i>одолжила</i>, были для общественной фонтанной установки, ладно?"
+dialogue:SPY_MadsCasePt4 (en-US):line:00764d4,SPY_MadsCasePt4 (en-US),NEW_es_SPY_MadsCasePt4,line:00764d4,Mads,"Горацио отказывал мне в каждой просьбе, так что мне не оставалось ничего, кроме как достать их самой."
+dialogue:SPY_MadsCasePt4 (en-US):line:04ab924,SPY_MadsCasePt4 (en-US),NEW_es_SPY_MadsCasePt4,line:04ab924,Mads,У этого человека всегда только более крупные ракеты и всё более изощрённые смертельные ловушки…
+dialogue:SPY_MadsCasePt5 (en-US):line:072e9b0,SPY_MadsCasePt5 (en-US),NEW_es_SPY_MadsCasePt5,line:072e9b0,YoungSandy,"Профессор Монстронг, вы сами спроектировали этот фонтан?"
+dialogue:SPY_MadsCasePt5 (en-US):line:08ebcb8,SPY_MadsCasePt5 (en-US),NEW_es_SPY_MadsCasePt5,line:08ebcb8,Mads,"Какой вопрос… Уф! Конечно, я!"
+dialogue:SPY_MadsCasePt5 (en-US):line:03709b5,SPY_MadsCasePt5 (en-US),NEW_es_SPY_MadsCasePt5,line:03709b5,YoungEel,Ты уверена? Потому что это странно — собирать такую штуку на медных болтах! Они же заржавеют!
+dialogue:SPY_MadsCasePt5 (en-US):line:08ce3c3,SPY_MadsCasePt5 (en-US),NEW_es_SPY_MadsCasePt5,line:08ce3c3,Mads,"Что случилось? Я думала, мы на «ты», пацан!"
+dialogue:SPY_MadsCasePt5 (en-US):line:0b16c10,SPY_MadsCasePt5 (en-US),NEW_es_SPY_MadsCasePt5,line:0b16c10,YoungEel,"Ни в жизнь, Монстронг. Те детали, что ты украла, были не для фонтана."
+dialogue:SPY_MadsCasePt5 (en-US):line:08b3287,SPY_MadsCasePt5 (en-US),NEW_es_SPY_MadsCasePt5,line:08b3287,YoungEel,"Они были для чего-то более личного. Для проекта, который ты хотела держать при себе."
+dialogue:SPY_MadsCasePt5 (en-US):line:04e1107,SPY_MadsCasePt5 (en-US),NEW_es_SPY_MadsCasePt5,line:04e1107,YoungSandy,"И я готова поспорить на свой Знак побегу, что этот чертёж сейчас у тебя в ящике с инструментами…"
+dialogue:SPY_MadsCasePt6 (en-US):line:0bbe273,SPY_MadsCasePt6 (en-US),NEW_es_SPY_MadsCasePt6,line:0bbe273,Horatio,"То есть ты говоришь, что <i>разобрал</i> мой курс, чтобы <i>тюнинговать</i> свою <i>машину!?</i>"
+dialogue:SPY_MadsCasePt6 (en-US):line:060a344,SPY_MadsCasePt6 (en-US),NEW_es_SPY_MadsCasePt6,line:060a344,Horatio,Монстронг!!
+dialogue:SPY_MadsCasePt6 (en-US):line:0584f08,SPY_MadsCasePt6 (en-US),NEW_es_SPY_MadsCasePt6,line:0584f08,Mads,"Вот и вся суть, но я не вижу в этом проблемы. Мероприятие уже закончилось."
+dialogue:SPY_MadsCasePt6 (en-US):line:0ef971f,SPY_MadsCasePt6 (en-US),NEW_es_SPY_MadsCasePt6,line:0ef971f,Guy,Уже…
+dialogue:SPY_MadsCasePt6 (en-US):line:0273c4b,SPY_MadsCasePt6 (en-US),NEW_es_SPY_MadsCasePt6,line:0273c4b,Chef,Закончилось!?
+dialogue:SPY_MadsCasePt6 (en-US):line:05c3251,SPY_MadsCasePt6 (en-US),NEW_es_SPY_MadsCasePt6,line:05c3251,Mads,"Вы все такие <i>тупые</i>. Ил, Сэнди, я уверена, что вы это видите."
+dialogue:SPY_MadsCasePt7 (en-US):line:08063c1,SPY_MadsCasePt7 (en-US),NEW_es_SPY_MadsCasePt7,line:08063c1,YoungSandy,"Шкафы уже были открыты, когда сделали этот снимок!"
+dialogue:SPY_MadsCasePt7 (en-US):line:0ea9f42,SPY_MadsCasePt7 (en-US),NEW_es_SPY_MadsCasePt7,line:0ea9f42,Horatio,Ну и ну! Ладно...
+dialogue:SPY_MadsCasePt7 (en-US):line:067d648,SPY_MadsCasePt7 (en-US),NEW_es_SPY_MadsCasePt7,line:067d648,Horatio,"Стоимость этих деталей будет вычтена из твоей следующей зарплаты, Монстронг."
+dialogue:SPY_MadsCasePt7 (en-US):line:013b78a,SPY_MadsCasePt7 (en-US),NEW_es_SPY_MadsCasePt7,line:013b78a,Horatio,"Но, возможно, ты не холоднокровная убийца..."
+dialogue:SPY_MadsCasePt7 (en-US):line:08e928a,SPY_MadsCasePt7 (en-US),NEW_es_SPY_MadsCasePt7,line:08e928a,Horatio,"Ты просто бесчувственная недовольная, у которой безосновательная неприязнь к начальству!"
+dialogue:SPY_MadsCasePt7 (en-US):line:0865c8a,SPY_MadsCasePt7 (en-US),NEW_es_SPY_MadsCasePt7,line:0865c8a,Horatio,Но один вопрос всё ещё не даёт мне покоя...
+dialogue:SPY_MadsCasePt7 (en-US):line:0cad76b,SPY_MadsCasePt7 (en-US),NEW_es_SPY_MadsCasePt7,line:0cad76b,Horatio,<i>Кто чёрт возьми пытается меня убить?!</i>
+dialogue:SPY_Outro (en-US):line:03e1be8,SPY_Outro (en-US),NEW_es_SPY_Outro,line:03e1be8,Horatio,Ха-ха! Я победил! Никакого взрывного финала для тебя! Что скажешь в своё оправдание?
+dialogue:SPY_Outro (en-US):line:05b990a,SPY_Outro (en-US),NEW_es_SPY_Outro,line:05b990a,Chef,Я...
+dialogue:SPY_Outro (en-US):line:082d3f9,SPY_Outro (en-US),NEW_es_SPY_Outro,line:082d3f9,Horatio,Риторический вопрос!
+dialogue:SPY_Outro (en-US):line:034a815,SPY_Outro (en-US),NEW_es_SPY_Outro,line:034a815,Chef,"Мне нечего сказать... по крайней мере, не тебе, <i>директор</i>."
+dialogue:SPY_Outro (en-US):line:0baa240,SPY_Outro (en-US),NEW_es_SPY_Outro,line:0baa240,Chef,Но Сэнди и Илу... у меня есть совет.
+dialogue:SPY_Outro (en-US):line:01bdc56,SPY_Outro (en-US),NEW_es_SPY_Outro,line:01bdc56,Chef,"Пожалуйста. <i>Пожалуйста</i>. Вы — будущее этой Академии. Станьте лучше. Лучше, чем этот директор."
+dialogue:SPY_Outro (en-US):line:0d41cea,SPY_Outro (en-US),NEW_es_SPY_Outro,line:0d41cea,Chef,"Лучше, чем я..."
+dialogue:SPY_Outro (en-US):line:0711037,SPY_Outro (en-US),NEW_es_SPY_Outro,line:0711037,YoungEel,"Планка не очень высокая, Кэллион... но, полагаю, договорились."
+dialogue:SPY_Outro (en-US):line:0113e27,SPY_Outro (en-US),NEW_es_SPY_Outro,line:0113e27,YoungSandy,Ты подошёл к делу совсем неправильно... но мы постараемся изо всех сил.
+dialogue:SPY_Outro (en-US):line:01bab48,SPY_Outro (en-US),NEW_es_SPY_Outro,line:01bab48,Horatio,"Прощай, <i>предатель</i>!"
+dialogue:SPY_Outro (en-US):line:0928d9c,SPY_Outro (en-US),NEW_es_SPY_Outro,line:0928d9c,Horatio,"И вот как нужно поступать с убийцей, дети! Всё сложилось идеально."
+dialogue:SPY_Outro (en-US):line:008649b,SPY_Outro (en-US),NEW_es_SPY_Outro,line:008649b,Mads,*Хм.* Ты пять раз чуть не погиб в этом семестре. И едва не взорвал школу.
+dialogue:SPY_Outro (en-US):line:0256bc6,SPY_Outro (en-US),NEW_es_SPY_Outro,line:0256bc6,Guy,"Да, Виндзор. Не говоря уже о том, что ты очернил мою репутацию безосновательными обвинениями!"
+dialogue:SPY_Outro (en-US):line:02aaead,SPY_Outro (en-US),NEW_es_SPY_Outro,line:02aaead,Guy,"Ты уверен в этом, приятель? Тебя чуть не убили... раза пять, наверное."
+dialogue:SPY_Outro (en-US):line:06dfd0f,SPY_Outro (en-US),NEW_es_SPY_Outro,line:06dfd0f,Mads,"И ты позволил этим двоим убедить себя, что во всём виновата <i>я</i>."
+dialogue:SPY_Outro (en-US):line:01041f2,SPY_Outro (en-US),NEW_es_SPY_Outro,line:01041f2,Mads,"*Хм.* Ты пять раз чуть не погиб в этом семестре. Не говоря уже о том, что тебе понадобились дети, чтобы разобраться во всём."
+dialogue:SPY_Outro (en-US):line:05927f3,SPY_Outro (en-US),NEW_es_SPY_Outro,line:05927f3,Guy,"Не твоя лучшая работа, приятель."
+dialogue:SPY_Outro (en-US):line:0c21dda,SPY_Outro (en-US),NEW_es_SPY_Outro,line:0c21dda,,Ты не должен видеть этот текст.
+dialogue:SPY_Outro (en-US):line:0029086,SPY_Outro (en-US),NEW_es_SPY_Outro,line:0029086,Horatio,"Ах, э-э, да, ну... полагаю, вы отчасти правы... возможно, мне стоит немного задуматься о себе."
+dialogue:SPY_Outro (en-US):line:0bb3d87,SPY_Outro (en-US),NEW_es_SPY_Outro,line:0bb3d87,Horatio,"Но в одном я был абсолютно прав — в том, что доверился вам двоим."
+dialogue:SPY_Outro (en-US):line:0c20eae,SPY_Outro (en-US),NEW_es_SPY_Outro,line:0c20eae,Horatio,"Продолжайте в том же духе... однажды, возможно, вам поставят памятник."
+dialogue:SPY_Outro (en-US):line:0fe035c,SPY_Outro (en-US),NEW_es_SPY_Outro,line:0fe035c,YoungSandy,Так...
+dialogue:SPY_Outro (en-US):line:0543435,SPY_Outro (en-US),NEW_es_SPY_Outro,line:0543435,YoungSandy,Что дальше для Ила Барнса? Я имею в виду после выпуска.
+dialogue:SPY_Outro (en-US):line:0381ad4,SPY_Outro (en-US),NEW_es_SPY_Outro,line:0381ad4,YoungEel,Честно? Пока ничего не зовёт меня.
+dialogue:SPY_Outro (en-US):line:0c1be65,SPY_Outro (en-US),NEW_es_SPY_Outro,line:0c1be65,YoungEel,"Но спасение школы? По-настоящему почувствовал, что впервые применил свои навыки во благо. Как будто сделал что-то действительно важное."
+dialogue:SPY_Outro (en-US):line:02be588,SPY_Outro (en-US),NEW_es_SPY_Outro,line:02be588,YoungEel,"А ты? Ставлю, у тебя всё уже спланировано. Чёрт возьми, ты, наверное, будешь управлять этим местом когда-нибудь."
+dialogue:SPY_Outro (en-US):line:0e4d2a0,SPY_Outro (en-US),NEW_es_SPY_Outro,line:0e4d2a0,YoungSandy,"Ха! Ни за что. После того, что случилось с директором Виндзором…"
+dialogue:SPY_Outro (en-US):line:0473926,SPY_Outro (en-US),NEW_es_SPY_Outro,line:0473926,YoungSandy,Мне бы ни за какие деньги не стать руководителем Академии побегов.
+dialogue:SPY_WrongEvidence (en-US):line:06282c6,SPY_WrongEvidence (en-US),NEW_es_SPY_WrongEvidence,line:06282c6,Horatio,"Конечно! Всё <i>ровно</i> так, как я и подозревал…"
+dialogue:SPY_WrongEvidence (en-US):line:06e74a4,SPY_WrongEvidence (en-US),NEW_es_SPY_WrongEvidence,line:06e74a4,Horatio,"Эти улики без тени сомнения доказывают, что… э-э…"
+dialogue:SPY_WrongEvidence (en-US):line:06b4925,SPY_WrongEvidence (en-US),NEW_es_SPY_WrongEvidence,line:06b4925,Horatio,"Погодите. Что это за хрень? Вы что, специально мне эту бумажку дали…?"
+dialogue:SPY_WrongEvidence (en-US):line:03b566a,SPY_WrongEvidence (en-US),NEW_es_SPY_WrongEvidence,line:03b566a,YoungSandy,Э-э…
+dialogue:TBT_Intro (en-US):line:086a8e5,TBT_Intro (en-US),TBT_Intro (es),line:086a8e5,Jeb,"Слушай, здорово, что Ил вернулся, правда? У меня на стене висел его постер, пока мне не исполнилось двадцать семь. Будет весело, когда он тут!"
+dialogue:TBT_Intro (en-US):line:0f5ce7e,TBT_Intro (en-US),TBT_Intro (es),line:0f5ce7e,Jeb,"Кстати, у меня кое-что для тебя. С того дня в «Трешере» я чувствую себя на подъёме."
+dialogue:TBT_Intro (en-US):line:0b2656a,TBT_Intro (en-US),TBT_Intro (es),line:0b2656a,Jeb,Так что я решил попробовать смастерить маленькую загадку с приятным призом — молочным коктейлем!
+dialogue:TBT_Intro (en-US):line:02e0020,TBT_Intro (en-US),TBT_Intro (es),line:02e0020,Jeb,"Посмотри, сможешь ли ты её решить, пока коктейль не превратился в жидкую кашу!"
+dialogue:TBT_MidwayCutscene (en-US):line:05bd3a0,TBT_MidwayCutscene (en-US),TBT_MidwayCutscene (es),line:05bd3a0,Jeb,Э-э… всё в порядке? Ты выглядишь немного… неважно.
+dialogue:TBT_MidwayCutscene (en-US):line:094bea7,TBT_MidwayCutscene (en-US),TBT_MidwayCutscene (es),line:094bea7,Eel,"Хм, может, потому что они пьют отравленный коктейль."
+dialogue:TBT_MidwayCutscene (en-US):line:0da8706,TBT_MidwayCutscene (en-US),TBT_MidwayCutscene (es),line:0da8706,Jeb,Ты его отравил?! Н-но зачем? Я же готовил его с любовью!
+dialogue:TBT_MidwayCutscene (en-US):line:0b6a416,TBT_MidwayCutscene (en-US),TBT_MidwayCutscene (es),line:0b6a416,Eel,"Обед — не повод расслабляться! Ты что, думаешь, побег берёт перерыв?"
+dialogue:TBT_MidwayCutscene (en-US):line:0036ccc,TBT_MidwayCutscene (en-US),TBT_MidwayCutscene (es),line:0036ccc,Eel,Лучше поспеши с противоядием. Эта штука совсем не полезна для селезёнки.
+dialogue:TBT_Outro (en-US):line:0a3411e,TBT_Outro (en-US),TBT_Outro (es),line:0a3411e,Jeb,"Вау, я уж было подумал, что ты сдох."
+dialogue:TBT_Outro (en-US):line:09f97ef,TBT_Outro (en-US),TBT_Outro (es),line:09f97ef,Eel,"Хорошая работа. Мне, наверное, кажется, что я слишком строгий, но если хочешь пройти отбор в Комнату соперников, будь готов к паре сюрпризов."
+dialogue:TBT_Outro (en-US):line:0c08979,TBT_Outro (en-US),TBT_Outro (es),line:0c08979,Eel,"Прости, что прибрал к рукам твою загадку, Джеб. Ты же понимаешь."
+dialogue:TBT_Outro (en-US):line:097d73e,TBT_Outro (en-US),TBT_Outro (es),line:097d73e,Jeb,Я больше никогда не смогу пить клубнику…
+dialogue:TDA_Intro (en-US):line:095044f,TDA_Intro (en-US),TDA_Intro (es),line:095044f,Coach,"Бламми! Ну что, раз уж я привлёк ваше внимание..."
+dialogue:TDA_Intro (en-US):line:0376e21,TDA_Intro (en-US),TDA_Intro (es),line:0376e21,Coach,"Ладно!! Слушай сюда, загадочники!"
+dialogue:TDA_Intro (en-US):line:0a85673,TDA_Intro (en-US),TDA_Intro (es),line:0a85673,Coach,"Ладно, я тут не молодею — собираемся!"
+dialogue:TDA_Intro (en-US):line:011f7f1,TDA_Intro (en-US),TDA_Intro (es),line:011f7f1,Coach,Сегодня большой день!! Время турнира!
+dialogue:TDA_Intro (en-US):line:0997d64,TDA_Intro (en-US),TDA_Intro (es),line:0997d64,Coach,Собирайтесь вокруг Йоаха!
+dialogue:TDA_Intro (en-US):line:040722c,TDA_Intro (en-US),TDA_Intro (es),line:040722c,Coach,Пора для предстартовой мотивации!
+dialogue:TDA_Intro (en-US):line:06087df,TDA_Intro (en-US),TDA_Intro (es),line:06087df,Coach,"Собирайтесь, ребята!"
+dialogue:TDA_Intro (en-US):line:0208733,TDA_Intro (en-US),TDA_Intro (es),line:0208733,Coach,Все замолчали! Я пытаюсь вас тренировать!
+dialogue:TDA_Intro (en-US):line:09d2f2a,TDA_Intro (en-US),TDA_Intro (es),line:09d2f2a,Coach,"Пора показать, на что вы способны!"
+dialogue:TDA_Intro (en-US):line:09bbfe5,TDA_Intro (en-US),TDA_Intro (es),line:09bbfe5,Coach,Ура! Сегодня день игры!
+dialogue:TDA_Intro (en-US):line:0fe0818,TDA_Intro (en-US),TDA_Intro (es),line:0fe0818,Coach,"Оставь свою комедийную шапку на вешалке, потому что сегодня всё про ДРАМАТИЗМ — мы едем в Студию шоумена!"
+dialogue:TDA_Intro (en-US):line:0e556bd,TDA_Intro (en-US),TDA_Intro (es),line:0e556bd,Coach,"Думаешь, у тебя есть пара козырей в рукаве? Подожди, пока не увидишь Студию шоумена!"
+dialogue:TDA_Intro (en-US):line:04cd987,TDA_Intro (en-US),TDA_Intro (es),line:04cd987,Coach,"Вход со сцены слева: команда загадочников Академии побегов, готовая взять Студию шоумена штурмом!"
+dialogue:TDA_Intro (en-US):line:01ed110,TDA_Intro (en-US),TDA_Intro (es),line:01ed110,Coach,Это не генеральная репетиция! Относись к каждому вечеру в Студии шоумена как к премьере — и ты <i>звезда</i>!
+dialogue:TDA_Intro (en-US):line:08ca12f,TDA_Intro (en-US),TDA_Intro (es),line:08ca12f,Coach,"Надеюсь, ты не всю ночь зубрил свой номер — потому что сегодняшняя игра потребует немного импровизации в Студии шоумена!"
+dialogue:TDA_Intro (en-US):line:0877447,TDA_Intro (en-US),TDA_Intro (es),line:0877447,Coach,И если тебе знакомо сценическое волнение... ну что ж... удачи!
+dialogue:TDA_Intro (en-US):line:0e10ee0,TDA_Intro (en-US),TDA_Intro (es),line:0e10ee0,Coach,"И если повезёт, твоё имя окажется на вывеске — прямо рядом с моим!"
+dialogue:TDA_Intro (en-US):line:0fe3de3,TDA_Intro (en-US),TDA_Intro (es),line:0fe3de3,Coach,"И помни: магия не настоящая, но она <i>может</i> причинить боль."
+dialogue:TDA_Intro (en-US):line:0696270,TDA_Intro (en-US),TDA_Intro (es),line:0696270,Coach,И помни: все любят дублёров!
+dialogue:TDA_Intro (en-US):line:0dd886e,TDA_Intro (en-US),TDA_Intro (es),line:0dd886e,Coach,И не забывай: магия — это просто враньё с изюминкой!
+dialogue:TNT_Intro (en-US):line:080f501,TNT_Intro (en-US),TNT_Intro (es),line:080f501,Allie,"О, здравствуй. Прости, я была занята: нюхала ароматы своего нового чая."
+dialogue:TNT_Intro (en-US):line:03673d2,TNT_Intro (en-US),TNT_Intro (es),line:03673d2,Allie,"С тех пор как Ил начал вносить свои изменения, у меня не было ни секунды на отдых."
+dialogue:TNT_Intro (en-US):line:05e1615,TNT_Intro (en-US),TNT_Intro (es),line:05e1615,Allie,"Думаю, ты слышала, что мою должность... скорректировали. *Вздыхает* Я так полюбила ботанику... но Ил, похоже, считает, что я хороша только в том, чтобы делать бомбы."
+dialogue:TNT_Intro (en-US):line:0ff22f4,TNT_Intro (en-US),TNT_Intro (es),line:0ff22f4,Allie,"Всё в порядке, Алли. Помешай чай. Сосредоточься на успокаивающих вибрациях. Просто дыши..."
+dialogue:TNT_Intro (en-US):line:0653ea6,TNT_Intro (en-US),TNT_Intro (es),line:0653ea6,Allie,"О, наверное, я зря трачу твоё время. Ил заставил меня установить на площади взрывное устройство военного образца для сегодняшнего урока."
+dialogue:TNT_Intro (en-US):line:0b63202,TNT_Intro (en-US),TNT_Intro (es),line:0b63202,Allie,"Лучше бы ты поспешила его обезвредить, если хочешь, чтобы площадь осталась целой к утру."
+dialogue:TNT_Intro (en-US):line:0a629fb,TNT_Intro (en-US),TNT_Intro (es),line:0a629fb,Allie,"Наверное, стоило начать с этого..."
+dialogue:TNT_Outro (en-US):line:0c575a1,TNT_Outro (en-US),TNT_Outro (es),line:0c575a1,Allie,Вау. Площадь цела. Ты обезвредила мои взрывчатки. Молодец.
+dialogue:TNT_Outro (en-US):line:0f4d194,TNT_Outro (en-US),TNT_Outro (es),line:0f4d194,Allie,"Признаюсь, я облегчённо выдохнула. Я правда хороша в создании бомб, и та могла бы уничтожить... многое."
+dialogue:TNT_Outro (en-US):line:0ba2e3f,TNT_Outro (en-US),TNT_Outro (es),line:0ba2e3f,Allie,"Наверное, мне не стоит это говорить, но... Ил немного угнетает. Он не помогает студентам расти. Он просто ждёт, что они станут лучше как по волшебству."
+dialogue:TNT_Outro (en-US):line:033dd9f,TNT_Outro (en-US),TNT_Outro (es),line:033dd9f,Allie,Так нельзя помогать студентам развиваться.
+dialogue:TNT_Outro (en-US):line:0183de4,TNT_Outro (en-US),TNT_Outro (es),line:0183de4,Allie,Я скучаю по директору Соланж...
+dialogue:TUT_Intro (en-US):line:0bc1033,TUT_Intro (en-US),TUT_Intro (es),line:0bc1033,,ДИНГ!
+dialogue:TUT_Intro (en-US):line:0045980,TUT_Intro (en-US),TUT_Intro (es),line:0045980,Employee,"О, привет, ты уже здесь."
+dialogue:TUT_Intro (en-US):line:0123fea,TUT_Intro (en-US),TUT_Intro (es),line:0123fea,Employee,Тебя не было в списке броней. *Вздыхает*... Дай-ка мне секунду...
+dialogue:TUT_Intro (en-US):line:0789be4,TUT_Intro (en-US),TUT_Intro (es),line:0789be4,Employee,*Кашляет*
+dialogue:TUT_Intro (en-US):line:0b0a1f1,TUT_Intro (en-US),TUT_Intro (es),line:0b0a1f1,Employee,Добро пожаловать в «Эскейп-Шэк»! Лучшая квест-комната во всех землях! Ты готов(а) сбежать из несбегаемого?
+dialogue:TUT_Intro (en-US):line:0fa1e1b,TUT_Intro (en-US),TUT_Intro (es),line:0fa1e1b,Employee,"Прости, меня заставляют это говорить."
+dialogue:TUT_Intro (en-US):line:048778b,TUT_Intro (en-US),TUT_Intro (es),line:048778b,Employee,"В общем, проходи через ту дверь и, э-э, «начни своё путешествие по квест-комнате» или что-то в этом духе."
+dialogue:TUT_Midway (en-US):line:07ab8a8,TUT_Midway (en-US),TUT_Midway (es),line:07ab8a8,,Не очень-то и сбежал…
+dialogue:TUT_Midway (en-US):line:04f9882,TUT_Midway (en-US),TUT_Midway (es),line:04f9882,,Хм. А где сотрудница? Она… ушла?
+dialogue:TUT_Midway (en-US):line:0fc2487,TUT_Midway (en-US),TUT_Midway (es),line:0fc2487,,Странно…
+dialogue:TUT_PreOutro (en-US):line:0e07424,TUT_PreOutro (en-US),TUT_PreOutro (es),line:0e07424,Employee,"К этому моменту ты наверняка заметил, что это не обычная квест-комната."
+dialogue:TUT_PreOutro (en-US):line:04d21a8,TUT_PreOutro (en-US),TUT_PreOutro (es),line:04d21a8,Employee,И я — не обычный сотрудник. Я…
+dialogue:TUT_PreOutro (en-US):line:0050a3d,TUT_PreOutro (en-US),TUT_PreOutro (es),line:0050a3d,Headmaster,…директор Академии побегов!
+dialogue:TUT_PreOutro (en-US):line:04e6e94,TUT_PreOutro (en-US),TUT_PreOutro (es),line:04e6e94,Headmaster,"Учебное заведение, посвящённое изучению искусства побегов!"
+dialogue:TUT_PreOutro (en-US):line:0d796cc,TUT_PreOutro (en-US),TUT_PreOutro (es),line:0d796cc,Headmaster,"Место, где природный талант превращается в невероятное мастерство!"
+dialogue:TUT_PreOutro (en-US):line:0fe7f97,TUT_PreOutro (en-US),TUT_PreOutro (es),line:0fe7f97,Headmaster,"Мне кажется, я вижу в тебе потенциал, и я хотела бы предложить тебе возможность учиться здесь."
+dialogue:TUT_PreOutro (en-US):line:0faeaef,TUT_PreOutro (en-US),TUT_PreOutro (es),line:0faeaef,Headmaster,Если тебе интересен побег от традиционного пути… присоединяйся.
+dialogue:ToP_1 (en-US):line:09cc004,ToP_1 (en-US),NEW_es_ToP_1,line:09cc004,Coach,"Привет, эскапист! Готов к танго? Время турнира!"
+dialogue:ToP_1 (en-US):line:0c75824,ToP_1 (en-US),NEW_es_ToP_1,line:0c75824,Coach,ЧТО?!?
+dialogue:ToP_1 (en-US):line:0f65014,ToP_1 (en-US),NEW_es_ToP_1,line:0f65014,Coach,"Не говори мне, что ты никогда не слышал о Турнире головоломок?"
+dialogue:ToP_1 (en-US):line:05e3997,ToP_1 (en-US),NEW_es_ToP_1,line:05e3997,Coach,"Ого… Придётся тебе всё рассказать, чтобы ты не опозорился!"
+dialogue:ToP_1 (en-US):line:0d628c3,ToP_1 (en-US),NEW_es_ToP_1,line:0d628c3,Coach,"Турнир головоломок — древняя традиция Академии. Самое величественное соревнование в головоломках, которое когда-либо видел мир!"
+dialogue:ToP_1 (en-US):line:051a202,ToP_1 (en-US),NEW_es_ToP_1,line:051a202,Coach,"Всё это веду я — твой друг, тренер Йоач!"
+dialogue:ToP_1 (en-US):line:0bc6768,ToP_1 (en-US),NEW_es_ToP_1,line:0bc6768,Coach,Под моим мудрым присмотром с бровки лучшие ученики Академии отправляются в тур!
+dialogue:ToP_1 (en-US):line:0b7b66a,ToP_1 (en-US),NEW_es_ToP_1,line:0b7b66a,Coach,Они соревнуются в эскап-мероприятиях: Гонка побегов… Квест на поиск сокровищ… и Крестики-нолики!
+dialogue:ToP_1 (en-US):line:0e503b1,ToP_1 (en-US),NEW_es_ToP_1,line:0e503b1,Coach,"Уворачиваются и швыряют друг в друга бонусы, пока сражаются на Поле головоломок!"
+dialogue:ToP_1 (en-US):line:080d01e,ToP_1 (en-US),NEW_es_ToP_1,line:080d01e,Coach,"Кстати, у меня тоже отличная программа тренировок, если не считать это скромностью."
+dialogue:ToP_1 (en-US):line:0f57e41,ToP_1 (en-US),NEW_es_ToP_1,line:0f57e41,Coach,"Ну что скажешь? Хочешь стать эскапистом, парень?"
+dialogue:ToP_1 (en-US):line:0659b36,ToP_1 (en-US),NEW_es_ToP_1,line:0659b36,Coach,"Ой… И если у тебя есть вопросы о том, как всё это работает, просто окликни меня!"
+dialogue:ToP_2 (en-US):ToP_2-Start-0,ToP_2 (en-US),,ToP_2-Start-0,Coach,Честное слово!! Мы это сделали!! Мы разгромили всю сетку! Огромная жирная «W» для Академии!!
+dialogue:ToP_2 (en-US):ToP_2-Start-1,ToP_2 (en-US),,ToP_2-Start-1,Coach,"С каждым матчем я всё увереннее чувствую, что моё место здесь непоколебимо..!"
+dialogue:ToP_2 (en-US):ToP_2-Start-2,ToP_2 (en-US),,ToP_2-Start-2,Coach,"Мы с вами добьёмся величия, ребята!"
+dialogue:ToP_2 (en-US):ToP_2-Start-3,ToP_2 (en-US),,ToP_2-Start-3,Coach,"Мы с тобой добьёмся величия, парень!"
+dialogue:ToP_2 (en-US):ToP_2-Start-4,ToP_2 (en-US),,ToP_2-Start-4,Coach,"Разумеется, при условии, что вы продолжаете выигрывать. Я просто не выношу давления от всевидящего взора директора."
+dialogue:ToP_2 (en-US):ToP_2-Start-5,ToP_2 (en-US),,ToP_2-Start-5,Coach,Это плохо для моего сердца!
+dialogue:ToP_5 (en-US):ToP_5-Start-0,ToP_5 (en-US),,ToP_5-Start-0,Coach,МЫ ЭТО СДЕЛАЛИ!!! Мы выиграли всё!!! Мы разгромили $LASTSCHOOL и при этом выглядели просто отлично!!
+dialogue:ToP_5 (en-US):ToP_5-Start-1,ToP_5 (en-US),,ToP_5-Start-1,Coach,"У меня такое чувство, что я могу расплакаться… или вырвать… или и то, и другое!"
+dialogue:ToP_5 (en-US):ToP_5-Start-2,ToP_5 (en-US),,ToP_5-Start-2,Headmaster,"Пожалуйста, не стоит, тренер."
+dialogue:ToP_5 (en-US):ToP_5-Start-3,ToP_5 (en-US),,ToP_5-Start-3,Coach,Сандра Соланж в <i>моей</i> раздевалке?! Этот день только набирает обороты!
+dialogue:ToP_5 (en-US):ToP_5-Start-4,ToP_5 (en-US),,ToP_5-Start-4,Headmaster,"Разумеется, я здесь. Я слежу за эфирами Слипa с самого начала."
+dialogue:ToP_5 (en-US):ToP_5-Start-5,ToP_5 (en-US),,ToP_5-Start-5,Headmaster,"Мы им показали, кто тут главный!"
+dialogue:ToP_5 (en-US):ToP_5-Start-6,ToP_5 (en-US),,ToP_5-Start-6,Coach,"Точно! Посмотри, директор! Ты говорил, что это невозможно--"
+dialogue:ToP_5 (en-US):ToP_5-Start-7,ToP_5 (en-US),,ToP_5-Start-7,Headmaster,Когда я это--?
+dialogue:ToP_5 (en-US):ToP_5-Start-8,ToP_5 (en-US),,ToP_5-Start-8,Coach,--но мы справились!!
+dialogue:ToP_5 (en-US):ToP_5-Start-9,ToP_5 (en-US),,ToP_5-Start-9,Coach,Вокруг одни трофеи!! Мы предмет зависти всех других программ эскапистов!!
+dialogue:ToP_5 (en-US):ToP_5-Start-10,ToP_5 (en-US),,ToP_5-Start-10,Coach,"Я снова в игре, да!! Меня точно не уволят!!"
+dialogue:ToP_5 (en-US):ToP_5-Start-11,ToP_5 (en-US),,ToP_5-Start-11,Headmaster,Не уволят? Тренер... у тебя бессрочный контракт.
+dialogue:ToP_5 (en-US):ToP_5-Start-12,ToP_5 (en-US),,ToP_5-Start-12,Coach,У меня... у меня бессрочный контракт?
+dialogue:ToP_5 (en-US):ToP_5-Start-13,ToP_5 (en-US),,ToP_5-Start-13,Coach,<i>Этот день только набирает обороты!!<i>
+dialogue:ToP_5 (en-US):ToP_5-Start-14,ToP_5 (en-US),,ToP_5-Start-14,Headmaster,"Ты принёс славу Академии побегов-- как я и знал! Нам повезло, что ты представляешь нас на мировой арене."
+dialogue:ToP_5 (en-US):ToP_5-Start-15,ToP_5 (en-US),,ToP_5-Start-15,Coach,"Соланж права, ребята. Вы отлично справились! У вас может быть блестящая карьера в лиге эскапистов высшего дивизиона."
+dialogue:ToP_5 (en-US):ToP_5-Start-16,ToP_5 (en-US),,ToP_5-Start-16,Coach,"Соланж права, парень. Ты отлично справился! У тебя может быть блестящая карьера в лиге эскапистов высшего дивизиона."
+dialogue:ToP_5 (en-US):ToP_5-Start-17,ToP_5 (en-US),,ToP_5-Start-17,Coach,"А если повезёт... может, даже тренером в старшей школе."
+dialogue:ToP_TutorialArenas (en-US):line:0398dea,ToP_TutorialArenas (en-US),NEW_es_ToP_TutorialArenas,line:0398dea,Coach,"Конечно, могу рассказать про арены."
+dialogue:ToP_TutorialArenas (en-US):line:0f41144,ToP_TutorialArenas (en-US),NEW_es_ToP_TutorialArenas,line:0f41144,Coach,Одно из лучших в Турнире — это поездки по миру в поисках новых и захватывающих мест для головоломок!
+dialogue:ToP_TutorialArenas (en-US):line:041586b,ToP_TutorialArenas (en-US),NEW_es_ToP_TutorialArenas,line:041586b,Coach,"А в этом сезоне у нас три потрясающие арены, идеально подходящие для взрывных шоу по побегу!"
+dialogue:ToP_TutorialArenas (en-US):line:0d26837,ToP_TutorialArenas (en-US),NEW_es_ToP_TutorialArenas,line:0d26837,Coach,"Начнём с Гробницы Первого Эскаписта! Всё верно, в этом сезоне мы едем в Египет!"
+dialogue:ToP_TutorialArenas (en-US):line:0ac8baf,ToP_TutorialArenas (en-US),NEW_es_ToP_TutorialArenas,line:0ac8baf,Coach,"Не могу представить, как гордился бы предок Эскейпа, узнав, что его гробница спустя тысячи лет принимает лучшие шоу по решению головоломок."
+dialogue:ToP_TutorialArenas (en-US):line:0a3dae6,ToP_TutorialArenas (en-US),NEW_es_ToP_TutorialArenas,line:0a3dae6,Coach,"К тому же, моё любимое место с хавауши находится совсем рядом. Всё сошлось идеально!"
+dialogue:ToP_TutorialArenas (en-US):line:00dd770,ToP_TutorialArenas (en-US),NEW_es_ToP_TutorialArenas,line:00dd770,Coach,"Дальше... у нас есть Хаканнери, дом знаменитого хакерского анклава h3rring... а теперь ещё и самый вонючий этап в стране!"
+dialogue:ToP_TutorialArenas (en-US):line:03a07ed,ToP_TutorialArenas (en-US),NEW_es_ToP_TutorialArenas,line:03a07ed,Coach,"Хорошо, что для навигации по компьютеру нос не нужен! Чёрт возьми, у h3rring даже лица нет!"
+dialogue:ToP_TutorialArenas (en-US):line:07d7f43,ToP_TutorialArenas (en-US),NEW_es_ToP_TutorialArenas,line:07d7f43,Coach,"Не могу поверить, как они рвались, чтобы мы играли здесь. И цена входа того стоила."
+dialogue:ToP_TutorialArenas (en-US):line:0751901,ToP_TutorialArenas (en-US),NEW_es_ToP_TutorialArenas,line:0751901,Coach,"К тому же, я всегда могу придумать <i>новый</i> пароль!"
+dialogue:ToP_TutorialArenas (en-US):line:09706a7,ToP_TutorialArenas (en-US),NEW_es_ToP_TutorialArenas,line:09706a7,Coach,"И наконец, триумфальное возвращение в Турнир... Студия Шоумена!"
+dialogue:ToP_TutorialArenas (en-US):line:0eec485,ToP_TutorialArenas (en-US),NEW_es_ToP_TutorialArenas,line:0eec485,Coach,"После того как первое здание рухнуло из-за камнепада, этот замок на вершине утёса перестроили прямо на руинах оригинального фундамента!"
+dialogue:ToP_TutorialArenas (en-US):line:0e52010,ToP_TutorialArenas (en-US),NEW_es_ToP_TutorialArenas,line:0e52010,Coach,Здесь проходят лучшие шоу по побегу за всю историю. Я никогда не был фанатом театра... но я без ума от Балета Бермуд!
+dialogue:ToP_TutorialArenas (en-US):line:0b4c64f,ToP_TutorialArenas (en-US),NEW_es_ToP_TutorialArenas,line:0b4c64f,Coach,Трюк с исчезновением всегда меня завораживает!
+dialogue:ToP_TutorialArenas (en-US):line:0eb65df,ToP_TutorialArenas (en-US),NEW_es_ToP_TutorialArenas,line:0eb65df,Coach,"В общем, это одни из лучших этапов, которые Турнир видел за последние годы!"
+dialogue:ToP_TutorialArenas (en-US):line:01c2779,ToP_TutorialArenas (en-US),NEW_es_ToP_TutorialArenas,line:01c2779,Coach,Чем ещё тренер Йоач может тебе помочь?
+dialogue:ToP_TutorialFluff (en-US):line:019ec55,ToP_TutorialFluff (en-US),NEW_es_ToP_TutorialFluff,line:019ec55,Coach,"Так, хочешь узнать обо мне побольше, да?"
+dialogue:ToP_TutorialFluff (en-US):line:08411f9,ToP_TutorialFluff (en-US),NEW_es_ToP_TutorialFluff,line:08411f9,Coach,"Ну, прежде чем стать <i>тренером</i> Йоачем... меня звали Йоач-Оракул, величайший головоломщик на арене!"
+dialogue:ToP_TutorialFluff (en-US):line:0498b69,ToP_TutorialFluff (en-US),NEW_es_ToP_TutorialFluff,line:0498b69,Coach,"Это были славные времена... но молодость не вечна! Не успел я опомниться, как повредил колено на кроссворде, и всё закончилось."
+dialogue:ToP_TutorialFluff (en-US):line:06079f1,ToP_TutorialFluff (en-US),NEW_es_ToP_TutorialFluff,line:06079f1,Coach,"Потом мне понадобилось время, чтобы прийти в себя... но когда мой старый тренер Барти Милтенхауэр наконец вышел на пенсию, я понял, что должен продолжить его дело."
+dialogue:ToP_TutorialFluff (en-US):line:02e2d15,ToP_TutorialFluff (en-US),NEW_es_ToP_TutorialFluff,line:02e2d15,Coach,"На то, чтобы собрать все документы воедино, ушло ещё три года... но я всё-таки вернулся в Академию!"
+dialogue:ToP_TutorialFluff (en-US):line:0913777,ToP_TutorialFluff (en-US),NEW_es_ToP_TutorialFluff,line:0913777,Coach,А теперь моя очередь тренировать вас — следующее поколение мастеров головоломок!
+dialogue:ToP_TutorialFluff (en-US):line:0e21952,ToP_TutorialFluff (en-US),NEW_es_ToP_TutorialFluff,line:0e21952,Coach,"Есть ещё что-то, что тебя интересует?"
+dialogue:ToP_TutorialGameModes (en-US):line:0a7db07,ToP_TutorialGameModes (en-US),NEW_es_ToP_TutorialGameModes,line:0a7db07,Coach,"Ах, да, главная фишка турнира — соревновательные режимы."
+dialogue:ToP_TutorialGameModes (en-US):line:091f60a,ToP_TutorialGameModes (en-US),NEW_es_ToP_TutorialGameModes,line:091f60a,Coach,Для начала — проверенная временем классика: Гонка побегов!
+dialogue:ToP_TutorialGameModes (en-US):line:04c03cf,ToP_TutorialGameModes (en-US),NEW_es_ToP_TutorialGameModes,line:04c03cf,Coach,"Всё предельно просто: кто первым решит все головоломки, откроет запертые двери и заберёт кубок — тот и победил!"
+dialogue:ToP_TutorialGameModes (en-US):line:08353b2,ToP_TutorialGameModes (en-US),NEW_es_ToP_TutorialGameModes,line:08353b2,Coach,"А если хочешь добавить в соревнование немного остроты, я бы посоветовал «Крестики-нолики»."
+dialogue:ToP_TutorialGameModes (en-US):line:070a845,ToP_TutorialGameModes (en-US),NEW_es_ToP_TutorialGameModes,line:070a845,Coach,"В разных частях арены есть головоломки, которые дают кристаллы. Их можно ставить на поле для «Крестиков-ноликов»."
+dialogue:ToP_TutorialGameModes (en-US):line:09e4807,ToP_TutorialGameModes (en-US),NEW_es_ToP_TutorialGameModes,line:09e4807,Coach,Соедини три в ряд раньше соперника — и победа твоя!
+dialogue:ToP_TutorialGameModes (en-US):line:08320d2,ToP_TutorialGameModes (en-US),NEW_es_ToP_TutorialGameModes,line:08320d2,Coach,"Но будь умнее: у тебя в руках может быть только один кристалл за раз. Так что ставь его на место, прежде чем лезть за следующим!"
+dialogue:ToP_TutorialGameModes (en-US):line:0adcb3f,ToP_TutorialGameModes (en-US),NEW_es_ToP_TutorialGameModes,line:0adcb3f,Coach,"Ничьих на арене не бывает. Если поле заполнится, побеждает тот, кто поставил больше кристаллов."
+dialogue:ToP_TutorialGameModes (en-US):line:05615c5,ToP_TutorialGameModes (en-US),NEW_es_ToP_TutorialGameModes,line:05615c5,Coach,"И наконец, не менее важный режим — «Охота за сокровищами»!"
+dialogue:ToP_TutorialGameModes (en-US):line:021a57f,ToP_TutorialGameModes (en-US),NEW_es_ToP_TutorialGameModes,line:021a57f,Coach,"Я спрятал маленькие кубки по всей арене. Кто из мастеров головоломок первым соберёт большинство из них, тот и выиграет матч!"
+dialogue:ToP_TutorialGameModes (en-US):line:0bee268,ToP_TutorialGameModes (en-US),NEW_es_ToP_TutorialGameModes,line:0bee268,Coach,"Но не зазнавайся! Всё равно придётся догадываться, как попасть в каждую комнату, — а для этого нужно хорошенько пораскинуть мозгами."
+dialogue:ToP_TutorialGameModes (en-US):line:0d06069,ToP_TutorialGameModes (en-US),NEW_es_ToP_TutorialGameModes,line:0d06069,Coach,"О, и кстати, если у тебя нет напарника, ты всё равно можешь тренироваться в «Гонке побегов» в одиночку!"
+dialogue:ToP_TutorialGameModes (en-US):line:0896553,ToP_TutorialGameModes (en-US),NEW_es_ToP_TutorialGameModes,line:0896553,Coach,"Так что если хочешь стать таким же виртуозом, как старый Йоач... это будет хорошей идеей."
+dialogue:ToP_TutorialGameModes (en-US):line:002dfd5,ToP_TutorialGameModes (en-US),NEW_es_ToP_TutorialGameModes,line:002dfd5,Coach,"И, пожалуй, на этом всё! Что ещё ты хочешь узнать?"
+dialogue:ToP_TutorialPowerUps (en-US):line:01dfa9b,ToP_TutorialPowerUps (en-US),NEW_es_ToP_TutorialPowerUps,line:01dfa9b,Coach,"Бонусы привлекли твоё внимание, да? Как раз моя любимая часть турнира!"
+dialogue:ToP_TutorialPowerUps (en-US):line:0975ea6,ToP_TutorialPowerUps (en-US),NEW_es_ToP_TutorialPowerUps,line:0975ea6,Coach,"По всему уровню разбросаны фиолетовые ящики с бонусами. Внутри разные предметы, которые могут дать тебе преимущество в соревновании."
+dialogue:ToP_TutorialPowerUps (en-US):line:03be945,ToP_TutorialPowerUps (en-US),NEW_es_ToP_TutorialPowerUps,line:03be945,Coach,"Чтобы получить их, нужно дернуть рычаг и запустить обратный отсчёт..."
+dialogue:ToP_TutorialPowerUps (en-US):line:0a7869b,ToP_TutorialPowerUps (en-US),NEW_es_ToP_TutorialPowerUps,line:0a7869b,Coach,...а когда дойдёт до нуля — ДИНГ! — новый бонус будет готов к использованию!
+dialogue:ToP_TutorialPowerUps (en-US):line:0b26728,ToP_TutorialPowerUps (en-US),NEW_es_ToP_TutorialPowerUps,line:0b26728,Coach,Сами бонусы бывают разных видов.
+dialogue:ToP_TutorialPowerUps (en-US):line:027a702,ToP_TutorialPowerUps (en-US),NEW_es_ToP_TutorialPowerUps,line:027a702,Coach,"Начнём с самого мощного — Мастер-ключа. Он подходит к любой двери, с которой ты столкнёшься!"
+dialogue:ToP_TutorialPowerUps (en-US):line:0791986,ToP_TutorialPowerUps (en-US),NEW_es_ToP_TutorialPowerUps,line:0791986,Coach,Есть ещё беговые кроссовки! Зашнуруй их и почувствуй взрыв скорости!
+dialogue:ToP_TutorialPowerUps (en-US):line:0216274,ToP_TutorialPowerUps (en-US),NEW_es_ToP_TutorialPowerUps,line:0216274,Coach,"Совет: эффект длится недолго, так что трать этот рывок с умом."
+dialogue:ToP_TutorialPowerUps (en-US):line:0663c22,ToP_TutorialPowerUps (en-US),NEW_es_ToP_TutorialPowerUps,line:0663c22,Coach,"А если любишь пошалить, тебе понравятся маска лошади, пистолет с клеем и шляпа унижения."
+dialogue:ToP_TutorialPowerUps (en-US):line:0a03fef,ToP_TutorialPowerUps (en-US),NEW_es_ToP_TutorialPowerUps,line:0a03fef,Coach,"Подкинь одно из этих противнику и смотри, как он будет суетиться. Бам!"
+dialogue:ToP_TutorialPowerUps (en-US):line:060f1b7,ToP_TutorialPowerUps (en-US),NEW_es_ToP_TutorialPowerUps,line:060f1b7,Coach,"Если освоишь искусство бонусов, станешь лучшим мастером головоломок, которого видел этот турнир!"
+dialogue:ToP_TutorialPowerUps (en-US):line:03744b4,ToP_TutorialPowerUps (en-US),NEW_es_ToP_TutorialPowerUps,line:03744b4,Coach,Что ещё старый Йоач может тебе рассказать сегодня?
+dialogue:ToP_TutorialTourny (en-US):line:07341c0,ToP_TutorialTourny (en-US),NEW_es_ToP_TutorialTourny,line:07341c0,Coach,Хочешь начать с азов? Это вполне разумно.
+dialogue:ToP_TutorialTourny (en-US):line:0ffc41b,ToP_TutorialTourny (en-US),NEW_es_ToP_TutorialTourny,line:0ffc41b,Coach,"В каждом матче тебе предстоит решать серию головоломок. Они дадут тебе ключи, которыми ты будешь открывать двери."
+dialogue:ToP_TutorialTourny (en-US):line:0a11dac,ToP_TutorialTourny (en-US),NEW_es_ToP_TutorialTourny,line:0a11dac,Coach,Но всё не так просто!!
+dialogue:ToP_TutorialTourny (en-US):line:00df454,ToP_TutorialTourny (en-US),NEW_es_ToP_TutorialTourny,line:00df454,Coach,В Турнире головоломок участвуют две команды: красная и синяя.
+dialogue:ToP_TutorialTourny (en-US):line:07bc3af,ToP_TutorialTourny (en-US),NEW_es_ToP_TutorialTourny,line:07bc3af,Coach,"Головоломки будут окрашены в цвет: команда «Красных» взаимодействует только с красными, а команда «Синих» — только с синими."
+dialogue:ToP_TutorialTourny (en-US):line:076ee81,ToP_TutorialTourny (en-US),NEW_es_ToP_TutorialTourny,line:076ee81,Coach,"Если запомнишь это, у тебя всё получится."
+dialogue:ToP_TutorialTourny (en-US):line:018355c,ToP_TutorialTourny (en-US),NEW_es_ToP_TutorialTourny,line:018355c,Coach,"Есть ещё что-то, что Йоач может тебе разъяснить сегодня?"
+dialogue:ToP_Victory (en-US):ToP_Victory-Start-0,ToP_Victory (en-US),,ToP_Victory-Start-0,Coach,"Ну и ну! Пока-пока, $LASTSCHOOL! Ха-ха-ха!"
+dialogue:ToP_Victory (en-US):ToP_Victory-Start-1,ToP_Victory (en-US),,ToP_Victory-Start-1,Coach,Мы это сделали... <i>мы это сделали!</i>
+dialogue:ToP_Victory (en-US):ToP_Victory-Start-2,ToP_Victory (en-US),,ToP_Victory-Start-2,Coach,"Дальше — дивизион мастеров. В последний раз наша команда была такой грозной, когда я ещё был эскапистом!"
+dialogue:ToP_Victory (en-US):ToP_Victory-Start-3,ToP_Victory (en-US),,ToP_Victory-Start-3,Coach,"Это серьёзно, ребята... от следующих соревнований зависит всё!"
+dialogue:ToP_Victory (en-US):ToP_Victory-Start-4,ToP_Victory (en-US),,ToP_Victory-Start-4,Coach,"Это серьёзно, малыш... от следующих соревнований зависит всё!"
+dialogue:ToP_Victory (en-US):ToP_Victory-Start-5,ToP_Victory (en-US),,ToP_Victory-Start-5,Coach,"Мы те, кто целился в луну, промахнулся и улетел прямо в солнце?"
+dialogue:ToP_Victory (en-US):ToP_Victory-Start-6,ToP_Victory (en-US),,ToP_Victory-Start-6,Coach,Или мы легенды?! Вбитые в Памятник побегу! Снимающие автографы на местном авиасалоне!
+dialogue:ToP_Victory (en-US):ToP_Victory-Start-7,ToP_Victory (en-US),,ToP_Victory-Start-7,Coach,"Когда вы дойдёте до финала, даже директор захочет вашу подпись. Мы ей покажем! Мы всем покажем!"
+dialogue:ToP_Victory (en-US):ToP_Victory-Start-8,ToP_Victory (en-US),,ToP_Victory-Start-8,Coach,<i>Всем!</i>
+dialogue:UNP_Intro (en-US):line:08374af,UNP_Intro (en-US),UNP_Intro (es),line:08374af,Jeb,"Опять ты! Рад, что ты уже разобрался в обстановке."
+dialogue:UNP_Intro (en-US):line:0e37464,UNP_Intro (en-US),UNP_Intro (es),line:0e37464,Jeb,Ты застал меня за мелким ремонтом.
+dialogue:UNP_Intro (en-US):line:0d49446,UNP_Intro (en-US),UNP_Intro (es),line:0d49446,Jeb,"Это особая комната, спроектированная покойным Илом Барнсом — величайшим эскапистом, когда-либо ступившим на эти пороги!"
+dialogue:UNP_Intro (en-US):line:0129728,UNP_Intro (en-US),UNP_Intro (es),line:0129728,Jeb,Она предназначена только для самых продвинутых студентов Академии. Не зря же её называют «Трещотка»!
+dialogue:UNP_Intro (en-US):line:01ad6e9,UNP_Intro (en-US),UNP_Intro (es),line:01ad6e9,Jeb,"Мне нужно подняться в наблюдательную, взять ещё скотча."
+dialogue:UNP_Intro (en-US):line:0a98903,UNP_Intro (en-US),UNP_Intro (es),line:0a98903,Jeb,"Не мог бы ты проверить тот водосток, пока меня нет? Я отключил комнату, так что всё безопасно. Вернусь через секунду!"
+dialogue:UNP_Outro (en-US):line:04e65e5,UNP_Outro (en-US),UNP_Outro (es),line:04e65e5,Jeb,"Чёрт побери, ты справился! Я уж думал, придётся тебя оттуда вылавливать!"
+dialogue:UNP_Outro (en-US):line:04b2f8c,UNP_Outro (en-US),UNP_Outro (es),line:04b2f8c,Jeb,"Кто бы мог подумать, что немного воды может так напрягать?!"
+dialogue:UNP_Outro (en-US):line:09195c4,UNP_Outro (en-US),UNP_Outro (es),line:09195c4,Jeb,"Похоже, в стрессовых ситуациях важно сохранять концентрацию."
+dialogue:UNP_Outro (en-US):line:0de40f0,UNP_Outro (en-US),UNP_Outro (es),line:0de40f0,Jeb,"Эй... я что, только что чему-то тебя научил? Может, мне стоит стать учителем!"
+dialogue:UNP_Outro (en-US):line:061df5b,UNP_Outro (en-US),UNP_Outro (es),line:061df5b,Jeb,Профессор Джебсон... звучит солидно!
+dialogue:USB_Intro (en-US):line:095044f,USB_Intro (en-US),USB_Intro (es),line:095044f,Coach,"Бламми! Ну что, раз уж я привлёк твоё внимание..."
+dialogue:USB_Intro (en-US):line:0376e21,USB_Intro (en-US),USB_Intro (es),line:0376e21,Coach,"Ладно!! Слушайте сюда, загадочники!"
+dialogue:USB_Intro (en-US):line:0a85673,USB_Intro (en-US),USB_Intro (es),line:0a85673,Coach,"Ладно, я тут не молодею — собирайтесь!"
+dialogue:USB_Intro (en-US):line:011f7f1,USB_Intro (en-US),USB_Intro (es),line:011f7f1,Coach,Сегодня большой день!! Время турнира!
+dialogue:USB_Intro (en-US):line:0997d64,USB_Intro (en-US),USB_Intro (es),line:0997d64,Coach,Собирайтесь вокруг Йоаха!
+dialogue:USB_Intro (en-US):line:040722c,USB_Intro (en-US),USB_Intro (es),line:040722c,Coach,Пора для предстартовой мотивации!
+dialogue:USB_Intro (en-US):line:06087df,USB_Intro (en-US),USB_Intro (es),line:06087df,Coach,"Собирайтесь, ребята!"
+dialogue:USB_Intro (en-US):line:0208733,USB_Intro (en-US),USB_Intro (es),line:0208733,Coach,Все замолчали! Я пытаюсь вас тренировать!
+dialogue:USB_Intro (en-US):line:09d2f2a,USB_Intro (en-US),USB_Intro (es),line:09d2f2a,Coach,"Пора показать, на что вы способны!"
+dialogue:USB_Intro (en-US):line:09bbfe5,USB_Intro (en-US),USB_Intro (es),line:09bbfe5,Coach,Ура! Сегодня день игры!
+dialogue:USB_Intro (en-US):line:08b0c18,USB_Intro (en-US),USB_Intro (es),line:08b0c18,Coach,Держитесь крепче... Мы направляемся в Хаканнери!
+dialogue:USB_Intro (en-US):line:086f84b,USB_Intro (en-US),USB_Intro (es),line:086f84b,Coach,"Надеюсь, вы взяли дождевики для поездки в Хаканнери... потому что сегодня мы будем лить воду!"
+dialogue:USB_Intro (en-US):line:0a1d85a,USB_Intro (en-US),USB_Intro (es),line:0a1d85a,Coach,"После закрытия рыбного завода это место переоборудовали в Хаканнери — хакерскую базу h3rring. Лично я считаю, что оно лучше подходит для молодёжного спорта."
+dialogue:USB_Intro (en-US):line:0743e64,USB_Intro (en-US),USB_Intro (es),line:0743e64,Coach,"Лучше обновите операционную систему... вам понадобится серьёзная вычислительная мощность, чтобы пройти Хаканнери!"
+dialogue:USB_Intro (en-US):line:029a291,USB_Intro (en-US),USB_Intro (es),line:029a291,Coach,"Будь то филе или файрволы, в Хаканнери всегда что-то нечисто."
+dialogue:USB_Intro (en-US):line:0dc10f9,USB_Intro (en-US),USB_Intro (es),line:0dc10f9,Coach,Так что если не можете взломать... убирайтесь из моего раздевалки!
+dialogue:USB_Intro (en-US):line:013353a,USB_Intro (en-US),USB_Intro (es),line:013353a,Coach,И помните: дай человеку загадку — он решит её на день. Научи человека решать загадки — он будет решать их всю жизнь.
+dialogue:USB_Intro (en-US):line:0c98625,USB_Intro (en-US),USB_Intro (es),line:0c98625,Coach,"И имейте в виду: в этом здании ничего не соответствует нормам. Так что смотрите, куда ступаете!"
+dialogue:USB_Intro (en-US):line:05785a2,USB_Intro (en-US),USB_Intro (es),line:05785a2,Coach,"И не забывай: если слишком долго смотреть в экраны, сожжёшь себе сетчатку!"
+dialogue:USB_Intro (en-US):line:021f3d9,USB_Intro (en-US),USB_Intro (es),line:021f3d9,Coach,"И помни: компьютерные чипы <i>не</i> такие же, как картофельные. Так что не пытайся их есть!"
+dialogue:YUM_BadFood (en-US):line:0700ad2,YUM_BadFood (en-US),NEW_es_YUM_BadFood,line:0700ad2,Guy,"Ммф... Этот вкус. Он... ну, он..."
+dialogue:YUM_BadFood (en-US):line:0d773d5,YUM_BadFood (en-US),NEW_es_YUM_BadFood,line:0d773d5,Mads,На вкус как старое моторное масло.
+dialogue:YUM_BadFood (en-US):line:07f4783,YUM_BadFood (en-US),NEW_es_YUM_BadFood,line:07f4783,Horatio,Это оскорбление! Оскорбление еде и оскорбление мне — вот что это такое!
+dialogue:YUM_BadFood (en-US):line:02d1f36,YUM_BadFood (en-US),NEW_es_YUM_BadFood,line:02d1f36,Horatio,Уберите это!
+dialogue:YUM_Course1Salad (en-US):line:03dbbb9,YUM_Course1Salad (en-US),NEW_es_YUM_Course1Salad,line:03dbbb9,Mads,Я обычно ненавижу салаты... но этот довольно вкусный.
+dialogue:YUM_Course1Salad (en-US):line:0f1a780,YUM_Course1Salad (en-US),NEW_es_YUM_Course1Salad,line:0f1a780,Guy,"И такой свежий! Где вы берёте ингредиенты, шеф-повар?"
+dialogue:YUM_Course1Salad (en-US):line:061c032,YUM_Course1Salad (en-US),NEW_es_YUM_Course1Salad,line:061c032,Chef,"Ну, я..."
+dialogue:YUM_Course1Salad (en-US):line:02602a7,YUM_Course1Salad (en-US),NEW_es_YUM_Course1Salad,line:02602a7,Horatio,"Думаю, ничего... но судить о трапезе по салату — не стоит!"
+dialogue:YUM_Course1Salad (en-US):line:07e8752,YUM_Course1Salad (en-US),NEW_es_YUM_Course1Salad,line:07e8752,Horatio,Всё дело в супе-сопровождении!
+dialogue:YUM_Course2Soup (en-US):line:0c1acd7,YUM_Course2Soup (en-US),NEW_es_YUM_Course2Soup,line:0c1acd7,Guy,"Батюшки! Это лучший суп, который я когда-либо пробовал."
+dialogue:YUM_Course2Soup (en-US):line:0ea619c,YUM_Course2Soup (en-US),NEW_es_YUM_Course2Soup,line:0ea619c,Chef,"Ну, похоже, они следовали моему рецепту. Что вы об этом думаете, директор?"
+dialogue:YUM_Course2Soup (en-US):line:09a106c,YUM_Course2Soup (en-US),NEW_es_YUM_Course2Soup,line:09a106c,Horatio,"Не знаю, я обжёг язык на первом глотке. Давайте подадим бургеры!!"
+dialogue:YUM_Course2Soup (en-US):line:0dd9e7c,YUM_Course2Soup (en-US),NEW_es_YUM_Course2Soup,line:0dd9e7c,Mads,Уф. Сколько ещё будет блюд...?
+dialogue:YUM_Course3Burgers_Poison (en-US):line:03e37b5,YUM_Course3Burgers_Poison (en-US),NEW_es_YUM_Course3Burgers_Poison,line:03e37b5,Horatio,"Мм-м. Что я вам говорил? Дети — отличные повара. Это лучший обеденный бургер, который я ел за последние месяцы."
+dialogue:YUM_Course3Burgers_Poison (en-US):line:0f72f21,YUM_Course3Burgers_Poison (en-US),NEW_es_YUM_Course3Burgers_Poison,line:0f72f21,Horatio,"Хотя... в нём есть что-то... странное. Может, грибы? Нет, грибов там не было..."
+dialogue:YUM_Course3Burgers_Poison (en-US):line:04a2887,YUM_Course3Burgers_Poison (en-US),NEW_es_YUM_Course3Burgers_Poison,line:04a2887,Horatio,Ох-хох... мне... плохо...
+dialogue:YUM_Course3Burgers_Poison (en-US):line:0329488,YUM_Course3Burgers_Poison (en-US),NEW_es_YUM_Course3Burgers_Poison,line:0329488,Guy,Мне тоже... что-то не так... урр...
+dialogue:YUM_Course3Burgers_Poison (en-US):line:0ddd5ca,YUM_Course3Burgers_Poison (en-US),NEW_es_YUM_Course3Burgers_Poison,line:0ddd5ca,Chef,Мне... нехорошо... урр...
+dialogue:YUM_Course3Burgers_Poison (en-US):line:0ebbee9,YUM_Course3Burgers_Poison (en-US),NEW_es_YUM_Course3Burgers_Poison,line:0ebbee9,Mads,Я даже не хотела на этот обед приходить..! Блюрг...
+dialogue:YUM_Course3Burgers_Poison (en-US):line:01c110f,YUM_Course3Burgers_Poison (en-US),NEW_es_YUM_Course3Burgers_Poison,line:01c110f,YoungEel,"Эм, Сэнди..? Ты не забыла прожарить мясо, правда?"
+dialogue:YUM_Course3Burgers_Poison (en-US):line:0e4dd33,YUM_Course3Burgers_Poison (en-US),NEW_es_YUM_Course3Burgers_Poison,line:0e4dd33,YoungSandy,"Не думаю, что это отравление едой... Я думаю, это <i>яд</i>!"
+dialogue:YUM_Course3Burgers_Poison (en-US):line:0e9227c,YUM_Course3Burgers_Poison (en-US),NEW_es_YUM_Course3Burgers_Poison,line:0e9227c,Chef,Бларгх!!
+dialogue:YUM_Course3Burgers_Poison (en-US):line:0de378d,YUM_Course3Burgers_Poison (en-US),NEW_es_YUM_Course3Burgers_Poison,line:0de378d,YoungEel,"Да. Кажется, ты права, Сэнди. Нам лучше быстро приготовить антидот."
+dialogue:YUM_Intro (en-US):line:026cfd5,YUM_Intro (en-US),NEW_es_YUM_Intro,line:026cfd5,Chef,"Добро пожаловать в «Кулинарное искусство 101». Все помыли руки, верно? И вытерли ноги? В таком порядке?"
+dialogue:YUM_Intro (en-US):line:0022e5a,YUM_Intro (en-US),NEW_es_YUM_Intro,line:0022e5a,YoungEel,Чисто. Ладони и подошвы.
+dialogue:YUM_Intro (en-US):line:066537f,YUM_Intro (en-US),NEW_es_YUM_Intro,line:066537f,Chef,"Отлично. Сегодня официально начинается ваше путешествие в мир эскапистской кухни. У всего есть свой порядок, и нарушать его нельзя!"
+dialogue:YUM_Intro (en-US):line:0dec4d4,YUM_Intro (en-US),NEW_es_YUM_Intro,line:0dec4d4,Chef,"До того, как вы будете готовы взять в руки мой запатентованный Китч-Трон 3000, вам ещё далеко, но на сегодня..."
+dialogue:YUM_Intro (en-US):line:0fadc52,YUM_Intro (en-US),NEW_es_YUM_Intro,line:0fadc52,Horatio,Профессор Кэллион! Повар Кэллион? Я никогда не помню. Неважно! У меня для вас сюрприз!
+dialogue:YUM_Intro (en-US):line:080e20d,YUM_Intro (en-US),NEW_es_YUM_Intro,line:080e20d,Chef,Директор Виндзор! Вы... рано. Ваш обеденный бургер заказан ещё на сорок минут. Придётся начинать сразу.
+dialogue:YUM_Intro (en-US):line:0a7edb2,YUM_Intro (en-US),NEW_es_YUM_Intro,line:0a7edb2,Horatio,"Снимите груз с плеч, повар. Готовить будет не <i>вы</i>!"
+dialogue:YUM_Intro (en-US):line:0251a5b,YUM_Intro (en-US),NEW_es_YUM_Intro,line:0251a5b,Chef,"Что...?! Но только я знаю, как здесь всё устроено. Это моя кухня. Если я не стою у гриля... то кто же?!"
+dialogue:YUM_Intro (en-US):line:0e219d9,YUM_Intro (en-US),NEW_es_YUM_Intro,line:0e219d9,YoungSandy,О-о.
+dialogue:YUM_Intro (en-US):line:00785ff,YUM_Intro (en-US),NEW_es_YUM_Intro,line:00785ff,Horatio,Вот именно! И сегодня бургеры будут есть не только я.
+dialogue:YUM_Intro (en-US):line:0914e14,YUM_Intro (en-US),NEW_es_YUM_Intro,line:0914e14,Mads,"Здравствуйте, Стюарт..."
+dialogue:YUM_Intro (en-US):line:09928c5,YUM_Intro (en-US),NEW_es_YUM_Intro,line:09928c5,Guy,"Простите за это, повар."
+dialogue:YUM_Intro (en-US):line:032147d,YUM_Intro (en-US),NEW_es_YUM_Intro,line:032147d,Horatio,Добро пожаловать на ещё одну из моих знаменитых сюрпризов! Легендарный осенний обед преподавателей!
+dialogue:YUM_Intro (en-US):line:0a4e605,YUM_Intro (en-US),NEW_es_YUM_Intro,line:0a4e605,Chef,"Сегодня?! Я думал, это всегда в последнюю неделю семестра!"
+dialogue:YUM_Intro (en-US):line:052f17f,YUM_Intro (en-US),NEW_es_YUM_Intro,line:052f17f,Horatio,Больше нет!!
+dialogue:YUM_Intro (en-US):line:04b783d,YUM_Intro (en-US),NEW_es_YUM_Intro,line:04b783d,Horatio,"Ну что, за работу! Директор проголодался!"
+dialogue:YUM_Outro (en-US):line:0eed68f,YUM_Outro (en-US),NEW_es_YUM_Outro,line:0eed68f,Horatio,Уф... Я чувствую себя как утром после порции рубленого мяса...
+dialogue:YUM_Outro (en-US):line:03c9f0b,YUM_Outro (en-US),NEW_es_YUM_Outro,line:03c9f0b,Horatio,Мне... нужно отойти в кабинет.
+dialogue:YUM_Outro (en-US):line:0aca907,YUM_Outro (en-US),NEW_es_YUM_Outro,line:0aca907,Guy,Я беру выходной...
+dialogue:YUM_Outro (en-US):line:0d85b81,YUM_Outro (en-US),NEW_es_YUM_Outro,line:0d85b81,Mads,"Не могу поверить, что снова потеряла целый вечер работы..."
+dialogue:YUM_Outro (en-US):line:0956ef5,YUM_Outro (en-US),NEW_es_YUM_Outro,line:0956ef5,Chef,Я просто сяду...
+dialogue:YUM_Outro (en-US):line:056c206,YUM_Outro (en-US),NEW_es_YUM_Outro,line:056c206,Chef,"Мне так стыдно, что я не могу в это поверить. Я всегда так тщательно храню яд отдельно от специй."
+dialogue:YUM_Outro (en-US):line:02f87f7,YUM_Outro (en-US),NEW_es_YUM_Outro,line:02f87f7,Chef,"Надеюсь, вы не вините себя. Вот почему нельзя позволять другим готовить на своей кухне..."
+dialogue:YUM_Outro (en-US):line:0a428a4,YUM_Outro (en-US),NEW_es_YUM_Outro,line:0a428a4,YoungSandy,"Не переживайте, повар. С этого момента я с удовольствием оставлю готовку вам."
+dialogue:YUM_Outro (en-US):line:0e66ec7,YUM_Outro (en-US),NEW_es_YUM_Outro,line:0e66ec7,YoungEel,А я просто возьму свой яд отдельно.
+dialogue:YUM_Outro (en-US):line:09497c2,YUM_Outro (en-US),NEW_es_YUM_Outro,line:09497c2,Chef,"Обещаю, я всё тщательно вымою, прежде чем готовить что-нибудь для студентов."
+dialogue:YUM_Outro (en-US):line:0bb8e64,YUM_Outro (en-US),NEW_es_YUM_Outro,line:0bb8e64,Chef,"Сразу после того, как я... отосплюсь."

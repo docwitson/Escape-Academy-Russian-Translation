@@ -1,0 +1,6 @@
+/build/
+/dist/
+/packaging/
+*.log
+__pycache__/
+*.py[cod]

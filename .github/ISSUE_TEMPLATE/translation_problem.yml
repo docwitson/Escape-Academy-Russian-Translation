@@ -1,0 +1,33 @@
+name: Ошибка перевода
+description: Непереведённый, некорректный или не помещающийся текст
+title: "[Перевод] "
+labels:
+  - translation
+body:
+  - type: input
+    id: room
+    attributes:
+      label: Комната или эпизод
+      placeholder: Например, вступление / Escape Shack
+    validations:
+      required: true
+  - type: textarea
+    id: current_text
+    attributes:
+      label: Текст в игре
+      description: Перепишите видимый текст или приложите скриншот.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Предлагаемое исправление
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Версия игры
+      placeholder: 3.0.7.4
+    validations:
+      required: true

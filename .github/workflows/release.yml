@@ -1,0 +1,64 @@
+name: Build Windows installer
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Check out sources
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install build dependencies
+        shell: pwsh
+        run: python -m pip install -r .\requirements-build.txt
+
+      - name: Validate localization payload
+        shell: pwsh
+        run: python .\src\installer_app.py --self-test
+
+      - name: Build installer
+        shell: pwsh
+        run: .\build.ps1
+
+      - name: Test packaged installer
+        shell: pwsh
+        run: |
+          $process = Start-Process -FilePath .\dist\EscapeAcademyRussianInstaller.exe -ArgumentList "--self-test" -Wait -PassThru
+          Get-Content -LiteralPath .\dist\EscapeAcademyRussianInstaller.log -Encoding utf8
+          if ($process.ExitCode -ne 0) { throw "Packaged self-test failed" }
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: EscapeAcademyRussianInstaller-${{ github.ref_name }}
+          path: |
+            dist/EscapeAcademyRussianInstaller.exe
+            dist/SHA256SUMS.txt
+          if-no-files-found: error
+
+      - name: Publish tagged release
+        if: startsWith(github.ref, 'refs/tags/')
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >-
+          gh release create "$env:GITHUB_REF_NAME"
+          .\dist\EscapeAcademyRussianInstaller.exe
+          .\dist\SHA256SUMS.txt
+          --verify-tag
+          --generate-notes
+          --title "Русификатор Escape Academy $env:GITHUB_REF_NAME"
