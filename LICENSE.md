@@ -19,10 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-## Scope
-
-This license applies to the installer source code, build scripts, workflow
-files and technical manifests in this repository. It does not apply to the
-Russian translation text in `ollama_pipeline/output/` or to any Escape Academy
-materials.
