@@ -1,0 +1,17 @@
+* text=auto
+
+# Payload hashes are byte-exact. Keep their repository representation stable
+# on Windows even when a developer has core.autocrlf=true.
+ollama_pipeline/output/*.csv text eol=lf
+manifests/*.json text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+
+*.ps1 text eol=crlf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+*.webp binary
+*.jpg binary
+*.mp4 binary
