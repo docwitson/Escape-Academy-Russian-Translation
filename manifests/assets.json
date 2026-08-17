@@ -2,8 +2,8 @@
   "format_version": 1,
   "game_bundle": "Escape Academy_Data\\data.unity3d",
   "game_bundle_size": 2703096981,
-  "deployment_strategy": "replace_spanish_slot",
-  "internal_language_code": "es",
+  "deployment_strategy": "replace_english_slot",
+  "internal_language_code": "en-US",
   "assets": {
     "gameplay": [
       {

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Build, install, verify, or restore the Russian Escape Academy patch.
 
-The patch reuses the internal Spanish language slot.  Unity TextAssets are
-rewritten inside data.unity3d; the original bundle is preserved verbatim.
+The patch reuses the internal English language slot. Unity TextAssets and one
+guard in the managed game code are rewritten; every original is backed up.
 """
 
 from __future__ import annotations
@@ -38,6 +38,7 @@ ADDRESSABLE_BUNDLE = (
     / "areadioramas_assets_all_740d70d1014660f769811a969d8da879.bundle"
 )
 CATALOG = GAME_ROOT / "Escape Academy_Data" / "StreamingAssets" / "aa" / "catalog.json"
+ASSEMBLY = GAME_ROOT / "Escape Academy_Data" / "Managed" / "Assembly-CSharp.dll"
 MANIFEST_PATH = WORK_DIR / "manifests" / "assets.json"
 OUTPUT_DIR = WORK_DIR / "ollama_pipeline" / "output"
 DEPLOY_DIR = WORK_DIR / "deploy"
@@ -50,9 +51,22 @@ STAGED_ADDRESSABLE = BUILD_DIR / (ADDRESSABLE_BUNDLE.name + ".russian")
 ORIGINAL_ADDRESSABLE_BACKUP = BACKUP_DIR / (ADDRESSABLE_BUNDLE.name + ".original")
 STAGED_CATALOG = BUILD_DIR / "catalog.json.russian"
 ORIGINAL_CATALOG_BACKUP = BACKUP_DIR / "catalog.json.original"
+STAGED_ASSEMBLY = BUILD_DIR / "Assembly-CSharp.dll.russian"
+ORIGINAL_ASSEMBLY_BACKUP = BACKUP_DIR / "Assembly-CSharp.dll.original"
 
 ADDRESSABLE_ORIGINAL_SIZE = 1_148_263_689
 ADDRESSABLE_ORIGINAL_CRC = 487_251_353
+PATCH_VERSION = "0.1.1"
+ASSEMBLY_ORIGINAL_SIZE = 1_879_040
+ASSEMBLY_ORIGINAL_SHA256 = "d57eb2eeefa6bce26b9e0feb8992a5e9da3f428db8aa654219b4d5e62565576c"
+# HintGraphics.ShowCoroutine and RefreshCoroutine dereference hint.camera after
+# checking an unrelated singleton. Both replacements perform the intended null
+# check and remain 13 bytes, so no metadata or branch offsets move.
+HINT_GUARD_ORIGINAL = bytes.fromhex("7e751b000414284100000a2c31")
+HINT_GUARD_PATCHES = (
+    (0x1E4C9, bytes.fromhex("027b150600047b731b00042c31")),
+    (0x1E7E7, bytes.fromhex("027b1a0600047b731b00042c31")),
+)
 
 TABLES = {
     "gameplay": OUTPUT_DIR / "01_gameplay_ui.csv",
@@ -65,29 +79,28 @@ YARN_HEADER = ["id", "text", "file", "node", "lineNumber"]
 # reader accepts them, so deployment must preserve rather than reject them.
 SRT_TIME_RE = re.compile(r"^\S.*-->.*\S$")
 
-# The English value is punctuation-only, so it was intentionally absent from
-# the model translation table.  Spanish contains a real word here.
-MANUAL_GAMEPLAY = {("GameplayStrings_ProcGen", 589): "как"}
+# Entries absent from the model table retain their original English value.
+MANUAL_GAMEPLAY: dict[tuple[str, int], str] = {}
 
 # Four tutorial-waiver paragraphs are literal TextMeshProUGUI values rather
-# than entries in GameplayStrings.  Their GameObjects are the Spanish language
-# variants, so the Spanish slot must be rewritten in place.
+# than entries in GameplayStrings. Patch the English GameObjects because the
+# Russian translation deliberately keeps English puzzle and poster variants.
 EMBEDDED_UI = {
-    ("level8", 12807): (
-        "Por la presente asumo todos los riesgos de caminar con",
+    ("level8", 12803): (
+        "I hereby assume all risks of walking with",
         "Я беру на себя все риски, связанные с ходьбой с",
     ),
-    ("level8", 12810): (
-        "Está prohibido correr con <br>(pero ¿quién va a pararte los pies?).\r\n",
-        "Бег с <br>запрещён. (Но кто тебя остановит?)\r\n",
+    ("level8", 12805): (
+        "Sprinting with          is not permitted. (But who's gonna stop you?)\r",
+        "Бег с          запрещён. (Но кто тебя остановит?)\r",
     ),
-    ("level8", 12877): (
-        "Acepto mirar mi inventario<br>con ",
-        "Я согласен просматривать инвентарь<br>с ",
+    ("level8", 12808): (
+        "and interacting with ",
+        "и взаимодействием с ",
     ),
-    ("level8", 12885): (
-        "e interactuar con",
-        "и взаимодействием с",
+    ("level8", 12876): (
+        "I agree to look at my inventory<br>with",
+        "Я согласен просматривать инвентарь<br>с",
     ),
 }
 
@@ -204,7 +217,7 @@ def build_gameplay_texts(manifest: dict, by_object: dict) -> dict[tuple[str, int
         for row_number, row in enumerate(rows, start=2):
             target = translated.get((asset["name"], row_number))
             if target is not None:
-                row["Spanish"] = target
+                row["Value-En"] = target
         text = serialize_csv(fields, rows)
         for copy in asset["copies"]:
             result[(copy["asset_file"], copy["path_id"])] = text
@@ -248,22 +261,21 @@ def build_dialogue_texts(manifest: dict, by_object: dict) -> dict[tuple[str, int
                 + ", ".join(missing_separator[:10])
             )
         text = serialize_csv(fields, rows)
-        target_copies = asset["target_copies"] or asset["source_copies"]
-        for copy in target_copies:
+        for copy in asset["source_copies"]:
             result[(copy["asset_file"], copy["path_id"])] = text
     return result
 
 
-def dialogue_texts_by_spanish_name(
+def dialogue_texts_by_english_name(
     manifest: dict,
     dialogue_patches: dict[tuple[str, int], str],
 ) -> dict[str, str]:
-    """Return the rendered Russian Yarn CSV for every named Spanish target."""
+    """Return the rendered Russian Yarn CSV for every named English target."""
     result: dict[str, str] = {}
     for asset in manifest["assets"]["dialogue"]:
-        target_name = asset.get("target_name_es")
-        target_copies = asset.get("target_copies") or asset["source_copies"]
-        if not target_name or not target_copies:
+        target_name = asset["source_name"]
+        target_copies = asset["source_copies"]
+        if not target_copies:
             continue
         key = (target_copies[0]["asset_file"], target_copies[0]["path_id"])
         text = dialogue_patches.get(key)
@@ -275,7 +287,6 @@ def dialogue_texts_by_spanish_name(
 def build_subtitle_texts(
     manifest: dict,
     by_object: dict,
-    by_name: dict[str, list],
 ) -> dict[tuple[str, int], str]:
     grouped: dict[str, dict[str, str]] = defaultdict(dict)
     for row in load_csv(TABLES["subtitles"]):
@@ -297,20 +308,53 @@ def build_subtitle_texts(
                 cue["text"] = translations[cue["cue_number"]]
         text = serialize_srt(cues)
 
-        targets = list(asset["target_copies"])
-        if not targets:
-            conventional_name = asset["source_name"] + "_es"
-            conventional = by_name.get(conventional_name, [])
-            if conventional:
-                targets = [
-                    {"asset_file": obj.assets_file.name, "path_id": obj.path_id}
-                    for obj in conventional
-                ]
-            else:
-                targets = list(asset["source_copies"])
+        targets = list(asset["source_copies"])
         for copy in targets:
             result[(copy["asset_file"], copy["path_id"])] = text
     return result
+
+
+def build_assembly_patch(source: Path) -> dict:
+    """Patch the camera-less hint crash in the supported managed assembly."""
+    if source.stat().st_size != ASSEMBLY_ORIGINAL_SIZE:
+        raise ValueError("Assembly-CSharp.dll has an unsupported size")
+    original_hash = sha256_file(source)
+    if original_hash != ASSEMBLY_ORIGINAL_SHA256:
+        raise ValueError("Assembly-CSharp.dll is not the supported original version")
+    raw = bytearray(source.read_bytes())
+    for offset, replacement in HINT_GUARD_PATCHES:
+        end = offset + len(HINT_GUARD_ORIGINAL)
+        if bytes(raw[offset:end]) != HINT_GUARD_ORIGINAL:
+            raise ValueError(
+                f"The expected HintGraphics instruction sequence was not found at {offset:#x}"
+            )
+        raw[offset:end] = replacement
+    STAGED_ASSEMBLY.write_bytes(raw)
+    return {
+        "path": str(ASSEMBLY.relative_to(GAME_ROOT)),
+        "original_size": source.stat().st_size,
+        "original_sha256": original_hash,
+        "staged_size": STAGED_ASSEMBLY.stat().st_size,
+        "staged_sha256": sha256_file(STAGED_ASSEMBLY),
+        "hint_guard_offsets": [offset for offset, _ in HINT_GUARD_PATCHES],
+    }
+
+
+def verify_assembly(path: Path, report: dict) -> None:
+    assembly = report["assembly"]
+    if path.stat().st_size != assembly["staged_size"]:
+        raise ValueError("Patched Assembly-CSharp.dll size mismatch")
+    if sha256_file(path) != assembly["staged_sha256"]:
+        raise ValueError("Patched Assembly-CSharp.dll checksum mismatch")
+    raw = path.read_bytes()
+    offsets = assembly["hint_guard_offsets"]
+    expected = dict(HINT_GUARD_PATCHES)
+    if offsets != list(expected):
+        raise ValueError("HintGraphics guard patch list is incomplete")
+    for offset in offsets:
+        replacement = expected.get(offset)
+        if replacement is None or raw[offset : offset + len(replacement)] != replacement:
+            raise ValueError(f"HintGraphics guard patch is missing at {offset:#x}")
 
 
 def ensure_sources() -> dict:
@@ -318,6 +362,8 @@ def ensure_sources() -> dict:
         raise FileNotFoundError(GAME_BUNDLE)
     if not ADDRESSABLE_BUNDLE.is_file():
         raise FileNotFoundError(ADDRESSABLE_BUNDLE)
+    if not ASSEMBLY.is_file():
+        raise FileNotFoundError(ASSEMBLY)
     manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
     for path in TABLES.values():
         if not path.is_file():
@@ -392,10 +438,17 @@ def verify_catalog(path: Path, report: dict) -> None:
 def build() -> dict:
     manifest = ensure_sources()
     expected_original_size = manifest["game_bundle_size"]
-    if GAME_BUNDLE.stat().st_size != expected_original_size:
-        raise ValueError("Game bundle size is not the extracted original; restore it before rebuilding")
-    if ADDRESSABLE_BUNDLE.stat().st_size != ADDRESSABLE_ORIGINAL_SIZE:
-        raise ValueError("Addressables bundle is not the original; restore it before rebuilding")
+    game_source = ORIGINAL_BACKUP if ORIGINAL_BACKUP.is_file() else GAME_BUNDLE
+    addressable_source = (
+        ORIGINAL_ADDRESSABLE_BACKUP
+        if ORIGINAL_ADDRESSABLE_BACKUP.is_file()
+        else ADDRESSABLE_BUNDLE
+    )
+    assembly_source = ORIGINAL_ASSEMBLY_BACKUP if ORIGINAL_ASSEMBLY_BACKUP.is_file() else ASSEMBLY
+    if game_source.stat().st_size != expected_original_size:
+        raise ValueError("Original data.unity3d is unavailable or unsupported")
+    if addressable_source.stat().st_size != ADDRESSABLE_ORIGINAL_SIZE:
+        raise ValueError("Original Addressables bundle is unavailable or unsupported")
 
     BUILD_DIR.mkdir(parents=True, exist_ok=True)
     temp_path = STAGED_BUNDLE.with_suffix(".tmp")
@@ -404,19 +457,14 @@ def build() -> dict:
         if path.exists():
             path.unlink()
 
-    print(f"Loading {GAME_BUNDLE} ...", flush=True)
-    env = UnityPy.load(str(GAME_BUNDLE))
+    print(f"Loading {game_source} ...", flush=True)
+    env = UnityPy.load(str(game_source))
     by_object = {(obj.assets_file.name, obj.path_id): obj for obj in env.objects}
-    by_name: dict[str, list] = defaultdict(list)
-    for obj in env.objects:
-        if obj.type.name == "TextAsset":
-            by_name[obj.read().m_Name].append(obj)
-
     patches: dict[tuple[str, int], str] = {}
     patches.update(build_gameplay_texts(manifest, by_object))
     dialogue_patches = build_dialogue_texts(manifest, by_object)
     patches.update(dialogue_patches)
-    patches.update(build_subtitle_texts(manifest, by_object, by_name))
+    patches.update(build_subtitle_texts(manifest, by_object))
     expected_hashes = {}
     for key, text in patches.items():
         data = by_object[key].read()
@@ -433,14 +481,15 @@ def build() -> dict:
         obj.set_raw_data(raw)
         embedded_ui_hashes[f"{key[0]}:{key[1]}"] = hashlib.sha256(raw).hexdigest()
 
-    # Rename the visible serialized Spanish option.  Runtime language identity
-    # remains Spanish (code "es"), which is required by game logic.
+    # Rename the visible English option. Runtime identity stays English so all
+    # untranslated puzzles, textures, posters and localized objects stay in
+    # their original English variants.
     dropdown_key = ("level2", 3381)
     dropdown = by_object.get(dropdown_key)
     dropdown_renamed = False
     if dropdown is not None:
         dropdown.set_raw_data(
-            replace_serialized_string(dropdown.get_raw_data(), "Español", "Русский")
+            replace_serialized_string(dropdown.get_raw_data(), "English", "Русский")
         )
         dropdown_renamed = True
 
@@ -454,11 +503,10 @@ def build() -> dict:
     os.replace(temp_path, STAGED_BUNDLE)
 
     # Area cutscenes are loaded through Addressables and contain another set
-    # of the Yarn localization TextAssets.  Patch every Spanish target present
-    # there using the same rendered CSV as the main archive.
-    russian_dialogue = dialogue_texts_by_spanish_name(manifest, dialogue_patches)
-    print(f"Loading {ADDRESSABLE_BUNDLE} ...", flush=True)
-    addressable_env = UnityPy.load(str(ADDRESSABLE_BUNDLE))
+    # of the English Yarn TextAssets. Patch them using the same rendered CSV.
+    russian_dialogue = dialogue_texts_by_english_name(manifest, dialogue_patches)
+    print(f"Loading {addressable_source} ...", flush=True)
+    addressable_env = UnityPy.load(str(addressable_source))
     addressable_hashes = {}
     addressable_names = {}
     for obj in addressable_env.objects:
@@ -473,8 +521,8 @@ def build() -> dict:
         label = f"{obj.assets_file.name}:{obj.path_id}"
         addressable_hashes[label] = sha256_text(text)
         addressable_names[label] = data.m_Name
-    if "TUT_Intro (es)" not in addressable_names.values():
-        raise ValueError("Addressables TUT_Intro (es) target was not found")
+    if "TUT_Intro (en-US)" not in addressable_names.values():
+        raise ValueError("Addressables TUT_Intro (en-US) target was not found")
 
     print(
         f"Writing staged Addressables bundle ({len(addressable_hashes)} Yarn TextAssets) ...",
@@ -488,13 +536,15 @@ def build() -> dict:
     del addressable_packed
     os.replace(addressable_temp, STAGED_ADDRESSABLE)
     catalog_report = build_catalog_patch()
+    assembly_report = build_assembly_patch(assembly_source)
 
     report = {
-        "format_version": 2,
+        "format_version": 3,
+        "patch_version": PATCH_VERSION,
         "built_at": now(),
-        "strategy": "replace_spanish_slot",
+        "strategy": "replace_english_slot",
         "original_size": expected_original_size,
-        "original_sha256": sha256_file(GAME_BUNDLE),
+        "original_sha256": sha256_file(game_source),
         "staged_size": STAGED_BUNDLE.stat().st_size,
         "staged_sha256": sha256_file(STAGED_BUNDLE),
         "patched_text_assets": len(patches),
@@ -504,8 +554,8 @@ def build() -> dict:
         "expected_embedded_ui_hashes": embedded_ui_hashes,
         "addressable": {
             "path": str(ADDRESSABLE_BUNDLE.relative_to(GAME_ROOT)),
-            "original_size": ADDRESSABLE_BUNDLE.stat().st_size,
-            "original_sha256": sha256_file(ADDRESSABLE_BUNDLE),
+            "original_size": addressable_source.stat().st_size,
+            "original_sha256": sha256_file(addressable_source),
             "staged_size": STAGED_ADDRESSABLE.stat().st_size,
             "staged_sha256": sha256_file(STAGED_ADDRESSABLE),
             "patched_text_assets": len(addressable_hashes),
@@ -513,6 +563,7 @@ def build() -> dict:
             "asset_names": addressable_names,
         },
         "catalog": catalog_report,
+        "assembly": assembly_report,
         "installed": False,
     }
     DEPLOY_DIR.mkdir(parents=True, exist_ok=True)
@@ -520,6 +571,7 @@ def build() -> dict:
     verify_bundle(STAGED_BUNDLE, report)
     verify_addressable_bundle(STAGED_ADDRESSABLE, report)
     verify_catalog(STAGED_CATALOG, report)
+    verify_assembly(STAGED_ASSEMBLY, report)
     print(f"Staged bundle verified: {STAGED_BUNDLE}", flush=True)
     print(f"Staged Addressables verified: {STAGED_ADDRESSABLE}", flush=True)
     return report
@@ -581,12 +633,17 @@ def verify_addressable_bundle(path: Path, report: dict | None = None) -> None:
 
 
 def install() -> None:
-    if not STAGED_BUNDLE.is_file() or not STAGED_ADDRESSABLE.is_file():
+    if (
+        not STAGED_BUNDLE.is_file()
+        or not STAGED_ADDRESSABLE.is_file()
+        or not STAGED_ASSEMBLY.is_file()
+    ):
         report = build()
     else:
         report = json.loads(REPORT_PATH.read_text(encoding="utf-8"))
         verify_bundle(STAGED_BUNDLE, report)
         verify_addressable_bundle(STAGED_ADDRESSABLE, report)
+        verify_assembly(STAGED_ASSEMBLY, report)
         if "catalog" not in report or report["catalog"].get("addressable_crc") != 0:
             report["catalog"] = build_catalog_patch()
             REPORT_PATH.write_text(
@@ -599,16 +656,21 @@ def install() -> None:
     addressable = report["addressable"]
     catalog_hash = sha256_file(CATALOG)
     catalog = report["catalog"]
+    assembly_hash = sha256_file(ASSEMBLY)
+    assembly = report["assembly"]
     if current_hash not in (report["original_sha256"], report["staged_sha256"]):
         raise ValueError("Current data.unity3d is neither the recorded original nor this patch")
     if addressable_hash not in (addressable["original_sha256"], addressable["staged_sha256"]):
         raise ValueError("Current Addressables bundle is neither the recorded original nor this patch")
     if catalog_hash not in (catalog["original_sha256"], catalog["staged_sha256"]):
         raise ValueError("Current catalog.json is neither the recorded original nor this patch")
+    if assembly_hash not in (assembly["original_sha256"], assembly["staged_sha256"]):
+        raise ValueError("Current Assembly-CSharp.dll is neither the original nor this patch")
     if (
         current_hash == report["staged_sha256"]
         and addressable_hash == addressable["staged_sha256"]
         and catalog_hash == catalog["staged_sha256"]
+        and assembly_hash == assembly["staged_sha256"]
     ):
         print("Russian patch is already installed.")
         return
@@ -652,6 +714,18 @@ def install() -> None:
             ORIGINAL_CATALOG_BACKUP.unlink(missing_ok=True)
             raise ValueError("Catalog backup checksum verification failed")
 
+    if ORIGINAL_ASSEMBLY_BACKUP.exists():
+        if sha256_file(ORIGINAL_ASSEMBLY_BACKUP) != assembly["original_sha256"]:
+            raise ValueError("Existing Assembly-CSharp.dll backup has an unexpected checksum")
+    else:
+        if assembly_hash != assembly["original_sha256"]:
+            raise ValueError("Cannot create an original assembly backup from a patched file")
+        print(f"Creating original backup: {ORIGINAL_ASSEMBLY_BACKUP}", flush=True)
+        shutil.copy2(ASSEMBLY, ORIGINAL_ASSEMBLY_BACKUP)
+        if sha256_file(ORIGINAL_ASSEMBLY_BACKUP) != assembly["original_sha256"]:
+            ORIGINAL_ASSEMBLY_BACKUP.unlink(missing_ok=True)
+            raise ValueError("Assembly-CSharp.dll backup checksum verification failed")
+
     print("Installing Russian bundles ...", flush=True)
     # UnityPy may keep the verified source bundle open until process exit on
     # Windows.  Copy to a same-directory temporary file and atomically replace
@@ -659,6 +733,7 @@ def install() -> None:
     install_temp = GAME_BUNDLE.with_suffix(".russian.tmp")
     addressable_temp = ADDRESSABLE_BUNDLE.with_suffix(".russian.tmp")
     catalog_temp = CATALOG.with_suffix(".russian.tmp")
+    assembly_temp = ASSEMBLY.with_suffix(".russian.tmp")
     if current_hash != report["staged_sha256"]:
         shutil.copy2(STAGED_BUNDLE, install_temp)
         if sha256_file(install_temp) != report["staged_sha256"]:
@@ -677,21 +752,34 @@ def install() -> None:
             addressable_temp.unlink(missing_ok=True)
             install_temp.unlink(missing_ok=True)
             raise ValueError("Catalog install copy checksum verification failed")
+    if assembly_hash != assembly["staged_sha256"]:
+        shutil.copy2(STAGED_ASSEMBLY, assembly_temp)
+        if sha256_file(assembly_temp) != assembly["staged_sha256"]:
+            assembly_temp.unlink(missing_ok=True)
+            catalog_temp.unlink(missing_ok=True)
+            addressable_temp.unlink(missing_ok=True)
+            install_temp.unlink(missing_ok=True)
+            raise ValueError("Assembly-CSharp.dll install copy checksum verification failed")
     if current_hash != report["staged_sha256"]:
         os.replace(install_temp, GAME_BUNDLE)
     if addressable_hash != addressable["staged_sha256"]:
         os.replace(addressable_temp, ADDRESSABLE_BUNDLE)
     if catalog_hash != catalog["staged_sha256"]:
         os.replace(catalog_temp, CATALOG)
+    if assembly_hash != assembly["staged_sha256"]:
+        os.replace(assembly_temp, ASSEMBLY)
     if sha256_file(GAME_BUNDLE) != report["staged_sha256"]:
         raise ValueError("Installed bundle checksum verification failed")
     if sha256_file(ADDRESSABLE_BUNDLE) != addressable["staged_sha256"]:
         raise ValueError("Installed Addressables checksum verification failed")
     if sha256_file(CATALOG) != catalog["staged_sha256"]:
         raise ValueError("Installed catalog checksum verification failed")
+    if sha256_file(ASSEMBLY) != assembly["staged_sha256"]:
+        raise ValueError("Installed Assembly-CSharp.dll checksum verification failed")
     verify_bundle(GAME_BUNDLE, report)
     verify_addressable_bundle(ADDRESSABLE_BUNDLE, report)
     verify_catalog(CATALOG, report)
+    verify_assembly(ASSEMBLY, report)
     report["installed"] = True
     report["installed_at"] = now()
     REPORT_PATH.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -729,6 +817,17 @@ def restore() -> None:
         shutil.copy2(ORIGINAL_CATALOG_BACKUP, CATALOG)
         if sha256_file(CATALOG) != catalog["original_sha256"]:
             raise ValueError("Restored catalog checksum verification failed")
+    assembly = report.get("assembly")
+    if assembly is not None:
+        if not ORIGINAL_ASSEMBLY_BACKUP.is_file():
+            raise FileNotFoundError(f"Original backup not found: {ORIGINAL_ASSEMBLY_BACKUP}")
+        if sha256_file(ORIGINAL_ASSEMBLY_BACKUP) != assembly["original_sha256"]:
+            raise ValueError("Original Assembly-CSharp.dll backup checksum verification failed")
+        restored_temp = ASSEMBLY.with_suffix(".restore.tmp")
+        shutil.copy2(ORIGINAL_ASSEMBLY_BACKUP, restored_temp)
+        os.replace(restored_temp, ASSEMBLY)
+        if sha256_file(ASSEMBLY) != assembly["original_sha256"]:
+            raise ValueError("Restored Assembly-CSharp.dll checksum verification failed")
     report["installed"] = False
     report["restored_at"] = now()
     REPORT_PATH.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -766,13 +865,25 @@ def status() -> None:
             "original" if current_catalog_hash == catalog.get("original_sha256") else
             "unknown"
         )
+    assembly = report.get("assembly")
+    if assembly is None:
+        assembly_state = "not_recorded"
+    else:
+        current_assembly_hash = sha256_file(ASSEMBLY) if ASSEMBLY.is_file() else "missing"
+        assembly_state = (
+            "patched" if current_assembly_hash == assembly.get("staged_sha256") else
+            "original" if current_assembly_hash == assembly.get("original_sha256") else
+            "unknown"
+        )
     print(json.dumps({
         "game_bundle_state": state,
         "addressable_bundle_state": addressable_state,
         "catalog_state": catalog_state,
+        "assembly_state": assembly_state,
         "backup_exists": ORIGINAL_BACKUP.is_file(),
         "addressable_backup_exists": ORIGINAL_ADDRESSABLE_BACKUP.is_file(),
         "catalog_backup_exists": ORIGINAL_CATALOG_BACKUP.is_file(),
+        "assembly_backup_exists": ORIGINAL_ASSEMBLY_BACKUP.is_file(),
         "patched_text_assets": report.get("patched_text_assets"),
         "patched_embedded_ui": report.get("patched_embedded_ui"),
         "patched_addressable_text_assets": (
@@ -803,6 +914,8 @@ def main() -> int:
                 verify_addressable_bundle(ADDRESSABLE_BUNDLE, report)
             if "catalog" in report:
                 verify_catalog(CATALOG, report)
+            if "assembly" in report:
+                verify_assembly(ASSEMBLY, report)
         elif args.command == "restore":
             restore()
         else:

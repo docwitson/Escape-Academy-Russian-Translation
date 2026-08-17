@@ -1,9 +1,9 @@
 {
   "name": "Escape Academy Russian Localization",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "steam_app_id": 1812090,
   "supported_game_version": "3.0.7.4",
   "supported_steam_build_id": "20378796",
-  "language_slot": "es",
+  "language_slot": "en-US",
   "installer": "EscapeAcademyRussianInstaller.exe"
 }

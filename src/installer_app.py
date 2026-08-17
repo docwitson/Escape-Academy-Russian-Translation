@@ -25,7 +25,7 @@ except ModuleNotFoundError:  # Direct `python src/installer_app.py` execution.
 
 
 APP_NAME = "Русификатор Escape Academy"
-APP_VERSION = "0.1.0"
+APP_VERSION = "0.1.1"
 STEAM_APP_ID = "1812090"
 STATE_DIR_NAME = "EscapeAcademyRussian"
 MIN_FREE_BYTES = 12 * 1024**3
@@ -48,6 +48,7 @@ def validate_game_dir(path: Path) -> bool:
         / "StandaloneWindows64"
         / "areadioramas_assets_all_740d70d1014660f769811a969d8da879.bundle",
         path / "Escape Academy_Data" / "StreamingAssets" / "aa" / "catalog.json",
+        path / "Escape Academy_Data" / "Managed" / "Assembly-CSharp.dll",
     )
     return all(item.is_file() for item in required)
 
@@ -125,6 +126,7 @@ def configure_engine(game_dir: Path) -> None:
         / "areadioramas_assets_all_740d70d1014660f769811a969d8da879.bundle"
     )
     engine.CATALOG = data_dir / "StreamingAssets" / "aa" / "catalog.json"
+    engine.ASSEMBLY = data_dir / "Managed" / "Assembly-CSharp.dll"
     engine.DEPLOY_DIR = state_dir
     engine.BUILD_DIR = state_dir / "build"
     engine.BACKUP_DIR = state_dir / "backup"
@@ -137,6 +139,8 @@ def configure_engine(game_dir: Path) -> None:
     )
     engine.STAGED_CATALOG = engine.BUILD_DIR / "catalog.json.russian"
     engine.ORIGINAL_CATALOG_BACKUP = engine.BACKUP_DIR / "catalog.json.original"
+    engine.STAGED_ASSEMBLY = engine.BUILD_DIR / "Assembly-CSharp.dll.russian"
+    engine.ORIGINAL_ASSEMBLY_BACKUP = engine.BACKUP_DIR / "Assembly-CSharp.dll.original"
 
 
 def game_is_running() -> bool:
@@ -168,20 +172,39 @@ def read_report() -> dict | None:
 def installed_matches(report: dict) -> bool:
     addressable = report.get("addressable", {})
     catalog = report.get("catalog", {})
+    assembly = report.get("assembly")
     return (
         engine.sha256_file(engine.GAME_BUNDLE) == report.get("staged_sha256")
         and engine.sha256_file(engine.ADDRESSABLE_BUNDLE) == addressable.get("staged_sha256")
         and engine.sha256_file(engine.CATALOG) == catalog.get("staged_sha256")
+        and (
+            assembly is None
+            or engine.sha256_file(engine.ASSEMBLY) == assembly.get("staged_sha256")
+        )
     )
 
 
 def original_matches(report: dict) -> bool:
     addressable = report.get("addressable", {})
     catalog = report.get("catalog", {})
+    assembly = report.get("assembly")
     return (
         engine.sha256_file(engine.GAME_BUNDLE) == report.get("original_sha256")
         and engine.sha256_file(engine.ADDRESSABLE_BUNDLE) == addressable.get("original_sha256")
         and engine.sha256_file(engine.CATALOG) == catalog.get("original_sha256")
+        and (
+            assembly is None
+            or engine.sha256_file(engine.ASSEMBLY) == assembly.get("original_sha256")
+        )
+    )
+
+
+def current_report(report: dict) -> bool:
+    return (
+        report.get("format_version") == 3
+        and report.get("patch_version") == APP_VERSION
+        and report.get("strategy") == "replace_english_slot"
+        and "assembly" in report
     )
 
 
@@ -199,6 +222,8 @@ def verify_installation(report: dict | None = None) -> None:
     engine.verify_bundle(engine.GAME_BUNDLE, report)
     engine.verify_addressable_bundle(engine.ADDRESSABLE_BUNDLE, report)
     engine.verify_catalog(engine.CATALOG, report)
+    if "assembly" in report:
+        engine.verify_assembly(engine.ASSEMBLY, report)
 
 
 def install_localization(game_dir: Path, keep_build: bool = False) -> None:
@@ -206,10 +231,17 @@ def install_localization(game_dir: Path, keep_build: bool = False) -> None:
     configure_engine(game_dir)
     report = read_report()
     if report is not None and installed_matches(report):
-        print("Русификатор уже установлен. Выполняется проверка...", flush=True)
-        verify_installation(report)
-        print("Установленные файлы исправны.", flush=True)
-        return
+        if current_report(report):
+            print("Русификатор уже установлен. Выполняется проверка...", flush=True)
+            verify_installation(report)
+            print("Установленные файлы исправны.", flush=True)
+            return
+        print(
+            "Найдена предыдущая версия. Восстанавливаются оригиналы перед обновлением...",
+            flush=True,
+        )
+        engine.restore()
+        report = read_report()
     if report is not None and not original_matches(report):
         raise ValueError(
             "Файлы игры не совпадают ни с оригиналом, ни с предыдущей установкой. "
@@ -253,10 +285,13 @@ def status_text(game_dir: Path) -> str:
         if (
             engine.GAME_BUNDLE.stat().st_size == manifest["game_bundle_size"]
             and engine.ADDRESSABLE_BUNDLE.stat().st_size == engine.ADDRESSABLE_ORIGINAL_SIZE
+            and engine.ASSEMBLY.stat().st_size == engine.ASSEMBLY_ORIGINAL_SIZE
         ):
             return "Готово к установке (поддерживаемая версия)"
         return "Неизвестная или уже изменённая версия игры"
     if installed_matches(report):
+        if not current_report(report):
+            return "Установлена предыдущая версия — доступно обновление"
         return "Русификатор установлен"
     if original_matches(report):
         return "Оригинальные файлы восстановлены"
@@ -297,7 +332,7 @@ def run_gui(initial_game_dir: Path | None = None) -> int:
             ttk.Label(
                 outer,
                 text=(
-                    "Версия 0.1.0 · заменяет внутренний испанский слот · "
+                    "Версия 0.1.1 · заменяет внутренний английский слот · "
                     "для Steam-сборки Escape Academy 3.0.7.4"
                 ),
             ).pack(anchor="w", pady=(2, 14))
@@ -478,6 +513,15 @@ def self_test() -> None:
             counts[name] = sum(1 for _ in csv.DictReader(handle))
     if not manifest.get("assets") or any(value <= 0 for value in counts.values()):
         raise ValueError("Bundled localization payload is incomplete")
+    if manifest.get("deployment_strategy") != "replace_english_slot":
+        raise ValueError("Localization manifest does not target the English slot")
+    if engine.PATCH_VERSION != APP_VERSION:
+        raise ValueError("Installer and deployment engine versions do not match")
+    if any(
+        len(engine.HINT_GUARD_ORIGINAL) != len(replacement)
+        for _, replacement in engine.HINT_GUARD_PATCHES
+    ):
+        raise ValueError("Hint guard patch changes the managed assembly layout")
     for relative, expected in payload_manifest["files"].items():
         payload_path = engine.WORK_DIR / relative
         if engine.sha256_file(payload_path) != expected["sha256"]:
