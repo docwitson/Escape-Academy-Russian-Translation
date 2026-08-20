@@ -25,7 +25,7 @@ except ModuleNotFoundError:  # Direct `python src/installer_app.py` execution.
 
 
 APP_NAME = "Русификатор Escape Academy"
-APP_VERSION = "0.1.1"
+APP_VERSION = "0.1.2"
 STEAM_APP_ID = "1812090"
 STATE_DIR_NAME = "EscapeAcademyRussian"
 MIN_FREE_BYTES = 12 * 1024**3
@@ -219,8 +219,6 @@ def verify_installation(report: dict | None = None) -> None:
         raise FileNotFoundError("Данные установленного русификатора не найдены.")
     if not installed_matches(report):
         raise ValueError("Контрольные суммы установленных файлов не совпадают с русификатором.")
-    engine.verify_bundle(engine.GAME_BUNDLE, report)
-    engine.verify_addressable_bundle(engine.ADDRESSABLE_BUNDLE, report)
     engine.verify_catalog(engine.CATALOG, report)
     if "assembly" in report:
         engine.verify_assembly(engine.ASSEMBLY, report)
@@ -255,8 +253,14 @@ def install_localization(game_dir: Path, keep_build: bool = False) -> None:
         )
     print(f"Escape Academy: {game_dir}", flush=True)
     print("Проверка и сборка русских игровых архивов...", flush=True)
-    engine.build()
-    engine.install()
+    try:
+        report = engine.build()
+        engine.install(report, staged_verified=True)
+    except MemoryError as error:
+        raise RuntimeError(
+            "Недостаточно оперативной или виртуальной памяти для сборки. "
+            "Закройте другие приложения и включите системный файл подкачки."
+        ) from error
     if not keep_build:
         clear_build_files()
         print("Временные сборочные файлы удалены.", flush=True)
@@ -332,7 +336,7 @@ def run_gui(initial_game_dir: Path | None = None) -> int:
             ttk.Label(
                 outer,
                 text=(
-                    "Версия 0.1.1 · заменяет внутренний английский слот · "
+                    "Версия 0.1.2 · заменяет внутренний английский слот · "
                     "для Steam-сборки Escape Academy 3.0.7.4"
                 ),
             ).pack(anchor="w", pady=(2, 14))

@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import base64
 import csv
+import gc
 import hashlib
 import io
 import json
@@ -18,7 +19,6 @@ import re
 import shutil
 import struct
 import sys
-import zlib
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -56,7 +56,7 @@ ORIGINAL_ASSEMBLY_BACKUP = BACKUP_DIR / "Assembly-CSharp.dll.original"
 
 ADDRESSABLE_ORIGINAL_SIZE = 1_148_263_689
 ADDRESSABLE_ORIGINAL_CRC = 487_251_353
-PATCH_VERSION = "0.1.1"
+PATCH_VERSION = "0.1.2"
 ASSEMBLY_ORIGINAL_SIZE = 1_879_040
 ASSEMBLY_ORIGINAL_SHA256 = "d57eb2eeefa6bce26b9e0feb8992a5e9da3f428db8aa654219b4d5e62565576c"
 # HintGraphics.ShowCoroutine and RefreshCoroutine dereference hint.camera after
@@ -119,17 +119,6 @@ def sha256_file(path: Path) -> str:
 
 def sha256_text(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8", "surrogateescape")).hexdigest()
-
-
-def assetbundle_crc(path: Path) -> int:
-    """Calculate Unity's CRC32 over concatenated uncompressed bundle files."""
-    env = UnityPy.load(str(path))
-    crc = 0
-    for file in env.file.files.values():
-        view = file.reader.view if hasattr(file, "reader") else file.view
-        for offset in range(0, len(view), 64 * 1024 * 1024):
-            crc = zlib.crc32(view[offset : offset + 64 * 1024 * 1024], crc)
-    return crc
 
 
 def normalize_newlines(text: str) -> str:
@@ -387,7 +376,6 @@ def build_catalog_patch() -> dict:
     raw = base64.b64decode(encoded)
 
     old_crc = f'"m_Crc":{ADDRESSABLE_ORIGINAL_CRC}'.encode("utf-16le")
-    calculated_crc = assetbundle_crc(STAGED_ADDRESSABLE)
     crc_width = len(str(ADDRESSABLE_ORIGINAL_CRC))
     patched_crc = ('"m_Crc":0' + " " * (crc_width - 1)).encode("utf-16le")
     if raw.count(old_crc) != 1:
@@ -416,7 +404,6 @@ def build_catalog_patch() -> dict:
         "staged_size": STAGED_CATALOG.stat().st_size,
         "staged_sha256": sha256_file(STAGED_CATALOG),
         "addressable_crc": 0,
-        "calculated_addressable_crc": calculated_crc,
         "crc_validation_disabled": True,
         "addressable_size": STAGED_ADDRESSABLE.stat().st_size,
     }
@@ -433,6 +420,32 @@ def verify_catalog(path: Path, report: dict) -> None:
     expected_size = f'"m_BundleSize":{catalog["addressable_size"]}'.encode("utf-16le")
     if raw.count(expected_crc) != 1 or raw.count(expected_size) != 1:
         raise ValueError("Patched catalog does not contain the expected Addressables options")
+
+
+def verify_staged_files(report: dict) -> None:
+    """Verify staged output without loading multi-gigabyte Unity archives."""
+    expected = (
+        (STAGED_BUNDLE, report["staged_size"], report["staged_sha256"]),
+        (
+            STAGED_ADDRESSABLE,
+            report["addressable"]["staged_size"],
+            report["addressable"]["staged_sha256"],
+        ),
+        (STAGED_CATALOG, report["catalog"]["staged_size"], report["catalog"]["staged_sha256"]),
+        (
+            STAGED_ASSEMBLY,
+            report["assembly"]["staged_size"],
+            report["assembly"]["staged_sha256"],
+        ),
+    )
+    for path, size, checksum in expected:
+        if not path.is_file() or path.stat().st_size != size:
+            raise ValueError(f"Staged file is missing or has an unexpected size: {path.name}")
+        if sha256_file(path) != checksum:
+            raise ValueError(f"Staged file checksum mismatch: {path.name}")
+    verify_catalog(STAGED_CATALOG, report)
+    verify_assembly(STAGED_ASSEMBLY, report)
+    print("Staged file checksums verified.", flush=True)
 
 
 def build() -> dict:
@@ -505,6 +518,11 @@ def build() -> dict:
     # Area cutscenes are loaded through Addressables and contain another set
     # of the English Yarn TextAssets. Patch them using the same rendered CSV.
     russian_dialogue = dialogue_texts_by_english_name(manifest, dialogue_patches)
+    patch_count = len(patches)
+    # UnityPy retains the complete source archive and its object graph. Release
+    # it before opening the next large bundle to keep the peak memory bounded.
+    del env, by_object, patches, dialogue_patches, data, obj, dropdown, raw
+    gc.collect()
     print(f"Loading {addressable_source} ...", flush=True)
     addressable_env = UnityPy.load(str(addressable_source))
     addressable_hashes = {}
@@ -535,6 +553,8 @@ def build() -> dict:
         os.fsync(handle.fileno())
     del addressable_packed
     os.replace(addressable_temp, STAGED_ADDRESSABLE)
+    del addressable_env, data, obj, russian_dialogue
+    gc.collect()
     catalog_report = build_catalog_patch()
     assembly_report = build_assembly_patch(assembly_source)
 
@@ -547,7 +567,7 @@ def build() -> dict:
         "original_sha256": sha256_file(game_source),
         "staged_size": STAGED_BUNDLE.stat().st_size,
         "staged_sha256": sha256_file(STAGED_BUNDLE),
-        "patched_text_assets": len(patches),
+        "patched_text_assets": patch_count,
         "patched_embedded_ui": len(embedded_ui_hashes),
         "dropdown_renamed": dropdown_renamed,
         "expected_text_hashes": expected_hashes,
@@ -568,12 +588,7 @@ def build() -> dict:
     }
     DEPLOY_DIR.mkdir(parents=True, exist_ok=True)
     REPORT_PATH.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    verify_bundle(STAGED_BUNDLE, report)
-    verify_addressable_bundle(STAGED_ADDRESSABLE, report)
-    verify_catalog(STAGED_CATALOG, report)
-    verify_assembly(STAGED_ASSEMBLY, report)
-    print(f"Staged bundle verified: {STAGED_BUNDLE}", flush=True)
-    print(f"Staged Addressables verified: {STAGED_ADDRESSABLE}", flush=True)
+    verify_staged_files(report)
     return report
 
 
@@ -632,24 +647,24 @@ def verify_addressable_bundle(path: Path, report: dict | None = None) -> None:
     )
 
 
-def install() -> None:
-    if (
-        not STAGED_BUNDLE.is_file()
-        or not STAGED_ADDRESSABLE.is_file()
-        or not STAGED_ASSEMBLY.is_file()
-    ):
-        report = build()
-    else:
-        report = json.loads(REPORT_PATH.read_text(encoding="utf-8"))
-        verify_bundle(STAGED_BUNDLE, report)
-        verify_addressable_bundle(STAGED_ADDRESSABLE, report)
-        verify_assembly(STAGED_ASSEMBLY, report)
-        if "catalog" not in report or report["catalog"].get("addressable_crc") != 0:
-            report["catalog"] = build_catalog_patch()
-            REPORT_PATH.write_text(
-                json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-            )
-        verify_catalog(STAGED_CATALOG, report)
+def install(report: dict | None = None, *, staged_verified: bool = False) -> None:
+    if report is None:
+        if (
+            not STAGED_BUNDLE.is_file()
+            or not STAGED_ADDRESSABLE.is_file()
+            or not STAGED_ASSEMBLY.is_file()
+        ):
+            report = build()
+            staged_verified = True
+        else:
+            report = json.loads(REPORT_PATH.read_text(encoding="utf-8"))
+    if "catalog" not in report or report["catalog"].get("addressable_crc") != 0:
+        report["catalog"] = build_catalog_patch()
+        REPORT_PATH.write_text(
+            json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        )
+    if not staged_verified:
+        verify_staged_files(report)
 
     current_hash = sha256_file(GAME_BUNDLE)
     addressable_hash = sha256_file(ADDRESSABLE_BUNDLE)
@@ -776,8 +791,6 @@ def install() -> None:
         raise ValueError("Installed catalog checksum verification failed")
     if sha256_file(ASSEMBLY) != assembly["staged_sha256"]:
         raise ValueError("Installed Assembly-CSharp.dll checksum verification failed")
-    verify_bundle(GAME_BUNDLE, report)
-    verify_addressable_bundle(ADDRESSABLE_BUNDLE, report)
     verify_catalog(CATALOG, report)
     verify_assembly(ASSEMBLY, report)
     report["installed"] = True
