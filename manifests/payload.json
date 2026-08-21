@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "total_rows": 8798,
+  "total_rows": 9013,
   "files": {
     "ollama_pipeline/output/01_gameplay_ui.csv": {
       "rows": 6322,
@@ -10,12 +10,12 @@
         "source_row",
         "translation_ru"
       ],
-      "sha256": "02f35187e85a99d7bdca89e18ec415c26468a190fd3a71aa572e3501cf1d53fd",
-      "size": 796878,
-      "semantic_sha256": "bf388633c5112f78f779b0e663c958bad957292602f30a83b3dbd74837c75f38"
+      "sha256": "d0397e71c72bdc79ba657037447acc6d598027d7227115a9a562ffb695bdff97",
+      "size": 791212,
+      "semantic_sha256": "b57920412d1d025450cfd6eda5110034a3afd66cf5d14cead588517fc607c23c"
     },
     "ollama_pipeline/output/02_dialogue.csv": {
-      "rows": 972,
+      "rows": 1187,
       "columns": [
         "segment_id",
         "asset_name",
@@ -24,9 +24,9 @@
         "speaker_locked",
         "translation_ru"
       ],
-      "sha256": "7a41233a717503361d25c7d09310271f811c79afc5cd97389c029cf8059ce3e3",
-      "size": 218048,
-      "semantic_sha256": "a3813f153ad22ad0be3c0f089df0e21e528cb09c8a46376ac195ec7bc33a9805"
+      "sha256": "39f839ef3652ce21f8cdd1ba27f612ae13edd9e9489d0c32b09fabb206237624",
+      "size": 264075,
+      "semantic_sha256": "c78a66ddd76456d56dab742b1e701094fb64101454059392dc07c6bf2cc1ec72"
     },
     "ollama_pipeline/output/03_subtitles.csv": {
       "rows": 1504,
@@ -39,7 +39,7 @@
       ],
       "sha256": "3ae4d586a5d590e9f90bc95d61205eec3fb34c8cacba892dbf9199a82368f6c0",
       "size": 247930,
-      "semantic_sha256": "bd1d7fc6f67620d1c4bb36658f2842c38df6f5d3d547d7ae98926d61525efbb2"
+      "semantic_sha256": "b6ec2d1a218d411e8b7b89f6c3eb772843a4b971cd164f357c4d92edc65ba26c"
     }
   }
 }

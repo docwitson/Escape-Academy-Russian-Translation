@@ -56,7 +56,7 @@ ORIGINAL_ASSEMBLY_BACKUP = BACKUP_DIR / "Assembly-CSharp.dll.original"
 
 ADDRESSABLE_ORIGINAL_SIZE = 1_148_263_689
 ADDRESSABLE_ORIGINAL_CRC = 487_251_353
-PATCH_VERSION = "0.1.2"
+PATCH_VERSION = "0.1.3"
 ASSEMBLY_ORIGINAL_SIZE = 1_879_040
 ASSEMBLY_ORIGINAL_SHA256 = "d57eb2eeefa6bce26b9e0feb8992a5e9da3f428db8aa654219b4d5e62565576c"
 # HintGraphics.ShowCoroutine and RefreshCoroutine dereference hint.camera after
@@ -213,10 +213,54 @@ def build_gameplay_texts(manifest: dict, by_object: dict) -> dict[tuple[str, int
     return result
 
 
-def build_dialogue_texts(manifest: dict, by_object: dict) -> dict[tuple[str, int], str]:
+def load_dialogue_translations() -> dict[str, dict[str, dict[str, str]]]:
     grouped: dict[str, dict[str, dict[str, str]]] = defaultdict(dict)
     for row in load_csv(TABLES["dialogue"]):
         grouped[row["asset_name"]][row["line_id"]] = row
+    return grouped
+
+
+def render_dialogue_text(
+    asset_name: str,
+    source_text: str,
+    translations: dict[str, dict[str, str]],
+    expected_rows: int | None = None,
+) -> str:
+    fields, rows = parse_csv_text(source_text)
+    if fields != YARN_HEADER or (expected_rows is not None and len(rows) != expected_rows):
+        raise ValueError(f"Unexpected Yarn structure: {asset_name}")
+    source_ids = {row["id"] for row in rows}
+    unknown_ids = set(translations) - source_ids
+    if unknown_ids:
+        raise ValueError(
+            f"Dialogue translation IDs not found in {asset_name}: "
+            + ", ".join(sorted(unknown_ids)[:10])
+        )
+    for row in rows:
+        translated = translations.get(row["id"])
+        if translated is None:
+            continue
+        speaker = translated["speaker_locked"]
+        body = translated["translation_ru"]
+        # VisualNovelManager requires every displayed line to contain a
+        # colon. Yarn exports sound effects and narration with an empty
+        # speaker as ":text"; dropping that prefix calls SkipCutscene().
+        if speaker:
+            row["text"] = f"{speaker}:{body}"
+        else:
+            original = row["text"].strip('"')
+            row["text"] = f":{body}" if original.startswith(":") else body
+    missing_separator = [row["id"] for row in rows if ":" not in row["text"].strip('"')]
+    if missing_separator:
+        raise ValueError(
+            f"Yarn lines without speaker separator in {asset_name}: "
+            + ", ".join(missing_separator[:10])
+        )
+    return serialize_csv(fields, rows)
+
+
+def build_dialogue_texts(manifest: dict, by_object: dict) -> dict[tuple[str, int], str]:
+    grouped = load_dialogue_translations()
 
     result: dict[tuple[str, int], str] = {}
     for asset in manifest["assets"]["dialogue"]:
@@ -225,31 +269,12 @@ def build_dialogue_texts(manifest: dict, by_object: dict) -> dict[tuple[str, int
         source_data = source_obj.read()
         if sha256_text(source_data.m_Script) != source_copy["sha256"]:
             raise ValueError(f"Original dialogue asset changed: {asset['source_name']}")
-        fields, rows = parse_csv_text(source_data.m_Script)
-        if fields != YARN_HEADER or len(rows) != asset["row_count"]:
-            raise ValueError(f"Unexpected Yarn structure: {asset['source_name']}")
-        translations = grouped[asset["source_name"]]
-        for row in rows:
-            translated = translations.get(row["id"])
-            if translated is None:
-                continue
-            speaker = translated["speaker_locked"]
-            body = translated["translation_ru"]
-            # VisualNovelManager requires every displayed line to contain a
-            # colon.  Yarn exports sound effects and narration with an empty
-            # speaker as ":text"; dropping that prefix calls SkipCutscene().
-            if speaker:
-                row["text"] = f"{speaker}:{body}"
-            else:
-                source_text = row["text"].strip('"')
-                row["text"] = f":{body}" if source_text.startswith(":") else body
-        missing_separator = [row["id"] for row in rows if ":" not in row["text"].strip('"')]
-        if missing_separator:
-            raise ValueError(
-                f"Yarn lines without speaker separator in {asset['source_name']}: "
-                + ", ".join(missing_separator[:10])
-            )
-        text = serialize_csv(fields, rows)
+        text = render_dialogue_text(
+            asset["source_name"],
+            source_data.m_Script,
+            grouped[asset["source_name"]],
+            asset["row_count"],
+        )
         for copy in asset["source_copies"]:
             result[(copy["asset_file"], copy["path_id"])] = text
     return result
@@ -515,9 +540,10 @@ def build() -> dict:
     del packed
     os.replace(temp_path, STAGED_BUNDLE)
 
-    # Area cutscenes are loaded through Addressables and contain another set
-    # of the English Yarn TextAssets. Patch them using the same rendered CSV.
-    russian_dialogue = dialogue_texts_by_english_name(manifest, dialogue_patches)
+    # Area cutscenes and metagame conversations are loaded through
+    # Addressables. Some of the metagame Yarn assets do not exist in the main
+    # archive, so render every matching English asset from its own source CSV.
+    addressable_dialogue = load_dialogue_translations()
     patch_count = len(patches)
     # UnityPy retains the complete source archive and its object graph. Release
     # it before opening the next large bundle to keep the peak memory bounded.
@@ -531,9 +557,10 @@ def build() -> dict:
         if obj.type.name != "TextAsset":
             continue
         data = obj.read()
-        text = russian_dialogue.get(data.m_Name)
-        if text is None:
+        translations = addressable_dialogue.get(data.m_Name)
+        if translations is None:
             continue
+        text = render_dialogue_text(data.m_Name, data.m_Script, translations)
         data.m_Script = text
         data.save()
         label = f"{obj.assets_file.name}:{obj.path_id}"
@@ -553,7 +580,7 @@ def build() -> dict:
         os.fsync(handle.fileno())
     del addressable_packed
     os.replace(addressable_temp, STAGED_ADDRESSABLE)
-    del addressable_env, data, obj, russian_dialogue
+    del addressable_env, data, obj, addressable_dialogue
     gc.collect()
     catalog_report = build_catalog_patch()
     assembly_report = build_assembly_patch(assembly_source)

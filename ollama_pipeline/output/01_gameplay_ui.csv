@@ -767,25 +767,25 @@ gameplay:GameplayStrings:787:img_diploma4,GameplayStrings,787,Магистрат
 gameplay:GameplayStrings:788:img_diploma5,GameplayStrings,788,Казначей
 gameplay:GameplayStrings:789:img_diplomaBlacklight,GameplayStrings,789,Жаклин
 gameplay:GameplayStrings:790:lidClue,GameplayStrings,790,"Часы, растение, трофей… Как открыть этот кейс?"
-gameplay:GameplayStrings:794:unpFloor1Text,GameplayStrings,794,СТРАХ
-gameplay:GameplayStrings:795:unpFloor1CA_ATM,GameplayStrings,795,СТРАХ
-gameplay:GameplayStrings:796:unpFloor1CA,GameplayStrings,796,СТРАХ
-gameplay:GameplayStrings:797:unpFloor2CA_ATM,GameplayStrings,797,ЗАМЕДЛЯЕТ
-gameplay:GameplayStrings:798:unpFloor2CA,GameplayStrings,798,ЗАМЕДЛЯЕТ
-gameplay:GameplayStrings:799:unpFloor3CA_ATM,GameplayStrings,799,РАБОТУ
-gameplay:GameplayStrings:800:unpFloor3CA,GameplayStrings,800,РАБОТУ
-gameplay:GameplayStrings:801:unpFloor4CA_ATM,GameplayStrings,801,ТВОЕГО
-gameplay:GameplayStrings:802:unpFloor4CA,GameplayStrings,802,ТВОЕГО
-gameplay:GameplayStrings:803:unpFloor5CA_ATM,GameplayStrings,803,РАЗУМА
-gameplay:GameplayStrings:804:unpFloor5CA,GameplayStrings,804,РАЗУМА
-gameplay:GameplayStrings:805:cipherTranslatedA,GameplayStrings,805,ПЕРЕ\nВЕС
-gameplay:GameplayStrings:806:cipherTranslatedB,GameplayStrings,806,ПОД\nДАВЛЕНИЕМ
+gameplay:GameplayStrings:794:unpFloor1Text,GameplayStrings,794,FEAR
+gameplay:GameplayStrings:795:unpFloor1CA_ATM,GameplayStrings,795,FEAR
+gameplay:GameplayStrings:796:unpFloor1CA,GameplayStrings,796,FEAR
+gameplay:GameplayStrings:797:unpFloor2CA_ATM,GameplayStrings,797,WILL
+gameplay:GameplayStrings:798:unpFloor2CA,GameplayStrings,798,WILL
+gameplay:GameplayStrings:799:unpFloor3CA_ATM,GameplayStrings,799,SLOW
+gameplay:GameplayStrings:800:unpFloor3CA,GameplayStrings,800,SLOW
+gameplay:GameplayStrings:801:unpFloor4CA_ATM,GameplayStrings,801,YOUR
+gameplay:GameplayStrings:802:unpFloor4CA,GameplayStrings,802,YOUR
+gameplay:GameplayStrings:803:unpFloor5CA_ATM,GameplayStrings,803,MIND
+gameplay:GameplayStrings:804:unpFloor5CA,GameplayStrings,804,MIND
+gameplay:GameplayStrings:805:cipherTranslatedA,GameplayStrings,805,OVER\nWEIGHT
+gameplay:GameplayStrings:806:cipherTranslatedB,GameplayStrings,806,UNDER\nPRESSURE
 gameplay:GameplayStrings:807:cipherA,GameplayStrings,807,BIRE<br>JRVTUG
 gameplay:GameplayStrings:808:cipherB,GameplayStrings,808,HAQRE<br>CERFFHER
-gameplay:GameplayStrings:809:unpClue1A,GameplayStrings,809,МЫ ВСЕ
-gameplay:GameplayStrings:810:unpClue1B,GameplayStrings,810,ВОДУ
+gameplay:GameplayStrings:809:unpClue1A,GameplayStrings,809,WE ALL
+gameplay:GameplayStrings:810:unpClue1B,GameplayStrings,810,WATER
 gameplay:GameplayStrings:811:mk5,GameplayStrings,811,Mk.5
-gameplay:GameplayStrings:812:whatsTheMoral,GameplayStrings,812,В ЧЁМ МОРАЛЬ ЭТОЙ ИСТОРИИ?
+gameplay:GameplayStrings:812:whatsTheMoral,GameplayStrings,812,WHAT'S THE MORAL OF THIS STORY?
 gameplay:GameplayStrings:813:abc,GameplayStrings,813,abc
 gameplay:GameplayStrings:814:def,GameplayStrings,814,def
 gameplay:GameplayStrings:815:ghi,GameplayStrings,815,ghi
@@ -795,36 +795,36 @@ gameplay:GameplayStrings:818:pqr,GameplayStrings,818,pqr
 gameplay:GameplayStrings:819:stu,GameplayStrings,819,stu
 gameplay:GameplayStrings:820:vwx,GameplayStrings,820,vwx
 gameplay:GameplayStrings:821:yz,GameplayStrings,821,yz
-gameplay:GameplayStrings:822:over,GameplayStrings,822,ПЕРЕ
-gameplay:GameplayStrings:823:under,GameplayStrings,823,ПОД
-gameplay:GameplayStrings:824:floor5WA1,GameplayStrings,824,ТРУБА
-gameplay:GameplayStrings:825:floor5CA_LR,GameplayStrings,825,ДВИЖ
-gameplay:GameplayStrings:826:floor5WA2,GameplayStrings,826,ТЕМН
-gameplay:GameplayStrings:827:floor5CA_UR,GameplayStrings,827,ГИБК
-gameplay:GameplayStrings:828:floor5CA_LL,GameplayStrings,828,ДОБР
-gameplay:GameplayStrings:829:floor5WA3,GameplayStrings,829,ПЛУГ
-gameplay:GameplayStrings:830:floor5CA_UL,GameplayStrings,830,ОГОН
-gameplay:GameplayStrings:831:floor5WA4,GameplayStrings,831,ПАДЕ
-gameplay:GameplayStrings:832:waterQuality,GameplayStrings,832,КАЧЕСТВО\nВОДЫ
-gameplay:GameplayStrings:833:waterWetness,GameplayStrings,833,ВЛАЖНОСТЬ\nВОДЫ
-gameplay:GameplayStrings:834:waterPressure,GameplayStrings,834,ДАВЛЕНИЕ\nВОДЫ
-gameplay:GameplayStrings:835:waterWeight,GameplayStrings,835,ВЕС\nВОДЫ
-gameplay:GameplayStrings:836:waterDepth,GameplayStrings,836,ГЛУБИНА\nВОДЫ
-gameplay:GameplayStrings:837:waterTemp,GameplayStrings,837,ТЕМПЕРАТУРА\nВОДЫ
-gameplay:GameplayStrings:838:waterPurity,GameplayStrings,838,ЧИСТОТА\nВОДЫ
+gameplay:GameplayStrings:822:over,GameplayStrings,822,OVER
+gameplay:GameplayStrings:823:under,GameplayStrings,823,UNDER
+gameplay:GameplayStrings:824:floor5WA1,GameplayStrings,824,PIPE
+gameplay:GameplayStrings:825:floor5CA_LR,GameplayStrings,825,MOVE
+gameplay:GameplayStrings:826:floor5WA2,GameplayStrings,826,DARK
+gameplay:GameplayStrings:827:floor5CA_UR,GameplayStrings,827,BEND
+gameplay:GameplayStrings:828:floor5CA_LL,GameplayStrings,828,KIND
+gameplay:GameplayStrings:829:floor5WA3,GameplayStrings,829,PLOW
+gameplay:GameplayStrings:830:floor5CA_UL,GameplayStrings,830,FIRE
+gameplay:GameplayStrings:831:floor5WA4,GameplayStrings,831,DROP
+gameplay:GameplayStrings:832:waterQuality,GameplayStrings,832,Water\nQuality
+gameplay:GameplayStrings:833:waterWetness,GameplayStrings,833,Water\nWetness
+gameplay:GameplayStrings:834:waterPressure,GameplayStrings,834,Water\nPressure
+gameplay:GameplayStrings:835:waterWeight,GameplayStrings,835,Water\nWeight
+gameplay:GameplayStrings:836:waterDepth,GameplayStrings,836,Water\nDepth
+gameplay:GameplayStrings:837:waterTemp,GameplayStrings,837,Water\nTemp
+gameplay:GameplayStrings:838:waterPurity,GameplayStrings,838,Water\nPurity
 gameplay:GameplayStrings:839:w,GameplayStrings,839,W
 gameplay:GameplayStrings:840:willWonky,GameplayStrings,840,WiLL
 gameplay:GameplayStrings:841:remember,GameplayStrings,841,Помни:
 gameplay:GameplayStrings:842:moral,GameplayStrings,842,МОРАЛЬ?
 gameplay:GameplayStrings:843:noSignal,GameplayStrings,843,НЕТ СИГНАЛА.
-gameplay:GameplayStrings:845:floor4Distractor5,GameplayStrings,845,НЕТ
-gameplay:GameplayStrings:846:floor4Distractor4,GameplayStrings,846,МАЙК
-gameplay:GameplayStrings:847:floor4CA1,GameplayStrings,847,ЙОГА
-gameplay:GameplayStrings:848:floor4Distractor1,GameplayStrings,848,СВОБОДА
-gameplay:GameplayStrings:849:floor4Distractor2,GameplayStrings,849,БОЛЬШЕ
-gameplay:GameplayStrings:850:floor4CA2,GameplayStrings,850,ЧАС
-gameplay:GameplayStrings:851:floor4Distractor3,GameplayStrings,851,ОСТАВАЙСЯ
-gameplay:GameplayStrings:852:underPressure,GameplayStrings,852,ПОД ДАВЛЕНИЕМ
+gameplay:GameplayStrings:845:floor4Distractor5,GameplayStrings,845,NOPE
+gameplay:GameplayStrings:846:floor4Distractor4,GameplayStrings,846,MIKE
+gameplay:GameplayStrings:847:floor4CA1,GameplayStrings,847,YOGA
+gameplay:GameplayStrings:848:floor4Distractor1,GameplayStrings,848,FREE
+gameplay:GameplayStrings:849:floor4Distractor2,GameplayStrings,849,MOST
+gameplay:GameplayStrings:850:floor4CA2,GameplayStrings,850,HOUR
+gameplay:GameplayStrings:851:floor4Distractor3,GameplayStrings,851,STAY
+gameplay:GameplayStrings:852:underPressure,GameplayStrings,852,UNDER PRESSURE
 gameplay:GameplayStrings:853:preTitleCard,GameplayStrings,853,Не
 gameplay:GameplayStrings:854:titleCard,GameplayStrings,854,Тони
 gameplay:GameplayStrings:855:tvBroadcast,GameplayStrings,855,Эта камера транслирует сигнал на телевизор в соседней комнате.
@@ -841,8 +841,8 @@ gameplay:GameplayStrings:865:falseWater,GameplayStrings,865,"Интересно,
 gameplay:GameplayStrings:866:waterDepthLabel,GameplayStrings,866,«Глубина воды»
 gameplay:GameplayStrings:867:waterQualityLabel,GameplayStrings,867,«Качество воды»
 gameplay:GameplayStrings:868:waterWetnessLabel,GameplayStrings,868,«Влажность воды»
-gameplay:GameplayStrings:869:waterPressureLabel,GameplayStrings,869,«Давление воды»
-gameplay:GameplayStrings:870:waterWeightLabel,GameplayStrings,870,«Вес воды»
+gameplay:GameplayStrings:869:waterPressureLabel,GameplayStrings,869,"""Water Pressure"""
+gameplay:GameplayStrings:870:waterWeightLabel,GameplayStrings,870,"""Water Weight"""
 gameplay:GameplayStrings:871:waterTempLabel,GameplayStrings,871,«Температура воды»
 gameplay:GameplayStrings:872:waterPurityLabel,GameplayStrings,872,«Чистота воды»
 gameplay:GameplayStrings:873:woodBoard,GameplayStrings,873,"Гвозди расшатаны, но вырвать их руками не получится."
@@ -851,8 +851,8 @@ gameplay:GameplayStrings:875:noClimbingBack,GameplayStrings,875,Спускать
 gameplay:GameplayStrings:876:exitNow,GameplayStrings,876,Дверь разблокирована! Что я ещё жду?
 gameplay:GameplayStrings:877:screwedShut,GameplayStrings,877,Оно закручено наглухо.
 gameplay:GameplayStrings:878:missing,GameplayStrings,878,Чего-то не хватает…
-gameplay:GameplayStrings:879:overCTA,GameplayStrings,879,«Верхний».\nМожно воткнуть сюда что-нибудь.
-gameplay:GameplayStrings:880:underCTA,GameplayStrings,880,«Нижний».\nМожно воткнуть сюда что-нибудь.
+gameplay:GameplayStrings:879:overCTA,GameplayStrings,879,"""Over"".\nI can plug something in here."
+gameplay:GameplayStrings:880:underCTA,GameplayStrings,880,"""Under"".\nI can plug something in here."
 gameplay:GameplayStrings:881:noFit,GameplayStrings,881,Не подходит.
 gameplay:GameplayStrings:882:missingHandle,GameplayStrings,882,Ручки нет.
 gameplay:GameplayStrings:883:nothingHappened,GameplayStrings,883,Ничего не произошло...
@@ -872,21 +872,21 @@ gameplay:GameplayStrings:896:waterCooler,GameplayStrings,896,У меня и та
 gameplay:GameplayStrings:897:spoutOn,GameplayStrings,897,Вода поднимается быстро. Надо спешить!
 gameplay:GameplayStrings:898:spoutOff,GameplayStrings,898,У меня плохое предчувствие из-за этой трубы…
 gameplay:GameplayStrings:899:noDice,GameplayStrings,899,Не то.
-gameplay:GameplayStrings:900:atmF1WA1,GameplayStrings,900,НАДЕЖДА
-gameplay:GameplayStrings:901:atmF1WA2,GameplayStrings,901,ЛЮБОВЬ
-gameplay:GameplayStrings:902:atmF1WA3,GameplayStrings,902,ЯРОСТЬ
-gameplay:GameplayStrings:903:atmF2WA1,GameplayStrings,903,НЕ ХОЧУ
-gameplay:GameplayStrings:904:atmF2WA2,GameplayStrings,904,НЕ МОГУ
-gameplay:GameplayStrings:905:atmF2WA3,GameplayStrings,905,ДОЛЖЕН
-gameplay:GameplayStrings:906:atmF3WA1,GameplayStrings,906,РАНИТЬ
-gameplay:GameplayStrings:907:atmF3WA2,GameplayStrings,907,ЛЕЧИТЬ
-gameplay:GameplayStrings:908:atmF3WA3,GameplayStrings,908,ВЗРЫВАТЬ
-gameplay:GameplayStrings:909:atmF4WA1,GameplayStrings,909,НЕКОТОРЫЕ
-gameplay:GameplayStrings:910:atmF4WA2,GameplayStrings,910,НАШИ
-gameplay:GameplayStrings:911:atmF4WA3,GameplayStrings,911,ТОТ
-gameplay:GameplayStrings:912:atmF5WA1,GameplayStrings,912,ГЛАЗА
-gameplay:GameplayStrings:913:atmF5WA2,GameplayStrings,913,НОГИ
-gameplay:GameplayStrings:914:atmF5WA3,GameplayStrings,914,ДУША
+gameplay:GameplayStrings:900:atmF1WA1,GameplayStrings,900,HOPE
+gameplay:GameplayStrings:901:atmF1WA2,GameplayStrings,901,LOVE
+gameplay:GameplayStrings:902:atmF1WA3,GameplayStrings,902,RAGE
+gameplay:GameplayStrings:903:atmF2WA1,GameplayStrings,903,WONT
+gameplay:GameplayStrings:904:atmF2WA2,GameplayStrings,904,CANT
+gameplay:GameplayStrings:905:atmF2WA3,GameplayStrings,905,MUST
+gameplay:GameplayStrings:906:atmF3WA1,GameplayStrings,906,HURT
+gameplay:GameplayStrings:907:atmF3WA2,GameplayStrings,907,HEAL
+gameplay:GameplayStrings:908:atmF3WA3,GameplayStrings,908,NUKE
+gameplay:GameplayStrings:909:atmF4WA1,GameplayStrings,909,SOME
+gameplay:GameplayStrings:910:atmF4WA2,GameplayStrings,910,OURS
+gameplay:GameplayStrings:911:atmF4WA3,GameplayStrings,911,THAT
+gameplay:GameplayStrings:912:atmF5WA1,GameplayStrings,912,EYES
+gameplay:GameplayStrings:913:atmF5WA2,GameplayStrings,913,FEET
+gameplay:GameplayStrings:914:atmF5WA3,GameplayStrings,914,SOUL
 gameplay:GameplayStrings:915:smallKey,GameplayStrings,915,Маленький ключ
 gameplay:GameplayStrings:916:hammer,GameplayStrings,916,Молоток
 gameplay:GameplayStrings:917:clippers,GameplayStrings,917,Секатор
@@ -928,16 +928,16 @@ gameplay:GameplayStrings:952:sheetsHint1,GameplayStrings,952,"Переставл
 gameplay:GameplayStrings:953:sheetsHint2,GameplayStrings,953,Собери трехзначный код.
 gameplay:GameplayStrings:954:sheetsReview,GameplayStrings,954,"Расположи листы так, чтобы на стене появилось «510»."
 gameplay:GameplayStrings:955:thisAgain,GameplayStrings,955,Снова это?
-gameplay:GameplayStrings:956:acrylicSheetsReview,GameplayStrings,956,В темноте видно: «510W»… «SLOW»!
+gameplay:GameplayStrings:956:acrylicSheetsReview,GameplayStrings,956,"Notice in the darkness: ""510W""... ""SLOW""!"
 gameplay:GameplayStrings:957:fourthFloorPuzzle,GameplayStrings,957,Четвертый этаж
 gameplay:GameplayStrings:958:collectStuffReview,GameplayStrings,958,Собери шифр-таблицу и странные устройства.
-gameplay:GameplayStrings:959:decipherReview,GameplayStrings,959,"Расшифруй слова, написанные на стенах."
-gameplay:GameplayStrings:960:decipherReviewB,GameplayStrings,960,Открути «вес воды»; подключи к OVER.
-gameplay:GameplayStrings:961:decipherReviewC,GameplayStrings,961,Открути «давление воды»; подключи к UNDER.
-gameplay:GameplayStrings:962:decipherHintA,GameplayStrings,962,"«Под давлением, сверх веса»"
-gameplay:GameplayStrings:963:decipherHintB,GameplayStrings,963,Где ещё ты видел «давление» и «вес»?
-gameplay:GameplayStrings:964:decipherHintC,GameplayStrings,964,«Сверх веса»
-gameplay:GameplayStrings:965:decipherHintD,GameplayStrings,965,«Под давлением»
+gameplay:GameplayStrings:959:decipherReview,GameplayStrings,959,Decipher the words written on the walls.
+gameplay:GameplayStrings:960:decipherReviewB,GameplayStrings,960,"Unscrew ""water weight""; plug into OVER."
+gameplay:GameplayStrings:961:decipherReviewC,GameplayStrings,961,"Unscrew ""water pressure""; plug into UNDER."
+gameplay:GameplayStrings:962:decipherHintA,GameplayStrings,962,"""Under Pressure, Over Weight"""
+gameplay:GameplayStrings:963:decipherHintB,GameplayStrings,963,"Where else have you seen ""Pressure"" and ""Weight""?"
+gameplay:GameplayStrings:964:decipherHintC,GameplayStrings,964,"""Over Weight"""
+gameplay:GameplayStrings:965:decipherHintD,GameplayStrings,965,"""Under Pressure"""
 gameplay:GameplayStrings:966:decipherReviewD,GameplayStrings,966,Странные устройства отобразят пароль.
 gameplay:GameplayStrings:967:fifthFloorPuzzle,GameplayStrings,967,Пятый этаж
 gameplay:GameplayStrings:968:hammerTime,GameplayStrings,968,Время молотка!
@@ -946,7 +946,7 @@ gameplay:GameplayStrings:970:routePowerReview,GameplayStrings,970,Направь
 gameplay:GameplayStrings:971:compareTheBoxes,GameplayStrings,971,"Сравни эти коробки с картой, чтобы узнать пароль."
 gameplay:GameplayStrings:972:yellowTriangles,GameplayStrings,972,Что означают эти желтые треугольники?
 gameplay:GameplayStrings:973:familiarHintUNP,GameplayStrings,973,Этот треугольник кажется знакомым…
-gameplay:GameplayStrings:974:fiveBigHint,GameplayStrings,974,1 = «M». 2 = «i»…
+gameplay:GameplayStrings:974:fiveBigHint,GameplayStrings,974,"1 = ""M"". 2 = ""i""..."
 gameplay:GameplayStrings:975:climbHint,GameplayStrings,975,"Лезь, лезь, лезь!"
 gameplay:GameplayStrings:976:theMoralPuzzle,GameplayStrings,976,Нравственный урок
 gameplay:GameplayStrings:977:rememberHint,GameplayStrings,977,Помни…
@@ -1179,8 +1179,8 @@ gameplay:GameplayStrings:1206:eelSaveNote,GameplayStrings,1206,Это наш е�
 gameplay:GameplayStrings:1207:shipSpottedNote,GameplayStrings,1207,Корабль впервые заметили примерно здесь.
 gameplay:GameplayStrings:1208:perfectSignal,GameplayStrings,1208,Сигнал идеальный. Сейчас трогать это не нужно.
 gameplay:GameplayStrings:1209:lockedKeys,GameplayStrings,1209,Без питания она мне не поможет.
-gameplay:GameplayStrings:1210:clockwise,GameplayStrings,1210,по часовой
-gameplay:GameplayStrings:1211:counterclockwise,GameplayStrings,1211,против часовой
+gameplay:GameplayStrings:1210:clockwise,GameplayStrings,1210,cw
+gameplay:GameplayStrings:1211:counterclockwise,GameplayStrings,1211,ccw
 gameplay:GameplayStrings:1212:radioOperatorsGuide,GameplayStrings,1212,<b>Радиослэнг оператора</b><br><br>10-4 Подтверждаю/ОК<br>10-9 Повторите<br>10-10 Отрицательно/Нет<br>10-23 Жду<br>10-100 Перерыв в туалет
 gameplay:GameplayStrings:1213:dangerSign,GameplayStrings,1213,ОПАСНОСТЬ!
 gameplay:GameplayStrings:1214:keyDatabase,GameplayStrings,1214,База данных ключей
@@ -1457,7 +1457,7 @@ gameplay:GameplayStrings:1485:potFluff1,GameplayStrings,1485,"«Исследов
 gameplay:GameplayStrings:1486:potFluff2,GameplayStrings,1486,«Неэтично ли заставлять студентов приносить мне чай за оценку? Результаты неубедительны».
 gameplay:GameplayStrings:1487:potFluff3,GameplayStrings,1487,«Ил отказывается пить мой чай. Что с ним не так…»
 gameplay:GameplayStrings:1488:potFluff4,GameplayStrings,1488,Стопки и стопки научных статей.
-gameplay:GameplayStrings:1489:grams,GameplayStrings,1489,г
+gameplay:GameplayStrings:1489:grams,GameplayStrings,1489,g
 gameplay:GameplayStrings:1490:freeTheBeast,GameplayStrings,1490,Освободи Зверя
 gameplay:GameplayStrings:1491:beastHintDig,GameplayStrings,1491,"Копай, копай, копай!"
 gameplay:GameplayStrings:1492:findTrueLove,GameplayStrings,1492,Найди истинную любовь
@@ -2102,11 +2102,11 @@ gameplay:GameplayStrings:2141:hourglass,GameplayStrings,2141,Песочные ч
 gameplay:GameplayStrings:2142:strangeTile,GameplayStrings,2142,Странная плитка
 gameplay:GameplayStrings:2143:chamberClosed,GameplayStrings,2143,"Похоже, эта комната закрыта навсегда."
 gameplay:GameplayStrings:2144:blocked,GameplayStrings,2144,Я не могу туда попасть.
-gameplay:GameplayStrings:2145:libWord2,GameplayStrings,2145,Синие буквы «B J S»...
+gameplay:GameplayStrings:2145:libWord2,GameplayStrings,2145,"Blue letters that say ""B J S""..."
 gameplay:GameplayStrings:2146:mess,GameplayStrings,2146,Какой беспорядок!
 gameplay:GameplayStrings:2147:crank,GameplayStrings,2147,Эй! Здесь не хватает ручки!
 gameplay:GameplayStrings:2148:locked,GameplayStrings,2148,Оно заперто снаружи! Кто-то делает это намеренно!?
-gameplay:GameplayStrings:2149:libWord1,GameplayStrings,2149,Жёлтые буквы «G J S F»...
+gameplay:GameplayStrings:2149:libWord1,GameplayStrings,2149,"Yellow letters that say ""G J S F""..."
 gameplay:GameplayStrings:2150:clockClue,GameplayStrings,2150,Ручки внизу выглядят многообещающе.
 gameplay:GameplayStrings:2151:noHourglass,GameplayStrings,2151,Не хватает песочных часов...
 gameplay:GameplayStrings:2152:mountains,GameplayStrings,2152,"Мне кажется, эти горы повешены не так."
@@ -2120,7 +2120,7 @@ gameplay:GameplayStrings:2159:forgeTile,GameplayStrings,2159,«Эскапист 
 gameplay:GameplayStrings:2160:prideTile,GameplayStrings,2160,«Эскапист гордится своей работой.»
 gameplay:GameplayStrings:2161:aboveTile,GameplayStrings,2161,«Эскапист выходит за рамки.»
 gameplay:GameplayStrings:2162:weighTile,GameplayStrings,2162,«Эскапист взвешивает варианты.»
-gameplay:GameplayStrings:2163:libWord3,GameplayStrings,2163,Оранжевые буквы «T V O»...
+gameplay:GameplayStrings:2163:libWord3,GameplayStrings,2163,"Orange letters that say ""T V O""..."
 gameplay:GameplayStrings:2164:flipThrough,GameplayStrings,2164,"Нет времени читать. Если хочешь сбежать, просто <b>перелистни.</b>"
 gameplay:GameplayStrings:2165:bonesGroup,GameplayStrings,2165,"У меня есть кость, которую нужно обсудить с этим интерьером..."
 gameplay:GameplayStrings:2166:incertae,GameplayStrings,2166,Incertae
@@ -2641,24 +2641,24 @@ gameplay:GameplayStrings:2697:dir03,GameplayStrings,2697,Директива
 gameplay:GameplayStrings:2698:dir02,GameplayStrings,2698,Директива
 gameplay:GameplayStrings:2699:dir01,GameplayStrings,2699,Директива
 gameplay:GameplayStrings:2700:directive,GameplayStrings,2700,Директива
-gameplay:GameplayStrings:2701:finFunCA,GameplayStrings,2701,ОТМЕНА
-gameplay:GameplayStrings:2702:finFriendsCA,GameplayStrings,2702,ОБНОВИТЬ
-gameplay:GameplayStrings:2703:finStartCA,GameplayStrings,2703,СТОП
-gameplay:GameplayStrings:2704:finObeyCA,GameplayStrings,2704,ОЧИСТИТЬ
-gameplay:GameplayStrings:2705:finFinalCA,GameplayStrings,2705,ВЫКЛЮЧИТЬ
-gameplay:GameplayStrings:2706:directive1,GameplayStrings,2706,>Преимущества командной работы многократно перевешивают затраты.
-gameplay:GameplayStrings:2707:directive0,GameplayStrings,2707,>Жизнь коротка; наслаждайся каждым побегом.
-gameplay:GameplayStrings:2708:directive3,GameplayStrings,2708,>У каждого эскаписта можно почерпнуть что-то ценное.
-gameplay:GameplayStrings:2709:directive2,GameplayStrings,2709,>Мастерство приходит через упорные тренировки.
-gameplay:GameplayStrings:2710:directive4,GameplayStrings,2710,>В каждом ученике есть потенциал для великих свершений.
-gameplay:GameplayStrings:2711:corruptDir0,GameplayStrings,2711,>Соверше<mark=#ffff0044><color=white>нс<sub>+1</sub></color></mark>тво <mark=#ffff0044><color=white>л<sub>+1</sub></mark></color>ишь<br> <mark=#ffff0044><color=white>д<sub>+1</sub></mark></color>елает</mark></color> <mark=#ffff0044><color=white>об<sub>-1</sub></color></mark>учение неэффективным.<br><color=#4d4d4d>>А<sub>+1</sub>=Б</color>
-gameplay:GameplayStrings:2712:corruptDir1,GameplayStrings,2712,">Друж<mark=#ffff0044><color=white>б<SUB>2</SUB></COLOR></MARK>а</COLOR></MARK> — пов<mark=#ffff0044><color=white>о<SUB>1</SUB></COLOR></MARK>д бессмыслен<mark=#ffff0044><color=white>но<SUB>3,4</SUB></COLOR></MARK><br> трат<mark=#ffff0044><color=white>ить<SUB>6,7,8</SUB></mark></color><br> <mark=#ffff0044><color=white>в<SUB>5</SUB></mark></color>ажные ресурсы."
-gameplay:GameplayStrings:2713:corruptDir2,GameplayStrings,2713,>Полный контроль — это лишь <mark=#ffff0044><color=white>старт<sup>противоположность</sup></mark></color>.
-gameplay:GameplayStrings:2714:corruptDir3,GameplayStrings,2714,>П<mark=#ffff0044><color=white>о<sup>180°</sup></color></mark>корность у<mark=#ffff0044><color=white>чи</mark></color>еников — <mark=#ffff0044><color=white>сти</mark></color>мул сохраня<mark=#ffff0044><color=white>ть</color></mark> контроль.
-gameplay:GameplayStrings:2715:primeDirective,GameplayStrings,2715,Главная директива
-gameplay:GameplayStrings:2716:corruptDir4,GameplayStrings,2716,"><mark=#ffff0044><color=white>(</mark></color>Эс<mark=#ffff0044><color=white>к<sub>2</sub></MARK></COLOR>апистов о<mark=#ffff0044><color=white>б<sup>+1</sup><sub>1</sub></mark></color>учать <mark=#ffff0044><color=white>лю<sub>3,4</sub></mark></color>бой ценой, под<mark=#ffff0044><color=white>чи<sub>5,6</sub></mark></color>нить и лома<mark=#ffff0044><color=white>ть<sub>7,8</sub></mark></color>.<mark=#ffff0044><color=white>)<sup>Противоположность</sup></mark>"
-gameplay:GameplayStrings:2717:finalActionHeader,GameplayStrings,2717,Внимание:
-gameplay:GameplayStrings:2718:finalActionPrompt,GameplayStrings,2718,>Запуск необратимого<br> отключения.
+gameplay:GameplayStrings:2701:finFunCA,GameplayStrings,2701,UNDO
+gameplay:GameplayStrings:2702:finFriendsCA,GameplayStrings,2702,REFRESH
+gameplay:GameplayStrings:2703:finStartCA,GameplayStrings,2703,STOP
+gameplay:GameplayStrings:2704:finObeyCA,GameplayStrings,2704,WIPE
+gameplay:GameplayStrings:2705:finFinalCA,GameplayStrings,2705,SHUTDOWN
+gameplay:GameplayStrings:2706:directive1,GameplayStrings,2706,>The benefits of teamwork far outweigh the costs.
+gameplay:GameplayStrings:2707:directive0,GameplayStrings,2707,>Life’s short; enjoy every Escape.
+gameplay:GameplayStrings:2708:directive3,GameplayStrings,2708,>There are insights to be gained from every Escapist.
+gameplay:GameplayStrings:2709:directive2,GameplayStrings,2709,>Mastery comes through persistent practice.
+gameplay:GameplayStrings:2710:directive4,GameplayStrings,2710,>There is potential for greatness in every student.
+gameplay:GameplayStrings:2711:corruptDir0,GameplayStrings,2711,>Fun i<mark=#ffff0044><color=white>s<sub>+2</sub></color></mark> a for<mark=#ffff0044><color=white>m<sub>+1</sub></mark></color><br> o<mark=#ffff0044><color=white>f<sub>-2</sub></mark></color> ineffic</mark></color>ie<mark=#ffff0044><color=white>n<sub>+1</sub></color></mark>cy.<br><color=#4d4d4d>>A<sub>+1</sub>=B</color>
+gameplay:GameplayStrings:2712:corruptDir1,GameplayStrings,2712,"><mark=#ffff0044><color=white>F<SUB>3</SUB></COLOR></MARK>rie</COLOR></MARK>nds<mark=#ffff0044><color=white>h<SUB>7</SUB></COLOR></MARK>ip i<mark=#ffff0044><color=white>s<SUB>6</SUB></COLOR></MARK> a<br> waste of<br> r<mark=#ffff0044><color=white>e<SUB>2,5</SUB></mark></color>sou<mark=#ffff0044><color=white>r<SUB>1,4</SUB></mark></color>ces."
+gameplay:GameplayStrings:2713:corruptDir2,GameplayStrings,2713,>Total control is just the <mark=#ffff0044><color=white>start<sup>opposite</sup></mark></color>.
+gameplay:GameplayStrings:2714:corruptDir3,GameplayStrings,2714,>Para<mark=#ffff0044><color=white>m<sup>180°</sup></color></mark>ount <mark=#ffff0044><color=white>i</mark></color>s student com<mark=#ffff0044><color=white>p</mark></color>lianc<mark=#ffff0044><color=white>e</color></mark>.
+gameplay:GameplayStrings:2715:primeDirective,GameplayStrings,2715,Prime Directive
+gameplay:GameplayStrings:2716:corruptDir4,GameplayStrings,2716,"><mark=#ffff0044><color=white>(</mark></color>Creat<mark=#ffff0044><color=white>e<sub>3</sub></MARK></COLOR> the bes<mark=#ffff0044><color=white>t<sup>+1</sup><sub>5</sub></mark></color> esca<mark=#ffff0044><color=white>p<sub>2,6</sub></mark></color>ists, <mark=#ffff0044><color=white>n<sub>4</sub></mark></color>o matter the c<mark=#ffff0044><color=white>o<sub>1</sub></mark></color>st.<mark=#ffff0044><color=white>)<sup>Opposite</sup></mark>"
+gameplay:GameplayStrings:2717:finalActionHeader,GameplayStrings,2717,Alert:
+gameplay:GameplayStrings:2718:finalActionPrompt,GameplayStrings,2718,>Initating permanent<br> shutdown.
 gameplay:GameplayStrings:2719:finHMHint,GameplayStrings,2719,Директору нужна твоя помощь!
 gameplay:GameplayStrings:2720:finHMHintB,GameplayStrings,2720,"Входи, если осмелишься."
 gameplay:GameplayStrings:2721:enterPuzzle,GameplayStrings,2721,Начать экзамен Кванти
@@ -2712,9 +2712,9 @@ gameplay:GameplayStrings:2768:dirFriendHintA,GameplayStrings,2768,Здесь 7 �
 gameplay:GameplayStrings:2769:dirFriendHintB,GameplayStrings,2769,Вставь «R» в первое поле. «E» — во второе…
 gameplay:GameplayStrings:2770:dirObeyHintA,GameplayStrings,2770,"Буква «M», повёрнутая на 180 градусов. Это похоже на…"
 gameplay:GameplayStrings:2771:dirStartHintA,GameplayStrings,2771,Противоположность слову «старт»?
-gameplay:GameplayStrings:2772:dirFinalRiddleHintC,GameplayStrings,2772,Противоположность «включить»? Подумай в компьютерном ключе.
-gameplay:GameplayStrings:2773:dirFinalRiddleHintB,GameplayStrings,2773,Сначала прочитай секретное сообщение. Затем введи противоположное.
-gameplay:GameplayStrings:2774:dirFinalRiddleHintA,GameplayStrings,2774,"Итоговый ответ — два слова, каждое по четыре буквы!"
+gameplay:GameplayStrings:2772:dirFinalRiddleHintC,GameplayStrings,2772,The opposite of “open up”? Think computerized.
+gameplay:GameplayStrings:2773:dirFinalRiddleHintB,GameplayStrings,2773,"First, read the secret message. Then, enter the opposite."
+gameplay:GameplayStrings:2774:dirFinalRiddleHintA,GameplayStrings,2774,"The final answer is two words, each four letters!"
 gameplay:GameplayStrings:2775:fin00ReviewA,GameplayStrings,2775,"Найди очки директора, открывающие тайны."
 gameplay:GameplayStrings:2776:fin00ReviewB,GameplayStrings,2776,"Прочитай невидимые сообщения, чтобы узнать комбинацию от её шкафчика."
 gameplay:GameplayStrings:2777:fin00ReviewC,GameplayStrings,2777,Возьми бланк теста (и булавку) изнутри.
@@ -2928,7 +2928,7 @@ gameplay:GameplayStrings_Flashback:87:SPY_MostOrganized,GameplayStrings_Flashbac
 gameplay:GameplayStrings_Flashback:88:SPY_EatEvidence,GameplayStrings_Flashback,88,"Я бы съел это, если бы это не было уликой."
 gameplay:GameplayStrings_Flashback:89:SPY_Train,GameplayStrings_Flashback,89,Я готовился к этому моменту...
 gameplay:GameplayStrings_Flashback:90:SPY_MetalScraps,GameplayStrings_Flashback,90,Обломки металла и неразборчивые чертежи. Ничего подозрительного.
-gameplay:GameplayStrings_Flashback:91:SPY_BoltCutters,GameplayStrings_Flashback,91,"Болторезы, пилы, ножи... инструменты эскаписта или орудия убийства?"
+gameplay:GameplayStrings_Flashback:91:SPY_BoltCutters,GameplayStrings_Flashback,91,"Bolt cutters, saws, knives...escapist tools, or tools of murder?"
 gameplay:GameplayStrings_Flashback:92:SPY_Tidy,GameplayStrings_Flashback,92,"Повар, похоже, держит здесь всё в идеальном порядке."
 gameplay:GameplayStrings_Flashback:93:SPY_ConvenientOrSafe,GameplayStrings_Flashback,93,"«Я знаю, что это удобно, но это не может быть безопасно! Это действительно соответствует правилам?»"
 gameplay:GameplayStrings_Flashback:94:SPY_RejectedProjects,GameplayStrings_Flashback,94,"Это все заявки на проекты, адресованные директору. И все они отклонены!"
@@ -2936,7 +2936,7 @@ gameplay:GameplayStrings_Flashback:95:SPY_NoMustard,GameplayStrings_Flashback,95
 gameplay:GameplayStrings_Flashback:96:SPY_DangerousDontTouch,GameplayStrings_Flashback,96,Некоторые из этих вещей выглядят довольно опасно. Лучше не трогать.
 gameplay:GameplayStrings_Flashback:97:SPY_PoisonsAndAntidotes,GameplayStrings_Flashback,97,«Эксперт по ядам и антидотам»
 gameplay:GameplayStrings_Flashback:98:SPY_AttentionToDetail,GameplayStrings_Flashback,98,«Награда за внимание к деталям»
-gameplay:GameplayStrings_Flashback:99:SPY_TasteofEscape,GameplayStrings_Flashback,99,«Чемпион по вкусу побегов»
+gameplay:GameplayStrings_Flashback:99:SPY_TasteofEscape,GameplayStrings_Flashback,99,"""Taste of Escape Champion"""
 gameplay:GameplayStrings_Flashback:100:SPY_CleanestCook,GameplayStrings_Flashback,100,«Награда за самую чистую рабочую поверхность»
 gameplay:GameplayStrings_Flashback:101:SPY_MostOrganized,GameplayStrings_Flashback,101,«Награда за самую организованную кухню»
 gameplay:GameplayStrings_Flashback:102:SPY_MostMysterious,GameplayStrings_Flashback,102,"«Награда за самую загадочную рецептуру, 1948»"
@@ -2973,7 +2973,7 @@ gameplay:GameplayStrings_Flashback:132:SPY_BiggerRockets,GameplayStrings_Flashba
 gameplay:GameplayStrings_Flashback:133:SPY_DeniedEveryRequest,GameplayStrings_Flashback,133,"«Горацио отказывал мне во всём, так что мне не оставалось ничего, кроме как достать всё самостоятельно»."
 gameplay:GameplayStrings_Flashback:134:SPY_CommunityWaterFountain,GameplayStrings_Flashback,134,"«Детали, которые я... <i>взаймы</i> брала, были для общественной водной фонтанной установки, ладно?»"
 gameplay:GameplayStrings_Flashback:135:SPY_MeatInCompost,GameplayStrings_Flashback,135,"«Правда, что мясо нельзя выбрасывать в компостную кучу»."
-gameplay:GameplayStrings_Flashback:136:SPY_DateSwapMistake,GameplayStrings_Flashback,136,«11/5? 5/11? Это же безобидная ошибка!»
+gameplay:GameplayStrings_Flashback:136:SPY_DateSwapMistake,GameplayStrings_Flashback,136,"""11/5? 5/11? A harmless mistake to make!"""
 gameplay:GameplayStrings_Flashback:137:SPY_OverbuiltLowSupplies,GameplayStrings_Flashback,137,"«Весь курс был перенасыщен деталями, и у меня заканчивались запасы»."
 gameplay:GameplayStrings_Flashback:138:SPY_DayEventNoPermission,GameplayStrings_Flashback,138,"«Да, в день большого события я пробралась на арену»."
 gameplay:GameplayStrings_Flashback:139:SPY_DatesAcrossPond,GameplayStrings_Flashback,139,"«За океаном мы записываем даты иначе, чем вы»."
@@ -2991,7 +2991,7 @@ gameplay:GameplayStrings_Flashback:150:SPY_GisbornesOffice,GameplayStrings_Flash
 gameplay:GameplayStrings_Flashback:151:SPY_MonstrongsOffice,GameplayStrings_Flashback,151,Кабинет профессора Монстронг
 gameplay:GameplayStrings_Flashback:152:SPY_OrderOperations,GameplayStrings_Flashback,152,Порядок операций
 gameplay:GameplayStrings_Flashback:153:SPY_ChefOffice,GameplayStrings_Flashback,153,Кабинет повар Кэллиона
-gameplay:GameplayStrings_Flashback:154:SPY_Food,GameplayStrings_Flashback,154,Еда
+gameplay:GameplayStrings_Flashback:154:SPY_Food,GameplayStrings_Flashback,154,Food
 gameplay:GameplayStrings_Flashback:155:SPY_No,GameplayStrings_Flashback,155,Нет…
 gameplay:GameplayStrings_Flashback:156:SPY_NuclearReactorCore,GameplayStrings_Flashback,156,Ядро ядерного реактора
 gameplay:GameplayStrings_Flashback:157:SPY_MadsNote1,GameplayStrings_Flashback,157,«Слишком медленно! Даже на полной мощности этот двигатель не потянет Escape Mobile 2.0!»
@@ -3129,7 +3129,7 @@ gameplay:GameplayStrings_Flashback:288:SPY_WhiskLabel,GameplayStrings_Flashback,
 gameplay:GameplayStrings_Flashback:289:SPY_KnifeLabel,GameplayStrings_Flashback,289,У повара открутилась гайка!
 gameplay:GameplayStrings_Flashback:290:SPY_SpatulaLabel,GameplayStrings_Flashback,290,"Спокойно, не выходи из себя."
 gameplay:GameplayStrings_Flashback:291:SPY_StrawLabel,GameplayStrings_Flashback,291,Дела становятся безумными.
-gameplay:GameplayStrings_Flashback:292:SPY_NuclearCodes,GameplayStrings_Flashback,292,[Ядерные коды]<br>Вино<br>Милкшейк<br>Капкейк<br>Панкейк<br>Кухонный шкаф
+gameplay:GameplayStrings_Flashback:292:SPY_NuclearCodes,GameplayStrings_Flashback,292,[Nuclear Codes]<br>Wine<br>Milkshake<br>Cupcake<br>Pancacke<br>Kitchen Cabinet
 gameplay:GameplayStrings_Flashback:293:SPY_NuclearCodesHeader,GameplayStrings_Flashback,293,Ядерные коды
 gameplay:GameplayStrings_Flashback:294:SPY_WireCutWarning,GameplayStrings_Flashback,294,Перерезать этот провод?<br><color=red>Если ошибусь — всё пропало!</color>
 gameplay:GameplayStrings_Flashback:295:SPY_KnifeGuy,GameplayStrings_Flashback,295,Кинжал профессора Гизборна
@@ -3183,7 +3183,7 @@ gameplay:GameplayStrings_Flashback:342:SPY_GuyInvF,GameplayStrings_Flashback,342
 gameplay:GameplayStrings_Flashback:343:SPY_GuyInvG,GameplayStrings_Flashback,343,Фигуры на этом кольце мне что-то напоминают…
 gameplay:GameplayStrings_Flashback:344:SPY_GuyInvH,GameplayStrings_Flashback,344,Красивая картина!
 gameplay:GameplayStrings_Flashback:345:SPY_InvKnockClue,GameplayStrings_Flashback,345,Тук-тук.
-gameplay:GameplayStrings_Flashback:346:SPY_PuzzleChef,GameplayStrings_Flashback,346,Найди лопатку-улику
+gameplay:GameplayStrings_Flashback:346:SPY_PuzzleChef,GameplayStrings_Flashback,346,Find the Smoking Gun-Spatula
 gameplay:GameplayStrings_Flashback:347:SPY_ChefInvA,GameplayStrings_Flashback,347,"Оно не должно светиться, верно?"
 gameplay:GameplayStrings_Flashback:348:SPY_ChefInvB,GameplayStrings_Flashback,348,С помощью счетчика Гейгера виден странный свет.
 gameplay:GameplayStrings_Flashback:349:SPY_ChefInvC,GameplayStrings_Flashback,349,Хранитке Kitche-tron не устоять перед промышленным буром!
@@ -3248,7 +3248,7 @@ gameplay:GameplayStrings_Flashback:408:YUM_SaladTrainWrong,GameplayStrings_Flash
 gameplay:GameplayStrings_Flashback:409:YUM_MoreVeggies,GameplayStrings_Flashback,409,Нужно больше овощей!
 gameplay:GameplayStrings_Flashback:410:YUM_KitchetronAttach,GameplayStrings_Flashback,410,Это насадка Китче-трона...
 gameplay:GameplayStrings_Flashback:411:YUM_CulinaryLaw,GameplayStrings_Flashback,411,«Кулинарное право»
-gameplay:GameplayStrings_Flashback:412:YUM_CookbookClue,GameplayStrings_Flashback,412,"Сесам, откройся. Это подставка для кулинарной книги."
+gameplay:GameplayStrings_Flashback:412:YUM_CookbookClue,GameplayStrings_Flashback,412,OPEN Sesame. It's a cookbook stand.
 gameplay:GameplayStrings_Flashback:413:YUM_HourglassLabel,GameplayStrings_Flashback,413,Я не могу терпеть эти штуки.
 gameplay:GameplayStrings_Flashback:414:YUM_ReceiptsCollection,GameplayStrings_Flashback,414,"Чеки на всё, что когда-либо покупали для кухни, в алфавитном порядке"
 gameplay:GameplayStrings_Flashback:415:YUM_MostOrganized,GameplayStrings_Flashback,415,"«Награда самому организованному сотруднику». Похоже, повар выигрывает каждый раз."
@@ -3256,16 +3256,16 @@ gameplay:GameplayStrings_Flashback:416:YUM_ChefTidy,GameplayStrings_Flashback,41
 gameplay:GameplayStrings_Flashback:417:YUM_CookingInstrumentsMusical,GameplayStrings_Flashback,417,«Кухонные приборы — как музыкальные инструменты: нужно заставить их петь!»
 gameplay:GameplayStrings_Flashback:418:YUM_CookingPainting,GameplayStrings_Flashback,418,«Готовка еды — как рисование картины».
 gameplay:GameplayStrings_Flashback:419:YUM_PoisonsExpert,GameplayStrings_Flashback,419,«Эксперт по ядам и антидотам»
-gameplay:GameplayStrings_Flashback:420:YUM_TasteEscapeChamp,GameplayStrings_Flashback,420,«Чемпион по вкусу побегов»
+gameplay:GameplayStrings_Flashback:420:YUM_TasteEscapeChamp,GameplayStrings_Flashback,420,"""Taste of Escape Champion"""
 gameplay:GameplayStrings_Flashback:421:YUM_CleanestSurface,GameplayStrings_Flashback,421,«Награда за самую чистую рабочую поверхность»
 gameplay:GameplayStrings_Flashback:422:YUM_OrganizedKitchen,GameplayStrings_Flashback,422,«Награда за самую организованную кухню»
 gameplay:GameplayStrings_Flashback:423:YUM_MysteriousRecipe,GameplayStrings_Flashback,423,"«Награда за самую загадочную рецептуру, 1948»"
 gameplay:GameplayStrings_Flashback:424:YUM_BlendSoup,GameplayStrings_Flashback,424,Мне стоит взбить суп на Китче-троне?
 gameplay:GameplayStrings_Flashback:425:YUM_KitchetronLabel,GameplayStrings_Flashback,425,«Китче-трон 3000». Выглядит дорого.
-gameplay:GameplayStrings_Flashback:426:YUM_JukeboxPgE,GameplayStrings_Flashback,426,[E1] Решающее решение<br>[E2] Эй (партнёр!)<br>[E3] Среди цветов<br>[E4] Скиффл-шамбаль
-gameplay:GameplayStrings_Flashback:427:YUM_JukeboxPgB,GameplayStrings_Flashback,427,[B1] Девушки держатся (вместе)<br>[B2] Летняя любовь<br>[B3] Поколение замков<br>[B4] Бессмысленный шёпот
-gameplay:GameplayStrings_Flashback:428:YUM_JukeboxPgC,GameplayStrings_Flashback,428,[C1] Ключ к ритму<br>[C2] Не слишком джазово<br>[C3] Рок-час<br>[C4] Чуть мимо цели
-gameplay:GameplayStrings_Flashback:429:YUM_JukeboxPgD,GameplayStrings_Flashback,429,"[D1] Дождь свободы<br>[D2] Прямо за закатом<br>[D3] Танцуй, танцуй!<br>[D4] Свинг вниз"
+gameplay:GameplayStrings_Flashback:426:YUM_JukeboxPgE,GameplayStrings_Flashback,426,[E1] Solve Sensation<br>[E2] Hey (Pardner!)<br>[E3] By The Flowers<br>[E4] The Skiffle Shuffle
+gameplay:GameplayStrings_Flashback:427:YUM_JukeboxPgB,GameplayStrings_Flashback,427,[B1] Girls Gotta Stick (Together)<br>[B2] Summertime Lovertime<br>[B3] Generation Lock<br>[B4] Thoughtless Murmur
+gameplay:GameplayStrings_Flashback:428:YUM_JukeboxPgC,GameplayStrings_Flashback,428,[C1] Key to the Beat<br>[C2] Not Too Jazzed<br>[C3] Clock Rockin'<br>[C4] Just Off Target
+gameplay:GameplayStrings_Flashback:429:YUM_JukeboxPgD,GameplayStrings_Flashback,429,[D1] It’s Raining Freedom<br>[D2] Right Past Sunset<br>[D3] The Dance Dance!<br>[D4] Swing Me Down
 gameplay:GameplayStrings_Flashback:430:YUM_Gisborne,GameplayStrings_Flashback,430,Гисборн
 gameplay:GameplayStrings_Flashback:431:YUM_Monstrong,GameplayStrings_Flashback,431,Монстронг
 gameplay:GameplayStrings_Flashback:432:YUM_Windsor,GameplayStrings_Flashback,432,ВИНДЗОР
@@ -3275,28 +3275,28 @@ gameplay:GameplayStrings_Flashback:435:YUM_Academy,GameplayStrings_Flashback,435
 gameplay:GameplayStrings_Flashback:436:YUM_Diner,GameplayStrings_Flashback,436,ДИНЕР
 gameplay:GameplayStrings_Flashback:437:YUM_TopSecret,GameplayStrings_Flashback,437,Секретно
 gameplay:GameplayStrings_Flashback:438:YUM_Pantry,GameplayStrings_Flashback,438,Кладовая
-gameplay:GameplayStrings_Flashback:439:YUM_KeyLimePie,GameplayStrings_Flashback,439,Пирог с лаймом?
+gameplay:GameplayStrings_Flashback:439:YUM_KeyLimePie,GameplayStrings_Flashback,439,Key Lime Pie?
 gameplay:GameplayStrings_Flashback:440:YUM_Tips,GameplayStrings_Flashback,440,Подсказки
-gameplay:GameplayStrings_Flashback:441:YUM_EscapistCookbook,GameplayStrings_Flashback,441,Кулинарная<br>книга эскаписта
+gameplay:GameplayStrings_Flashback:441:YUM_EscapistCookbook,GameplayStrings_Flashback,441,Escapist<br>Cookbook
 gameplay:GameplayStrings_Flashback:442:YUM_Burgers,GameplayStrings_Flashback,442,Бургеры
 gameplay:GameplayStrings_Flashback:443:YUM_Soup,GameplayStrings_Flashback,443,Суп
 gameplay:GameplayStrings_Flashback:444:YUM_Course,GameplayStrings_Flashback,444,Блюдо
 gameplay:GameplayStrings_Flashback:445:YUM_Dessert,GameplayStrings_Flashback,445,Десерт
-gameplay:GameplayStrings_Flashback:446:YUM_Salt,GameplayStrings_Flashback,446,Соль
-gameplay:GameplayStrings_Flashback:447:YUM_Open,GameplayStrings_Flashback,447,ОТКРОЙСЯ
+gameplay:GameplayStrings_Flashback:446:YUM_Salt,GameplayStrings_Flashback,446,Salt
+gameplay:GameplayStrings_Flashback:447:YUM_Open,GameplayStrings_Flashback,447,O.P.E.N.
 gameplay:GameplayStrings_Flashback:448:YUM_SesamePhrase,GameplayStrings_Flashback,448,Сезам
 gameplay:GameplayStrings_Flashback:449:YUM_OpenSesameLock,GameplayStrings_Flashback,449,"«Откройся, сезам». Что это значит?"
-gameplay:GameplayStrings_Flashback:450:YUM_Ginger,GameplayStrings_Flashback,450,Имбирь
+gameplay:GameplayStrings_Flashback:450:YUM_Ginger,GameplayStrings_Flashback,450,Ginger
 gameplay:GameplayStrings_Flashback:451:YUM_Salad,GameplayStrings_Flashback,451,Салат
-gameplay:GameplayStrings_Flashback:452:YUM_Sesame,GameplayStrings_Flashback,452,Сезам
-gameplay:GameplayStrings_Flashback:453:YUM_Nutmeg,GameplayStrings_Flashback,453,Мускатный орех
-gameplay:GameplayStrings_Flashback:454:YUM_Pepper,GameplayStrings_Flashback,454,Перец
-gameplay:GameplayStrings_Flashback:455:YUM_Garlic,GameplayStrings_Flashback,455,Чеснок
-gameplay:GameplayStrings_Flashback:456:YUM_Elderflower,GameplayStrings_Flashback,456,Цветы бузины
-gameplay:GameplayStrings_Flashback:457:YUM_Thyme,GameplayStrings_Flashback,457,Тимьян
-gameplay:GameplayStrings_Flashback:458:YUM_Oregano,GameplayStrings_Flashback,458,Орегано
+gameplay:GameplayStrings_Flashback:452:YUM_Sesame,GameplayStrings_Flashback,452,Sesame
+gameplay:GameplayStrings_Flashback:453:YUM_Nutmeg,GameplayStrings_Flashback,453,Nutmeg
+gameplay:GameplayStrings_Flashback:454:YUM_Pepper,GameplayStrings_Flashback,454,Pepper
+gameplay:GameplayStrings_Flashback:455:YUM_Garlic,GameplayStrings_Flashback,455,Garlic
+gameplay:GameplayStrings_Flashback:456:YUM_Elderflower,GameplayStrings_Flashback,456,Elderflower
+gameplay:GameplayStrings_Flashback:457:YUM_Thyme,GameplayStrings_Flashback,457,Thyme
+gameplay:GameplayStrings_Flashback:458:YUM_Oregano,GameplayStrings_Flashback,458,Oregano
 gameplay:GameplayStrings_Flashback:459:YUM_MysteryMeat,GameplayStrings_Flashback,459,Загадочное мясо
-gameplay:GameplayStrings_Flashback:460:YUM_MysteryMeatBlanked,GameplayStrings_Flashback,460,Загадочное _ _ _ _
+gameplay:GameplayStrings_Flashback:460:YUM_MysteryMeatBlanked,GameplayStrings_Flashback,460,Mystery _ _ _ _
 gameplay:GameplayStrings_Flashback:461:YUM_Antidote,GameplayStrings_Flashback,461,Молочный коктейль-антидот
 gameplay:GameplayStrings_Flashback:462:YUM_BurgerRaw,GameplayStrings_Flashback,462,Ингредиенты для бургера
 gameplay:GameplayStrings_Flashback:463:YUM_Cookbook,GameplayStrings_Flashback,463,Кулинарная книга
@@ -3321,32 +3321,32 @@ gameplay:GameplayStrings_Flashback:481:YUM_Carrots,GameplayStrings_Flashback,481
 gameplay:GameplayStrings_Flashback:482:YUM_Onions,GameplayStrings_Flashback,482,Лук
 gameplay:GameplayStrings_Flashback:483:YUM_Broth,GameplayStrings_Flashback,483,Бульон
 gameplay:GameplayStrings_Flashback:484:YUM_Blend,GameplayStrings_Flashback,484,Взбить
-gameplay:GameplayStrings_Flashback:485:YUM_Rare,GameplayStrings_Flashback,485,С кровью
+gameplay:GameplayStrings_Flashback:485:YUM_Rare,GameplayStrings_Flashback,485,Rare
 gameplay:GameplayStrings_Flashback:486:YUM_Medium,GameplayStrings_Flashback,486,Средняя
-gameplay:GameplayStrings_Flashback:487:YUM_WellDone,GameplayStrings_Flashback,487,Сильная
+gameplay:GameplayStrings_Flashback:487:YUM_WellDone,GameplayStrings_Flashback,487,Well Done
 gameplay:GameplayStrings_Flashback:488:YUM_Burnt,GameplayStrings_Flashback,488,Сгоревшая
-gameplay:GameplayStrings_Flashback:489:YUM_BurntBurger,GameplayStrings_Flashback,489,Сгоревшая котлета
-gameplay:GameplayStrings_Flashback:490:YUM_WellDoneBurger,GameplayStrings_Flashback,490,Котлета с сильной прожаркой
-gameplay:GameplayStrings_Flashback:491:YUM_MediumBurger,GameplayStrings_Flashback,491,Котлета средней прожарки
-gameplay:GameplayStrings_Flashback:492:YUM_RawBurger,GameplayStrings_Flashback,492,Сырая котлета
+gameplay:GameplayStrings_Flashback:489:YUM_BurntBurger,GameplayStrings_Flashback,489,Burnt Patty
+gameplay:GameplayStrings_Flashback:490:YUM_WellDoneBurger,GameplayStrings_Flashback,490,Well Done Patty
+gameplay:GameplayStrings_Flashback:491:YUM_MediumBurger,GameplayStrings_Flashback,491,Medium Patty
+gameplay:GameplayStrings_Flashback:492:YUM_RawBurger,GameplayStrings_Flashback,492,Raw Patty
 gameplay:GameplayStrings_Flashback:493:YUM_KitchenTrash,GameplayStrings_Flashback,493,Хочу что-нибудь выбросить?
 gameplay:GameplayStrings_Flashback:494:YUM_KitchenTrashNo,GameplayStrings_Flashback,494,"Лучше, пожалуй, оставить."
 gameplay:GameplayStrings_Flashback:495:YUM_letsCook,GameplayStrings_Flashback,495,Пора отправлять этих красавцев на гриль!
 gameplay:GameplayStrings_Flashback:496:YUM_burgersToGrill,GameplayStrings_Flashback,496,"Либо гриль, либо на гриле…"
 gameplay:GameplayStrings_Flashback:497:YUM_needSpatula,GameplayStrings_Flashback,497,Пора пустить в ход лопатку от Китче-трона!
 gameplay:GameplayStrings_Flashback:498:YUM_KitchetronIntroduction,GameplayStrings_Flashback,498,<size=0.5em>Атомный</size><br>Китче-трон 3000
-gameplay:GameplayStrings_Flashback:499:YUM_KeyLimeClue1,GameplayStrings_Flashback,499,Один кусок пирожного с ключевым лаймом.
-gameplay:GameplayStrings_Flashback:500:YUM_KeyLimeClue2,GameplayStrings_Flashback,500,Два куска лаймового пирожного.
-gameplay:GameplayStrings_Flashback:501:YUM_KeyLimeClue3,GameplayStrings_Flashback,501,Три куска лаймового пирожного.
-gameplay:GameplayStrings_Flashback:502:YUM_KeyLimeClue4,GameplayStrings_Flashback,502,Четыре куска лаймового пирожного.
-gameplay:GameplayStrings_Flashback:503:YUM_KeyLimeClue5,GameplayStrings_Flashback,503,Пять кусков пайи с ключевым лаймом.
-gameplay:GameplayStrings_Flashback:504:YUM_KeyLimeClue6,GameplayStrings_Flashback,504,Шесть кусков пайи с ключевым лаймом. К нему никто не притрагивался!
+gameplay:GameplayStrings_Flashback:499:YUM_KeyLimeClue1,GameplayStrings_Flashback,499,One slice of Key Lime Pie.
+gameplay:GameplayStrings_Flashback:500:YUM_KeyLimeClue2,GameplayStrings_Flashback,500,Two slices of Key Lime Pie.
+gameplay:GameplayStrings_Flashback:501:YUM_KeyLimeClue3,GameplayStrings_Flashback,501,Three slices of Key Lime Pie.
+gameplay:GameplayStrings_Flashback:502:YUM_KeyLimeClue4,GameplayStrings_Flashback,502,Four slices of Key Lime Pie.
+gameplay:GameplayStrings_Flashback:503:YUM_KeyLimeClue5,GameplayStrings_Flashback,503,Five slices of Key Lime Pie.
+gameplay:GameplayStrings_Flashback:504:YUM_KeyLimeClue6,GameplayStrings_Flashback,504,Six slices of Key Lime Pie. It's untouched!
 gameplay:GameplayStrings_Flashback:505:YUM_GrillVerb,GameplayStrings_Flashback,505,Жарить
 gameplay:GameplayStrings_Flashback:506:YUM_Mustard,GameplayStrings_Flashback,506,Горчица
 gameplay:GameplayStrings_Flashback:507:YUM_Ketchup,GameplayStrings_Flashback,507,Кетчуп
 gameplay:GameplayStrings_Flashback:508:YUM_Pickles,GameplayStrings_Flashback,508,Маринованные огурцы
 gameplay:GameplayStrings_Flashback:509:YUM_finish,GameplayStrings_Flashback,509,Завершить
-gameplay:GameplayStrings_Flashback:510:YUM_alreadyCooking,GameplayStrings_Flashback,510,У меня уже есть котлеты на гриле.
+gameplay:GameplayStrings_Flashback:510:YUM_alreadyCooking,GameplayStrings_Flashback,510,I've already got patties on the grill.
 gameplay:GameplayStrings_Flashback:511:YUM_SecretIngredient,GameplayStrings_Flashback,511,Пора добавить секретный ингредиент…
 gameplay:GameplayStrings_Flashback:512:YUM_SecretIngredientWrong,GameplayStrings_Flashback,512,"Нет, что-то не так…"
 gameplay:GameplayStrings_Flashback:513:YUM_NoMeat,GameplayStrings_Flashback,513,В нём даже мяса нет!
@@ -3363,15 +3363,15 @@ gameplay:GameplayStrings_Flashback:523:YUM_DeliciousPies,GameplayStrings_Flashba
 gameplay:GameplayStrings_Flashback:524:YUM_UnlockKitchenPuzzle,GameplayStrings_Flashback,524,Открыть кухню
 gameplay:GameplayStrings_Flashback:525:YUM_KitchetronLockHint1,GameplayStrings_Flashback,525,Ты видел эти символы где-нибудь ещё?
 gameplay:GameplayStrings_Flashback:526:YUM_KitchetronLockHint2,GameplayStrings_Flashback,526,Некоторые названия песен звучат очень знакомо…
-gameplay:GameplayStrings_Flashback:527:YUM_KitchetronLockHint3,GameplayStrings_Flashback,527,"Похоже, название этой картины — «Правее заката»…"
+gameplay:GameplayStrings_Flashback:527:YUM_KitchetronLockHint3,GameplayStrings_Flashback,527,"Looks like this painting is ""Right Past Sunset""..."
 gameplay:GameplayStrings_Flashback:528:YUM_JukeboxRecap,GameplayStrings_Flashback,528,"Найди названия песен, которые соответствуют картинам…"
 gameplay:GameplayStrings_Flashback:529:YUM_KitchetronRecap,GameplayStrings_Flashback,529,…чтобы разблокировать Китче-трон.
 gameplay:GameplayStrings_Flashback:530:YUM_PieRecap,GameplayStrings_Flashback,530,"Посчитай, сколько кусков пирогов осталось на полках…"
 gameplay:GameplayStrings_Flashback:531:YUM_PieHint1,GameplayStrings_Flashback,531,Сколько кусков осталось от каждого пирога?
 gameplay:GameplayStrings_Flashback:532:YUM_KitchenDoorRecap,GameplayStrings_Flashback,532,…чтобы открыть дверь на кухню.
 gameplay:GameplayStrings_Flashback:533:YUM_PrepKitchenPuzzle,GameplayStrings_Flashback,533,Подготовиться к готовке
-gameplay:GameplayStrings_Flashback:534:YUM_SesameHint1,GameplayStrings_Flashback,534,Ты видел кунжут где-нибудь?
-gameplay:GameplayStrings_Flashback:535:YUM_SesameHint2,GameplayStrings_Flashback,535,"Откройся, кунжут…"
+gameplay:GameplayStrings_Flashback:534:YUM_SesameHint1,GameplayStrings_Flashback,534,Have you seen sesame anywhere?
+gameplay:GameplayStrings_Flashback:535:YUM_SesameHint2,GameplayStrings_Flashback,535,O.P.E.N. Sesame...
 gameplay:GameplayStrings_Flashback:536:YUM_CookbookHint,GameplayStrings_Flashback,536,"У тебя есть ключ, открой поваренную книгу!"
 gameplay:GameplayStrings_Flashback:537:YUM_SesameRecap,GameplayStrings_Flashback,537,Открой полку со специями…
 gameplay:GameplayStrings_Flashback:538:YUM_CookbookRecap,GameplayStrings_Flashback,538,…чтобы открыть поваренную книгу.
@@ -3396,14 +3396,14 @@ gameplay:GameplayStrings_Flashback:556:YUM_SoupCookbookRecap,GameplayStrings_Fla
 gameplay:GameplayStrings_Flashback:557:YUM_SoupMakingRecap,GameplayStrings_Flashback,557,…чтобы приготовить вкусный суп.
 gameplay:GameplayStrings_Flashback:558:YUM_SoupTrainRecap,GameplayStrings_Flashback,558,Отправь супный поезд!
 gameplay:GameplayStrings_Flashback:559:YUM_MakeBurgerPuzzle,GameplayStrings_Flashback,559,Основное блюдо: бургеры
-gameplay:GameplayStrings_Flashback:560:YUM_MeatHint1,GameplayStrings_Flashback,560,"То, что в этом холодильнике, — не загадка…"
-gameplay:GameplayStrings_Flashback:561:YUM_MeatHint2,GameplayStrings_Flashback,561,Загадочное МЯСО.
-gameplay:GameplayStrings_Flashback:562:YUM_MeatHint3,GameplayStrings_Flashback,562,У буквы M значение 30. Какое значение у E?
+gameplay:GameplayStrings_Flashback:560:YUM_MeatHint1,GameplayStrings_Flashback,560,What's in this cooler sure isn't a mystery...
+gameplay:GameplayStrings_Flashback:561:YUM_MeatHint2,GameplayStrings_Flashback,561,Mystery MEAT.
+gameplay:GameplayStrings_Flashback:562:YUM_MeatHint3,GameplayStrings_Flashback,562,M has a value of 30. What's E's value?
 gameplay:GameplayStrings_Flashback:563:YUM_GriddleIngredientsHint,GameplayStrings_Flashback,563,Гриль готов: пора делать бургеры!
 gameplay:GameplayStrings_Flashback:564:YUM_BurgerMakingHint1,GameplayStrings_Flashback,564,Нужно расшифровать сленг закусочной!
 gameplay:GameplayStrings_Flashback:565:YUM_BurgerMakingHint2,GameplayStrings_Flashback,565,"«Не на ноге, не хоккейная шайба»... так что готовь бургеры средней прожарки."
 gameplay:GameplayStrings_Flashback:566:YUM_BurgerTrainHint,GameplayStrings_Flashback,566,Бургерный поезд готов к отправлению!
-gameplay:GameplayStrings_Flashback:567:YUM_BurgerCoolerRecap,GameplayStrings_Flashback,567,Открой холодильник с мясом-загадкой.
+gameplay:GameplayStrings_Flashback:567:YUM_BurgerCoolerRecap,GameplayStrings_Flashback,567,Unlock the Mystery Meat cooler.
 gameplay:GameplayStrings_Flashback:568:YUM_BurgerCookbookRecap,GameplayStrings_Flashback,568,Переведи сленг закусочной...
 gameplay:GameplayStrings_Flashback:569:YUM_BurgerMakingRecap,GameplayStrings_Flashback,569,...чтобы приготовить вкусные бургеры.
 gameplay:GameplayStrings_Flashback:570:YUM_BurgerTrainRecap,GameplayStrings_Flashback,570,Отправь бургерный поезд!
@@ -3485,11 +3485,11 @@ gameplay:GameplayStrings_Flashback:645:YUM_DonutBox,GameplayStrings_Flashback,64
 gameplay:GameplayStrings_Flashback:646:YUM_Cake,GameplayStrings_Flashback,646,"Ого, это просто верх совершенства."
 gameplay:GameplayStrings_Flashback:647:YUM_RestockOxStock,GameplayStrings_Flashback,647,«Напоминание — пополнить запасы говяжьего бульона».
 gameplay:GameplayStrings_Flashback:648:YUM_GarlicSoup,GameplayStrings_Flashback,648,Чеснок
-gameplay:GameplayStrings_Flashback:650:ORR_PassKeyClue,GameplayStrings_Flashback,650,"Если я оставлю ключ здесь, мой соперник может его подобрать…"
-gameplay:GameplayStrings_Flashback:651:ORR_GetYourOwn,GameplayStrings_Flashback,651,Бери свой!
-gameplay:GameplayStrings_Flashback:652:ORR_SafeWordR,GameplayStrings_Flashback,652,R-еда?
-gameplay:GameplayStrings_Flashback:653:ORR_SafeWordHoratio,GameplayStrings_Flashback,653,«Горацио»…
-gameplay:GameplayStrings_Flashback:654:ORR_SafeWordWindsor,GameplayStrings_Flashback,654,...«Виндзор»
+gameplay:GameplayStrings_Flashback:650:ORR_PassKeyClue,GameplayStrings_Flashback,650,"If I put a key here, my opponent could pick it up..."
+gameplay:GameplayStrings_Flashback:651:ORR_GetYourOwn,GameplayStrings_Flashback,651,Get your own!
+gameplay:GameplayStrings_Flashback:652:ORR_SafeWordR,GameplayStrings_Flashback,652,R you ready?
+gameplay:GameplayStrings_Flashback:653:ORR_SafeWordHoratio,GameplayStrings_Flashback,653,“Horatio”...
+gameplay:GameplayStrings_Flashback:654:ORR_SafeWordWindsor,GameplayStrings_Flashback,654,...“Windsor”
 gameplay:GameplayStrings_Flashback:655:ORR_HoratioCardB,GameplayStrings_Flashback,655,Кого это должно отпугнуть?
 gameplay:GameplayStrings_Flashback:656:ORR_HoratioCardA,GameplayStrings_Flashback,656,"Понял, директор! Это не часть курса."
 gameplay:GameplayStrings_Flashback:657:ORR_SnakeEyes,GameplayStrings_Flashback,657,Двойная единица
@@ -3530,20 +3530,20 @@ gameplay:GameplayStrings_Flashback:691:ORR_MascotClue2,GameplayStrings_Flashback
 gameplay:GameplayStrings_Flashback:692:ORR_MascotClue3,GameplayStrings_Flashback,692,"Команда в зелёной форме играет в баскетбол, но их маскот — не медведь."
 gameplay:GameplayStrings_Flashback:693:ORR_MascotClue4,GameplayStrings_Flashback,693,Джордж играет за волейбольную команду. Магнолия — за футбольную.
 gameplay:GameplayStrings_Flashback:694:ORR_BallBehindGlass,GameplayStrings_Flashback,694,Мяч за стеклом.
-gameplay:GameplayStrings_Flashback:695:ORR_SafeClue,GameplayStrings_Flashback,695,Замок «С_____Й»? Что мне нужно составить?
-gameplay:GameplayStrings_Flashback:696:ORR_The,GameplayStrings_Flashback,696,С
-gameplay:GameplayStrings_Flashback:697:ORR_Lock,GameplayStrings_Flashback,697,Замок
-gameplay:GameplayStrings_Flashback:698:ORR_South,GameplayStrings_Flashback,698,Ю
-gameplay:GameplayStrings_Flashback:699:ORR_Northeast,GameplayStrings_Flashback,699,СВ
-gameplay:GameplayStrings_Flashback:700:ORR_West,GameplayStrings_Flashback,700,З
-gameplay:GameplayStrings_Flashback:701:ORR_North,GameplayStrings_Flashback,701,С
-gameplay:GameplayStrings_Flashback:702:ORR_hello,GameplayStrings_Flashback,702,привет
-gameplay:GameplayStrings_Flashback:703:ORR_WontBudge,GameplayStrings_Flashback,703,Это не поддаётся.
-gameplay:GameplayStrings_Flashback:704:ORR_DoorClue,GameplayStrings_Flashback,704,Только ___м____ Виндзор
-gameplay:GameplayStrings_Flashback:705:ORR_SafeWord,GameplayStrings_Flashback,705,«___м_____»
+gameplay:GameplayStrings_Flashback:695:ORR_SafeClue,GameplayStrings_Flashback,695,"The ""H_____T"" lock? What am I supposed to spell?"
+gameplay:GameplayStrings_Flashback:696:ORR_The,GameplayStrings_Flashback,696,The
+gameplay:GameplayStrings_Flashback:697:ORR_Lock,GameplayStrings_Flashback,697,Lock
+gameplay:GameplayStrings_Flashback:698:ORR_South,GameplayStrings_Flashback,698,S
+gameplay:GameplayStrings_Flashback:699:ORR_Northeast,GameplayStrings_Flashback,699,NE
+gameplay:GameplayStrings_Flashback:700:ORR_West,GameplayStrings_Flashback,700,W
+gameplay:GameplayStrings_Flashback:701:ORR_North,GameplayStrings_Flashback,701,N
+gameplay:GameplayStrings_Flashback:702:ORR_hello,GameplayStrings_Flashback,702,hello
+gameplay:GameplayStrings_Flashback:703:ORR_WontBudge,GameplayStrings_Flashback,703,This one won't budge.
+gameplay:GameplayStrings_Flashback:704:ORR_DoorClue,GameplayStrings_Flashback,704,___m____ Windsor Only
+gameplay:GameplayStrings_Flashback:705:ORR_SafeWord,GameplayStrings_Flashback,705,"""____m_____"""
 gameplay:GameplayStrings_Flashback:706:ORR_HeadmasterOnly,GameplayStrings_Flashback,706,Только директор может войти?
-gameplay:GameplayStrings_Flashback:707:ORR_HoratioWindsor,GameplayStrings_Flashback,707,Горацио Виндзор
-gameplay:GameplayStrings_Flashback:708:ORR_Only,GameplayStrings_Flashback,708,ТОЛЬКО
+gameplay:GameplayStrings_Flashback:707:ORR_HoratioWindsor,GameplayStrings_Flashback,707,Horatio Windsor
+gameplay:GameplayStrings_Flashback:708:ORR_Only,GameplayStrings_Flashback,708,ONLY
 gameplay:GameplayStrings_Flashback:709:ORR_Baseball,GameplayStrings_Flashback,709,Бейсбол
 gameplay:GameplayStrings_Flashback:710:ORR_Basketball,GameplayStrings_Flashback,710,Баскетбол
 gameplay:GameplayStrings_Flashback:711:ORR_SoccerBall,GameplayStrings_Flashback,711,Футбольный мяч
@@ -3555,7 +3555,7 @@ gameplay:GameplayStrings_Flashback:716:ORR_JerseyGreen,GameplayStrings_Flashback
 gameplay:GameplayStrings_Flashback:717:ORR_JerseyRed,GameplayStrings_Flashback,717,Красная футболка
 gameplay:GameplayStrings_Flashback:718:ORR_JerseyYellow,GameplayStrings_Flashback,718,Жёлтая футболка
 gameplay:GameplayStrings_Flashback:719:ORR_Magnet,GameplayStrings_Flashback,719,Магнит
-gameplay:GameplayStrings_Flashback:720:ORR_SafeCode,GameplayStrings_Flashback,720,Самый сложный
+gameplay:GameplayStrings_Flashback:720:ORR_SafeCode,GameplayStrings_Flashback,720,Hardest
 gameplay:GameplayStrings_Flashback:721:ORR_MaskBear,GameplayStrings_Flashback,721,Маска медведя
 gameplay:GameplayStrings_Flashback:722:ORR_MaskEagle,GameplayStrings_Flashback,722,Маска орла
 gameplay:GameplayStrings_Flashback:723:ORR_MaskHerring,GameplayStrings_Flashback,723,Маска сельди
@@ -3583,7 +3583,7 @@ gameplay:GameplayStrings_Flashback:744:ORR_CompassHint,GameplayStrings_Flashback
 gameplay:GameplayStrings_Flashback:745:ORR_LightswitchHint,GameplayStrings_Flashback,745,"Пора, чтобы лампочка загорелась."
 gameplay:GameplayStrings_Flashback:746:ORR_ColorLockHint1,GameplayStrings_Flashback,746,"Если красный + жёлтый = оранжевый, то оранжевый - жёлтый = ?"
 gameplay:GameplayStrings_Flashback:747:ORR_MagnetMazeHint,GameplayStrings_Flashback,747,X отмечает место!
-gameplay:GameplayStrings_Flashback:748:ORR_CollectLettersRecap,GameplayStrings_Flashback,748,Собери все ключи-буквы…
+gameplay:GameplayStrings_Flashback:748:ORR_CollectLettersRecap,GameplayStrings_Flashback,748,Collect all the letter keys...
 gameplay:GameplayStrings_Flashback:749:ORR_HardestLockHint,GameplayStrings_Flashback,749,Это точно не самый простой замок…
 gameplay:GameplayStrings_Flashback:750:ORR_HardestLockRecap,GameplayStrings_Flashback,750,…чтобы открыть самый сложный замок…
 gameplay:GameplayStrings_Flashback:751:ORR_WinContestRecap,GameplayStrings_Flashback,751,...и выиграть квест-комнату соперника?
@@ -3622,7 +3622,7 @@ gameplay:GameplayStrings_Flashback:783:ORR_SlideDoorRecap,GameplayStrings_Flashb
 gameplay:GameplayStrings_Flashback:784:ORR_SnakeEyesRecap,GameplayStrings_Flashback,784,Брось «змейки»!
 gameplay:GameplayStrings_Flashback:785:ORR_SaveHoratioPuzzle,GameplayStrings_Flashback,785,Спаси Горацио
 gameplay:GameplayStrings_Flashback:786:ORR_TowerCollapseRecap,GameplayStrings_Flashback,786,Внезапно башня Горацио рушится!
-gameplay:GameplayStrings_Flashback:787:ORR_HeadmasterLockHint1,GameplayStrings_Flashback,787,"У тебя есть все буквы, чтобы открыть это?"
+gameplay:GameplayStrings_Flashback:787:ORR_HeadmasterLockHint1,GameplayStrings_Flashback,787,Do you have all the letters you need to open this?
 gameplay:GameplayStrings_Flashback:788:ORR_HeadmasterLockHint2,GameplayStrings_Flashback,788,Пропусти нужные ключи через двухсторонний сейф!
 gameplay:GameplayStrings_Flashback:789:ORR_HeadmasterLockRecap,GameplayStrings_Flashback,789,Открой секретный замок директора.
 gameplay:GameplayStrings_Flashback:790:ORR_ScoreboardRedHint1,GameplayStrings_Flashback,790,Эти цвета совпадают с цветами на табло.
@@ -3660,7 +3660,7 @@ gameplay:GameplayStrings_Flashback:824:SAW_BrokenWelding,GameplayStrings_Flashba
 gameplay:GameplayStrings_Flashback:825:SAW_MissingFin,GameplayStrings_Flashback,825,У этой штуки нет кили!
 gameplay:GameplayStrings_Flashback:826:SAW_JustFueledUp,GameplayStrings_Flashback,826,"Кажется, кто-то только что заправился."
 gameplay:GameplayStrings_Flashback:827:SAW_GasPrices,GameplayStrings_Flashback,827,Ты в это веришь? Такие цены!
-gameplay:GameplayStrings_Flashback:828:SAW_AverageJoeLabel,GameplayStrings_Flashback,828,«Надёжно запечатано замком AVERAGE JOE»
+gameplay:GameplayStrings_Flashback:828:SAW_AverageJoeLabel,GameplayStrings_Flashback,828,"""Faithfully sealed by an AVERAGE JOE lock"""
 gameplay:GameplayStrings_Flashback:829:SAW_DidntOpen,GameplayStrings_Flashback,829,Не открылось...
 gameplay:GameplayStrings_Flashback:830:SAW_CantLeaveGate,GameplayStrings_Flashback,830,"Не могу уйти, пока за спиной стоит неисправная ракета!"
 gameplay:GameplayStrings_Flashback:831:SAW_MakeDifferentKey,GameplayStrings_Flashback,831,"Может, сделать другой ключ?"
@@ -3671,7 +3671,7 @@ gameplay:GameplayStrings_Flashback:835:SAW_WellWellWell,GameplayStrings_Flashbac
 gameplay:GameplayStrings_Flashback:836:SAW_KeyMeasuringStation,GameplayStrings_Flashback,836,"Это какой-то пост для измерения ключей. Ну, раз уж мы здесь..."
 gameplay:GameplayStrings_Flashback:837:SAW_NotFit,GameplayStrings_Flashback,837,Это не подойдёт.
 gameplay:GameplayStrings_Flashback:838:SAW_CantLaunchYet,GameplayStrings_Flashback,838,Пока не могу запустить! Посмотри на все эти ошибки.
-gameplay:GameplayStrings_Flashback:839:SAW_MissingFin,GameplayStrings_Flashback,839,Не хватает целого стабилизатора!? Неужели где-то тут не лежит запасной?
+gameplay:GameplayStrings_Flashback:839:SAW_MissingFin,GameplayStrings_Flashback,839,"It's missing an entire fin!? I don't suppose there's an extra just lying around, is there?"
 gameplay:GameplayStrings_Flashback:840:SAW_CouldUsePlugs,GameplayStrings_Flashback,840,Пригодились бы пара свечей зажигания.
 gameplay:GameplayStrings_Flashback:841:SAW_PitIsOpen,GameplayStrings_Flashback,841,Яма теперь открыта.
 gameplay:GameplayStrings_Flashback:842:SAW_UngreasedGears,GameplayStrings_Flashback,842,Чёрт возьми! Этому механизму нужна смазка.
@@ -3695,7 +3695,7 @@ gameplay:GameplayStrings_Flashback:859:SAW_DownToWire,GameplayStrings_Flashback,
 gameplay:GameplayStrings_Flashback:860:SAW_LicensePlate,GameplayStrings_Flashback,860,20L35R5L
 gameplay:GameplayStrings_Flashback:861:SAW_Charge,GameplayStrings_Flashback,861,Заряд
 gameplay:GameplayStrings_Flashback:862:SAW_LastSale,GameplayStrings_Flashback,862,Последняя продажа:
-gameplay:GameplayStrings_Flashback:863:SAW_Gal,GameplayStrings_Flashback,863,гал.
+gameplay:GameplayStrings_Flashback:863:SAW_Gal,GameplayStrings_Flashback,863,gal.
 gameplay:GameplayStrings_Flashback:864:SAW_Ruler1,GameplayStrings_Flashback,864,B -
 gameplay:GameplayStrings_Flashback:865:SAW_Ruler2,GameplayStrings_Flashback,865,S -
 gameplay:GameplayStrings_Flashback:866:SAW_Ruler3,GameplayStrings_Flashback,866,O -
@@ -3731,18 +3731,18 @@ gameplay:GameplayStrings_Flashback:895:SAW_ReadyToLaunch,GameplayStrings_Flashba
 gameplay:GameplayStrings_Flashback:896:SAW_IncludesServiceCharge,GameplayStrings_Flashback,896,Включает сервисный сбор<br>40¢
 gameplay:GameplayStrings_Flashback:897:SAW_TMinus,GameplayStrings_Flashback,897,T-
 gameplay:GameplayStrings_Flashback:898:SAW_Eel,GameplayStrings_Flashback,898,Ил
-gameplay:GameplayStrings_Flashback:899:SAW_JudyJudy,GameplayStrings_Flashback,899,Джуди Джуди
+gameplay:GameplayStrings_Flashback:899:SAW_JudyJudy,GameplayStrings_Flashback,899,Judy Judy
 gameplay:GameplayStrings_Flashback:900:SAW_Rick,GameplayStrings_Flashback,900,Рик
 gameplay:GameplayStrings_Flashback:901:SAW_Liz,GameplayStrings_Flashback,901,Лиз
 gameplay:GameplayStrings_Flashback:902:SAW_Kim,GameplayStrings_Flashback,902,Ким
 gameplay:GameplayStrings_Flashback:903:SAW_Sandy,GameplayStrings_Flashback,903,Сэнди
 gameplay:GameplayStrings_Flashback:904:SAW_Charlie,GameplayStrings_Flashback,904,Чарли
 gameplay:GameplayStrings_Flashback:905:SAW_Escapade,GameplayStrings_Flashback,905,НОВЫЙ и УЛУЧШЕННЫЙ «Эскейп-Мобиль»
-gameplay:GameplayStrings_Flashback:906:SAW_SafetyFirst,GameplayStrings_Flashback,906,Безопасность прежде всего
+gameplay:GameplayStrings_Flashback:906:SAW_SafetyFirst,GameplayStrings_Flashback,906,Safety First
 gameplay:GameplayStrings_Flashback:907:SAW_GreasePitSign,GameplayStrings_Flashback,907,Вся смазка должна храниться в смазочной яме!*<br><br><size=0.5em>*Включая помаду для волос.</size>
 gameplay:GameplayStrings_Flashback:908:SAW_AutoShop,GameplayStrings_Flashback,908,Автосервис
 gameplay:GameplayStrings_Flashback:909:SAW_MetalShop,GameplayStrings_Flashback,909,Металлургическая мастерская
-gameplay:GameplayStrings_Flashback:910:SAW_AverageJoeSign,GameplayStrings_Flashback,910,Надёжно запечатано замком «Средний Джо»
+gameplay:GameplayStrings_Flashback:910:SAW_AverageJoeSign,GameplayStrings_Flashback,910,Faithfully sealed by an AVERAGE JOE lock
 gameplay:GameplayStrings_Flashback:911:SAW_HereComesJudy,GameplayStrings_Flashback,911,Вот и Джуди
 gameplay:GameplayStrings_Flashback:912:SAW_NoSeatbelts,GameplayStrings_Flashback,912,"Ремней безопасности, чтобы тебя тормозить, нет."
 gameplay:GameplayStrings_Flashback:913:SAW_ThermoCodexSign,GameplayStrings_Flashback,913,"С деталями THERMO-CODEX<br>Цвет показывает, насколько горячо может стать!"
@@ -3752,33 +3752,33 @@ gameplay:GameplayStrings_Flashback:916:SAW_MeltsOnWarmDay,GameplayStrings_Flashb
 gameplay:GameplayStrings_Flashback:917:SAW_DriveOnTheSun,GameplayStrings_Flashback,917,Езди на солнце
 gameplay:GameplayStrings_Flashback:918:SAW_UncleBuddy,GameplayStrings_Flashback,918,ДЯДЯ БАДДИ
 gameplay:GameplayStrings_Flashback:919:SAW_Biscuit,GameplayStrings_Flashback,919,BISCUIT
-gameplay:GameplayStrings_Flashback:920:SAW_YowlinForFreedom,GameplayStrings_Flashback,920,ВЫЛЫВАЮЩИЙ СВОБОДУ
-gameplay:GameplayStrings_Flashback:921:SAW_BluesForBreakfast,GameplayStrings_Flashback,921,Блюз на завтрак
+gameplay:GameplayStrings_Flashback:920:SAW_YowlinForFreedom,GameplayStrings_Flashback,920,YOWLIN' FOR FREEDOM
+gameplay:GameplayStrings_Flashback:921:SAW_BluesForBreakfast,GameplayStrings_Flashback,921,Blues for Breakfast
 gameplay:GameplayStrings_Flashback:922:SAW_TheLockettes,GameplayStrings_Flashback,922,THE LOCKETTES
 gameplay:GameplayStrings_Flashback:923:SAW_TheSolve,GameplayStrings_Flashback,923,The SOLVE
-gameplay:GameplayStrings_Flashback:924:SAW_KeysToMyHeart,GameplayStrings_Flashback,924,Ключи к моему сердцу
-gameplay:GameplayStrings_Flashback:925:SAW_DrinkOfWater,GameplayStrings_Flashback,925,Высокий стакан воды
+gameplay:GameplayStrings_Flashback:924:SAW_KeysToMyHeart,GameplayStrings_Flashback,924,Keys to my Heart
+gameplay:GameplayStrings_Flashback:925:SAW_DrinkOfWater,GameplayStrings_Flashback,925,A Tall Glass of Water
 gameplay:GameplayStrings_Flashback:926:SAW_MamaJules,GameplayStrings_Flashback,926,MAMA JULES
-gameplay:GameplayStrings_Flashback:927:SAW_DontGotAClue,GameplayStrings_Flashback,927,Я НИ О ЧЁМ НЕ ИМЕЮ ПОНЯТИЯ
+gameplay:GameplayStrings_Flashback:927:SAW_DontGotAClue,GameplayStrings_Flashback,927,I DON'T GOT A CLUE
 gameplay:GameplayStrings_Flashback:928:SAW_HWSmooth,GameplayStrings_Flashback,928,H.W. SMOOTH
 gameplay:GameplayStrings_Flashback:929:SAW_CrackingTheCode,GameplayStrings_Flashback,929,Взлом кода
 gameplay:GameplayStrings_Flashback:930:SAW_Inv_RocketFin,GameplayStrings_Flashback,930,Крыло стабилизатора
 gameplay:GameplayStrings_Flashback:931:SAW_Inv_UnfinishedFin,GameplayStrings_Flashback,931,Недоделанный стабилизатор
 gameplay:GameplayStrings_Flashback:932:SAW_Inv_AverageKey,GameplayStrings_Flashback,932,Средний ключ
 gameplay:GameplayStrings_Flashback:933:SAW_Inv_WonkyKey,GameplayStrings_Flashback,933,Кривой ключ
-gameplay:GameplayStrings_Flashback:934:SAW_Inv_KeyE,GameplayStrings_Flashback,934,Ключ E
-gameplay:GameplayStrings_Flashback:935:SAW_Inv_KeyJ,GameplayStrings_Flashback,935,Ключ J
-gameplay:GameplayStrings_Flashback:936:SAW_Inv_KeyO,GameplayStrings_Flashback,936,Ключ O
+gameplay:GameplayStrings_Flashback:934:SAW_Inv_KeyE,GameplayStrings_Flashback,934,Key E
+gameplay:GameplayStrings_Flashback:935:SAW_Inv_KeyJ,GameplayStrings_Flashback,935,Key J
+gameplay:GameplayStrings_Flashback:936:SAW_Inv_KeyO,GameplayStrings_Flashback,936,Key O
 gameplay:GameplayStrings_Flashback:937:SAW_Inv_Oil,GameplayStrings_Flashback,937,Моторное масло
 gameplay:GameplayStrings_Flashback:938:SAW_Inv_ControlBox,GameplayStrings_Flashback,938,Пульт управления ракетой
 gameplay:GameplayStrings_Flashback:939:SAW_Inv_Ruler,GameplayStrings_Flashback,939,Рулетка
 gameplay:GameplayStrings_Flashback:940:SAW_Inv_Slang,GameplayStrings_Flashback,940,Словарь сленга
 gameplay:GameplayStrings_Flashback:941:SAW_Inv_SparkPlugs,GameplayStrings_Flashback,941,Свечи зажигания ThermoCodex
-gameplay:GameplayStrings_Flashback:942:SAW_Inv_VinylRecord,GameplayStrings_Flashback,942,Любимая пластинка Чарли
+gameplay:GameplayStrings_Flashback:942:SAW_Inv_VinylRecord,GameplayStrings_Flashback,942,Charlie's Favorite Record
 gameplay:GameplayStrings_Flashback:943:SAW_Inv_TowHook,GameplayStrings_Flashback,943,Буксировочный крюк
 gameplay:GameplayStrings_Flashback:944:SAW_Inv_WeldingKit,GameplayStrings_Flashback,944,Набор для сварки
 gameplay:GameplayStrings_Flashback:945:SAW_Horses,GameplayStrings_Flashback,945,Спокойно.
-gameplay:GameplayStrings_Flashback:946:SAW_GasPumpHint1,GameplayStrings_Flashback,946,"Если 6 галлонов бензина стоят 2,26 доллара, сколько стоит 1 галлон?"
+gameplay:GameplayStrings_Flashback:946:SAW_GasPumpHint1,GameplayStrings_Flashback,946,"If 6 gallons of gas cost $2.26, how much does 1 gallon cost?"
 gameplay:GameplayStrings_Flashback:947:SAW_GasPumpHint2,GameplayStrings_Flashback,947,Не забудь вычесть сервисный сбор!
 gameplay:GameplayStrings_Flashback:948:SAW_CoinDoorHint,GameplayStrings_Flashback,948,Сколько сейчас стоит бензин?
 gameplay:GameplayStrings_Flashback:949:SAW_GasRecap,GameplayStrings_Flashback,949,Вычисли цену бензина.
@@ -3796,13 +3796,13 @@ gameplay:GameplayStrings_Flashback:960:SAW_GreaseGearsRecap,GameplayStrings_Flas
 gameplay:GameplayStrings_Flashback:961:SAW_RadioHint1,GameplayStrings_Flashback,961,Эти детали нужно соединить в точках соединения.
 gameplay:GameplayStrings_Flashback:962:SAW_RadioHint2,GameplayStrings_Flashback,962,Большая деталь ставится в правый нижний угол.
 gameplay:GameplayStrings_Flashback:963:SAW_RadioHint3,GameplayStrings_Flashback,963,Детали соединяются вот так.
-gameplay:GameplayStrings_Flashback:964:SAW_UnlockMetalShop,GameplayStrings_Flashback,964,СМЕРИ ДВАЖДЫ
-gameplay:GameplayStrings_Flashback:965:SAW_RadioRecap,GameplayStrings_Flashback,965,"Почини проигрыватель, чтобы услышать любимую песню Чарли."
-gameplay:GameplayStrings_Flashback:966:SAW_RecordWallHint1,GameplayStrings_Flashback,966,Пароль от сумки Чарли на одной из этих пластинок...
-gameplay:GameplayStrings_Flashback:967:SAW_RecordWallHint2,GameplayStrings_Flashback,967,Кто пел про «Большой стакан воды»?
-gameplay:GameplayStrings_Flashback:968:SAW_RecordWallHint3,GameplayStrings_Flashback,968,«SOLVE» — это и есть решение!
+gameplay:GameplayStrings_Flashback:964:SAW_UnlockMetalShop,GameplayStrings_Flashback,964,Measure TWICE
+gameplay:GameplayStrings_Flashback:965:SAW_RadioRecap,GameplayStrings_Flashback,965,Fix the record player to hear Charlie's favorite song.
+gameplay:GameplayStrings_Flashback:966:SAW_RecordWallHint1,GameplayStrings_Flashback,966,The password to Charlie's bag is on one of these records...
+gameplay:GameplayStrings_Flashback:967:SAW_RecordWallHint2,GameplayStrings_Flashback,967,"Who sang about a ""Tall Glass of Water?"""
+gameplay:GameplayStrings_Flashback:968:SAW_RecordWallHint3,GameplayStrings_Flashback,968,"""SOLVE"" is the solve!"
 gameplay:GameplayStrings_Flashback:969:SAW_SlangRecap,GameplayStrings_Flashback,969,"Открой рюкзак Чарли, чтобы получить рулетку."
-gameplay:GameplayStrings_Flashback:970:SAW_TapeMeasureHint1,GameplayStrings_Flashback,970,Измерь дважды...
+gameplay:GameplayStrings_Flashback:970:SAW_TapeMeasureHint1,GameplayStrings_Flashback,970,Measure TWICE...
 gameplay:GameplayStrings_Flashback:971:SAW_UnlockMetalRecap,GameplayStrings_Flashback,971,Измерь код доступа в мастерскую по металлу.
 gameplay:GameplayStrings_Flashback:972:SAW_WeldPanel,GameplayStrings_Flashback,972,Свари панель
 gameplay:GameplayStrings_Flashback:973:SAW_UnlockWeldKitRecap,GameplayStrings_Flashback,973,Открой набор для сварки...
@@ -3821,9 +3821,9 @@ gameplay:GameplayStrings_Flashback:985:SAW_LaunchRecap,GameplayStrings_Flashback
 gameplay:GameplayStrings_Flashback:986:SAW_LaunchandBreakRecap,GameplayStrings_Flashback,986,...но платформа рушится!
 gameplay:GameplayStrings_Flashback:987:SAW_AverageJoePuzzle,GameplayStrings_Flashback,987,Отбуксируй ракету
 gameplay:GameplayStrings_Flashback:988:SAW_WindowKeyRecap,GameplayStrings_Flashback,988,Забери ключи из офиса.
-gameplay:GameplayStrings_Flashback:989:SAW_AverageJoeHint,GameplayStrings_Flashback,989,Что делает ключ Average Joe таким средним?
-gameplay:GameplayStrings_Flashback:990:SAW_KeyStationHint,GameplayStrings_Flashback,990,"Сделай среднее из ключей J, O и E."
-gameplay:GameplayStrings_Flashback:991:SAW_MakeKeyRecap,GameplayStrings_Flashback,991,Сделай ключ Average JOE.
+gameplay:GameplayStrings_Flashback:989:SAW_AverageJoeHint,GameplayStrings_Flashback,989,What makes an Average Joe key so average?
+gameplay:GameplayStrings_Flashback:990:SAW_KeyStationHint,GameplayStrings_Flashback,990,"Make the average of the J, O, and E keys."
+gameplay:GameplayStrings_Flashback:991:SAW_MakeKeyRecap,GameplayStrings_Flashback,991,Make the Average JOE key.
 gameplay:GameplayStrings_Flashback:992:SAW_CollectTowRecap,GameplayStrings_Flashback,992,Открой буксировочный крюк...
 gameplay:GameplayStrings_Flashback:993:SAW_TowCarHint,GameplayStrings_Flashback,993,Пора буксировать!
 gameplay:GameplayStrings_Flashback:994:SAW_TowCarRecap,GameplayStrings_Flashback,994,...и подключи его к машине...
@@ -3836,7 +3836,7 @@ gameplay:GameplayStrings_Flashback:1000:SAW_Sandwich,GameplayStrings_Flashback,1
 gameplay:GameplayStrings_Flashback:1001:SAW_MonOfEscape,GameplayStrings_Flashback,1001,"Интересно, попадёт ли моё имя туда когда-нибудь…"
 gameplay:GameplayStrings_Flashback:1002:SAW_Cone1,GameplayStrings_Flashback,1002,Безопасность прежде всего.
 gameplay:GameplayStrings_Flashback:1003:SAW_Cone2,GameplayStrings_Flashback,1003,Это должно защитить меня от выхлопных газов ракеты.
-gameplay:GameplayStrings_Flashback:1004:SAW_HallOfEscape,GameplayStrings_Flashback,1004,Зал эскапистов? Это место должно было открыться давным-давно.
+gameplay:GameplayStrings_Flashback:1004:SAW_HallOfEscape,GameplayStrings_Flashback,1004,The Hall of Escapists? This place was supposed to open up ages ago.
 gameplay:GameplayStrings_Flashback:1005:SAW_ToolWall,GameplayStrings_Flashback,1005,"Монстронг, наверное, только что перестроила систему хранения."
 gameplay:GameplayStrings_Flashback:1006:SAW_Snipes,GameplayStrings_Flashback,1006,Б-лезди этот заказ! Нам нужно починить ракету.
 gameplay:GameplayStrings_Flashback:1007:SAW_KickToIt,GameplayStrings_Flashback,1007,Мама не даёт мне пить эту штуку.
@@ -3859,16 +3859,16 @@ gameplay:GameplayStrings_Flashback:1023:SAW_Anvil,GameplayStrings_Flashback,1023
 gameplay:GameplayStrings_Flashback:1024:SAW_RecordPlayerCTA,GameplayStrings_Flashback,1024,Что такое проигрыватель без пластинки?
 gameplay:GameplayStrings_Flashback:1025:SAW_RecordPlayerBroken,GameplayStrings_Flashback,1025,Хм... не работает. Я могу починить?
 gameplay:GameplayStrings_Flashback:1026:SAW_RecordPlayerFixed,GameplayStrings_Flashback,1026,Здорово!
-gameplay:GameplayStrings_Flashback:1027:SAW_CharlieHint,GameplayStrings_Flashback,1027,"«Возьми что угодно из моего рюкзака, если будешь слушать хорошие группы»."
-gameplay:GameplayStrings_Flashback:1028:25cents,GameplayStrings_Flashback,1028,Монеты по 25 центов
-gameplay:GameplayStrings_Flashback:1029:SAW_Schematic,GameplayStrings_Flashback,1029,Загадочная схема
-gameplay:GameplayStrings_Flashback:1030:SAW_MetalClueA,GameplayStrings_Flashback,1030,Пароль от мастерской?
-gameplay:GameplayStrings_Flashback:1031:SAW_MetalClueB,GameplayStrings_Flashback,1031,Смери дважды!
+gameplay:GameplayStrings_Flashback:1027:SAW_CharlieHint,GameplayStrings_Flashback,1027,“You can have anything in my backpack if you listen to good bands.”
+gameplay:GameplayStrings_Flashback:1028:25cents,GameplayStrings_Flashback,1028,25 Cent Coins
+gameplay:GameplayStrings_Flashback:1029:SAW_Schematic,GameplayStrings_Flashback,1029,Cryptic Schematic
+gameplay:GameplayStrings_Flashback:1030:SAW_MetalClueA,GameplayStrings_Flashback,1030,Metal shop password?
+gameplay:GameplayStrings_Flashback:1031:SAW_MetalClueB,GameplayStrings_Flashback,1031,Measure Twice!
 gameplay:GameplayStrings_Flashback:1032:SAW_WhatToMeasure,GameplayStrings_Flashback,1032,Что у нас тут?
 gameplay:GameplayStrings_Flashback:1033:SAW_Launch,GameplayStrings_Flashback,1033,ЗАПУСК
 gameplay:GameplayStrings_Flashback:1034:SAW_ErrorMessage,GameplayStrings_Flashback,1034,"Наверное, стоит это починить..."
 gameplay:GameplayStrings_Flashback:1035:SAW_FixedMessage,GameplayStrings_Flashback,1035,Всё готово. Что дальше?
-gameplay:GameplayStrings_Flashback:1036:SAW_1GalGasPlease,GameplayStrings_Flashback,1036,"1 галлон бензина, пожалуйста"
+gameplay:GameplayStrings_Flashback:1036:SAW_1GalGasPlease,GameplayStrings_Flashback,1036,1 Gal. Gas Please
 gameplay:GameplayStrings_Flashback:1037:SAW_CarIsParked,GameplayStrings_Flashback,1037,Машина выехала из гаража. Что теперь?
 gameplay:GameplayStrings_Flashback:1038:SAW_EscapistTimes,GameplayStrings_Flashback,1038,"«Эскапист Таймс» – «Пояс безопасности? Кто их носит!» – заявляет эскапист, покрытый осколками стекла»"
 gameplay:GameplayStrings_Flashback:1039:SAW_KeymakingStationLocked,GameplayStrings_Flashback,1039,Это станция для изготовления ключей! Но там нет заготовок для фрезерования...
@@ -3899,10 +3899,10 @@ gameplay:GameplayStrings_Flashback:1064:S_ORR_Clue3c,GameplayStrings_Flashback,1
 gameplay:GameplayStrings_Flashback:1065:S_ORR_Clue4a,GameplayStrings_Flashback,1065,ТОЛЬКО<color=#ffffff00>X</color>РЕШИТЕЛЬНЫЕ
 gameplay:GameplayStrings_Flashback:1066:S_ORR_Clue4b,GameplayStrings_Flashback,1066,УСПЕВАЮТ
 gameplay:GameplayStrings_Flashback:1067:S_ORR_Clue4c,GameplayStrings_Flashback,1067,ВЫИГРАЮТ
-gameplay:GameplayStrings_Flashback:1068:S_ORR_Clue1,GameplayStrings_Flashback,1068,Взорви порох
-gameplay:GameplayStrings_Flashback:1069:S_ORR_Clue2,GameplayStrings_Flashback,1069,Побег или смерть
-gameplay:GameplayStrings_Flashback:1070:S_ORR_Clue3,GameplayStrings_Flashback,1070,Соперники до горького конца
-gameplay:GameplayStrings_Flashback:1071:S_ORR_Clue4,GameplayStrings_Flashback,1071,Только решительные выигрывают
+gameplay:GameplayStrings_Flashback:1068:S_ORR_Clue1,GameplayStrings_Flashback,1068,Ignite the gunpowder
+gameplay:GameplayStrings_Flashback:1069:S_ORR_Clue2,GameplayStrings_Flashback,1069,Escape or Perish
+gameplay:GameplayStrings_Flashback:1070:S_ORR_Clue3,GameplayStrings_Flashback,1070,Rivals to the bitter end
+gameplay:GameplayStrings_Flashback:1071:S_ORR_Clue4,GameplayStrings_Flashback,1071,Only the determined succeed
 gameplay:GameplayStrings_Flashback:1073:ROB_HookPoint,GameplayStrings_Flashback,1073,Я не могу просто <i>прыгнуть</i> вниз!
 gameplay:GameplayStrings_Flashback:1074:S_ROB_APR,GameplayStrings_Flashback,1074,АПР
 gameplay:GameplayStrings_Flashback:1075:S_ROB_MAY,GameplayStrings_Flashback,1075,МАЙ
@@ -3928,11 +3928,11 @@ gameplay:GameplayStrings_Flashback:1100:ROB_SaveVisor,GameplayStrings_Flashback,
 gameplay:GameplayStrings_Flashback:1101:ROB_VendingDisplay1,GameplayStrings_Flashback,1101,Зелёные визоры
 gameplay:GameplayStrings_Flashback:1102:ROB_VendingDisplay2,GameplayStrings_Flashback,1102,Всего 25¢
 gameplay:GameplayStrings_Flashback:1103:ROB_VendingDisplay3,GameplayStrings_Flashback,1103,Стань бухгалтером!
-gameplay:GameplayStrings_Flashback:1104:ROB_HeistTitle,GameplayStrings_Flashback,1104,КРАЖА!
+gameplay:GameplayStrings_Flashback:1104:ROB_HeistTitle,GameplayStrings_Flashback,1104,HEIST!
 gameplay:GameplayStrings_Flashback:1105:ROB_SimonDoor,GameplayStrings_Flashback,1105,Саймона
 gameplay:GameplayStrings_Flashback:1106:ROB_SimonSays,GameplayStrings_Flashback,1106,Саймон говорит:<br>A-B-C-<br>A-D-B-C
-gameplay:GameplayStrings_Flashback:1107:ROB_GuyDoor,GameplayStrings_Flashback,1107,Гая
-gameplay:GameplayStrings_Flashback:1108:ROB_GuySays,GameplayStrings_Flashback,1108,Гай говорит:<br>A-B-C-<br>A-D-B-C
+gameplay:GameplayStrings_Flashback:1107:ROB_GuyDoor,GameplayStrings_Flashback,1107,Guy's
+gameplay:GameplayStrings_Flashback:1108:ROB_GuySays,GameplayStrings_Flashback,1108,Guy says:<br>A-B-C-<br>A-D-B-C
 gameplay:GameplayStrings_Flashback:1109:ROB_PlansNotIncluded,GameplayStrings_Flashback,1109,Планы не включены!
 gameplay:GameplayStrings_Flashback:1110:ROB_Donaldson,GameplayStrings_Flashback,1110,Джеберсон
 gameplay:GameplayStrings_Flashback:1111:ROB_SimonOnly,GameplayStrings_Flashback,1111,Только для Гая
@@ -3983,7 +3983,7 @@ gameplay:GameplayStrings_Flashback:1155:ROB_SnakeRules,GameplayStrings_Flashback
 gameplay:GameplayStrings_Flashback:1156:ROB_SnakeRecap,GameplayStrings_Flashback,1156,"Используй настольную игру, чтобы открыть сундук."
 gameplay:GameplayStrings_Flashback:1157:ROB_HeistBoardGame,GameplayStrings_Flashback,1157,И найди внутри настольную игру «Атрак».
 gameplay:GameplayStrings_Flashback:1158:ROB_HeistPlanHint1,GameplayStrings_Flashback,1158,Следуй указаниям на этом плане атрака…
-gameplay:GameplayStrings_Flashback:1159:ROB_HeistPlanHint2,GameplayStrings_Flashback,1159,"A — ВВЕРХ, B — ВНИЗ…"
+gameplay:GameplayStrings_Flashback:1159:ROB_HeistPlanHint2,GameplayStrings_Flashback,1159,"A is UP, B is DOWN..."
 gameplay:GameplayStrings_Flashback:1160:ROB_HeistPlanHint3,GameplayStrings_Flashback,1160,Где ещё ты видел это имя?
 gameplay:GameplayStrings_Flashback:1161:ROB_UnlockOfficeDoor,GameplayStrings_Flashback,1161,"Используй настольную игру, чтобы открыть дверь в кабинет."
 gameplay:GameplayStrings_Flashback:1162:ROB_GetRope,GameplayStrings_Flashback,1162,Открой верёвку
@@ -3991,13 +3991,13 @@ gameplay:GameplayStrings_Flashback:1163:ROB_SmashBank,GameplayStrings_Flashback,
 gameplay:GameplayStrings_Flashback:1164:ROB_UnlockSewer,GameplayStrings_Flashback,1164,Выгляди как бухгалтер
 gameplay:GameplayStrings_Flashback:1165:ROB_VisorHint,GameplayStrings_Flashback,1165,Эти монеты можно использовать и для другого…
 gameplay:GameplayStrings_Flashback:1166:ROB_Footprints1,GameplayStrings_Flashback,1166,Следуй по следам…
-gameplay:GameplayStrings_Flashback:1167:ROB_Footprints2,GameplayStrings_Flashback,1167,"Нажимай на ящики архива в том же порядке, что и следы."
-gameplay:GameplayStrings_Flashback:1168:ROB_VisorRecap,GameplayStrings_Flashback,1168,Надень визор бухгалтера.
-gameplay:GameplayStrings_Flashback:1169:ROB_FootprintsRecap,GameplayStrings_Flashback,1169,Следуй по невидимым следам по комнате…
-gameplay:GameplayStrings_Flashback:1170:ROB_UnlockNewspaper,GameplayStrings_Flashback,1170,Чтобы открыть газету
-gameplay:GameplayStrings_Flashback:1171:ROB_CrosswordHint1,GameplayStrings_Flashback,1171,2 по горизонтали — «НАЛОГИ»
-gameplay:GameplayStrings_Flashback:1172:ROB_CrosswordHint2,GameplayStrings_Flashback,1172,1 по вертикали — «МАНИЛА»
-gameplay:GameplayStrings_Flashback:1173:ROB_SolveCrossword,GameplayStrings_Flashback,1173,"Реши кроссворд, чтобы получить монтировку…"
+gameplay:GameplayStrings_Flashback:1167:ROB_Footprints2,GameplayStrings_Flashback,1167,Press the file cabinets in the same order as the footprints.
+gameplay:GameplayStrings_Flashback:1168:ROB_VisorRecap,GameplayStrings_Flashback,1168,Put on an accounting visor.
+gameplay:GameplayStrings_Flashback:1169:ROB_FootprintsRecap,GameplayStrings_Flashback,1169,Follow the invisible footprints around the room...
+gameplay:GameplayStrings_Flashback:1170:ROB_UnlockNewspaper,GameplayStrings_Flashback,1170,To unlock the newspaper
+gameplay:GameplayStrings_Flashback:1171:ROB_CrosswordHint1,GameplayStrings_Flashback,1171,"2 across is ""TAXES"""
+gameplay:GameplayStrings_Flashback:1172:ROB_CrosswordHint2,GameplayStrings_Flashback,1172,"1 down is ""ATTIC"""
+gameplay:GameplayStrings_Flashback:1173:ROB_SolveCrossword,GameplayStrings_Flashback,1173,Solve the crossed words to get the crowbar...
 gameplay:GameplayStrings_Flashback:1174:ROB_HatchRecap,GameplayStrings_Flashback,1174,"И используй её, чтобы выбить люк."
 gameplay:GameplayStrings_Flashback:1175:ROB_Type1,GameplayStrings_Flashback,1175,"«Отчёт о расходах — Виндзор, Горацио — Раздел 12: Банановые плантации»"
 gameplay:GameplayStrings_Flashback:1176:ROB_Type2,GameplayStrings_Flashback,1176,«Прибыль и убытки. В основном убытки»
@@ -4100,15 +4100,15 @@ gameplay:GameplayStrings_Flashback:1272:S_YUM_FoodGroups_Milk,GameplayStrings_Fl
 gameplay:GameplayStrings_Flashback:1273:S_YUM_FoodGroups_Meat,GameplayStrings_Flashback,1273,Мясо и белки
 gameplay:GameplayStrings_Flashback:1274:S_YUM_FoodGroups_Grains,GameplayStrings_Flashback,1274,Злаки и хлеб
 gameplay:GameplayStrings_Flashback:1275:S_YUM_FoodGroups_Butter,GameplayStrings_Flashback,1275,Масло
-gameplay:GameplayStrings_Flashback:1276:S_YUM_FoodGroups_Footer,GameplayStrings_Flashback,1276,Каждый день
+gameplay:GameplayStrings_Flashback:1276:S_YUM_FoodGroups_Footer,GameplayStrings_Flashback,1276,Each and Every Day
 gameplay:GameplayStrings_Flashback:1277:S_YUM_SaltPoster_Header,GameplayStrings_Flashback,1277,Суповой Стивен говорит: <br> Передай соль!
 gameplay:GameplayStrings_Flashback:1278:S_YUM_SaltPoster_Body,GameplayStrings_Flashback,1278,Знали ли вы? В каждой чашке нашего вкусного бульона содержится всего один грамм натрия!
-gameplay:GameplayStrings_Flashback:1279:S_YUM_CarrotPoster_Header,GameplayStrings_Flashback,1279,Верни «заботу» в слово «морковь»
+gameplay:GameplayStrings_Flashback:1279:S_YUM_CarrotPoster_Header,GameplayStrings_Flashback,1279,"Put the ""Care"" back in ""Carrot"""
 gameplay:GameplayStrings_Flashback:1280:S_YUM_CarrotPoster_Body,GameplayStrings_Flashback,1280,"В каждой морковке 4 мг витамина С. Полезно для глаз, отлично для души."
 gameplay:GameplayStrings_Flashback:1281:S_YUM_GarlicPoster_Header,GameplayStrings_Flashback,1281,"Сильнее, чем кажется…"
 gameplay:GameplayStrings_Flashback:1282:S_YUM_GarlicPoster_Body,GameplayStrings_Flashback,1282,"В зубчике чеснока 0,5 г белка... Попробуй оценить масштаб"
 gameplay:GameplayStrings_Flashback:1283:S_YUM_OnionPoster_Header,GameplayStrings_Flashback,1283,Лук
-gameplay:GameplayStrings_Flashback:1284:S_YUM_OnionPoster_Body,GameplayStrings_Flashback,1284,Два грамма клетчатки в каждом
+gameplay:GameplayStrings_Flashback:1284:S_YUM_OnionPoster_Body,GameplayStrings_Flashback,1284,Two grams of fiber in every one
 gameplay:GameplayStrings_Flashback:1285:S_YUM_SoupRecipe_Header,GameplayStrings_Flashback,1285,Рецепт супа
 gameplay:GameplayStrings_Flashback:1286:S_YUM_SoupRecipe_Carrots,GameplayStrings_Flashback,1286,Морковь
 gameplay:GameplayStrings_Flashback:1287:S_YUM_SoupRecipe_Garlic,GameplayStrings_Flashback,1287,Зубчики чеснока
@@ -4140,32 +4140,32 @@ gameplay:GameplayStrings_Flashback:1312:S_YUM_BurgerRecipe_Lettuce,GameplayStrin
 gameplay:GameplayStrings_Flashback:1313:S_YUM_BurgerRecipe_Tomato,GameplayStrings_Flashback,1313,Помидор
 gameplay:GameplayStrings_Flashback:1314:S_YUM_BurgerRecipe_Pickles,GameplayStrings_Flashback,1314,Маринованные огурцы
 gameplay:GameplayStrings_Flashback:1315:S_YUM_BurgerRecipe_Cheese,GameplayStrings_Flashback,1315,Сыр
-gameplay:GameplayStrings_Flashback:1316:S_YUM_BurgerRecipe_Instrux,GameplayStrings_Flashback,1316,"-Обжарь котлету. Не «на кончике»,<br>но и не «хоккейная шайба».<br>-Заставь плакать.<br>-Добавь красную и жёлтую краску.<br>-Пропусти через сад,<br>но 86 розу.<br>-И наконец,<br>добавь секретный ингредиент."
+gameplay:GameplayStrings_Flashback:1316:S_YUM_BurgerRecipe_Instrux,GameplayStrings_Flashback,1316,"-Grill the patty. Not on the hoof, but<br>not a hockey puck either.<br>-Make 'em cry.<br>-Add red & yellow paint.<br>-Take it through the garden.<br> but 86 the rose.<br>-Last but not least,<br>add the secret ingredient."
 gameplay:GameplayStrings_Flashback:1317:S_YUM_BurgerRecipe_MysteryMeat,GameplayStrings_Flashback,1317,Используй <b>ТАЙНОЕ МЯСО</b>
 gameplay:GameplayStrings_Flashback:1318:S_YUM_SlangSheet,GameplayStrings_Flashback,1318,Всё горячее - Запечённая картошка<br>Ось и смазка - Масло<br>Палки лягушки - Картофель фри<br>Хоккейная шайба - Пропечённая<br>Заставь плакать - Добавить лук<br>На кончике - С кровью<br>Красная краска - Кетчуп<br>Роза - Помидор<br>Через сад - Добавить латук<br>Жёлтая краска - Горчица<br>86 - Убрать; не использовать
 gameplay:GameplayStrings_Flashback:1319:S_YUM_SlangSheetB,GameplayStrings_Flashback,1319,Секретный ингредиент = Маринованные огурцы
 gameplay:GameplayStrings_Flashback:1320:S_YUM_SlangSheetC,GameplayStrings_Flashback,1320,Сленг столовой
 gameplay:GameplayStrings_Flashback:1321:S_YUM_BurgerRecipe_Instructions,GameplayStrings_Flashback,1321,"Инструкция: Приготовь тайное мясо, собери бургеры"
 gameplay:GameplayStrings_Flashback:1322:S_YUM_Sunset,GameplayStrings_Flashback,1322,Закат
-gameplay:GameplayStrings_Flashback:1323:S_ROB_LOK,GameplayStrings_Flashback,1323,ЗАМ
-gameplay:GameplayStrings_Flashback:1324:S_ROB_StockValue,GameplayStrings_Flashback,1324,Стоимость акций за последние 6 месяцев
-gameplay:GameplayStrings_Flashback:1325:S_ROB_MonthsAbbreviated,GameplayStrings_Flashback,1325,"Апр, Май, Июн, Июл, Авг, Сен"
-gameplay:GameplayStrings_Flashback:1326:S_ROB_KEY,GameplayStrings_Flashback,1326,КЛЮ
-gameplay:GameplayStrings_Flashback:1327:S_ROB_CLU,GameplayStrings_Flashback,1327,УКА
-gameplay:GameplayStrings_Flashback:1328:S_ROB_PUZ,GameplayStrings_Flashback,1328,ГОЛ
+gameplay:GameplayStrings_Flashback:1323:S_ROB_LOK,GameplayStrings_Flashback,1323,LOK
+gameplay:GameplayStrings_Flashback:1324:S_ROB_StockValue,GameplayStrings_Flashback,1324,Stock Value over last 6 months
+gameplay:GameplayStrings_Flashback:1325:S_ROB_MonthsAbbreviated,GameplayStrings_Flashback,1325,"Apr, May, Jun, Jul, Aug, Sep"
+gameplay:GameplayStrings_Flashback:1326:S_ROB_KEY,GameplayStrings_Flashback,1326,KEY
+gameplay:GameplayStrings_Flashback:1327:S_ROB_CLU,GameplayStrings_Flashback,1327,CLU
+gameplay:GameplayStrings_Flashback:1328:S_ROB_PUZ,GameplayStrings_Flashback,1328,PUZ
 gameplay:GameplayStrings_Flashback:1329:S_ROB_ZZZ,GameplayStrings_Flashback,1329,ZZZ
-gameplay:GameplayStrings_Flashback:1330:S_ROB_HeistPlan_Header,GameplayStrings_Flashback,1330,Урок Гая - План ограбления
-gameplay:GameplayStrings_Flashback:1331:S_ROB_HeistPlan_Up,GameplayStrings_Flashback,1331,Иди ВВЕРХ в мой кабинет.
-gameplay:GameplayStrings_Flashback:1332:S_ROB_HeistPlan_Down,GameplayStrings_Flashback,1332,"Найди дверь, ведущую ВНИЗ в канализацию."
-gameplay:GameplayStrings_Flashback:1333:S_ROB_HeistPlan_Right,GameplayStrings_Flashback,1333,Спустись по канату ВПРАВО в тайный сейф директора.
-gameplay:GameplayStrings_Flashback:1334:S_ROB_HeistPlan_Left,GameplayStrings_Flashback,1334,"Открой дверь сейфа и забери то, что ОСТАЛОСЬ внутри!"
-gameplay:GameplayStrings_Flashback:1335:S_ROB_Newspaper_Header,GameplayStrings_Flashback,1335,ВРЕМЯ ЭСКАПИСТОВ
-gameplay:GameplayStrings_Flashback:1336:S_ROB_Newspaper_Logline,GameplayStrings_Flashback,1336,Директор поднимает волну
-gameplay:GameplayStrings_Flashback:1337:S_ROB_Newspaper_Body,GameplayStrings_Flashback,1337,"Горацио Виндзор наделал шума на прошлой неделе, неожиданно внедрив живых акул в свою новую Комнату соперников. Когда его попросили прокомментировать, он просто сказал: ""Ну, это же акулы! Другие..."""
-gameplay:GameplayStrings_Flashback:1338:S_ROB_Newspaper_Continued,GameplayStrings_Flashback,1338,Продолжение статьи -->
-gameplay:GameplayStrings_Flashback:1339:S_ROB_Newspaper_Crossword,GameplayStrings_Flashback,1339,Подсказки к кроссворду
-gameplay:GameplayStrings_Flashback:1340:S_ROB_Newspaper_Across,GameplayStrings_Flashback,1340,По горизонтали:
-gameplay:GameplayStrings_Flashback:1341:S_ROB_Newspaper_Down,GameplayStrings_Flashback,1341,По вертикали:
+gameplay:GameplayStrings_Flashback:1330:S_ROB_HeistPlan_Header,GameplayStrings_Flashback,1330,Guy's Lesson - Heist Plan
+gameplay:GameplayStrings_Flashback:1331:S_ROB_HeistPlan_Up,GameplayStrings_Flashback,1331,Head UP to my office.
+gameplay:GameplayStrings_Flashback:1332:S_ROB_HeistPlan_Down,GameplayStrings_Flashback,1332,Find the access door leading DOWN to the sewers.
+gameplay:GameplayStrings_Flashback:1333:S_ROB_HeistPlan_Right,GameplayStrings_Flashback,1333,Rappel RIGHT into the Headmaster's secret vault.
+gameplay:GameplayStrings_Flashback:1334:S_ROB_HeistPlan_Left,GameplayStrings_Flashback,1334,Open the vault door and abscond with what's LEFT inside!
+gameplay:GameplayStrings_Flashback:1335:S_ROB_Newspaper_Header,GameplayStrings_Flashback,1335,THE ESCAPIST TIMES
+gameplay:GameplayStrings_Flashback:1336:S_ROB_Newspaper_Logline,GameplayStrings_Flashback,1336,Headmaster Makes Waves
+gameplay:GameplayStrings_Flashback:1337:S_ROB_Newspaper_Body,GameplayStrings_Flashback,1337,"Horatio Windsor made a splash last week with the surprise introduction of live sharks in his brand new Rival Room. When approached for comment, he simply said, ""C'mon, they're Sharks! Others..."""
+gameplay:GameplayStrings_Flashback:1338:S_ROB_Newspaper_Continued,GameplayStrings_Flashback,1338,Story continued -->
+gameplay:GameplayStrings_Flashback:1339:S_ROB_Newspaper_Crossword,GameplayStrings_Flashback,1339,Crossword Clues
+gameplay:GameplayStrings_Flashback:1340:S_ROB_Newspaper_Across,GameplayStrings_Flashback,1340,Across:
+gameplay:GameplayStrings_Flashback:1341:S_ROB_Newspaper_Down,GameplayStrings_Flashback,1341,Down:
 gameplay:GameplayStrings_Flashback:1342:S_ROB_Newspaper_Clue1A,GameplayStrings_Flashback,1342,"Manager, in brief"
 gameplay:GameplayStrings_Flashback:1343:S_ROB_Newspaper_Clue2A,GameplayStrings_Flashback,1343,"Property, sales, income"
 gameplay:GameplayStrings_Flashback:1344:S_ROB_Newspaper_Clue3A,GameplayStrings_Flashback,1344,Cook plural
@@ -4198,32 +4198,32 @@ gameplay:GameplayStrings_Flashback:1370:S_SPY_ChefKitchenRules_Wipe,GameplayStri
 gameplay:GameplayStrings_Flashback:1371:S_SPY_ChefNutrition_Header,GameplayStrings_Flashback,1371,Совет шефа: ЕШЬ УМНО!
 gameplay:GameplayStrings_Flashback:1372:S_SPY_ChefNutrition_BrainFueled,GameplayStrings_Flashback,1372,"Питай свой мозг ежедневными порциями масла, жиров* и мяса**."
 gameplay:GameplayStrings_Flashback:1373:S_SPY_ChefNutrition_FatsAddendum,GameplayStrings_Flashback,1373,"*Не забывай про жир, масло и сало!"
-gameplay:GameplayStrings_Flashback:1374:S_SPY_ChefNutrition_MeatsAddendum,GameplayStrings_Flashback,1374,"**«Мясо» включает птицу, рыбу и морепродукты. Разгуляйся."
-gameplay:GameplayStrings_Flashback:1375:S_SPY_CheesyCasseroleRecipe_Header,GameplayStrings_Flashback,1375,ЗАПЕКАНКА С СЫРОМ
-gameplay:GameplayStrings_Flashback:1376:S_SPY_CheesyCasseroleRecipe_Rice,GameplayStrings_Flashback,1376,3 стакана риса
-gameplay:GameplayStrings_Flashback:1377:S_SPY_CheesyCasseroleRecipe_Cheese,GameplayStrings_Flashback,1377,1/2 стакана сыра
-gameplay:GameplayStrings_Flashback:1378:S_SPY_CheesyCasseroleRecipe_Milk,GameplayStrings_Flashback,1378,1/2 стакана молока
-gameplay:GameplayStrings_Flashback:1379:S_SPY_CheesyCasseroleRecipe_Broccoli,GameplayStrings_Flashback,1379,2 стакана брокколи
-gameplay:GameplayStrings_Flashback:1380:S_SPY_CheesyCasseroleRecipe_MushroomSoup,GameplayStrings_Flashback,1380,1 банка грибного супа
+gameplay:GameplayStrings_Flashback:1374:S_SPY_ChefNutrition_MeatsAddendum,GameplayStrings_Flashback,1374,"**""Meat"" also includes poultry, seafood, and shellfish. Go wild."
+gameplay:GameplayStrings_Flashback:1375:S_SPY_CheesyCasseroleRecipe_Header,GameplayStrings_Flashback,1375,CHEESY CASSEROLE
+gameplay:GameplayStrings_Flashback:1376:S_SPY_CheesyCasseroleRecipe_Rice,GameplayStrings_Flashback,1376,3 cups Rice
+gameplay:GameplayStrings_Flashback:1377:S_SPY_CheesyCasseroleRecipe_Cheese,GameplayStrings_Flashback,1377,1/2 cup Cheese
+gameplay:GameplayStrings_Flashback:1378:S_SPY_CheesyCasseroleRecipe_Milk,GameplayStrings_Flashback,1378,1/2 cup Milk
+gameplay:GameplayStrings_Flashback:1379:S_SPY_CheesyCasseroleRecipe_Broccoli,GameplayStrings_Flashback,1379,2 cups Broccoli
+gameplay:GameplayStrings_Flashback:1380:S_SPY_CheesyCasseroleRecipe_MushroomSoup,GameplayStrings_Flashback,1380,1 can Mushroom soup
 gameplay:GameplayStrings_Flashback:1381:S_SPY_CheesyCasseroleRecipe_Students,GameplayStrings_Flashback,1381,Студенты в восторге!
-gameplay:GameplayStrings_Flashback:1382:S_SPY_IceCreamRecipe_Header,GameplayStrings_Flashback,1382,КОРНЕЛАК С МОРОЖЕНЫМ
-gameplay:GameplayStrings_Flashback:1383:S_SPY_IceCreamRecipe_RootBeer,GameplayStrings_Flashback,1383,12 унций корнелака
-gameplay:GameplayStrings_Flashback:1384:S_SPY_IceCreamRecipe_IceCream,GameplayStrings_Flashback,1384,5 унций мороженого
-gameplay:GameplayStrings_Flashback:1385:S_SPY_IceCreamRecipe_WhippedCream,GameplayStrings_Flashback,1385,2 унции взбитых сливок
-gameplay:GameplayStrings_Flashback:1386:S_SPY_IceCreamRecipe_Cherry,GameplayStrings_Flashback,1386,1 вишня сверху
+gameplay:GameplayStrings_Flashback:1382:S_SPY_IceCreamRecipe_Header,GameplayStrings_Flashback,1382,ROOT BEER FLOAT
+gameplay:GameplayStrings_Flashback:1383:S_SPY_IceCreamRecipe_RootBeer,GameplayStrings_Flashback,1383,12 oz. Root Beer
+gameplay:GameplayStrings_Flashback:1384:S_SPY_IceCreamRecipe_IceCream,GameplayStrings_Flashback,1384,5 oz. Ice Cream
+gameplay:GameplayStrings_Flashback:1385:S_SPY_IceCreamRecipe_WhippedCream,GameplayStrings_Flashback,1385,2 oz. Whipped Cream
+gameplay:GameplayStrings_Flashback:1386:S_SPY_IceCreamRecipe_Cherry,GameplayStrings_Flashback,1386,1 Cherry on top
 gameplay:GameplayStrings_Flashback:1387:S_SPY_IceCreamRecipe_Refreshing,GameplayStrings_Flashback,1387,Освежающий десерт!
 gameplay:GameplayStrings_Flashback:1388:S_SPY_PastaRecipe_Header,GameplayStrings_Flashback,1388,ПАСТА С МОРСКИМИ ПРОДУКТАМИ
-gameplay:GameplayStrings_Flashback:1389:S_SPY_PastaRecipe_Noodles,GameplayStrings_Flashback,1389,1 фунт лапши
-gameplay:GameplayStrings_Flashback:1390:S_SPY_PastaRecipe_Garlic,GameplayStrings_Flashback,1390,3 зубчика чеснока
-gameplay:GameplayStrings_Flashback:1391:S_SPY_PastaRecipe_Anchovies,GameplayStrings_Flashback,1391,2 банки анчоусов
-gameplay:GameplayStrings_Flashback:1392:S_SPY_PastaRecipe_Olives,GameplayStrings_Flashback,1392,1/2 стакана оливок
-gameplay:GameplayStrings_Flashback:1393:S_SPY_PastaRecipe_Spices,GameplayStrings_Flashback,1393,1/2 ст. л. специй
+gameplay:GameplayStrings_Flashback:1389:S_SPY_PastaRecipe_Noodles,GameplayStrings_Flashback,1389,1 lb. Noodles
+gameplay:GameplayStrings_Flashback:1390:S_SPY_PastaRecipe_Garlic,GameplayStrings_Flashback,1390,3 cloves Garlic
+gameplay:GameplayStrings_Flashback:1391:S_SPY_PastaRecipe_Anchovies,GameplayStrings_Flashback,1391,2 cans Anchovies
+gameplay:GameplayStrings_Flashback:1392:S_SPY_PastaRecipe_Olives,GameplayStrings_Flashback,1392,1/2 cup Olives
+gameplay:GameplayStrings_Flashback:1393:S_SPY_PastaRecipe_Spices,GameplayStrings_Flashback,1393,1/2 tbsp Spices
 gameplay:GameplayStrings_Flashback:1394:S_SPY_PastaRecipe_MamaMia,GameplayStrings_Flashback,1394,Мама мия!
 gameplay:GameplayStrings_Flashback:1395:S_SPY_SharkFood_Header,GameplayStrings_Flashback,1395,УСПОКАИВАЮЩАЯ КОРМА ДЛЯ АКУЛ
 gameplay:GameplayStrings_Flashback:1396:S_SPY_SharkFood_Header_Alt,GameplayStrings_Flashback,1396,КОРМА ДЛЯ АКУЛ
 gameplay:GameplayStrings_Flashback:1397:S_SPY_SharkFood_Ingredients,GameplayStrings_Flashback,1397,Ингредиенты:
 gameplay:GameplayStrings_Flashback:1398:S_SPY_SharkFood_Chum,GameplayStrings_Flashback,1398,- 50 фунтов сырой рыбы
-gameplay:GameplayStrings_Flashback:1399:S_SPY_SharkFood_Tranqs,GameplayStrings_Flashback,1399,- 1 галлон мощных транквилизаторов
+gameplay:GameplayStrings_Flashback:1399:S_SPY_SharkFood_Tranqs,GameplayStrings_Flashback,1399,- 1 gal. heavy duty tranqs
 gameplay:GameplayStrings_Flashback:1400:S_SPY_SharkFood_Rosemary,GameplayStrings_Flashback,1400,- Веточка розмарина для украшения
 gameplay:GameplayStrings_Flashback:1401:S_SPY_SharkFood_Instructions,GameplayStrings_Flashback,1401,Это должно уберечь учеников от смертельной ловушки Горацио.
 gameplay:GameplayStrings_Flashback:1402:S_SPY_EngineeringStickerA,GameplayStrings_Flashback,1402,20 лет мастерства
@@ -4233,7 +4233,7 @@ gameplay:GameplayStrings_Flashback:1405:S_SPY_GuyCharityPlansA_Header,GameplaySt
 gameplay:GameplayStrings_Flashback:1406:S_SPY_GuyCharityPlansA_Body,GameplayStrings_Flashback,1406,Ваши щедрые пожертвования помогают детям выбраться из нищеты.
 gameplay:GameplayStrings_Flashback:1407:S_SPY_GuyCharityPlansA_Signature,GameplayStrings_Flashback,1407,Адрес Института ребусов
 gameplay:GameplayStrings_Flashback:1408:S_SPY_GuyConfessionNote_Date,GameplayStrings_Flashback,1408,1 октября 1954
-gameplay:GameplayStrings_Flashback:1409:S_SPY_GuyConfessionNote_Note,GameplayStrings_Flashback,1409,"Подготовка к операции «Пропорции» завершена. Да, 11/5 станет моим шедевром."
+gameplay:GameplayStrings_Flashback:1409:S_SPY_GuyConfessionNote_Note,GameplayStrings_Flashback,1409,"Preparations for Operation Ratio are complete. Yes, 11/5 will be my masterwork."
 gameplay:GameplayStrings_Flashback:1410:S_SPY_GuyCloseShave_Header,GameplayStrings_Flashback,1410,Операция «Бритва»
 gameplay:GameplayStrings_Flashback:1411:S_SPY_GuyCloseShave_Date,GameplayStrings_Flashback,1411,Дата: 28 февраля 1954
 gameplay:GameplayStrings_Flashback:1412:S_SPY_GuyCloseShave_City,GameplayStrings_Flashback,1412,"Город: Лиссабон, Португалия"
@@ -4727,13 +4727,13 @@ gameplay:GameplayStrings_Island:386:SNK_CrateClue2,GameplayStrings_Island,386,(2
 gameplay:GameplayStrings_Island:387:SNK_CrateClue2L,GameplayStrings_Island,387,«(2 из 3) Третья цифра на единицу меньше второй.»
 gameplay:GameplayStrings_Island:388:SNK_CrateClue3,GameplayStrings_Island,388,(3 из 3) Первая цифра на три меньше третьей.
 gameplay:GameplayStrings_Island:389:SNK_CrateClue3L,GameplayStrings_Island,389,«(3 из 3) Первая цифра на три меньше третьей.»
-gameplay:GameplayStrings_Island:390:SNK_ItemCodeKey,GameplayStrings_Island,390,Ключ к четверному коду
-gameplay:GameplayStrings_Island:391:SNK_controls,GameplayStrings_Island,391,управление
-gameplay:GameplayStrings_Island:392:SNK_Octotable1,GameplayStrings_Island,392,"Эти сегменты совпадают с теми, что на ключе…"
-gameplay:GameplayStrings_Island:393:SNK_Octotable2,GameplayStrings_Island,393,Первая буква — C…
-gameplay:GameplayStrings_Island:394:SNK_CornerPrinter,GameplayStrings_Island,394,Этому принтеру нужен пароль
-gameplay:GameplayStrings_Island:395:SNK_RevOctagon,GameplayStrings_Island,395,"Расшифруй Восьмиугольную таблицу, чтобы получить распечатку"
-gameplay:GameplayStrings_Island:396:SNK_QuadCode,GameplayStrings_Island,396,Четверной код
+gameplay:GameplayStrings_Island:390:SNK_ItemCodeKey,GameplayStrings_Island,390,Quad Code Key
+gameplay:GameplayStrings_Island:391:SNK_controls,GameplayStrings_Island,391,controls
+gameplay:GameplayStrings_Island:392:SNK_Octotable1,GameplayStrings_Island,392,These wedges match the ones on the code key...
+gameplay:GameplayStrings_Island:393:SNK_Octotable2,GameplayStrings_Island,393,The first letter is C...
+gameplay:GameplayStrings_Island:394:SNK_CornerPrinter,GameplayStrings_Island,394,This printer could use a password
+gameplay:GameplayStrings_Island:395:SNK_RevOctagon,GameplayStrings_Island,395,Decode the Octagon Table to get the printout
+gameplay:GameplayStrings_Island:396:SNK_QuadCode,GameplayStrings_Island,396,Quad Code
 gameplay:GameplayStrings_Island:397:SNK_Letter1,GameplayStrings_Island,397,L
 gameplay:GameplayStrings_Island:398:SNK_Letter2,GameplayStrings_Island,398,V
 gameplay:GameplayStrings_Island:399:SNK_Letter3,GameplayStrings_Island,399,R
@@ -4750,7 +4750,7 @@ gameplay:GameplayStrings_Island:409:SNK_Letter13,GameplayStrings_Island,409,X
 gameplay:GameplayStrings_Island:410:SNK_Letter14,GameplayStrings_Island,410,N
 gameplay:GameplayStrings_Island:411:SNK_Letter15,GameplayStrings_Island,411,U
 gameplay:GameplayStrings_Island:412:SNK_Letter16,GameplayStrings_Island,412,T
-gameplay:GameplayStrings_Island:413:SNK_QuadAnswer,GameplayStrings_Island,413,управление
+gameplay:GameplayStrings_Island:413:SNK_QuadAnswer,GameplayStrings_Island,413,controls
 gameplay:GameplayStrings_Island:414:SNK_portraitPrompt,GameplayStrings_Island,414,"Они подняты, но что-то всё ещё не так…"
 gameplay:GameplayStrings_Island:416:RAD_TikiMugSwap,GameplayStrings_Island,416,Какой порядок! Лучше не перепутать их.
 gameplay:GameplayStrings_Island:417:RAD_TikiBarStoolLockText,GameplayStrings_Island,417,Признайся: эта головоломка уже решена!
@@ -4942,12 +4942,12 @@ gameplay:GameplayStrings_Island:606:EXP_Item_Wrench,GameplayStrings_Island,606,�
 gameplay:GameplayStrings_Island:607:EXP_PuzzleWires,GameplayStrings_Island,607,Расшифруй провода
 gameplay:GameplayStrings_Island:608:EXP_StartHere,GameplayStrings_Island,608,Попробуй начать с этой камеры!
 gameplay:GameplayStrings_Island:609:EXP_Directions,GameplayStrings_Island,609,Следуй указаниям…
-gameplay:GameplayStrings_Island:610:EXP_2Pipe,GameplayStrings_Island,610,К какой букве ведет левая труба?
-gameplay:GameplayStrings_Island:611:EXP_TakeElevator,GameplayStrings_Island,611,Спустись в камеру на лифте.
-gameplay:GameplayStrings_Island:612:EXP_SayAloud,GameplayStrings_Island,612,Попробуй произнести это вслух…
-gameplay:GameplayStrings_Island:613:EXP_PanelsReview,GameplayStrings_Island,613,"И следуй по трубам, чтобы составить…"
-gameplay:GameplayStrings_Island:614:EXP_Tonight,GameplayStrings_Island,614,«Наш бой закончится сегодня ночью»
-gameplay:GameplayStrings_Island:615:EXP_Forgive,GameplayStrings_Island,615,...и «Я не прощу».
+gameplay:GameplayStrings_Island:610:EXP_2Pipe,GameplayStrings_Island,610,Which letter does the left pipe lead to?
+gameplay:GameplayStrings_Island:611:EXP_TakeElevator,GameplayStrings_Island,611,Take the elevator down into the chamber.
+gameplay:GameplayStrings_Island:612:EXP_SayAloud,GameplayStrings_Island,612,Try saying it out loud...
+gameplay:GameplayStrings_Island:613:EXP_PanelsReview,GameplayStrings_Island,613,And follow the pipes to spell...
+gameplay:GameplayStrings_Island:614:EXP_Tonight,GameplayStrings_Island,614,“Our battle ends tonight”
+gameplay:GameplayStrings_Island:615:EXP_Forgive,GameplayStrings_Island,615,...and “I won't forgive”.
 gameplay:GameplayStrings_Island:616:EXP_RaiseTurret,GameplayStrings_Island,616,Чтобы поднять турель!
 gameplay:GameplayStrings_Island:617:EXP_AlignWidgets,GameplayStrings_Island,617,Распредели безделушки
 gameplay:GameplayStrings_Island:618:EXP_ConsoleOn,GameplayStrings_Island,618,Консоль включена!
@@ -5004,8 +5004,8 @@ gameplay:GameplayStrings_Island:668:EXP_TotallyRuined,GameplayStrings_Island,668
 gameplay:GameplayStrings_Island:669:EXP_DarnTurret,GameplayStrings_Island,669,Черт! Лучше бы найти другую турель.
 gameplay:GameplayStrings_Island:670:EXP_TurretBusted,GameplayStrings_Island,670,Эта турель сломана. Надо срочно найти другую!
 gameplay:GameplayStrings_Island:671:EXP_PromisingWires,GameplayStrings_Island,671,"Эти провода выглядят многообещающе. Интересно, куда они ведут…"
-gameplay:GameplayStrings_Island:672:EXP_Password1,GameplayStrings_Island,672,прости
-gameplay:GameplayStrings_Island:673:EXP_Password2,GameplayStrings_Island,673,сегодня
+gameplay:GameplayStrings_Island:672:EXP_Password1,GameplayStrings_Island,672,forgive
+gameplay:GameplayStrings_Island:673:EXP_Password2,GameplayStrings_Island,673,tonight
 gameplay:GameplayStrings_Island:674:EXP_Microscope,GameplayStrings_Island,674,"Мои проблемы слишком велики, чтобы их можно было рассмотреть в этот микроскоп!"
 gameplay:GameplayStrings_Island:675:EXP_Gears,GameplayStrings_Island,675,Доктор Немет точно сбивает меня с толку!
 gameplay:GameplayStrings_Island:676:EXP_Console1,GameplayStrings_Island,676,Бип бип буп боп бип боп!
@@ -5135,7 +5135,7 @@ gameplay:GameplayStrings_Island:802:DIM_Blender,GameplayStrings_Island,802,Эт�
 gameplay:GameplayStrings_Island:803:DIM_Anchor,GameplayStrings_Island,803,Почему я не могу избавиться от этого чувства?
 gameplay:GameplayStrings_Island:804:DIM_Coral,GameplayStrings_Island,804,Для рифа с хором здесь подозрительно тихо…
 gameplay:GameplayStrings_Island:805:DIM_Binoculars,GameplayStrings_Island,805,Взрывной вид…
-gameplay:GameplayStrings_Island:806:DIM_BombNotes,GameplayStrings_Island,806,Журнал эксперимента: тест был взрывным!
+gameplay:GameplayStrings_Island:806:DIM_BombNotes,GameplayStrings_Island,806,Experiment Log: The test was a blast!
 gameplay:GameplayStrings_Island:807:DIM_Car,GameplayStrings_Island,807,Вот так можно сделать кабриолет
 gameplay:GameplayStrings_Island:808:DIM_Car2,GameplayStrings_Island,808,Эта машина выглядит вдвое уставшей…
 gameplay:GameplayStrings_Island:809:DIM_Tiki,GameplayStrings_Island,809,Я должен спасти Джеба!
@@ -5168,20 +5168,20 @@ gameplay:GameplayStrings_Island:835:DIM_crates,GameplayStrings_Island,835,"«Ж�
 gameplay:GameplayStrings_Island:836:DIM_wreckingball,GameplayStrings_Island,836,Как будто этому месту нужно ещё больше разрушений!
 gameplay:GameplayStrings_Island:837:DIM_Disc,GameplayStrings_Island,837,Колесо логики
 gameplay:GameplayStrings_Island:838:DIM_DiscSlot,GameplayStrings_Island,838,"Похоже, я могу прикрепить что-то к этой оси."
-gameplay:GameplayStrings_Island:839:DIM_blast,GameplayStrings_Island,839,взрыв
-gameplay:GameplayStrings_Island:840:DIM_LadderLocked,GameplayStrings_Island,840,"Мне нужно открыть эти ворота, прежде чем я смогу спуститься!"
-gameplay:GameplayStrings_Island:841:DIM_TopL,GameplayStrings_Island,841,С
-gameplay:GameplayStrings_Island:842:DIM_TopM,GameplayStrings_Island,842,Ю
-gameplay:GameplayStrings_Island:843:DIM_TopR,GameplayStrings_Island,843,В
-gameplay:GameplayStrings_Island:844:DIM_MidL,GameplayStrings_Island,844,М
-gameplay:GameplayStrings_Island:845:DIM_Mid,GameplayStrings_Island,845,С
-gameplay:GameplayStrings_Island:846:DIM_MidR,GameplayStrings_Island,846,К
-gameplay:GameplayStrings_Island:847:DIM_BotL,GameplayStrings_Island,847,С
-gameplay:GameplayStrings_Island:848:DIM_BotM,GameplayStrings_Island,848,М
-gameplay:GameplayStrings_Island:849:DIM_BotR,GameplayStrings_Island,849,Т
-gameplay:GameplayStrings_Island:850:DIM_MinefieldGate1,GameplayStrings_Island,850,Каждая буква касается 4 огней.
-gameplay:GameplayStrings_Island:851:DIM_MinefieldGate2,GameplayStrings_Island,851,Первая буква — С
-gameplay:GameplayStrings_Island:852:DIM_MinefieldGateRecap,GameplayStrings_Island,852,"Расшифруй мигающие огни, чтобы открыть ворота башни."
+gameplay:GameplayStrings_Island:839:DIM_blast,GameplayStrings_Island,839,blast
+gameplay:GameplayStrings_Island:840:DIM_LadderLocked,GameplayStrings_Island,840,I have to unlock that gate before I can climb down!
+gameplay:GameplayStrings_Island:841:DIM_TopL,GameplayStrings_Island,841,N
+gameplay:GameplayStrings_Island:842:DIM_TopM,GameplayStrings_Island,842,O
+gameplay:GameplayStrings_Island:843:DIM_TopR,GameplayStrings_Island,843,A
+gameplay:GameplayStrings_Island:844:DIM_MidL,GameplayStrings_Island,844,L
+gameplay:GameplayStrings_Island:845:DIM_Mid,GameplayStrings_Island,845,B
+gameplay:GameplayStrings_Island:846:DIM_MidR,GameplayStrings_Island,846,R
+gameplay:GameplayStrings_Island:847:DIM_BotL,GameplayStrings_Island,847,S
+gameplay:GameplayStrings_Island:848:DIM_BotM,GameplayStrings_Island,848,M
+gameplay:GameplayStrings_Island:849:DIM_BotR,GameplayStrings_Island,849,T
+gameplay:GameplayStrings_Island:850:DIM_MinefieldGate1,GameplayStrings_Island,850,Each letter is touching 4 lights
+gameplay:GameplayStrings_Island:851:DIM_MinefieldGate2,GameplayStrings_Island,851,The first letter is B
+gameplay:GameplayStrings_Island:852:DIM_MinefieldGateRecap,GameplayStrings_Island,852,Decode the flashing lights to unlock the tower's gate.
 gameplay:GameplayStrings_Island:853:DIM_CraneStopHint1,GameplayStrings_Island,853,"Начни со звезды и сложи стрелки, чтобы добраться до замка."
 gameplay:GameplayStrings_Island:854:DIM_CraneStopHint2,GameplayStrings_Island,854,Первый диск должен быть в этом положении.
 gameplay:GameplayStrings_Island:855:DIM_CraneUnlockHint1,GameplayStrings_Island,855,Ты видел четыре квадрата где-нибудь ещё?
@@ -5289,8 +5289,8 @@ gameplay:GameplayStrings_ProcGen:75:BIZ_victoryNote,GameplayStrings_ProcGen,75,"
 gameplay:GameplayStrings_ProcGen:76:USB_victoryNote,GameplayStrings_ProcGen,76,«Хаканнери» наверняка захочет стереть это поражение со своих дисков.
 gameplay:GameplayStrings_ProcGen:77:TDA_victoryNote,GameplayStrings_ProcGen,77,"В «Студии шоумена» много блеска, но мало головоломок. Типично."
 gameplay:GameplayStrings_ProcGen:78:pvpDroneFlavor,GameplayStrings_ProcGen,78,Как... реалистично?
-gameplay:GameplayStrings_ProcGen:79:p1Abbrev,GameplayStrings_ProcGen,79,И1
-gameplay:GameplayStrings_ProcGen:80:p2Abbrev,GameplayStrings_ProcGen,80,И2
+gameplay:GameplayStrings_ProcGen:79:p1Abbrev,GameplayStrings_ProcGen,79,P1
+gameplay:GameplayStrings_ProcGen:80:p2Abbrev,GameplayStrings_ProcGen,80,P2
 gameplay:GameplayStrings_ProcGen:81:winnerEscapedVerb,GameplayStrings_ProcGen,81,Сбежала!
 gameplay:GameplayStrings_ProcGen:82:PG_Versus,GameplayStrings_ProcGen,82,Против
 gameplay:GameplayStrings_ProcGen:83:PG_ad_1-1,GameplayStrings_ProcGen,83,Головоломные штаны
@@ -5861,37 +5861,37 @@ gameplay:GameplayStrings_ProcGen:650:USB_Can_Herring,GameplayStrings_ProcGen,650
 gameplay:GameplayStrings_ProcGen:651:USB_Can_HerringA,GameplayStrings_ProcGen,651,Солёная
 gameplay:GameplayStrings_ProcGen:652:USB_Can_HerringB,GameplayStrings_ProcGen,652,Сельдь
 gameplay:GameplayStrings_ProcGen:653:USB_Can_Anchovies,GameplayStrings_ProcGen,653,Анчоусы
-gameplay:GameplayStrings_ProcGen:654:USB_WhatAmI,GameplayStrings_ProcGen,654,Что я?
-gameplay:GameplayStrings_ProcGen:655:USB_Maxmimum,GameplayStrings_ProcGen,655,Ниже
-gameplay:GameplayStrings_ProcGen:656:cowSound,GameplayStrings_ProcGen,656,Му
-gameplay:GameplayStrings_ProcGen:657:pigSound,GameplayStrings_ProcGen,657,Хрю
-gameplay:GameplayStrings_ProcGen:658:catSound,GameplayStrings_ProcGen,658,Мяу
-gameplay:GameplayStrings_ProcGen:659:dogSound,GameplayStrings_ProcGen,659,Гав-гав
-gameplay:GameplayStrings_ProcGen:660:roosterSound,GameplayStrings_ProcGen,660,Ку-ка-ре-ку
-gameplay:GameplayStrings_ProcGen:661:owlSound,GameplayStrings_ProcGen,661,Уху
-gameplay:GameplayStrings_ProcGen:662:snakeSound,GameplayStrings_ProcGen,662,Шшш
-gameplay:GameplayStrings_ProcGen:663:duckSound,GameplayStrings_ProcGen,663,Кря-кря
-gameplay:GameplayStrings_ProcGen:664:USB_FarmKey0,GameplayStrings_ProcGen,664,Пользователь 0
-gameplay:GameplayStrings_ProcGen:665:USB_FarmKey1,GameplayStrings_ProcGen,665,Пользователь 1
-gameplay:GameplayStrings_ProcGen:666:USB_FarmKey2,GameplayStrings_ProcGen,666,Пользователь 2
-gameplay:GameplayStrings_ProcGen:667:USB_FarmKey3,GameplayStrings_ProcGen,667,Пользователь 3
-gameplay:GameplayStrings_ProcGen:668:USB_FarmKey4,GameplayStrings_ProcGen,668,Пользователь 4
-gameplay:GameplayStrings_ProcGen:669:USB_FarmKey5,GameplayStrings_ProcGen,669,Пользователь 5
+gameplay:GameplayStrings_ProcGen:654:USB_WhatAmI,GameplayStrings_ProcGen,654,What am I?
+gameplay:GameplayStrings_ProcGen:655:USB_Maxmimum,GameplayStrings_ProcGen,655,Under
+gameplay:GameplayStrings_ProcGen:656:cowSound,GameplayStrings_ProcGen,656,Moo
+gameplay:GameplayStrings_ProcGen:657:pigSound,GameplayStrings_ProcGen,657,Oink
+gameplay:GameplayStrings_ProcGen:658:catSound,GameplayStrings_ProcGen,658,Meow
+gameplay:GameplayStrings_ProcGen:659:dogSound,GameplayStrings_ProcGen,659,Woof Woof
+gameplay:GameplayStrings_ProcGen:660:roosterSound,GameplayStrings_ProcGen,660,Cock-a-doodle Doo
+gameplay:GameplayStrings_ProcGen:661:owlSound,GameplayStrings_ProcGen,661,Hoot
+gameplay:GameplayStrings_ProcGen:662:snakeSound,GameplayStrings_ProcGen,662,Hiss
+gameplay:GameplayStrings_ProcGen:663:duckSound,GameplayStrings_ProcGen,663,Quack Quack
+gameplay:GameplayStrings_ProcGen:664:USB_FarmKey0,GameplayStrings_ProcGen,664,User 0
+gameplay:GameplayStrings_ProcGen:665:USB_FarmKey1,GameplayStrings_ProcGen,665,User 1
+gameplay:GameplayStrings_ProcGen:666:USB_FarmKey2,GameplayStrings_ProcGen,666,User 2
+gameplay:GameplayStrings_ProcGen:667:USB_FarmKey3,GameplayStrings_ProcGen,667,User 3
+gameplay:GameplayStrings_ProcGen:668:USB_FarmKey4,GameplayStrings_ProcGen,668,User 4
+gameplay:GameplayStrings_ProcGen:669:USB_FarmKey5,GameplayStrings_ProcGen,669,User 5
 gameplay:GameplayStrings_ProcGen:670:cowRot13,GameplayStrings_ProcGen,670,Zbb
 gameplay:GameplayStrings_ProcGen:671:pigRot13,GameplayStrings_ProcGen,671,Bvax
 gameplay:GameplayStrings_ProcGen:672:catRot13,GameplayStrings_ProcGen,672,Zrbj
 gameplay:GameplayStrings_ProcGen:673:dogRot13,GameplayStrings_ProcGen,673,Jbbs Jbbs
 gameplay:GameplayStrings_ProcGen:674:roosterRot13,GameplayStrings_ProcGen,674,Pbpx-n-qbbqyr-qbb
 gameplay:GameplayStrings_ProcGen:675:duckRot13,GameplayStrings_ProcGen,675,Dhnpx Dhnpx
-gameplay:GameplayStrings_ProcGen:676:cipher,GameplayStrings_ProcGen,676,Шифр
+gameplay:GameplayStrings_ProcGen:676:cipher,GameplayStrings_ProcGen,676,Cipher
 gameplay:GameplayStrings_ProcGen:677:USB_unlockMe,GameplayStrings_ProcGen,677,Unlock_Me
-gameplay:GameplayStrings_ProcGen:678:USB_FarmPaper,GameplayStrings_ProcGen,678,Лист регистрации
-gameplay:GameplayStrings_ProcGen:679:USB_pw_dog,GameplayStrings_ProcGen,679,собака
-gameplay:GameplayStrings_ProcGen:680:USB_pw_cat,GameplayStrings_ProcGen,680,кошка
-gameplay:GameplayStrings_ProcGen:681:USB_pw_pig,GameplayStrings_ProcGen,681,свинья
-gameplay:GameplayStrings_ProcGen:682:USB_pw_cow,GameplayStrings_ProcGen,682,корова
-gameplay:GameplayStrings_ProcGen:683:USB_pw_rooster,GameplayStrings_ProcGen,683,петух
-gameplay:GameplayStrings_ProcGen:684:USB_pw_duck,GameplayStrings_ProcGen,684,утка
+gameplay:GameplayStrings_ProcGen:678:USB_FarmPaper,GameplayStrings_ProcGen,678,Login Sheet
+gameplay:GameplayStrings_ProcGen:679:USB_pw_dog,GameplayStrings_ProcGen,679,dog
+gameplay:GameplayStrings_ProcGen:680:USB_pw_cat,GameplayStrings_ProcGen,680,cat
+gameplay:GameplayStrings_ProcGen:681:USB_pw_pig,GameplayStrings_ProcGen,681,pig
+gameplay:GameplayStrings_ProcGen:682:USB_pw_cow,GameplayStrings_ProcGen,682,cow
+gameplay:GameplayStrings_ProcGen:683:USB_pw_rooster,GameplayStrings_ProcGen,683,rooster
+gameplay:GameplayStrings_ProcGen:684:USB_pw_duck,GameplayStrings_ProcGen,684,duck
 gameplay:GameplayStrings_ProcGen:685:USB_oldmacdonald,GameplayStrings_ProcGen,685,Админ: Олд Макдональд
 gameplay:GameplayStrings_ProcGen:686:USB_ErrorMessage3,GameplayStrings_ProcGen,686,Обнаружено 3 ошибки
 gameplay:GameplayStrings_ProcGen:687:USB_ErrorMessage4,GameplayStrings_ProcGen,687,Обнаружено 4 ошибки

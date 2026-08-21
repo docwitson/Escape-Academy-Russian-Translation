@@ -25,7 +25,7 @@ except ModuleNotFoundError:  # Direct `python src/installer_app.py` execution.
 
 
 APP_NAME = "Русификатор Escape Academy"
-APP_VERSION = "0.1.2"
+APP_VERSION = "0.1.3"
 STEAM_APP_ID = "1812090"
 STATE_DIR_NAME = "EscapeAcademyRussian"
 MIN_FREE_BYTES = 12 * 1024**3
@@ -336,7 +336,7 @@ def run_gui(initial_game_dir: Path | None = None) -> int:
             ttk.Label(
                 outer,
                 text=(
-                    "Версия 0.1.2 · заменяет внутренний английский слот · "
+                    "Версия 0.1.3 · заменяет внутренний английский слот · "
                     "для Steam-сборки Escape Academy 3.0.7.4"
                 ),
             ).pack(anchor="w", pady=(2, 14))

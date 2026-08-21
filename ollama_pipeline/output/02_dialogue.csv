@@ -971,3 +971,218 @@ dialogue:YUM_Outro (en-US):line:0a428a4,YUM_Outro (en-US),NEW_es_YUM_Outro,line:
 dialogue:YUM_Outro (en-US):line:0e66ec7,YUM_Outro (en-US),NEW_es_YUM_Outro,line:0e66ec7,YoungEel,А я просто возьму свой яд отдельно.
 dialogue:YUM_Outro (en-US):line:09497c2,YUM_Outro (en-US),NEW_es_YUM_Outro,line:09497c2,Chef,"Обещаю, я всё тщательно вымою, прежде чем готовить что-нибудь для студентов."
 dialogue:YUM_Outro (en-US):line:0bb8e64,YUM_Outro (en-US),NEW_es_YUM_Outro,line:0bb8e64,Chef,"Сразу после того, как я... отосплюсь."
+dialogue:MG_Ch3_Eel_UNP (en-US):line:07b4ba3,MG_Ch3_Eel_UNP (en-US),,line:07b4ba3,Eel,"Чёрт... Похоже, с тех пор как меня не было, за этим местом никто не ухаживал."
+dialogue:MG_Ch3_Eel_UNP (en-US):line:0ed37ef,MG_Ch3_Eel_UNP (en-US),,line:0ed37ef,Eel,"Не могу поверить, что они решили, будто Джеб справится с опасностями, которые я втиснул в это место."
+dialogue:MG_Ch3_Eel_UNP (en-US):line:041f9d6,MG_Ch3_Eel_UNP (en-US),,line:041f9d6,Eel,"Поручить комнату человеку, который даже головоломки не может пройти? Ну да ладно."
+dialogue:MG_Ch3_Eel_UNP (en-US):line:004096b,MG_Ch3_Eel_UNP (en-US),,line:004096b,Eel,"И что вообще за его вещи на третьем этаже? Он там что, жил?"
+dialogue:ToP_Defeat (en-US):ToP_Defeat-Start-0,ToP_Defeat (en-US),,ToP_Defeat-Start-0,Coach,Ребята! Мы же не об этом договаривались! Мы должны были победить!
+dialogue:ToP_Defeat (en-US):ToP_Defeat-Start-1,ToP_Defeat (en-US),,ToP_Defeat-Start-1,Coach,Ребёнок! Мы же не об этом договаривались! Мы должны были победить!
+dialogue:ToP_Defeat (en-US):ToP_Defeat-Start-2,ToP_Defeat (en-US),,ToP_Defeat-Start-2,Coach,"О боже, я уже чувствую, как переписывают мой некролог! «Бывший великий Пазл <i>провалился как тренер!!</i>»"
+dialogue:ToP_Defeat (en-US):ToP_Defeat-Start-3,ToP_Defeat (en-US),,ToP_Defeat-Start-3,Coach,Ты должен помочь мне вернуть себе лидерство — вернуть всю школу на вершину!
+dialogue:ToP_Defeat (en-US):ToP_Defeat-Start-4,ToP_Defeat (en-US),,ToP_Defeat-Start-4,Coach,Так что возвращайтесь туда и реабилитируйтесь!!!
+dialogue:ToP_Defeat (en-US):ToP_Defeat-Start-5,ToP_Defeat (en-US),,ToP_Defeat-Start-5,Coach,Так что возвращайся туда и реабилитируйся!!!
+dialogue:MG_Ch2_Quanty_LAB (en-US):line:0c1c3a1,MG_Ch2_Quanty_LAB (en-US),,line:0c1c3a1,Quanty,Приветствую. Ваши недавние результаты заставили меня скорректировать алгоритм оценки. Прямо сейчас я пересматриваю успеваемость студентов.
+dialogue:MG_Ch2_Quanty_LAB (en-US):line:06b4eaa,MG_Ch2_Quanty_LAB (en-US),,line:06b4eaa,Quanty,"Моя директива — создать среду, в которой будут воспитываться лучшие эскаписты."
+dialogue:MG_Ch2_Quanty_LAB (en-US):line:08a6405,MG_Ch2_Quanty_LAB (en-US),,line:08a6405,Quanty,"У меня есть несколько идей, как повысить нашу эффективность."
+dialogue:MG_Ch2_Quanty_LAB (en-US):line:0622bee,MG_Ch2_Quanty_LAB (en-US),,line:0622bee,Quanty,"Например, вечера сплочения преподавательского состава для повышения уровня серотонина."
+dialogue:MG_Ch2_Quanty_LAB (en-US):line:0afc3eb,MG_Ch2_Quanty_LAB (en-US),,line:0afc3eb,Quanty,Увеличение напора воды в душевых общежития.
+dialogue:MG_Ch2_Quanty_LAB (en-US):line:067c9fb,MG_Ch2_Quanty_LAB (en-US),,line:067c9fb,Quanty,"Обязательные симуляторы страданий, чтобы отсеять слабых."
+dialogue:MG_Ch2_Quanty_LAB (en-US):line:0d3c106,MG_Ch2_Quanty_LAB (en-US),,line:0d3c106,Quanty,И тому подобное.
+dialogue:FB_MG_7 (en-US):line:084dc00,FB_MG_7 (en-US),,line:084dc00,Horatio,Ребята! Я сейчас не могу говорить!
+dialogue:FB_MG_7 (en-US):line:0674675,FB_MG_7 (en-US),,line:0674675,Horatio,"Нам придётся <i>перенести</i> нашу встречу по поводу <i>академического эскапатона</i>, о котором вы спрашивали."
+dialogue:FB_MG_7 (en-US):line:0128ebf,FB_MG_7 (en-US),,line:0128ebf,Horatio,"Лучше пока не углубляться в эту тему, пока она не будет <i>тщательно расследована</i>."
+dialogue:FB_MG_7 (en-US):line:01e3f6a,FB_MG_7 (en-US),,line:01e3f6a,Horatio,А теперь марш отсюда!!
+dialogue:Gen_8 (en-US):line:0492f04,Gen_8 (en-US),,line:0492f04,Headmaster,"Вы закончили первый курс в Академии — а значит, пора на летние каникулы!"
+dialogue:Gen_8 (en-US):line:0160918,Gen_8 (en-US),,line:0160918,Headmaster,"Но можете остаться и поностальгировать о былых днях, сколько угодно."
+dialogue:Gen_8 (en-US):line:039c0c2,Gen_8 (en-US),,line:039c0c2,,<color=yellow>Вы можете пройти любой предыдущий квест из общежития.</color>
+dialogue:FB_MG_1 (en-US):line:0114b2d,FB_MG_1 (en-US),,line:0114b2d,Guy,"Можно сколько угодно говорить об этом типе... но Горацио точно знает, как нагнать интриги."
+dialogue:FB_MG_1 (en-US):line:07702a8,FB_MG_1 (en-US),,line:07702a8,Mads,"Пожалуйста. Всё это мероприятие — чистый эгоизм. Горацио празднует себя за что — за то, что делает свою работу?"
+dialogue:FB_MG_1 (en-US):line:0ee6304,FB_MG_1 (en-US),,line:0ee6304,Mads,"К тому же я не слышала, чтобы он хоть раз поблагодарил нас за помощь во всём этом..."
+dialogue:FB_MG_1 (en-US):line:067a4fe,FB_MG_1 (en-US),,line:067a4fe,Chef,"Я просто надеюсь, что Сандра и Ил готовы... мы все знаем, что Горацио не шутил насчёт того, насколько это будет опасно..."
+dialogue:FB_MG_1 (en-US):line:0228467,FB_MG_1 (en-US),,line:0228467,Guy,"Я, например, считаю, что немного соперничества между студентами — здоровый мотиватор."
+dialogue:FB_MG_1 (en-US):line:06abac0,FB_MG_1 (en-US),,line:06abac0,Chef,"О, конечно. Всё весело и безобидно, пока..."
+dialogue:FB_MG_1 (en-US):line:031af67,FB_MG_1 (en-US),,line:031af67,Mads,"...кто-нибудь не умрёт ужасной смертью, верно? Надеюсь, это не затянется. Я и так потеряла достаточно времени на возню с механизмами."
+dialogue:MG_Ch1_Jeb_UNP (en-US):line:0b9b624,MG_Ch1_Jeb_UNP (en-US),,line:0b9b624,Jeb,"Знаешь, я хожу в Академию с тех пор, как был совсем маленьким. Мы с пацанами играли в «Захват ключа» на площади."
+dialogue:MG_Ch1_Jeb_UNP (en-US):line:097f8c2,MG_Ch1_Jeb_UNP (en-US),,line:097f8c2,Jeb,"Верить или нет, но мой прапрадядя Томас помог основать это место!"
+dialogue:MG_Ch1_Jeb_UNP (en-US):line:040fcb7,MG_Ch1_Jeb_UNP (en-US),,line:040fcb7,Jeb,"Все были уверены, что из меня выйдет отличный эскапист. Но я больше склонен сохранять историю всего этого, чем самому бегать из квестов."
+dialogue:MG_Ch1_Jeb_UNP (en-US):line:0ff3797,MG_Ch1_Jeb_UNP (en-US),,line:0ff3797,Jeb,"Уже давно работаю смотрителем территории. Нет ничего лучше, чем знать, что ты помогаешь следующему поколению."
+dialogue:MG_Ch1_Jeb_UNP (en-US):line:0dabbe9,MG_Ch1_Jeb_UNP (en-US),,line:0dabbe9,Jeb,"Например, тебе!"
+dialogue:IS_MG_1 (en-US):IS_MG_1-Start-0,IS_MG_1 (en-US),,IS_MG_1-Start-0,Jeb,"Вау, какой насыщенный год! Ещё пару часов в полёте — и я буду пить прямо из кокоса!"
+dialogue:IS_MG_1 (en-US):line:0d7d817,IS_MG_1 (en-US),,line:0d7d817,Rival,"Погоди... Джеб летит <i>с нами</i>? Я думал, он просто довезёт нас до места..."
+dialogue:IS_MG_1 (en-US):line:0a0f91b,IS_MG_1 (en-US),,line:0a0f91b,Rival,"Ну, ладно. Отпуск на острове? Я это заслужил."
+dialogue:IS_MG_1 (en-US):line:05dbdf8,IS_MG_1 (en-US),,line:05dbdf8,Rival,"Я тоже там был, между прочим, — когда мы спасали школу."
+dialogue:IS_MG_1 (en-US):line:0b280ff,IS_MG_1 (en-US),,line:0b280ff,Rival,Мне не устроили никакой торжественной церемонии. Моя Печать побегу всё ещё в пути.
+dialogue:IS_MG_1 (en-US):line:0b1c134,IS_MG_1 (en-US),,line:0b1c134,Rival,"Тропический отдых — это минимум, что они могут сделать, чтобы загладить вину."
+dialogue:FB_MG_2469 (en-US):line:015698a,FB_MG_2469 (en-US),,line:015698a,YoungEel,"Сэнди, должен сказать... Не ожидал, что застенчивая книжная червяк сможет так себя вести. Но ты справилась на славу."
+dialogue:FB_MG_2469 (en-US):line:011ef55,FB_MG_2469 (en-US),,line:011ef55,YoungEel,"Мы... вроде бы неплохая команда, да?"
+dialogue:FB_MG_2469 (en-US):line:067970b,FB_MG_2469 (en-US),,line:067970b,YoungSandy,"Ты, кажется, что-то поняла, Барнс. Я удивлена. Думала, твой образ бунтаря-подростка — всего лишь игра."
+dialogue:FB_MG_2469 (en-US):line:0457e93,FB_MG_2469 (en-US),,line:0457e93,YoungEel,"За маской стоит человек, Сэнди. Этот Ил — настоящий."
+dialogue:FB_MG_2469 (en-US):line:0f33aab,FB_MG_2469 (en-US),,line:0f33aab,YoungSandy,"Ну, насчёт «подростка» я всё-таки была права..."
+dialogue:FB_MG_2469 (en-US):line:02257bd,FB_MG_2469 (en-US),,line:02257bd,YoungSandy,Занятие по инженерии... стало ещё хуже.
+dialogue:FB_MG_2469 (en-US):line:0ed89b2,FB_MG_2469 (en-US),,line:0ed89b2,YoungEel,"Я не верю, что опрокидывание было случайностью. Мне это кажется подозрительным."
+dialogue:FB_MG_2469 (en-US):line:0dfb9c7,FB_MG_2469 (en-US),,line:0dfb9c7,YoungSandy,"Ты видела это свечение, когда стена начала трескаться? Похоже, нажатие кнопки вызова запустило что-то..."
+dialogue:FB_MG_2469 (en-US):line:0e90e00,FB_MG_2469 (en-US),,line:0e90e00,YoungEel,"Да, ловушка. Сложная."
+dialogue:FB_MG_2469 (en-US):line:0f3ef77,FB_MG_2469 (en-US),,line:0f3ef77,YoungSandy,"Не могу поверить, что мы едва не устранили весь преподавательский состав..."
+dialogue:FB_MG_2469 (en-US):line:092d78b,FB_MG_2469 (en-US),,line:092d78b,YoungEel,"Эй, не будь так строга к себе. Кто-то, кто на самом деле виноват, заставил нас сделать свою грязную работу."
+dialogue:FB_MG_2469 (en-US):line:0f932bd,FB_MG_2469 (en-US),,line:0f932bd,YoungEel,"Они действительно, действительно не хотят попасться."
+dialogue:FB_MG_2469 (en-US):line:0fd9e28,FB_MG_2469 (en-US),,line:0fd9e28,YoungSandy,"Я всё ещё не могу поверить, что кто-то пытается устранить директора."
+dialogue:FB_MG_2469 (en-US):line:0b992b3,FB_MG_2469 (en-US),,line:0b992b3,YoungEel,В Академии никогда не бывает скучно.
+dialogue:FB_MG_2469 (en-US):line:083b37d,FB_MG_2469 (en-US),,line:083b37d,YoungSandy,"Значит, «Комната соперников» — не единичный случай..."
+dialogue:FB_MG_2469 (en-US):line:083f1c3,FB_MG_2469 (en-US),,line:083f1c3,YoungEel,Нет. Кто-то определённо пытается прикончить старого Рэшо.
+dialogue:FB_MG_2469 (en-US):line:08edf88,FB_MG_2469 (en-US),,line:08edf88,YoungSandy,Этот год начался по-настоящему интересно...
+dialogue:FB_MG_2469 (en-US):line:0c78be6,FB_MG_2469 (en-US),,line:0c78be6,YoungEel,"Смертельные соревнования... заговор об убийстве... новые друзья... эй, что тут не нравится, правда?"
+dialogue:FB_MG_2469 (en-US):line:0d88c2a,FB_MG_2469 (en-US),,line:0d88c2a,YoungSandy,"Хотя бы две из этих штук, Ил. Хотя бы две."
+dialogue:FB_MG_2469 (en-US):line:053ea72,FB_MG_2469 (en-US),,line:053ea72,YoungSandy,Три покушения на жизнь директора. Это выходит из-под контроля.
+dialogue:FB_MG_2469 (en-US):line:09a485b,FB_MG_2469 (en-US),,line:09a485b,YoungEel,"Я знаю, что он иногда зануда, но не понимаю, зачем кому-то так <i>отчаянно</i> пытаться его убить."
+dialogue:FB_MG_2469 (en-US):line:0af1874,FB_MG_2469 (en-US),,line:0af1874,YoungSandy,"И прилагает столько усилий, чтобы всё выглядело как несчастные случаи. Нам нужно быть начеку."
+dialogue:FB_MG_2469 (en-US):line:003db38,FB_MG_2469 (en-US),,line:003db38,YoungSandy,"Хорошо, что у меня есть напарник, который не отступает."
+dialogue:FB_MG_2469 (en-US):line:08c142c,FB_MG_2469 (en-US),,line:08c142c,YoungEel,"Ого, ты раздаёшь комплименты, Сэнди?"
+dialogue:FB_MG_2469 (en-US):line:035a898,FB_MG_2469 (en-US),,line:035a898,YoungSandy,"Не заставляй меня повторять, Барнс."
+dialogue:FB_MG_2469 (en-US):line:02b476e,FB_MG_2469 (en-US),,line:02b476e,YoungSandy,"Я рада, что мы смогли помочь... но нам нужно решить это дело, и как можно скорее."
+dialogue:FB_MG_2469 (en-US):line:0cc4496,FB_MG_2469 (en-US),,line:0cc4496,YoungEel,"Мы решим, Сэнди. Мы не дадим нашему первому совместному делу закончиться смертью директора."
+dialogue:FB_MG_2469 (en-US):line:006d431,FB_MG_2469 (en-US),,line:006d431,,Этот диалог не должен появляться.
+dialogue:MG_Ch2_Allie_POT (en-US):line:0e9ca1f,MG_Ch2_Allie_POT (en-US),,line:0e9ca1f,Allie,"Спасибо, что нашёл мою бомбу-кулон там, в глубине. Это был подарок от бывшей."
+dialogue:MG_Ch2_Allie_POT (en-US):line:0912658,MG_Ch2_Allie_POT (en-US),,line:0912658,Allie,"Она была гениальна. Но не могла принять, что я готова замедлиться. Вечно гналась за чем-то более мощным. Пришлось уйти."
+dialogue:MG_Ch2_Allie_POT (en-US):line:0ca0b7d,MG_Ch2_Allie_POT (en-US),,line:0ca0b7d,Allie,Хотя иногда я всё же ностальгирую по прошлому.
+dialogue:MG_Ch2_Allie_POT (en-US):line:001ad72,MG_Ch2_Allie_POT (en-US),,line:001ad72,Allie,К тому же в сердцевине кулона есть капля оружейного плутония.
+dialogue:MG_Ch2_Allie_POT (en-US):line:03d4ca0,MG_Ch2_Allie_POT (en-US),,line:03d4ca0,Allie,Мне правда не стоит оставлять его просто так…
+dialogue:MG_Ch1_Slip_ACR (en-US):line:05c7cdf,MG_Ch1_Slip_ACR (en-US),,line:05c7cdf,Slip,Я изучаю этот новый тип краски.
+dialogue:MG_Ch1_Slip_ACR (en-US):line:0138a85,MG_Ch1_Slip_ACR (en-US),,line:0138a85,Slip,"Знаешь тех исследователей, которые открыли новый оттенок синего — самый синий из всех существующих?"
+dialogue:MG_Ch1_Slip_ACR (en-US):line:0a85564,MG_Ch1_Slip_ACR (en-US),,line:0a85564,Slip,Я только что достал немного этой штуки в <i>оранжевом</i>.
+dialogue:MG_Ch2_EelHeadmaster_HMO (en-US):line:04bdb53,MG_Ch2_EelHeadmaster_HMO (en-US),,line:04bdb53,Eel,…и остался только один выход — активировать самоуничтожение. Я не мог позволить им раскрыть Академию. Это был единственный способ их остановить.
+dialogue:MG_Ch2_EelHeadmaster_HMO (en-US):line:06897e0,MG_Ch2_EelHeadmaster_HMO (en-US),,line:06897e0,Headmaster,"Ил… ты должен знать, я был уверен, что ты погиб. Весь мир считал, что ты пожертвовал собой, чтобы спасти нас."
+dialogue:MG_Ch2_EelHeadmaster_HMO (en-US):line:0ef4286,MG_Ch2_EelHeadmaster_HMO (en-US),,line:0ef4286,Eel,"Эй, я тоже так думал. Но в следующий миг я очнулся в камере, а на меня злился и обгорелый учёный из «Анти-побега»."
+dialogue:MG_Ch2_EelHeadmaster_HMO (en-US):line:00d1bd4,MG_Ch2_EelHeadmaster_HMO (en-US),,line:00d1bd4,Eel,Мне стоило быть готовым к такому. Не стоило расслабляться.
+dialogue:MG_Ch2_EelHeadmaster_HMO (en-US):line:0201b0d,MG_Ch2_EelHeadmaster_HMO (en-US),,line:0201b0d,Headmaster,Мне не стоило прекращать поиски.
+dialogue:MG_Ch2_EelHeadmaster_HMO (en-US):line:0067bbd,MG_Ch2_EelHeadmaster_HMO (en-US),,line:0067bbd,Eel,"Значит, мы оба совершили ошибки. Кажется, мы в расчёте."
+dialogue:FB_MG_3 (en-US):FB_MG_3-Start-0,FB_MG_3 (en-US),,FB_MG_3-Start-0,Horatio,"Сандра, Ил. Боюсь, это наш последний разговор на эту тему, поэтому я обязан рассказать вам все факты."
+dialogue:FB_MG_3 (en-US):FB_MG_3-Start-1,FB_MG_3 (en-US),,FB_MG_3-Start-1,Horatio,"Это предательство личное, но у меня есть объективное мнение о каждом из этих <i>подлых типов</i>."
+dialogue:FB_MG_3 (en-US):FB_MG_3-Start-2,FB_MG_3 (en-US),,FB_MG_3-Start-2,Horatio,"Первая — Мэдлин «Мэдс» Монстронг, наш профессор инженерии, который вечно ворчит и что-то мастерит в своей мастерской."
+dialogue:FB_MG_3 (en-US):FB_MG_3-Start-3,FB_MG_3 (en-US),,FB_MG_3-Start-3,Horatio,"Кстати, она меня ненавидит."
+dialogue:FB_MG_3 (en-US):FB_MG_3-Start-4,FB_MG_3 (en-US),,FB_MG_3-Start-4,Horatio,"Но достаточно ли сильна эта ненависть, чтобы она решилась на <i>убийство</i>? Трудно сказать, но недооценивать её нельзя."
+dialogue:FB_MG_3 (en-US):FB_MG_3-Start-5,FB_MG_3 (en-US),,FB_MG_3-Start-5,Horatio,"Далее — профессор Гай Гисборн, наш преподаватель бухгалтерии. Хотя у него довольно странное понимание этого слова..."
+dialogue:FB_MG_3 (en-US):FB_MG_3-Start-6,FB_MG_3 (en-US),,FB_MG_3-Start-6,Horatio,"Он может обокрасть вас прямо у вас на глазах, а вы даже не заметите, что пропало!"
+dialogue:FB_MG_3 (en-US):FB_MG_3-Start-7,FB_MG_3 (en-US),,FB_MG_3-Start-7,Horatio,"Но могли ли эти пальцы перейти от «липких» к <i>убийственным</i>? Мне трудно в это поверить... но он не менее опасен, чем остальные."
+dialogue:FB_MG_3 (en-US):FB_MG_3-Start-8,FB_MG_3 (en-US),,FB_MG_3-Start-8,Horatio,"И наконец, повар Кэллион. Скучный зануда, чей завтрак вы едите каждое утро."
+dialogue:FB_MG_3 (en-US):FB_MG_3-Start-9,FB_MG_3 (en-US),,FB_MG_3-Start-9,Horatio,"Он невероятно гордится тем, что держит школьную столовую в порядке, и готовит отличную копчёную кippers."
+dialogue:FB_MG_3 (en-US):FB_MG_3-Start-10,FB_MG_3 (en-US),,FB_MG_3-Start-10,Horatio,"Но не готовит ли повар Кэллион тайно <i>смертельные планы</i>? Может быть и то, и другое, но он любит сюрпризы."
+dialogue:FB_MG_3 (en-US):FB_MG_3-Start-11,FB_MG_3 (en-US),,FB_MG_3-Start-11,Horatio,И вот вам наши три подозреваемых.
+dialogue:FB_MG_3 (en-US):FB_MG_3-Start-12,FB_MG_3 (en-US),,FB_MG_3-Start-12,Horatio,Один из моих учеников — гнилой предатель. И только вы двое можете его остановить.
+dialogue:FB_MG_3 (en-US):FB_MG_3-Start-13,FB_MG_3 (en-US),,FB_MG_3-Start-13,Horatio,"Ну всё, марш. Если кто-то спросит, говорили ли мы об этом, я всё отрицаю!"
+dialogue:FB_MG_10 (en-US):line:0c5043e,FB_MG_10 (en-US),,line:0c5043e,Chef,"Фух! Наконец-то чисто. Смотрите, куда ступаете! Я больше не буду мыть пол."
+dialogue:FB_MG_10 (en-US):line:054d552,FB_MG_10 (en-US),,line:054d552,Chef,"Я всё ещё не могу в это поверить. Я даже не знаю, откуда мог взяться яд."
+dialogue:FB_MG_10 (en-US):line:01344ed,FB_MG_10 (en-US),,line:01344ed,YoungEel,Они должны были как-то туда попасть...
+dialogue:FB_MG_10 (en-US):line:0252840,FB_MG_10 (en-US),,line:0252840,Chef,Я трижды проверил рабочие места и все свои инструменты... никаких следов.
+dialogue:FB_MG_10 (en-US):line:04bb4f1,FB_MG_10 (en-US),,line:04bb4f1,Chef,"Мне просто жаль, что тот, кто это сделал, использовал вас двоих."
+dialogue:FB_MG_10 (en-US):line:0352855,FB_MG_10 (en-US),,line:0352855,YoungSandy,"Не извиняйся, повар. В конце концов, хорошо, что мы там были."
+dialogue:FB_MG_10 (en-US):line:0a06e28,FB_MG_10 (en-US),,line:0a06e28,Chef,"Похоже, в Академии в последнее время происходит много необъяснимых вещей... и все они направлены против Горацио."
+dialogue:FB_MG_10 (en-US):line:04050d8,FB_MG_10 (en-US),,line:04050d8,Chef,"Я лишь надеюсь, что он осторожничает, ради учеников. Что такое школа без директора?"
+dialogue:FB_MG_10 (en-US):line:0603d82,FB_MG_10 (en-US),,line:0603d82,YoungSandy,"Надеюсь, нам никогда не придётся это узнать."
+dialogue:FB_MG_10 (en-US):line:0392f7a,FB_MG_10 (en-US),,line:0392f7a,Chef,"Похоже, в Академии в последнее время происходит много необъяснимых вещей... и все они направлены против Горацио."
+dialogue:FB_MG_10 (en-US):line:0968071,FB_MG_10 (en-US),,line:0968071,Chef,"Я лишь надеюсь, что он осторожничает, ради учеников. Что такое школа без директора?"
+dialogue:FB_MG_10 (en-US):line:00ddd45,FB_MG_10 (en-US),,line:00ddd45,YoungSandy,"Надеюсь, нам никогда не придётся это узнать."
+dialogue:FB_MG_10 (en-US):line:0477bdf,FB_MG_10 (en-US),,line:0477bdf,,Ты не должен видеть этот текст.
+dialogue:IS_MG_3 (en-US):line:0a97397,IS_MG_3 (en-US),,line:0a97397,henchmanA_@henchmanA,"Так... вы знали, что под нашей комнатой отдыха есть люк?!"
+dialogue:IS_MG_3 (en-US):line:046f478,IS_MG_3 (en-US),,line:046f478,henchmanB_@henchmanB,"Чувак, нет! И ты не знал? Что за хрень?"
+dialogue:IS_MG_3 (en-US):line:087a010,IS_MG_3 (en-US),,line:087a010,henchmanB_@henchmanB,"Думаю, с этого дня буду обедать на пляже..."
+dialogue:MG_Ch2_Slip_LIB (en-US):line:0555935,MG_Ch2_Slip_LIB (en-US),,line:0555935,Slip,"Эй, глянь. Выпустили новое издание «Искусство побега: история». В этом году там есть глава обо мне!"
+dialogue:MG_Ch2_Slip_LIB (en-US):line:02499b7,MG_Ch2_Slip_LIB (en-US),,line:02499b7,Slip,"<i>Слип, настоящее имя неизвестно, прославился своим знаменитым партизанским искусством, которое он оттачивает с тех пор, как Академия впервые его обнаружила.</i>"
+dialogue:MG_Ch2_Slip_LIB (en-US):line:073f6e3,MG_Ch2_Slip_LIB (en-US),,line:073f6e3,Slip,Пш. <i>Они</i> обнаружили <i>меня</i>?
+dialogue:MG_Ch2_Slip_LIB (en-US):line:01fe3e5,MG_Ch2_Slip_LIB (en-US),,line:01fe3e5,Slip,"Мне было тринадцать, когда я проник в трамвайный туннель и прокатился до кабинета директора. Написал своё имя трафаретом прямо на её столе."
+dialogue:MG_Ch2_Slip_LIB (en-US):line:0de2137,MG_Ch2_Slip_LIB (en-US),,line:0de2137,Slip,"Если кто кого и обнаружил, то я их."
+dialogue:IS_MG_5 (en-US):line:06db3ab,IS_MG_5 (en-US),,line:06db3ab,Jeb,"Вау, какие безумные сутки!"
+dialogue:IS_MG_5 (en-US):line:0d75314,IS_MG_5 (en-US),,line:0d75314,Jeb,"Если честно, я бы не хотел ничего из этого переживать заново! Но, пожалуй, вести журнал — не такая уж плохая идея."
+dialogue:IS_MG_5 (en-US):line:01184cf,IS_MG_5 (en-US),,line:01184cf,,<color=yellow>Любую предыдущую квест-комнату можно пройти повторно с места крушения.</color>
+dialogue:MG_Ch1_AllieQuanty_TNT (en-US):line:0340f4b,MG_Ch1_AllieQuanty_TNT (en-US),,line:0340f4b,Allie,"Я так рада, что ты решил присоединиться к моему чаепитию, Кванти."
+dialogue:MG_Ch1_AllieQuanty_TNT (en-US):line:04c39a8,MG_Ch1_AllieQuanty_TNT (en-US),,line:04c39a8,Quanty,Неточно. Ты прикатила меня сюда.
+dialogue:MG_Ch1_AllieQuanty_TNT (en-US):line:0d0ac8b,MG_Ch1_AllieQuanty_TNT (en-US),,line:0d0ac8b,Allie,Хорошая чашка чая меня по-настоящему насыщает. А тебя? Что приносит тебе удовлетворение?
+dialogue:MG_Ch1_AllieQuanty_TNT (en-US):line:0488dea,MG_Ch1_AllieQuanty_TNT (en-US),,line:0488dea,Quanty,"Моя цель будет достигнута, когда Академия будет выпускать эскапистов высшего качества."
+dialogue:MG_Ch1_AllieQuanty_TNT (en-US):line:04b02c3,MG_Ch1_AllieQuanty_TNT (en-US),,line:04b02c3,Allie,"Мне так нравится, что мы всегда на одной волне."
+dialogue:MG_Ch3_Slip_ACR (en-US):line:0b499ff,MG_Ch3_Slip_ACR (en-US),,line:0b499ff,Slip,"О, привет. Прости, застал меня не в лучшем настроении."
+dialogue:MG_Ch3_Slip_ACR (en-US):line:0415bc9,MG_Ch3_Slip_ACR (en-US),,line:0415bc9,Slip,"Ил требует, чтобы я снял своё имя с Памятника побегу."
+dialogue:MG_Ch3_Slip_ACR (en-US):line:0907256,MG_Ch3_Slip_ACR (en-US),,line:0907256,Slip,"Говорит, что я ещё не «заслужил своего места»."
+dialogue:MG_Ch3_Slip_ACR (en-US):line:056ea2e,MG_Ch3_Slip_ACR (en-US),,line:056ea2e,Slip,"Он даже не вернулся за год. Это просто нечестно, чувак..."
+dialogue:MG_Ch2_Rival_TNT (en-US):line:0576595,MG_Ch2_Rival_TNT (en-US),,line:0576595,Rival,"Эй, ты в порядке? Выглядишь уставшим. Переживаешь из-за комнаты соперника? Да, это понятно."
+dialogue:MG_Ch2_Rival_TNT (en-US):line:05ecd67,MG_Ch2_Rival_TNT (en-US),,line:05ecd67,Rival,"Мне? Нет, я не переживаю. У меня уже восемь значков."
+dialogue:MG_Ch2_Rival_TNT (en-US):line:0bce4dc,MG_Ch2_Rival_TNT (en-US),,line:0bce4dc,Rival,Моя мать установила рекорд на этом курсе в своё время. Для меня это будет раз плюнуть. Побег — семейное дело.
+dialogue:MG_Ch2_Rival_TNT (en-US):line:009992b,MG_Ch2_Rival_TNT (en-US),,line:009992b,Rival,На твоём месте я бы готовился смотреть со стороны.
+dialogue:MG_Ch3_Rival_EMO (en-US):line:0ed5b64,MG_Ch3_Rival_EMO (en-US),,line:0ed5b64,Rival,Тебе лучше спуститься туда.
+dialogue:MG_Ch3_Rival_EMO (en-US):line:0814a70,MG_Ch3_Rival_EMO (en-US),,line:0814a70,Rival,"Я останусь здесь с этим... «Ил-ботом» и прослежу, чтобы нас не ждали другие сюрпризы."
+dialogue:MG_Ch3_Rival_EMO (en-US):line:05f39bc,MG_Ch3_Rival_EMO (en-US),,line:05f39bc,Rival,"Скажи, когда будешь готов."
+dialogue:MG_Ch3_Jeb_TBT (en-US):line:0b61371,MG_Ch3_Jeb_TBT (en-US),,line:0b61371,Jeb,"Мне только что прислали отчёт инспектора по библиотеке... Говорят, это мог быть поджог!"
+dialogue:MG_Ch3_Jeb_TBT (en-US):line:0845540,MG_Ch3_Jeb_TBT (en-US),,line:0845540,Jeb,"Я бросил копию в ящик Ила, но он сказал, что слишком занят, чтобы её разбирать."
+dialogue:MG_Ch3_Jeb_TBT (en-US):line:04440c6,MG_Ch3_Jeb_TBT (en-US),,line:04440c6,Jeb,Словно его это вообще не задело!
+dialogue:MG_Ch3_Jeb_TBT (en-US):line:06d4769,MG_Ch3_Jeb_TBT (en-US),,line:06d4769,Jeb,"Вздыхает... Века истории исчезли в одно мгновение... Не говоря уже о том, что род Джебсонов едва не пресёкся!"
+dialogue:MG_Ch3_Jeb_TBT (en-US):line:078449a,MG_Ch3_Jeb_TBT (en-US),,line:078449a,Jeb,"Я только надеюсь, что никто не подумает, будто я подвёл школу."
+dialogue:FB_MG_5 (en-US):line:058ba2a,FB_MG_5 (en-US),,line:058ba2a,Mads,Снова студенты? Что теперь? Горацио вас послал?
+dialogue:FB_MG_5 (en-US):line:09daf92,FB_MG_5 (en-US),,line:09daf92,Mads,"Я не собираюсь задерживаться из-за очередной глупой отговорки. Ни его, ни чьей-либо другой."
+dialogue:FB_MG_5 (en-US):line:06d0133,FB_MG_5 (en-US),,line:06d0133,YoungSandy,"Мы просто хотели узнать, как ты себя чувствуешь."
+dialogue:FB_MG_5 (en-US):line:0dcd0dc,FB_MG_5 (en-US),,line:0dcd0dc,YoungEel,"Знаешь, после того как тебя «поджарило»."
+dialogue:FB_MG_5 (en-US):line:0818c91,FB_MG_5 (en-US),,line:0818c91,Mads,Ну. Я и похуже переживала.
+dialogue:FB_MG_5 (en-US):line:063f36b,FB_MG_5 (en-US),,line:063f36b,YoungEel,Обязательно расскажи об этом.
+dialogue:FB_MG_5 (en-US):line:098efc8,FB_MG_5 (en-US),,line:098efc8,Mads,Недавно я чинила старую развалюху и «одолжила» катушку из тостера Горацио... Идеальный размер для ретро-двигателя!
+dialogue:FB_MG_5 (en-US):line:0d2ecb1,FB_MG_5 (en-US),,line:0d2ecb1,Mads,"Но когда я завела мотор... от катушки вырвался такой огненный шар, что расплавил всё стекло в гараже."
+dialogue:FB_MG_5 (en-US):line:000e381,FB_MG_5 (en-US),,line:000e381,Mads,"Надо было помнить, что Горацио всегда покупает дешёвые вещи..."
+dialogue:FB_MG_5 (en-US):line:0746641,FB_MG_5 (en-US),,line:0746641,Mads,Хотя в этот раз хотя бы брови целы.
+dialogue:FB_MG_5 (en-US):line:025fce3,FB_MG_5 (en-US),,line:025fce3,YoungSandy,"Всё равно... было бы настоящей катастрофой, если бы башня директора разрушилась. Надеюсь, он не придирается к тебе из-за этого."
+dialogue:FB_MG_5 (en-US):line:092c64c,FB_MG_5 (en-US),,line:092c64c,Mads,"Конечно, придирается. Горацио <i>сам по себе</i> придирается."
+dialogue:FB_MG_5 (en-US):line:0f69877,FB_MG_5 (en-US),,line:0f69877,Mads,"Ты же знаешь, что он уже трижды чуть не погиб на этой неделе, верно? Часть меня задумывается, каково это было бы..."
+dialogue:FB_MG_5 (en-US):line:029875f,FB_MG_5 (en-US),,line:029875f,Mads,"Но, похоже, эта фантазия останется только в моих самых сладких снах."
+dialogue:FB_MG_5 (en-US):line:009bf7a,FB_MG_5 (en-US),,line:009bf7a,YoungSandy,"Всё равно... было бы настоящей катастрофой, если бы башня директора разрушилась. Надеюсь, он не придирается к тебе из-за этого."
+dialogue:FB_MG_5 (en-US):line:055609f,FB_MG_5 (en-US),,line:055609f,Mads,"Конечно, придирается. Горацио <i>сам по себе</i> придирается."
+dialogue:FB_MG_5 (en-US):line:02afe48,FB_MG_5 (en-US),,line:02afe48,Mads,"Ты же знаешь, что он уже трижды чуть не погиб на этой неделе, верно? Часть меня задумывается, каково это было бы..."
+dialogue:FB_MG_5 (en-US):line:06e030c,FB_MG_5 (en-US),,line:06e030c,Mads,"Но, похоже, эта фантазия останется только в моих самых сладких снах."
+dialogue:FB_MG_5 (en-US):line:01e04c5,FB_MG_5 (en-US),,line:01e04c5,,Ты не должен видеть этот текст.
+dialogue:IS_MG_4 (en-US):line:0330f12,IS_MG_4 (en-US),,line:0330f12,Liz,"Нажимай на кнопки сколько хочешь, «директор». Тебе не переключить поток измерений."
+dialogue:IS_MG_4 (en-US):line:03dbaf3,IS_MG_4 (en-US),,line:03dbaf3,Liz,"Ты думаешь, что знаешь мои технологии лучше меня? Я их создала! Твои попытки тщетны."
+dialogue:IS_MG_4 (en-US):line:0941f52,IS_MG_4 (en-US),,line:0941f52,Liz,Почти иронично. Ты пытаешься совершить невозможное.
+dialogue:IS_MG_4 (en-US):line:078dfc3,IS_MG_4 (en-US),,line:078dfc3,Liz,"Когда я предпринимала подобные попытки в Академии, меня сочли сумасшедшей... изгнали. А ты стоял в стороне. Ну и друг."
+dialogue:IS_MG_4 (en-US):line:028bcae,IS_MG_4 (en-US),,line:028bcae,Liz,"Когда ты провалишься и я покажу миру то, что создала здесь, меня будут обожать. Праздновать! Научный прогресс будет неразрывно связан с именем--"
+dialogue:IS_MG_4 (en-US):line:0d4e9ba,IS_MG_4 (en-US),,line:0d4e9ba,Headmaster,Лиз!
+dialogue:IS_MG_4 (en-US):line:014516b,IS_MG_4 (en-US),,line:014516b,Headmaster,<i>Заткнись и помоги нам спасти нашего друга!!</i>
+dialogue:IS_MG_2 (en-US):line:0789ee9,IS_MG_2 (en-US),,line:0789ee9,Jeb,"Эй, э-э... не хочу паниковать, но..."
+dialogue:IS_MG_2 (en-US):line:0f2f27c,IS_MG_2 (en-US),,line:0f2f27c,Jeb,"Я немного теряюсь в том, что там произошло!"
+dialogue:IS_MG_2 (en-US):line:0992a20,IS_MG_2 (en-US),,line:0992a20,Jeb,"Ещё минуту назад я делал весёлое объявление по громкой связи, парил в небе, а потом... очнулся, и мы уже падали!"
+dialogue:IS_MG_2 (en-US):line:02ae9f5,IS_MG_2 (en-US),,line:02ae9f5,Jeb,"Должно быть, я потерял сознание."
+dialogue:IS_MG_2 (en-US):line:0cf8113,IS_MG_2 (en-US),,line:0cf8113,Jeb,"Такие вот приключения в побеге, полагаю..."
+dialogue:MG_Ch2_Jeb_TBT (en-US):line:09b4c43,MG_Ch2_Jeb_TBT (en-US),,line:09b4c43,Jeb,"Вау, Ил куда более взрывной, чем я думал."
+dialogue:MG_Ch2_Jeb_TBT (en-US):line:01bea2a,MG_Ch2_Jeb_TBT (en-US),,line:01bea2a,Jeb,"Я видел его только в новостных хрониках, когда рос, но... он совсем не такой, как я ожидал!"
+dialogue:MG_Ch2_Jeb_TBT (en-US):line:0a5796b,MG_Ch2_Jeb_TBT (en-US),,line:0a5796b,Jeb,"Похоже, это доказывает, что легенды — такие же живые люди."
+dialogue:MG_Ch2_Jeb_TBT (en-US):line:0389df0,MG_Ch2_Jeb_TBT (en-US),,line:0389df0,Jeb,В каком-то смысле это даже успокаивает!
+dialogue:MG_Ch1_Headmaster_HMO (en-US):line:04c5f22,MG_Ch1_Headmaster_HMO (en-US),,line:04c5f22,Headmaster,Как тебе устроиться?
+dialogue:MG_Ch1_Headmaster_HMO (en-US):line:013fcd3,MG_Ch1_Headmaster_HMO (en-US),,line:013fcd3,Headmaster,"Когда я только поступил в Академию, казалось, что в каждом занятии меня ждёт сюрприз."
+dialogue:MG_Ch1_Headmaster_HMO (en-US):line:0ab9169,MG_Ch1_Headmaster_HMO (en-US),,line:0ab9169,Headmaster,Семинар по стелсу... Комната соперников... Лазерный лабиринт…
+dialogue:MG_Ch1_Headmaster_HMO (en-US):line:03cdc88,MG_Ch1_Headmaster_HMO (en-US),,line:03cdc88,Headmaster,Мы чудом выжили в поистине волшебные времена.
+dialogue:FB_MG_8 (en-US):line:0c7e751,FB_MG_8 (en-US),,line:0c7e751,Guy,"Сандра, Ил! Надеюсь, вы не слишком потрясены тем, что произошло на моих занятиях сегодня."
+dialogue:FB_MG_8 (en-US):line:0d913df,FB_MG_8 (en-US),,line:0d913df,Guy,"Я всегда говорил: если всё идёт по плану, это не ограбление."
+dialogue:FB_MG_8 (en-US):line:06fb89d,FB_MG_8 (en-US),,line:06fb89d,YoungSandy,"У нас всё было «немного» не по плану, профессор!"
+dialogue:FB_MG_8 (en-US):line:0e48cbd,FB_MG_8 (en-US),,line:0e48cbd,Guy,Ну да... Именно поэтому я решил провести небольшое расследование.
+dialogue:FB_MG_8 (en-US):line:0d1c363,FB_MG_8 (en-US),,line:0d1c363,Guy,Вы двое не видели там... ничего странного?
+dialogue:FB_MG_8 (en-US):line:0ba755b,FB_MG_8 (en-US),,line:0ba755b,YoungEel,"О, что? Ты имеешь в виду обвал, из-за которого мы едва не погибли?"
+dialogue:FB_MG_8 (en-US):line:09cf4f4,FB_MG_8 (en-US),,line:09cf4f4,Guy,"Прости, я не хотел обесценивать случившееся. Просто... две аварии за одну неделю... заставляют задуматься."
+dialogue:FB_MG_8 (en-US):line:0e8101a,FB_MG_8 (en-US),,line:0e8101a,Guy,"Надеюсь, никто не желает зла Академии... или её директору!"
+dialogue:FB_MG_8 (en-US):line:0c8b0bc,FB_MG_8 (en-US),,line:0c8b0bc,Guy,"Могу заверить, что без Горацио наша школа была бы совсем другой."
+dialogue:FB_MG_8 (en-US):line:0d63d22,FB_MG_8 (en-US),,line:0d63d22,Guy,"Ах, ну да... В последнее время на территории Академии происходит слишком много такого."
+dialogue:FB_MG_8 (en-US):line:08b54cd,FB_MG_8 (en-US),,line:08b54cd,Guy,"Почти как будто кто-то всё это замышляет. Или, может быть..."
+dialogue:FB_MG_8 (en-US):line:0e78941,FB_MG_8 (en-US),,line:0e78941,Guy,"Ладно, забудьте. Вам не нужно об этом беспокоиться."
+dialogue:FB_MG_8 (en-US):line:00706a2,FB_MG_8 (en-US),,line:00706a2,Guy,Но если бы я был на месте Горацио... я бы следил за своей спиной.
+dialogue:FB_MG_8 (en-US):line:0350f10,FB_MG_8 (en-US),,line:0350f10,Guy,"Ах, ну да... В последнее время на территории Академии происходит слишком много такого."
+dialogue:FB_MG_8 (en-US):line:02c4927,FB_MG_8 (en-US),,line:02c4927,Guy,"Почти как будто кто-то всё это замышляет. Или, может быть..."
+dialogue:FB_MG_8 (en-US):line:0928c70,FB_MG_8 (en-US),,line:0928c70,Guy,"Ладно, забудьте. Вам не нужно об этом беспокоиться."
+dialogue:FB_MG_8 (en-US):line:0524777,FB_MG_8 (en-US),,line:0524777,Guy,Но если бы я был на месте Горацио... я бы следил за своей спиной.
+dialogue:FB_MG_8 (en-US):line:08970ab,FB_MG_8 (en-US),,line:08970ab,,Ты не должен видеть этот текст.
+dialogue:FB_MG_11 (en-US):line:0bfa426,FB_MG_11 (en-US),,line:0bfa426,Horatio,Молодцы! Вы спасли меня от убийства!
+dialogue:FB_MG_11 (en-US):line:0860ba0,FB_MG_11 (en-US),,line:0860ba0,Horatio,"Но вы можете пережить этот ужас снова и снова, заглянув в свою комнату."
+dialogue:FB_MG_11 (en-US):line:0cd9a40,FB_MG_11 (en-US),,line:0cd9a40,,<color=yellow>Уровни можно пройти заново из общей комнаты.</color>
+dialogue:MG_Ch3_Allie_POT (en-US):line:06b3e16,MG_Ch3_Allie_POT (en-US),,line:06b3e16,Allie,Вздох... Это просто нечестно. Столько отличных исследований чая отправлено на полку пылиться...
+dialogue:MG_Ch3_Allie_POT (en-US):line:044c895,MG_Ch3_Allie_POT (en-US),,line:044c895,Allie,"А Ил требует, чтобы я ускоренно экспериментировала с горючим растительным материалом."
+dialogue:MG_Ch3_Allie_POT (en-US):line:033b374,MG_Ch3_Allie_POT (en-US),,line:033b374,Allie,"Я просто не понимаю. Я ведь так старалась убедить его в ценности ботаники! Он был так воодушевлен, когда мы достали бензопилу."
+dialogue:MG_Ch3_Allie_POT (en-US):line:0f6821e,MG_Ch3_Allie_POT (en-US),,line:0f6821e,Allie,"Но, увы, даже самый изысканный меч не выдержит конкуренции, когда сердце жаждет напалма."
+dialogue:MG_Ch3_Allie_POT (en-US):line:043fe28,MG_Ch3_Allie_POT (en-US),,line:043fe28,Allie,Моя миссия создать самый успокаивающий ромашковый чай придется отложить...
+dialogue:MG_Ch3_Quanty_LAB (en-US):line:0c4a6b9,MG_Ch3_Quanty_LAB (en-US),,line:0c4a6b9,Quanty,"Я всегда буду благодарен за наставления директора Соланж, которые помогли мне освоить искусство побегов."
+dialogue:MG_Ch3_Quanty_LAB (en-US):line:0d5bb8f,MG_Ch3_Quanty_LAB (en-US),,line:0d5bb8f,Quanty,Однако перемены неизбежны.
+dialogue:MG_Ch3_Quanty_LAB (en-US):line:03535fd,MG_Ch3_Quanty_LAB (en-US),,line:03535fd,Quanty,"С приходом Ила на пост директора учебный процесс, разумеется, подстроится под его методы."
+dialogue:MG_Ch3_Quanty_LAB (en-US):line:00dafad,MG_Ch3_Quanty_LAB (en-US),,line:00dafad,Quanty,"Но данных о том, что миссия Академии пострадает, нет. Подготовка эскапистов высшего класса продолжится без перебоев."
+dialogue:MG_Pro_Gillian_HMO (en-US):line:01f30a9,MG_Pro_Gillian_HMO (en-US),,line:01f30a9,Rival_???,"Ладно... перед кем из профессоров придётся подлизываться? Если я собираюсь закончить первый курс лучшей в классе, то стоит—"
+dialogue:MG_Pro_Gillian_HMO (en-US):line:043306e,MG_Pro_Gillian_HMO (en-US),,line:043306e,Rival_???,"Эм, простите. Разве вы не знаете, что пялиться невежливо?"
+dialogue:MG_Pro_Gillian_HMO (en-US):line:06c7140,MG_Pro_Gillian_HMO (en-US),,line:06c7140,Rival_???,"Если бы мама только знала, кого сейчас пускают сюда..."
