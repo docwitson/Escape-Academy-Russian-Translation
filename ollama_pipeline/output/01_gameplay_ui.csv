@@ -1947,7 +1947,7 @@ gameplay:GameplayStrings:1979:green,GameplayStrings,1979,Зелёный
 gameplay:GameplayStrings:1980:blue,GameplayStrings,1980,Синий
 gameplay:GameplayStrings:1981:yellow,GameplayStrings,1981,Жёлтый
 gameplay:GameplayStrings:1982:purple,GameplayStrings,1982,Фиолетовый
-gameplay:GameplayStrings:1983:startHere,GameplayStrings,1983,Старт
+gameplay:GameplayStrings:1983:startHere,GameplayStrings,1983,Start
 gameplay:GameplayStrings:1984:cabinetkey,GameplayStrings,1984,Ключ от шкафа
 gameplay:GameplayStrings:1985:10cents,GameplayStrings,1985,Монеты по 10 центов
 gameplay:GameplayStrings:1986:5cents,GameplayStrings,1986,Монеты по 5 центов
@@ -1993,15 +1993,15 @@ gameplay:GameplayStrings:2030:times1,GameplayStrings,2030,x1
 gameplay:GameplayStrings:2031:times2,GameplayStrings,2031,x2
 gameplay:GameplayStrings:2032:times3,GameplayStrings,2032,x3
 gameplay:GameplayStrings:2033:sarah,GameplayStrings,2033,SARAH
-gameplay:GameplayStrings:2034:megan,GameplayStrings,2034,МЕГАН
-gameplay:GameplayStrings:2035:michelle,GameplayStrings,2035,МИШЕЛЬ
+gameplay:GameplayStrings:2034:megan,GameplayStrings,2034,MEGAN
+gameplay:GameplayStrings:2035:michelle,GameplayStrings,2035,MICHELLE
 gameplay:GameplayStrings:2036:jacob,GameplayStrings,2036,JACOB
 gameplay:GameplayStrings:2037:rachel,GameplayStrings,2037,RACHEL
-gameplay:GameplayStrings:2038:mike,GameplayStrings,2038,МАЙК
-gameplay:GameplayStrings:2039:bob,GameplayStrings,2039,БОБ
-gameplay:GameplayStrings:2040:max,GameplayStrings,2040,МАКС
-gameplay:GameplayStrings:2041:timmy,GameplayStrings,2041,ТИМИ
-gameplay:GameplayStrings:2042:wyatt,GameplayStrings,2042,ВАЙАТТ
+gameplay:GameplayStrings:2038:mike,GameplayStrings,2038,MIKE
+gameplay:GameplayStrings:2039:bob,GameplayStrings,2039,BOB
+gameplay:GameplayStrings:2040:max,GameplayStrings,2040,MAX
+gameplay:GameplayStrings:2041:timmy,GameplayStrings,2041,TIMMY
+gameplay:GameplayStrings:2042:wyatt,GameplayStrings,2042,WYATT
 gameplay:GameplayStrings:2043:pigsFly,GameplayStrings,2043,"Ты сбежишь, когда свиньи начнут летать"
 gameplay:GameplayStrings:2044:bellsClue,GameplayStrings,2044,"Позвони в колокола, мой друг: <u>G</u>, <u>E</u>, <u>A</u>, <u>E</u>, <u>D</u>"
 gameplay:GameplayStrings:2045:bellsPW,GameplayStrings,2045,GEAED
@@ -2742,18 +2742,18 @@ gameplay:GameplayStrings:2798:finAttack3ReviewB,GameplayStrings,2798,"Реши �
 gameplay:GameplayStrings:2799:finAttack3ReviewC,GameplayStrings,2799,"Когда его защита падёт, нанеси финальный удар."
 gameplay:GameplayStrings:2800:finAttack3ReviewD,GameplayStrings,2800,"Прощай, Кванти."
 gameplay:GameplayStrings:2801:finAttack2ReviewC,GameplayStrings,2801,"Уничтожь другую консоль, используя схему из бланка теста."
-gameplay:GameplayStrings:2802:selfDestructTerminal0,GameplayStrings,2802,С
-gameplay:GameplayStrings:2803:selfDestructTerminal1,GameplayStrings,2803,А
-gameplay:GameplayStrings:2804:selfDestructTerminal2,GameplayStrings,2804,М
-gameplay:GameplayStrings:2805:selfDestructTerminal3,GameplayStrings,2805,О
-gameplay:GameplayStrings:2806:selfDestructTerminal4,GameplayStrings,2806,С
-gameplay:GameplayStrings:2807:selfDestructTerminal5,GameplayStrings,2807,Т
-gameplay:GameplayStrings:2808:selfDestructTerminal6,GameplayStrings,2808,Р
-gameplay:GameplayStrings:2809:selfDestructTerminal7,GameplayStrings,2809,У
-gameplay:GameplayStrings:2810:selfDestructTerminal8,GameplayStrings,2810,К
-gameplay:GameplayStrings:2811:selfDestructTerminal9,GameplayStrings,2811,Ц
-gameplay:GameplayStrings:2812:selfDestructTerminal10,GameplayStrings,2812,И
-gameplay:GameplayStrings:2813:selfDestructTerminal11,GameplayStrings,2813,Я
+gameplay:GameplayStrings:2802:selfDestructTerminal0,GameplayStrings,2802,S
+gameplay:GameplayStrings:2803:selfDestructTerminal1,GameplayStrings,2803,E
+gameplay:GameplayStrings:2804:selfDestructTerminal2,GameplayStrings,2804,L
+gameplay:GameplayStrings:2805:selfDestructTerminal3,GameplayStrings,2805,F
+gameplay:GameplayStrings:2806:selfDestructTerminal4,GameplayStrings,2806,D
+gameplay:GameplayStrings:2807:selfDestructTerminal5,GameplayStrings,2807,E
+gameplay:GameplayStrings:2808:selfDestructTerminal6,GameplayStrings,2808,S
+gameplay:GameplayStrings:2809:selfDestructTerminal7,GameplayStrings,2809,T
+gameplay:GameplayStrings:2810:selfDestructTerminal8,GameplayStrings,2810,R
+gameplay:GameplayStrings:2811:selfDestructTerminal9,GameplayStrings,2811,U
+gameplay:GameplayStrings:2812:selfDestructTerminal10,GameplayStrings,2812,C
+gameplay:GameplayStrings:2813:selfDestructTerminal11,GameplayStrings,2813,T
 gameplay:GameplayStrings:2814:quantypropoganda1,GameplayStrings,2814,Не пытайся сбежать
 gameplay:GameplayStrings:2815:quantypropoganda2,GameplayStrings,2815,Послушание — это совершенство
 gameplay:GameplayStrings:2816:quantypropoganda3,GameplayStrings,2816,Шаг 1
@@ -4446,16 +4446,16 @@ gameplay:GameplayStrings_Island:104:FLY_TmpAirHeading,GameplayStrings_Island,104
 gameplay:GameplayStrings_Island:105:FLY_TmpCheetah,GameplayStrings_Island,105,СКОРОСТЬ ГЕПАРДА
 gameplay:GameplayStrings_Island:106:FLY_TmpGrSpeed,GameplayStrings_Island,106,СКОРОСТЬ НА ЗЕМЛЕ
 gameplay:GameplayStrings_Island:107:FLY_TmpAirSpeed,GameplayStrings_Island,107,СКОРОСТЬ В ВОЗДУХЕ
-gameplay:GameplayStrings_Island:108:FLY_Window1,GameplayStrings_Island,108,В
-gameplay:GameplayStrings_Island:109:FLY_Window2,GameplayStrings_Island,109,З
-gameplay:GameplayStrings_Island:110:FLY_Window3,GameplayStrings_Island,110,Ю
+gameplay:GameplayStrings_Island:108:FLY_Window1,GameplayStrings_Island,108,A
+gameplay:GameplayStrings_Island:109:FLY_Window2,GameplayStrings_Island,109,Q
+gameplay:GameplayStrings_Island:110:FLY_Window3,GameplayStrings_Island,110,T
 gameplay:GameplayStrings_Island:111:FLY_Window4,GameplayStrings_Island,111,I
-gameplay:GameplayStrings_Island:112:FLY_Window5,GameplayStrings_Island,112,Ц
-gameplay:GameplayStrings_Island:113:FLY_Window6,GameplayStrings_Island,113,К
+gameplay:GameplayStrings_Island:112:FLY_Window5,GameplayStrings_Island,112,U
+gameplay:GameplayStrings_Island:113:FLY_Window6,GameplayStrings_Island,113,R
 gameplay:GameplayStrings_Island:114:FLY_Window7,GameplayStrings_Island,114,H
-gameplay:GameplayStrings_Island:115:FLY_Window8,GameplayStrings_Island,115,С
-gameplay:GameplayStrings_Island:116:FLY_Window9,GameplayStrings_Island,116,З
-gameplay:GameplayStrings_Island:117:FLY_Window10,GameplayStrings_Island,117,В
+gameplay:GameplayStrings_Island:115:FLY_Window8,GameplayStrings_Island,115,S
+gameplay:GameplayStrings_Island:116:FLY_Window9,GameplayStrings_Island,116,W
+gameplay:GameplayStrings_Island:117:FLY_Window10,GameplayStrings_Island,117,E
 gameplay:GameplayStrings_Island:118:FLY_Window11,GameplayStrings_Island,118,A
 gameplay:GameplayStrings_Island:119:FLY_Window12,GameplayStrings_Island,119,O
 gameplay:GameplayStrings_Island:120:FLY_Window13,GameplayStrings_Island,120,M

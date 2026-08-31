@@ -10,9 +10,9 @@
         "source_row",
         "translation_ru"
       ],
-      "sha256": "d0397e71c72bdc79ba657037447acc6d598027d7227115a9a562ffb695bdff97",
-      "size": 791212,
-      "semantic_sha256": "b57920412d1d025450cfd6eda5110034a3afd66cf5d14cead588517fc607c23c"
+      "sha256": "c96cbba8dede61825b2c1380a441111a97ae7b8bd9c125a7c5e5604815fec8ce",
+      "size": 791156,
+      "semantic_sha256": "368bc9667df32e6e4e1cf89aef679f1b99da549b4e9ffecad92e96f70288a4a3"
     },
     "ollama_pipeline/output/02_dialogue.csv": {
       "rows": 1187,
