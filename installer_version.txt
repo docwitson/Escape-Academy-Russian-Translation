@@ -15,11 +15,11 @@ VSVersionInfo(
         '040904B0',
         [StringStruct('CompanyName', 'Escape Academy Russian Localization'),
          StringStruct('FileDescription', 'Русификатор Escape Academy'),
-         StringStruct('FileVersion', '0.1.4'),
+         StringStruct('FileVersion', '0.1.5'),
          StringStruct('InternalName', 'EscapeAcademyRussianInstaller'),
          StringStruct('OriginalFilename', 'EscapeAcademyRussianInstaller.exe'),
          StringStruct('ProductName', 'Русификатор Escape Academy'),
-         StringStruct('ProductVersion', '0.1.4')]
+         StringStruct('ProductVersion', '0.1.5')]
       )
     ]),
     VarFileInfo([VarStruct('Translation', [1033, 1200])])

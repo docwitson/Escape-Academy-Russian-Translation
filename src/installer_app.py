@@ -16,6 +16,7 @@ import subprocess
 import sys
 import threading
 import traceback
+import webbrowser
 from pathlib import Path
 
 try:
@@ -25,7 +26,8 @@ except ModuleNotFoundError:  # Direct `python src/installer_app.py` execution.
 
 
 APP_NAME = "Русификатор Escape Academy"
-APP_VERSION = "0.1.4"
+APP_VERSION = "0.1.5"
+LATEST_RELEASE_URL = "https://github.com/docwitson/Escape-Academy-Russian-Translation/releases/latest"
 STEAM_APP_ID = "1812090"
 STATE_DIR_NAME = "EscapeAcademyRussian"
 MIN_FREE_BYTES = 12 * 1024**3
@@ -336,7 +338,7 @@ def run_gui(initial_game_dir: Path | None = None) -> int:
             ttk.Label(
                 outer,
                 text=(
-                    "Версия 0.1.4 · заменяет внутренний английский слот · "
+                    f"Версия {APP_VERSION} · заменяет внутренний английский слот · "
                     "для Steam-сборки Escape Academy 3.0.7.4"
                 ),
             ).pack(anchor="w", pady=(2, 14))
@@ -382,6 +384,18 @@ def run_gui(initial_game_dir: Path | None = None) -> int:
                 ),
                 wraplength=760,
             ).pack(anchor="w")
+
+            latest_link = ttk.Label(
+                outer,
+                text="Проверить актуальную версию на GitHub",
+                foreground="#0563c1",
+                cursor="hand2",
+                font=("Segoe UI", 9, "underline"),
+            )
+            latest_link.pack(anchor="w", pady=(6, 0))
+            latest_link.bind(
+                "<Button-1>", lambda _event: webbrowser.open_new_tab(LATEST_RELEASE_URL)
+            )
 
             self.root.protocol("WM_DELETE_WINDOW", self.close)
             self.root.after(100, self.poll_events)

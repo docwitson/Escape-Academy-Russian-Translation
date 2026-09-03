@@ -3115,9 +3115,9 @@ gameplay:GameplayStrings_Flashback:274:SPY_ClueChefD,GameplayStrings_Flashback,2
 gameplay:GameplayStrings_Flashback:275:SPY_ClueChefE,GameplayStrings_Flashback,275,Правда скрыта в сносках.
 gameplay:GameplayStrings_Flashback:276:SPY_ClueChefF,GameplayStrings_Flashback,276,"Разоблачи ложь о том, что он сделал с приманкой."
 gameplay:GameplayStrings_Flashback:277:SPY_ClueChefG,GameplayStrings_Flashback,277,И ещё одно противоречие в его своде правил. Ты на верном пути.
-gameplay:GameplayStrings_Flashback:278:SPY_ClueChefH,GameplayStrings_Flashback,278,Ты видел точки или штрихи где-нибудь ещё?
-gameplay:GameplayStrings_Flashback:279:SPY_ClueChefH2,GameplayStrings_Flashback,279,"Первая буква — «Б», как «Брокколи»…"
-gameplay:GameplayStrings_Flashback:280:SPY_ClueChefI,GameplayStrings_Flashback,280,"Расшифруй закодированные рецепты повара, чтобы открыть его портфель."
+gameplay:GameplayStrings_Flashback:278:SPY_ClueChefH,GameplayStrings_Flashback,278,Have you seen dots or dashes anywhere else?
+gameplay:GameplayStrings_Flashback:279:SPY_ClueChefH2,GameplayStrings_Flashback,279,The first letter is “B” for “Broccoli”...
+gameplay:GameplayStrings_Flashback:280:SPY_ClueChefI,GameplayStrings_Flashback,280,Crack Chef's encoded recipes to open his briefcase.
 gameplay:GameplayStrings_Flashback:281:SPY_ClueChefJ,GameplayStrings_Flashback,281,В воде теперь кровь.
 gameplay:GameplayStrings_Flashback:282:SPY_ClueChefK,GameplayStrings_Flashback,282,"...и узнай, что он кормил акул!"
 gameplay:GameplayStrings_Flashback:283:SPY_ClueChefL,GameplayStrings_Flashback,283,Повар записал свои мотивы где-то.
@@ -3887,18 +3887,18 @@ gameplay:GameplayStrings_Flashback:1052:S_SAW_Slang8,GameplayStrings_Flashback,1
 gameplay:GameplayStrings_Flashback:1053:S_SAW_Slang9,GameplayStrings_Flashback,1053,«Sides» = виниловые пластинки
 gameplay:GameplayStrings_Flashback:1054:S_SAW_Slang10,GameplayStrings_Flashback,1054,«Taken off the payroll» = убит
 gameplay:GameplayStrings_Flashback:1055:S_SAW_RobotRules,GameplayStrings_Flashback,1055,"Думай головой, слушай сердце"
-gameplay:GameplayStrings_Flashback:1056:S_ORR_Clue1a,GameplayStrings_Flashback,1056,ВЗОРВИ
-gameplay:GameplayStrings_Flashback:1057:S_ORR_Clue1b,GameplayStrings_Flashback,1057,ПОРОХ
-gameplay:GameplayStrings_Flashback:1058:S_ORR_Clue1c,GameplayStrings_Flashback,1058,ПУШКУ♥
-gameplay:GameplayStrings_Flashback:1059:S_ORR_Clue2a,GameplayStrings_Flashback,1059,ПОБЕГ♠
-gameplay:GameplayStrings_Flashback:1060:S_ORR_Clue2b,GameplayStrings_Flashback,1060,ИЛИ
-gameplay:GameplayStrings_Flashback:1061:S_ORR_Clue2c,GameplayStrings_Flashback,1061,СМЕРТЬ
-gameplay:GameplayStrings_Flashback:1062:S_ORR_Clue3a,GameplayStrings_Flashback,1062,СОПЕРНИКИ
-gameplay:GameplayStrings_Flashback:1063:S_ORR_Clue3b,GameplayStrings_Flashback,1063,ДО<color=#ffffff00>X</color>КРАЙНЕГО
-gameplay:GameplayStrings_Flashback:1064:S_ORR_Clue3c,GameplayStrings_Flashback,1064,ГОРЬКОГО<color=#ffffff00>X</color>КОНЦА
-gameplay:GameplayStrings_Flashback:1065:S_ORR_Clue4a,GameplayStrings_Flashback,1065,ТОЛЬКО<color=#ffffff00>X</color>РЕШИТЕЛЬНЫЕ
-gameplay:GameplayStrings_Flashback:1066:S_ORR_Clue4b,GameplayStrings_Flashback,1066,УСПЕВАЮТ
-gameplay:GameplayStrings_Flashback:1067:S_ORR_Clue4c,GameplayStrings_Flashback,1067,ВЫИГРАЮТ
+gameplay:GameplayStrings_Flashback:1056:S_ORR_Clue1a,GameplayStrings_Flashback,1056,IGNITE
+gameplay:GameplayStrings_Flashback:1057:S_ORR_Clue1b,GameplayStrings_Flashback,1057,THE
+gameplay:GameplayStrings_Flashback:1058:S_ORR_Clue1c,GameplayStrings_Flashback,1058,GUNP♥WDER
+gameplay:GameplayStrings_Flashback:1059:S_ORR_Clue2a,GameplayStrings_Flashback,1059,ESC♠PE
+gameplay:GameplayStrings_Flashback:1060:S_ORR_Clue2b,GameplayStrings_Flashback,1060,OR
+gameplay:GameplayStrings_Flashback:1061:S_ORR_Clue2c,GameplayStrings_Flashback,1061,PERISH
+gameplay:GameplayStrings_Flashback:1062:S_ORR_Clue3a,GameplayStrings_Flashback,1062,RIVALS
+gameplay:GameplayStrings_Flashback:1063:S_ORR_Clue3b,GameplayStrings_Flashback,1063,T♦<color=#ffffff00>X</color>THE
+gameplay:GameplayStrings_Flashback:1064:S_ORR_Clue3c,GameplayStrings_Flashback,1064,BITTER<color=#ffffff00>X</color>END
+gameplay:GameplayStrings_Flashback:1065:S_ORR_Clue4a,GameplayStrings_Flashback,1065,ONLY<color=#ffffff00>X</color>THE
+gameplay:GameplayStrings_Flashback:1066:S_ORR_Clue4b,GameplayStrings_Flashback,1066,DETERM♣NED
+gameplay:GameplayStrings_Flashback:1067:S_ORR_Clue4c,GameplayStrings_Flashback,1067,SUCCEED
 gameplay:GameplayStrings_Flashback:1068:S_ORR_Clue1,GameplayStrings_Flashback,1068,Ignite the gunpowder
 gameplay:GameplayStrings_Flashback:1069:S_ORR_Clue2,GameplayStrings_Flashback,1069,Escape or Perish
 gameplay:GameplayStrings_Flashback:1070:S_ORR_Clue3,GameplayStrings_Flashback,1070,Rivals to the bitter end
@@ -4919,21 +4919,21 @@ gameplay:GameplayStrings_Island:581:EXP_sandwich,GameplayStrings_Island,581,Го
 gameplay:GameplayStrings_Island:582:EXP_AEG,GameplayStrings_Island,582,«Газета антипобегов» – «ОПРОС: Лава признана самым безопасным и экстремальным источником энергии»
 gameplay:GameplayStrings_Island:583:EXP_TurretMalfunction,GameplayStrings_Island,583,Сбой турели
 gameplay:GameplayStrings_Island:584:EXP_All4Silos,GameplayStrings_Island,584,Включи все 3 памяти
-gameplay:GameplayStrings_Island:585:EXP_Sign0,GameplayStrings_Island,585,Т
-gameplay:GameplayStrings_Island:586:EXP_Sign1,GameplayStrings_Island,586,С
-gameplay:GameplayStrings_Island:587:EXP_Sign2,GameplayStrings_Island,587,В
-gameplay:GameplayStrings_Island:588:EXP_Sign3,GameplayStrings_Island,588,Т
-gameplay:GameplayStrings_Island:589:EXP_Sign4,GameplayStrings_Island,589,Н
-gameplay:GameplayStrings_Island:591:EXP_Sign6,GameplayStrings_Island,591,Г
-gameplay:GameplayStrings_Island:592:EXP_Sign7,GameplayStrings_Island,592,Н
-gameplay:GameplayStrings_Island:593:EXP_Sign8,GameplayStrings_Island,593,И
-gameplay:GameplayStrings_Island:595:EXP_Sign10,GameplayStrings_Island,595,В
-gameplay:GameplayStrings_Island:596:EXP_Sign11,GameplayStrings_Island,596,В
+gameplay:GameplayStrings_Island:585:EXP_Sign0,GameplayStrings_Island,585,T
+gameplay:GameplayStrings_Island:586:EXP_Sign1,GameplayStrings_Island,586,S
+gameplay:GameplayStrings_Island:587:EXP_Sign2,GameplayStrings_Island,587,E
+gameplay:GameplayStrings_Island:588:EXP_Sign3,GameplayStrings_Island,588,T
+gameplay:GameplayStrings_Island:589:EXP_Sign4,GameplayStrings_Island,589,H
+gameplay:GameplayStrings_Island:591:EXP_Sign6,GameplayStrings_Island,591,G
+gameplay:GameplayStrings_Island:592:EXP_Sign7,GameplayStrings_Island,592,N
+gameplay:GameplayStrings_Island:593:EXP_Sign8,GameplayStrings_Island,593,I
+gameplay:GameplayStrings_Island:595:EXP_Sign10,GameplayStrings_Island,595,E
+gameplay:GameplayStrings_Island:596:EXP_Sign11,GameplayStrings_Island,596,V
 gameplay:GameplayStrings_Island:597:EXP_DoodadAnalyzer,GameplayStrings_Island,597,Анализатор безделушек
-gameplay:GameplayStrings_Island:598:EXP_IQuit,GameplayStrings_Island,598,Я сдаюсь!
-gameplay:GameplayStrings_Island:599:EXP_OurBattleEnds,GameplayStrings_Island,599,наш бой закончится
-gameplay:GameplayStrings_Island:600:EXP_IWont,GameplayStrings_Island,600,Я не буду
-gameplay:GameplayStrings_Island:601:EXP_TEST,GameplayStrings_Island,601,ТЕСТ
+gameplay:GameplayStrings_Island:598:EXP_IQuit,GameplayStrings_Island,598,I quit!
+gameplay:GameplayStrings_Island:599:EXP_OurBattleEnds,GameplayStrings_Island,599,our battle ends
+gameplay:GameplayStrings_Island:600:EXP_IWont,GameplayStrings_Island,600,I won't
+gameplay:GameplayStrings_Island:601:EXP_TEST,GameplayStrings_Island,601,TEST
 gameplay:GameplayStrings_Island:602:EXP_Item_TroubleshootingManual,GameplayStrings_Island,602,Справочник по устранению неполадок
 gameplay:GameplayStrings_Island:603:EXP_Item_Key1,GameplayStrings_Island,603,Ключ обслуживания 01
 gameplay:GameplayStrings_Island:604:EXP_Item_Key2,GameplayStrings_Island,604,Ключ обслуживания 02
